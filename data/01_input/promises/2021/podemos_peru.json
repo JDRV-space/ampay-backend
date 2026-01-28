@@ -1,0 +1,701 @@
+{
+  "party": "Podemos Peru",
+  "party_slug": "podemos_peru",
+  "year": 2021,
+  "extraction_date": "2026-01-21T10:11:53.375948Z",
+  "total_pages_processed": 110,
+  "promises": [
+    {
+      "text": "Reducir indice de pobreza al 20% para 2026",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-039",
+      "source_page": 21
+    },
+    {
+      "text": "Reducir en 50% el gasto en consultorias y servicios afines en el presupuesto 2021",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-040",
+      "source_page": 26
+    },
+    {
+      "text": "Impulsar la puesta en marcha de 900 proyectos de obra publica actualmente paralizados",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-041",
+      "source_page": 26
+    },
+    {
+      "text": "Reactivar 90 proyectos inmobiliarios con Reactiva Inmobiliaria",
+      "category": "vivienda",
+      "secondary_category": "economia",
+      "action_verb": "reactivar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-042",
+      "source_page": 26
+    },
+    {
+      "text": "Impulsar 42 proyectos mineros que cuentan con EIA aprobado",
+      "category": "mineria",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-043",
+      "source_page": 26
+    },
+    {
+      "text": "Crear Fondo Soberano de Participaciones Minoritarias en PYMES",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-044",
+      "source_page": 26
+    },
+    {
+      "text": "Crear Fondo de garantia de USD 1,000 millones para startups (MiPYME Capital)",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-045",
+      "source_page": 26
+    },
+    {
+      "text": "Extender credito fiscal del IGV a todas las personas naturales del pais",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "extender",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-046",
+      "source_page": 26
+    },
+    {
+      "text": "Crear programa Mi Primer Credito Agrario con S/.12,000 por hectarea a tasa de 2.5% anual",
+      "category": "agricultura",
+      "secondary_category": "economia",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-047",
+      "source_page": 26
+    },
+    {
+      "text": "Implementar Ley de pago a MYPES a 30 dias",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-048",
+      "source_page": 26
+    },
+    {
+      "text": "Declarar el oxigeno un servicio esencial y equipar hospitales para ser 100% autosuficientes",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "declarar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-049",
+      "source_page": 26
+    },
+    {
+      "text": "Construir 200 mercados de abastos urbanos y rurales (Mercados del Bicentenario)",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-050",
+      "source_page": 26
+    },
+    {
+      "text": "Lograr 100% de cobertura en Programa Nacional de Agua y Alcantarillado",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-051",
+      "source_page": 26
+    },
+    {
+      "text": "Construir 50 embarcaderos fluviales en la Amazonia",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-052",
+      "source_page": 26
+    },
+    {
+      "text": "Crear Hospital-Clinica Digital con todas las especialidades",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-053",
+      "source_page": 26
+    },
+    {
+      "text": "Establecer programas de Telemedicina en 1000 establecimientos de salud",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-054",
+      "source_page": 26
+    },
+    {
+      "text": "Crear Fondo de Becas para estudios de pregrado en Ciencias de la Salud",
+      "category": "educacion",
+      "secondary_category": "salud",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-055",
+      "source_page": 31
+    },
+    {
+      "text": "Ampliar vacantes en universidades para estudios de Medicina Humana",
+      "category": "educacion",
+      "secondary_category": "salud",
+      "action_verb": "ampliar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-056",
+      "source_page": 31
+    },
+    {
+      "text": "Crear un millon de empleos temporales y productivos",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-057",
+      "source_page": 31
+    },
+    {
+      "text": "Crear Fondo de Garantia MIPYME Capital por USD 1,000 millones para startups formales",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-058",
+      "source_page": 31
+    },
+    {
+      "text": "Crear Fondo de Garantia MIPYME Rural por USD 200 millones para empresas AgroTech",
+      "category": "agricultura",
+      "secondary_category": "economia",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-059",
+      "source_page": 31
+    },
+    {
+      "text": "Crear Centro Nacional de Biotecnologia Agricola y Forestal",
+      "category": "agricultura",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-060",
+      "source_page": 31
+    },
+    {
+      "text": "Construir 3 Mega Complejos de Seguridad Integral en Lima y 1 en cada ciudad principal",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-061",
+      "source_page": 31
+    },
+    {
+      "text": "Crear Instituto de Investigacion Criminal",
+      "category": "seguridad",
+      "secondary_category": "justicia",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-062",
+      "source_page": 31
+    },
+    {
+      "text": "Construir 50 mil viviendas sociales para policias",
+      "category": "vivienda",
+      "secondary_category": "seguridad",
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-063",
+      "source_page": 31
+    },
+    {
+      "text": "Crear 200 centros de asistencia en casos de violencia familiar",
+      "category": "social",
+      "secondary_category": "seguridad",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-064",
+      "source_page": 31
+    },
+    {
+      "text": "Crear Defensoria para la Ninez",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-065",
+      "source_page": 36
+    },
+    {
+      "text": "Crear Tarjeta Juvenil de Descuentos para promover cultura",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-066",
+      "source_page": 36
+    },
+    {
+      "text": "Crear Orquestas Sinfonicas Juveniles del Bicentenario",
+      "category": "educacion",
+      "secondary_category": "social",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-067",
+      "source_page": 36
+    },
+    {
+      "text": "Crear Viceministerio de TICs",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-068",
+      "source_page": 36
+    },
+    {
+      "text": "Lograr 100% de cobertura en proyectos regionales de Fibra Optica conectando escuelas, centros de salud y comisarias",
+      "category": "transporte",
+      "secondary_category": "educacion",
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-069",
+      "source_page": 36
+    },
+    {
+      "text": "Proveer Canasta Basica Digital con notebook, tablet y plan de datos",
+      "category": "social",
+      "secondary_category": "educacion",
+      "action_verb": "proveer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-070",
+      "source_page": 36
+    },
+    {
+      "text": "Implementar catastros integrados urbanos y rurales en todo el pais",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-071",
+      "source_page": 36
+    },
+    {
+      "text": "Construir 500,000 nuevas viviendas sociales en periodo 2021-2026",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-072",
+      "source_page": 41
+    },
+    {
+      "text": "Triplicar el monto de subsidios y creditos hipotecarios",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "triplicar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-073",
+      "source_page": 41
+    },
+    {
+      "text": "Modernizar terminales portuarios de Pucallpa, Sarairiza, Santa Rosa e Iquitos",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "modernizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-074",
+      "source_page": 41
+    },
+    {
+      "text": "Crear Comision Independiente contra la Corrupcion (CICC)",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-075",
+      "source_page": 41
+    },
+    {
+      "text": "Crear Fuerza de Ciberdefensa",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-076",
+      "source_page": 41
+    },
+    {
+      "text": "Mejorar ley de igualdad salarial por genero y desarrollar programa de cierre de brechas salariales en PYMES",
+      "category": "empleo",
+      "secondary_category": "social",
+      "action_verb": "mejorar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-077",
+      "source_page": 71
+    },
+    {
+      "text": "Lograr 100% cobertura de fibra optica en 7,353 escuelas, 3,721 centros de salud y 565 comisarias",
+      "category": "transporte",
+      "secondary_category": "educacion",
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-078",
+      "source_page": 71
+    },
+    {
+      "text": "Crear Centros de Impulso Digital Rural en la red de tambos (TAMBO TIC)",
+      "category": "economia",
+      "secondary_category": "educacion",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-079",
+      "source_page": 71
+    },
+    {
+      "text": "Crear Centros de Desarrollo Digital en cada capital regional para integrar MYPES a economia digital",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-080",
+      "source_page": 71
+    },
+    {
+      "text": "Integrar SENASA, DIGESA e INACAL en Sistema Nacional de Certificacion",
+      "category": "economia",
+      "secondary_category": "agricultura",
+      "action_verb": "integrar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-081",
+      "source_page": 71
+    },
+    {
+      "text": "Implementar programas A Comer Pescado y De la Chacra a la Mesa en 500 distritos",
+      "category": "social",
+      "secondary_category": "agricultura",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-082",
+      "source_page": 71
+    },
+    {
+      "text": "Repotenciar comedores populares con recursos economicos y de gestion",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "repotenciar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-083",
+      "source_page": 71
+    },
+    {
+      "text": "Crear 1 millon de empleos temporales y productivos financiados por el Estado",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-084",
+      "source_page": 76
+    },
+    {
+      "text": "Construir 500 mil nuevas viviendas sociales triplicando subsidios y creditos hipotecarios",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-085",
+      "source_page": 76
+    },
+    {
+      "text": "Lograr cobertura al 100% de servicios de agua y desague con Programa Nacional Integrado",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-086",
+      "source_page": 76
+    },
+    {
+      "text": "Lanzar Programa Nacional de Construccion de pistas y veredas Barrio Lindo",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "lanzar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-087",
+      "source_page": 76
+    },
+    {
+      "text": "Construir 200 mercados de abastos del Bicentenario en distritos mas populosos",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-088",
+      "source_page": 76
+    },
+    {
+      "text": "Implementar Programa Ciudades Limpias y Saludables de gestion integral de residuos",
+      "category": "ambiente",
+      "secondary_category": "empleo",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-089",
+      "source_page": 76
+    },
+    {
+      "text": "Construir 24 casas de reposo Peru Bicentenario con capacidad para 500 adultos mayores cada una",
+      "category": "social",
+      "secondary_category": "salud",
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-090",
+      "source_page": 76
+    },
+    {
+      "text": "Impulsar industria atunera con potencial de USD 200 millones en exportaciones y 70 mil empleos",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-091",
+      "source_page": 76
+    },
+    {
+      "text": "Crear Ventanilla Unica de Compra de Oro a cargo del BCRP para impulsar industria joyera",
+      "category": "economia",
+      "secondary_category": "mineria",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-092",
+      "source_page": 76
+    },
+    {
+      "text": "Disenar Plan Nacional de Educacion a Distancia para alumnos rezagados por COVID-19",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "disenar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-093",
+      "source_page": 81
+    },
+    {
+      "text": "Establecer Fondo de Innovacion Pedagogica para educacion inicial, primaria y secundaria",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-094",
+      "source_page": 81
+    },
+    {
+      "text": "Crear plataforma online de educacion publica con contenidos curriculares multimedia",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-095",
+      "source_page": 81
+    },
+    {
+      "text": "Incluir programacion y pensamiento computacional como materia basica en primaria y secundaria",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "incluir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-096",
+      "source_page": 81
+    },
+    {
+      "text": "Crear Universidad Publica Digital del Bicentenario mediante APP",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-097",
+      "source_page": 81
+    },
+    {
+      "text": "Crear Red Publica de 200 Escuelas Vocacionales Productivas",
+      "category": "educacion",
+      "secondary_category": "empleo",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-098",
+      "source_page": 81
+    },
+    {
+      "text": "Crear programa Becas Maestros del Bicentenario con 200 becas anuales para docentes",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-099",
+      "source_page": 81
+    },
+    {
+      "text": "Crear programa de prestamos estudiantiles De Regreso a la Universidad",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-100",
+      "source_page": 81
+    },
+    {
+      "text": "Transformar MTC en Ministerio de Comunicaciones, Logistica y Movilidad Urbana",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "transformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-101",
+      "source_page": 86
+    },
+    {
+      "text": "Promover desarrollo de Smart Cities con participacion de gobiernos regionales, locales y universidades",
+      "category": "transporte",
+      "secondary_category": "economia",
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-102",
+      "source_page": 86
+    },
+    {
+      "text": "Formular Plan de Infraestructura Preventiva para zonas expuestas a desastres naturales",
+      "category": "ambiente",
+      "secondary_category": "transporte",
+      "action_verb": "formular",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-103",
+      "source_page": 86
+    },
+    {
+      "text": "Implementar Programa Nacional de Catastro Urbano actualizado semestralmente",
+      "category": "vivienda",
+      "secondary_category": "fiscal",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-104",
+      "source_page": 86
+    },
+    {
+      "text": "Desarrollar Programa de Corredores Logisticos en puertos principales con ramales ferreos electrificados",
+      "category": "transporte",
+      "secondary_category": "economia",
+      "action_verb": "desarrollar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PP-2021-105",
+      "source_page": 86
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 67,
+    "clear": 67,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 3,
+      "economia": 13,
+      "fiscal": 2,
+      "social": 8,
+      "empleo": 3,
+      "educacion": 11,
+      "salud": 3,
+      "agua": 2,
+      "vivienda": 7,
+      "transporte": 8,
+      "energia": 0,
+      "mineria": 1,
+      "ambiente": 2,
+      "agricultura": 3,
+      "justicia": 1
+    }
+  }
+}

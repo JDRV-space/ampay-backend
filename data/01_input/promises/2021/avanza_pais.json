@@ -1,0 +1,341 @@
+{
+  "party": "Avanza Pais",
+  "party_slug": "avanza_pais",
+  "year": 2021,
+  "extraction_date": "2026-01-21T09:44:47.190327Z",
+  "total_pages_processed": 17,
+  "promises": [
+    {
+      "text": "Implementar programas de mejora regulatoria para optimizar regulaciones entre entidades publicas y ciudadanos",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-001",
+      "source_page": 1
+    },
+    {
+      "text": "Crear sistemas de memoria publicos para eliminar la anonimidad en contratacion publica y combatir la corrupcion",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-002",
+      "source_page": 1
+    },
+    {
+      "text": "Crear sistemas de informacion para identificar necesidades de hospitales, escuelas e infraestructura basica",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-003",
+      "source_page": 1
+    },
+    {
+      "text": "Formalizar las propiedades de los peruanos para que sirvan como garantia de credito e inversion",
+      "category": "vivienda",
+      "secondary_category": "economia",
+      "action_verb": "formalizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-004",
+      "source_page": 1
+    },
+    {
+      "text": "Incrementar progresivamente el presupuesto en Salud hasta alcanzar niveles promedio latinoamericanos",
+      "category": "salud",
+      "secondary_category": "fiscal",
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-005",
+      "source_page": 6
+    },
+    {
+      "text": "Llegar a una cobertura no menor del 90% de la poblacion con servicios publicos de salud",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "alcanzar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-006",
+      "source_page": 6
+    },
+    {
+      "text": "Formular politica publica para enfrentar calamidades de salud con participacion ciudadana",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "formular",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-007",
+      "source_page": 6
+    },
+    {
+      "text": "Reforma curricular educativa y desarrollo de modelo de educacion que garantice calidad",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "reformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-008",
+      "source_page": 6
+    },
+    {
+      "text": "Reducir progresivamente la tasa de desercion escolar",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-009",
+      "source_page": 6
+    },
+    {
+      "text": "Mejorar condiciones laborales y remunerativas del sector educacion",
+      "category": "educacion",
+      "secondary_category": "empleo",
+      "action_verb": "mejorar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-010",
+      "source_page": 6
+    },
+    {
+      "text": "Seleccionar jueces y fiscales en base a experiencias previas en funcion jurisdiccional",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "seleccionar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-011",
+      "source_page": 6
+    },
+    {
+      "text": "Optimizar y simplificar procedimientos administrativos recurriendo a nuevas tecnologias",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "optimizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-012",
+      "source_page": 6
+    },
+    {
+      "text": "Dictar normas para fortalecer la actuacion multinivel en la lucha contra la delincuencia",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "dictar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-013",
+      "source_page": 6
+    },
+    {
+      "text": "Fortalecer sistemas de informacion y monitoreo para implementar planes de seguridad ciudadana",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-014",
+      "source_page": 6
+    },
+    {
+      "text": "Potenciar la operatividad de juzgados y fiscalias anticorrupcion",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "potenciar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-015",
+      "source_page": 6
+    },
+    {
+      "text": "Fortalecer la Procuraduria General del Estado y Procuradurias Publicas Especializadas",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-016",
+      "source_page": 6
+    },
+    {
+      "text": "Someter propuesta de reforma tributaria a consulta nacional",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "someter",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-017",
+      "source_page": 11
+    },
+    {
+      "text": "Reactivar por lo menos 4 proyectos paralizados de inversion",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "reactivar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-018",
+      "source_page": 11
+    },
+    {
+      "text": "Incorporar a los inmigrantes al sector formal",
+      "category": "empleo",
+      "secondary_category": "social",
+      "action_verb": "incorporar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-019",
+      "source_page": 11
+    },
+    {
+      "text": "Crear un fondo soberano de riqueza bajo regimen de administracion privada",
+      "category": "fiscal",
+      "secondary_category": "economia",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-020",
+      "source_page": 11
+    },
+    {
+      "text": "Adoptar presupuesto basada en genero",
+      "category": "fiscal",
+      "secondary_category": "social",
+      "action_verb": "adoptar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-021",
+      "source_page": 11
+    },
+    {
+      "text": "Modificar ley laboral en favor del empleo juvenil e incentivar formacion laboral",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "modificar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-022",
+      "source_page": 11
+    },
+    {
+      "text": "Reformar el sistema previsional para lograr pensiones dignas basadas en cuentas individuales",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "reformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-023",
+      "source_page": 11
+    },
+    {
+      "text": "Adoptar reforma tributaria que reduzca dependencia en impuestos indirectos a favor de directos",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "adoptar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-024",
+      "source_page": 11
+    },
+    {
+      "text": "Revisar la asignacion de gastos e ingresos a gobiernos subnacionales",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "revisar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-025",
+      "source_page": 11
+    },
+    {
+      "text": "Consensuar ley que promueva empleo y proteja beneficios sociales",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "consensuar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-026",
+      "source_page": 11
+    },
+    {
+      "text": "Formalizar no menos del 70% de los predios rurales titulados y registrados",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "formalizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-027",
+      "source_page": 16
+    },
+    {
+      "text": "Titular y registrar 70% de las comunidades campesinas y nativas",
+      "category": "vivienda",
+      "secondary_category": "agricultura",
+      "action_verb": "titular",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-028",
+      "source_page": 16
+    },
+    {
+      "text": "Fomentar la mineria sostenible y responsable sea pequena, mediana o grande",
+      "category": "mineria",
+      "secondary_category": "ambiente",
+      "action_verb": "fomentar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-029",
+      "source_page": 16
+    },
+    {
+      "text": "Disenar e implementar sistemas de participacion ciudadana para la proteccion ambiental",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "disenar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-030",
+      "source_page": 16
+    },
+    {
+      "text": "Crear un observatorio de cumplimiento de planes neutral e independiente del gobierno",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2021-031",
+      "source_page": 16
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 31,
+    "clear": 31,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 2,
+      "economia": 2,
+      "fiscal": 5,
+      "social": 2,
+      "empleo": 3,
+      "educacion": 3,
+      "salud": 3,
+      "agua": 0,
+      "vivienda": 3,
+      "transporte": 0,
+      "energia": 0,
+      "mineria": 1,
+      "ambiente": 1,
+      "agricultura": 0,
+      "justicia": 6
+    }
+  }
+}

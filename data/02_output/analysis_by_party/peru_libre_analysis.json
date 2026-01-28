@@ -1,0 +1,2100 @@
+{
+  "analysis_date": "2026-01-21T17:34:54.681936",
+  "methodology": "AMPAY v4 FINAL - Comprehensive keyword search with supporting/contradicting laws",
+  "party": "Peru Libre",
+  "thresholds": {
+    "ampay": 0.6,
+    "potential": 0.4,
+    "min_laws": 2
+  },
+  "summary": {
+    "AMPAY": 0,
+    "POTENTIAL_AMPAY": 0,
+    "NOT_AMPAY": 17,
+    "INSUFFICIENT_DATA": 4
+  },
+  "ampay_promises": [],
+  "potential_ampay_promises": [],
+  "results": [
+    {
+      "promise_id": "PL-2021-001",
+      "promise_text": "Creacion del Ministerio de Ciencia, Tecnologia e Investigacion",
+      "category": "educacion",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 6/6 supporting laws",
+      "metrics": {
+        "supporting_laws": 6,
+        "supporting_si": 6,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 6
+      },
+      "supporting_votes": [
+        {
+          "date": "2022-02-02",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 426, QUE PROPONE MODIFICAR LA LEY 27972, LEY ORGÁNICA DE MUNICIPALIDADES, PARA PROMOVER EL DESARROLLO DE PROYECTOS NACIONALES E INTERNACIONALES DE CIENCIA, TECNÓLOGÍA E INNOVACIÓN, Y DECLARA DE INTERÉS NACIONAL ",
+          "position": "SI",
+          "votes": "SI:28 NO:0"
+        },
+        {
+          "date": "2022-02-02",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 426, QUE PROPONE MODIFICAR LA LEY 27972, LEY ORGÁNICA DE MUNICIPALIDADES, PARA PROMOVER EL DESARROLLO DE PROYECTOS NACIONALES E INTERNACIONALES DE CIENCIA, TECNÓLOGÍA E INN",
+          "position": "SI",
+          "votes": "SI:28 NO:0"
+        },
+        {
+          "date": "2022-03-31",
+          "asunto": "TEXTO SUSTITUTORIO CONSENSUADO DE LAS COMISIONES AGRARIA Y DE CIENCIA, INNOVACIÓN Y TECNOLOGÍA, RECAÍDO EN LOS PROYECTOS DE LEY 388, 427, 643 Y 795, QUE PROPONE EL FORTALECIMIENTO DE LAS CADENAS PRODUCTIVAS DEL CAFÉ Y DEL CACAO",
+          "position": "SI",
+          "votes": "SI:28 NO:0"
+        },
+        {
+          "date": "2022-03-31",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO CONSENSUADO DE LAS COMISIONES AGRARIA Y DE CIENCIA, INNOVACIÓN Y TECNOLOGÍA, RECAÍDO EN LOS PROYECTOS DE LEY 388, 427, 643 Y 795, QUE PROPONE EL FORTALECIMIENTO DE LAS CADENAS PRODUCTIVAS DEL ",
+          "position": "SI",
+          "votes": "SI:29 NO:0"
+        },
+        {
+          "date": "2022-06-16",
+          "asunto": "TEXTO SUSTITUTORIO CONSENSUADO DE LAS COMISIONES DE SALUD Y DE CIENCIA DEL PROYECTO DE LEY 323, QUE PROPONE FORTALECER LA INVESTIGACIÓN CIENTÍFICA, EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN NACIONAL DE LOS PRODUCTOS SANITARIOS, LOS PRODUCTOS BIOLÓGIC",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        },
+        {
+          "date": "2022-07-12",
+          "asunto": "TEXTO SUSTITUTORIO DEL PL 2326, QUE MODIFICA LEY 31436, LEY QUE APRUEBA CRÉDITOS SUPLEMENTARIOS PARA EL FINANCIAMIENTO DE MAYORES GASTOS DE LAS ENTIDADES DEL GOBIERNO NACIONAL, LOS GOBIERNOS REGIONALES Y LOCALES, Y DICTA OTRAS MEDIDAS PARA INCORPORAR",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "CIENCIA",
+          "TECNOLOGIA",
+          "INNOVACION",
+          "CONCYTEC",
+          "INVESTIGACION CIENTIFICA"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-002",
+      "promise_text": "Comando Nacional Unificado de Lucha contra el Covid",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 32/33 supporting laws",
+      "metrics": {
+        "supporting_laws": 33,
+        "supporting_si": 32,
+        "supporting_no": 1,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.03,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 33
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-10-28",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 296, QUE PROPONE LA LEY QUE MODIFICA LA LEY 26859, LEY ÓRGANICA DE ELECCIONES, Y LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICA, CON LA FINALIDAD DE ASEGURAR EL DESARROLLO DE LAS ELECCIONES REGIONALES Y MUNICIPALE",
+          "position": "SI",
+          "votes": "SI:20 NO:6"
+        },
+        {
+          "date": "2021-10-28",
+          "asunto": "CUARTA DISPOSICIÓN TRANSITORIA DEL ARTÍCULO 2 DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 296, QUE PROPONE LA LEY QUE MODIFICA LA LEY 26859, LEY ÓRGANICA DE ELECCIONES, Y LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICA, CON LA FINALIDAD DE ASEGURAR EL DE",
+          "position": "SI",
+          "votes": "SI:14 NO:9"
+        },
+        {
+          "date": "2021-10-28",
+          "asunto": "UNDÉCIMA DISPOSICIÓN TRANSITORIA DEL ARTÍCULO 3 DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 296, QUE PROPONE LA LEY QUE MODIFICA LA LEY 26859, LEY ÓRGANICA DE ELECCIONES, Y LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICA, CON LA FINALIDAD DE ASEGURAR EL ",
+          "position": "SI",
+          "votes": "SI:17 NO:8"
+        },
+        {
+          "date": "2021-10-28",
+          "asunto": "CUARTA DISPOSICIÓN TRANSITORIA DEL ARTÍCULO 2 DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 296, QUE PROPONE LA LEY QUE MODIFICA LA LEY 26859, LEY ÓRGANICA DE ELECCIONES, Y LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICA, CON LA FINALIDAD DE ASEGURAR EL DE",
+          "position": "SI",
+          "votes": "SI:16 NO:8"
+        },
+        {
+          "date": "2021-11-11",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 273, 315, 381 Y 405, QUE PROPONE LA LEY QUE MODIFICA EL ARTÍCULO 4 DEL DECRETO LEGISLATIVO 1496, QUE ESTABLECE DISPOSICIONES EN MATERIA DE EDUCACIÓN SUPERIOR UNIVERSITARIA EN EL MARCO DEL ESTADO DE EMERGENCI",
+          "position": "SI",
+          "votes": "SI:28 NO:5"
+        },
+        {
+          "date": "2022-01-12",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 564, QUE PROPONE LA LEY QUE PRECISA LA LEY 31173, LEY QUE GARANTIZA EL CUMPLIMIENTO DE LA LEY 29625, LEY DE DEVOLUCIÓN DE DINERO DEL FONAVI A LOS TRABAJADORES QUE CONTRIBUYERON AL MISMO, PRIORIZANDO A LA POBLACI",
+          "position": "SI",
+          "votes": "SI:28 NO:0"
+        },
+        {
+          "date": "2022-01-13",
+          "asunto": "RECONSIDERACIÓN DE LA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 564 (ACTUALIZADO), QUE PROPONE LA LEY QUE PRECISA LA LEY 31173, LEY QUE GARANTIZA EL CUMPLIMIENTO DE LA LEY 29625, LEY DE DEVOLUCIÓN DE DINERO DEL FONAVI A LOS TRABAJADORES QUE",
+          "position": "SI",
+          "votes": "SI:20 NO:6"
+        },
+        {
+          "date": "2022-01-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 564 (ACTUALIZADO), QUE PROPONE LA LEY QUE PRECISA LA LEY 31173, LEY QUE GARANTIZA EL CUMPLIMIENTO DE LA LEY 29625, LEY DE DEVOLUCIÓN DE DINERO DEL FONAVI A LOS TRABAJADORES QUE CONTRIBUYERON AL MISMO, PRIORIZAND",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2022-02-02",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 698, QUE PROPONE LA LEY QUE AMPLÍA TEMPORALMENTE LA EXCEPCIÓN DEL DESEMPEÑO DE MÁS DE UN EMPLEO O CARGO PÚBLICO REMUNERADO DEL PERSONAL MÉDICO ESPECIALISTA O ASISTENCIAL DE SALUD DEBIDO A UNA EMERGENCIA SANITARI",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2022-02-02",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 698, QUE PROPONE LA LEY QUE AMPLÍA TEMPORALMENTE LA EXCEPCIÓN DEL DESEMPEÑO DE MÁS DE UN EMPLEO O CARGO PÚBLICO REMUNERADO DEL PERSONAL MÉDICO ESPECIALISTA O ASISTENCIAL DE",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2022-03-10",
+          "asunto": "NUEVO TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1271, QUE PROPONE LA LEY QUE PRECISA DISPOSICIONES DE LA LEY 31357, SOBRE REGLAS PARA EL DESARROLLO DE LAS ELECCIONES REGIONALES Y MUNICIPALES DEL AÑO 2022 EN EL  MARCO DE LA LUCHA CONTRA LA COVID-19",
+          "position": "SI",
+          "votes": "SI:16 NO:10"
+        },
+        {
+          "date": "2022-03-10",
+          "asunto": "RECONSIDERACIÓN DE LA VOTACIÓN DEL NUEVO TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1271, QUE PROPONE LA LEY QUE PRECISA DISPOCIONES DE LA LEY 31357, SOBRE REGLAS PARA EL DESARROLLO DE LAS ELECCIONES REGIONALES Y MUNICIPALES DEL AÑO 2022 EN EL MARCO DE L",
+          "position": "SI",
+          "votes": "SI:13 NO:10"
+        },
+        {
+          "date": "2022-04-07",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 564 (ACTUALIZADO), QUE PROPONE PRECISAR LA LEY 31173, LEY QUE GARANTIZA EL CUMPLIMIENTO DE LA LEY 29625, LEY DE DEVOLUCIÓN DE DINERO DEL FONAV",
+          "position": "SI",
+          "votes": "SI:24 NO:0"
+        },
+        {
+          "date": "2022-04-28",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 92, QUE PROPONE PROMOVER LA CONSTRUCCIÓN DE EQUIPAMIENTO DE VIVIENDAS RURALES, CON EL FIN DE CONTRIBUIR A REACTIVAR LA ECONOMÍA NACIONAL AFECTADA POR EL COVID 19",
+          "position": "SI",
+          "votes": "SI:22 NO:1"
+        },
+        {
+          "date": "2022-05-04",
+          "asunto": "TEXTO SUSTITUTORIO CONSENSUADO DE LAS COMISIONES DE ECONOMÍA Y DE TRABAJO RECAÍDO EN LOS PROYECTOS DE LEY 929, 1117, 1118, 1119, 1613 Y 1619, QUE PROPONE LA LEY QUE FACULTA EL RETIRO EXTRAORDINARIO DE LOS FONDOS PRIVADOS DE PENSIONES EN EL CONTEXTO D",
+          "position": "SI",
+          "votes": "SI:28 NO:0"
+        },
+        {
+          "date": "2022-05-05",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1116, 1186, 1344, 1830, 1867 Y 1960, QUE PROPONE AUTORIZAR LA DISPOSICIÓN DE LA COMPENSACIÓN POR TIEMPO DE SERVICIOS A FIN DE CUBRIR LAS NECESIDADES ECONÓMICAS CAUSADAS POR LA PANDEMIA DEL COVID-19",
+          "position": "SI",
+          "votes": "SI:28 NO:0"
+        },
+        {
+          "date": "2022-05-05",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1116, 1186, 1344, 1830, 1867 Y 1960, QUE PROPONE AUTORIZAR LA DISPOSICIÓN DE LA COMPENSACIÓN POR TIEMPO DE SERVICIOS A FIN DE CUBRIR LAS NECESIDADES ECONÓMICAS CAUSADAS",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2022-06-30",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2204 Y 2328, QUE PROPONE AUTORIZAR, EXCEPCIONALMENTE Y POR ÚNICA VEZ, EN EL MARCO DE LA EMERGENCIA SANITARIA, EL CAMBIO DE CONTRATO CAS-COVID A CONTRATO CAS AL PERSONAL ASISTENCIAL EN EL SECTOR SALUD",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2022-07-30",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 2204, 2328, 2371 Y 2439, QUE PROPONE AUTORIZAR, EXCEPCIONALMENTE Y POR ÚNICA VEZ, EN EL MARCO DE LA EMERGENCIA SANITARIA, EL CAMBIO DE CONT",
+          "position": "SI",
+          "votes": "SI:15 NO:0"
+        },
+        {
+          "date": "2022-07-30",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2422, QUE PROPONE APROBAR CRÉDITOS SUPLEMENTARIOS PARA EL FINANCIAMIENTO DE LOS GASTOS ASOCIADOS A LA EMERGENCIA SANITARIA PRODUCIDA POR LA COVID-19, LA REACTIVACIÓN ECONÓMICA, Y OTROS GASTOS DE LAS ENTIDADES DE",
+          "position": "SI",
+          "votes": "SI:15 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "COVID",
+          "PANDEMIA",
+          "EMERGENCIA SANITARIA",
+          "CORONAVIRUS"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-003",
+      "promise_text": "Asambleas Locales de Salud con participacion ciudadana",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 159/202 supporting laws",
+      "metrics": {
+        "supporting_laws": 202,
+        "supporting_si": 159,
+        "supporting_no": 39,
+        "supporting_divided": 4,
+        "supporting_no_ratio": 0.193,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 202
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-08-12",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 007, QUE PROPONE CONFORMAR UNA COMISIÓN INVESTIGADORA QUE INVESTIGUE LAS PRESUNTAS IRREGULARIDADES Y POSIBLES ACTOS DE CORRUPCIÓN EN LA GESTIÓN DE LAS CONTRATACIONES Y ADQUISIONES DE BIENES Y SERVICIOS REALIZADAS POR EL",
+          "position": "SI",
+          "votes": "SI:31 NO:0"
+        },
+        {
+          "date": "2021-08-12",
+          "asunto": "T. SUSTITUTORIO DE LAS MOCIONES 007 Y 019, QUE PROPONE CONFORMAR UNA COMISIÓN INVESTIGADORA QUE INVESTIGUE LAS PRESUNTAS IRREGULARIDADES Y POSIBLES ACTOS DE CORRUPCIÓN EN LA GESTIÓN DE LAS CONTRATACIONES Y ADQUISIONES DE BIENES, SERVICIOS, MEDICAMENT",
+          "position": "SI",
+          "votes": "SI:29 NO:0"
+        },
+        {
+          "date": "2021-08-12",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 010, QUE PROPONE CONFORMAR UNA COMISIÓN INVESTIGADORA MULTIPARTIDARIA QUE, POR EL PLAZO DE 30 DÍAS CALENDARIO, INVESTIGUE LAS PRESUNTAS IRREGULARIDADES O PRESUNTOS ÍLICITOS COMENTIDOS DURANTE LOS PRIMEROS DÍAS DE GOBIER",
+          "position": "NO",
+          "votes": "SI:0 NO:23"
+        },
+        {
+          "date": "2021-08-12",
+          "asunto": "ADMISIÓN A DEBATE LA MOCIÓN 017, QUE PROPONE REACTIVAR LA COMISIÓN ESPECIAL ENCARGADA DE LA ELECCIÓN DE LOS MIEMBROS DEL TRIBUNAL CONSTITUCIONAL CUYO MANDATO HA EXPIRADO, CONFORME A LO ESTABLECIDO EN EL ART. 201  DE LA CONSTITUCIÓN POLÍTICA Y EL ART.",
+          "position": "NO",
+          "votes": "SI:0 NO:31"
+        },
+        {
+          "date": "2021-08-12",
+          "asunto": "T.S. DE LA MOCIÓN 017, QUE PROPONE CONFORMAR LA COMISIÓN ESPECIAL ENCARGADA DE LA SELECCIÓN DE CANDIDATAS O CANDIDATOS APTOS PARA LA ELECCIÓN DE MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL, CONFORME A LO ESTABLECIDO EN EL ART. 201 DE LA CONSTITUCIÓN POLÍ",
+          "position": "SI",
+          "votes": "SI:19 NO:9"
+        },
+        {
+          "date": "2021-09-16",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 191, 195 Y 203, QUE PROPONE LA LEY QUE INCORPORA EL ARTÍCULO 112-A A LA LEY 26842, LEY GENERAL DE SALUD, A FIN DE ESTABLECER EL DESTINO DE CADÁVERES DE INTERNOS QUE VENÍAN CUMPLIENDO CONDENA POR LOS DELITOS ",
+          "position": "NO",
+          "votes": "SI:1 NO:32"
+        },
+        {
+          "date": "2021-09-16",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 191, 195 Y 203, QUE PROPONE LA LEY QUE INCORPORA EL ARTÍCULO 112-A A LA LEY 26842, LEY GENERAL DE SALUD, A FIN DE ESTABLECER EL DESTINO DE CADÁVERES DE INTERNOS QUE VEN",
+          "position": "NO",
+          "votes": "SI:0 NO:34"
+        },
+        {
+          "date": "2021-09-16",
+          "asunto": "NÓMINA DE INTEGRANTES DE LA COMISIÓN INVESTIGADORA ENCARGADA DE INVESTIGAR LAS PRESUNTAS IRREGULARIDADES Y POSIBLES ACTOS DE CORRUPCIÓN EN LA GESTIÓN DE LAS CONTRATACIONES Y ADQUISICIONES DE BIENES, SERVICIOS, MEDICAMENTOS, CONTRATACIÓN DE PERSONAL R",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        },
+        {
+          "date": "2021-09-29",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 481, QUE PROPONE CONFORMAR UNA COMISIÓN MULTIPARTIDARIA QUE INVESTIGUE LA ATENCIÓN A LOS NIÑOS Y LAS FAMILIAS AFECTADAS CON EL EXCESO DE PLOMO EN SANGRE Y DEMÁS METALES TÓXICOS EN ZONAS MINERAS DE PASCO Y EL PERÚ. LA CO",
+          "position": "SI",
+          "votes": "SI:28 NO:2"
+        },
+        {
+          "date": "2021-09-29",
+          "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 481, QUE PROPONE CONFORMAR UNA COMISIÓN MULTIPARTIDARIA QUE INVESTIGUE, EN UN PLAZO DE 180 DÍAS HÁBILES, LA ATENCIÓN A LOS NIÑOS Y LAS FAMILIAS AFECTADAS CON EL EXCESO DE PLOMO, ARSÉNICO, MERCURIO Y DEMÁS METALES TÓXIC",
+          "position": "SI",
+          "votes": "SI:33 NO:1"
+        },
+        {
+          "date": "2021-10-21",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 44, QUE PROPONE CONFORMAR LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGURIDAD CIUDADANA, ENCARGADA DE FISCALIZAR, \nSUPERVISAR Y MONITOREAR LA FORMULACIÓN Y EL CUMPLIMIENTO DE LOS PROGRAMAS, PLANES, POLITICAS, PROYECTOS Y ",
+          "position": "SI",
+          "votes": "SI:19 NO:10"
+        },
+        {
+          "date": "2021-10-21",
+          "asunto": "MOCIÓN 44, QUE PROPONE CONFORMAR LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGURIDAD CIUDADANA, ENCARGADA DE FISCALIZAR, \nSUPERVISAR Y MONITOREAR LA FORMULACIÓN Y EL CUMPLIMIENTO DE LOS PROGRAMAS, PLANES, POLITICAS, PROYECTOS Y OTRAS ACCIONES OTORGANDA",
+          "position": "SI",
+          "votes": "SI:18 NO:3"
+        },
+        {
+          "date": "2021-11-25",
+          "asunto": "ADMISIÓN DE LA MOCIÓN 1132, QUE PROPONE INTERPELAR AL MINISTRO DE EDUCACIÒN, CARLOS ALFONSO GALLARDO GÓMEZ, A FIN DE QUE CONCURRA AL CONGRESO DE LA REPÚBLICA Y DE CUENTA A LA CIUDADANÍA DE LAS GRAVES IRREGULARIDADES OCURRIDAS EN LA APLICACIÓN DE LA P",
+          "position": "NO",
+          "votes": "SI:3 NO:29"
+        },
+        {
+          "date": "2021-12-07",
+          "asunto": "ADMISIÓN DE LA MOCIÓN DE ORDEN DEL DÍA 1222, QUE PROPONE DECLARAR LA PERMANENTE INCAPACIDAD MORAL DEL PRESIDENTE DE LA REPÚBLICA, CIUDADANO JOSÉ PEDRO CASTILLO TERRONES, SEGÚN LO ESTABLECIDO EN EL INCISO 2) DEL ART. 113 DE LA CONSTITUCIÓN POLÍTICA DE",
+          "position": "NO",
+          "votes": "SI:0 NO:35"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 482, QUE PROPONE OTORGAR FACULTADES DE COMISIÓN INVESTIGADORA A LA COMISIÓN DE DEFENSA DEL CONSUMIDOR PARA INVESTIGAR HASTA POR 180 DÍAS AL INDECOPI, OSINERGMIN, OSIPTEL, OSITRAN, SUNASS, SBS, SUSALUD Y SUTRAN, PARA DET",
+          "position": "SI",
+          "votes": "SI:18 NO:10"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 482, QUE PROPONE OTORGAR FACULTADES DE COMISIÓN INVESTIGADORA A LA COMISIÓN DE DEFENSA DEL CONSUMIDOR PARA INVESTIGAR HASTA POR 180 DIAS HÁBILES AL INDECOPI, OSINERGMIN, OSIPTEL, OSITRAN, SUNASS, SBSS, SUSALUD Y SUTRAN",
+          "position": "NO",
+          "votes": "SI:11 NO:18"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 314, QUE PROPONE LA LEY QUE RECONOCE A LOS AUXILIARES DE EDUCACIÓN COMO PARTE DE LA COMUNIDAD EDUCATIVA EN LA LEY GENERAL DE EDUCACIÓN",
+          "position": "SI",
+          "votes": "SI:32 NO:0"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 314, QUE PROPONE LA LEY QUE RECONOCE A LOS AUXILIARES DE EDUCACIÓN COMO PARTE DE LA COMUNIDAD EDUCATIVA EN LA LEY GENERAL DE EDUCACIÓN",
+          "position": "SI",
+          "votes": "SI:30 NO:0"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "NÓMINA DE INTEGRANTES DE LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGURIDAD CIUDADANA, CONSTITUIDA POR LA MOCIÓN DEL ORDEN DEL DIA 44",
+          "position": "SI",
+          "votes": "SI:28 NO:0"
+        },
+        {
+          "date": "2021-12-16",
+          "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE CONSTITUCIÓN EL PROYECTO DE LEY 644, QUE PROPONE LA LEY QUE FORTALECE EL PROCESO DE APROBACIÓN DE LA REFORMA CONSTITUCIONAL REGULADO EN LOS ARTÍCULOS 40 Y 44 DE LA LEY 26300, LEY DE LOS DERECHOS DE PA",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "PARTICIPACION",
+          "CIUDADAN",
+          "SALUD",
+          "COMUNIDAD",
+          "TRANSPARENCIA"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-004",
+      "promise_text": "Casas Respira para pacientes con oxigeno",
+      "category": "salud",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found",
+      "metrics": {
+        "supporting_laws": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 0
+      },
+      "supporting_votes": [],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "OXIGENO",
+          "RESPIRATORIO",
+          "AISLAMIENTO",
+          "PACIENTE COVID"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-005",
+      "promise_text": "5 mil equipos de Salud de familia",
+      "category": "salud",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 1 relevant laws found",
+      "metrics": {
+        "supporting_laws": 1,
+        "supporting_si": 1,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 1
+      },
+      "supporting_votes": [
+        {
+          "date": "2022-07-12",
+          "asunto": "TEXTO SUSTITUTORIO DEL PL 2326, QUE MODIFICA LEY 31436, LEY QUE APRUEBA CRÉDITOS SUPLEMENTARIOS PARA EL FINANCIAMIENTO DE MAYORES GASTOS DE LAS ENTIDADES DEL GOBIERNO NACIONAL, LOS GOBIERNOS REGIONALES Y LOCALES, Y DICTA OTRAS MEDIDAS PARA INCORPORAR",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "PERSONAL DE SALUD",
+          "TRABAJADORES DE SALUD",
+          "MEDICO",
+          "ENFERMERA",
+          "ATENCION PRIMARIA"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-006",
+      "promise_text": "Promover telemedicina",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 12/16 supporting laws",
+      "metrics": {
+        "supporting_laws": 16,
+        "supporting_si": 12,
+        "supporting_no": 4,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.25,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 16
+      },
+      "supporting_votes": [
+        {
+          "date": "2022-03-16",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 123, QUE PROPONE LA LEY QUE FORTALECE EL LABORATORIO DE GOBIERNO Y TRANSFORMACIÓN DIGITAL PARA EL IMPULSO DE LA INNOVACIÓN EN EL ÁMBITO PÚBLICO.",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2022-03-16",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 123, QUE PROPONE LA LEY QUE FORTALECE EL LABORATORIO DE GOBIERNO Y TRANSFORMACIÓN DIGITAL PARA EL IMPULSO DE LA INNOVACIÓN EN EL ÁMBITO PÚBLICO",
+          "position": "SI",
+          "votes": "SI:25 NO:0"
+        },
+        {
+          "date": "2022-03-31",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 827, QUE PROPONE MODIFICAR LA LEY 27444, LEY DEL PROCEDIMIENTO ADMINISTRATIVO GENERAL, A FIN DE FACILITAR LA RECEPCIÓN DOCUMENTAL DIGITAL",
+          "position": "SI",
+          "votes": "SI:29 NO:0"
+        },
+        {
+          "date": "2022-03-31",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 827, QUE PROPONE MODIFICAR LA LEY 27444, LEY DEL PROCEDIMIENTO ADMINISTRATIVO GENERAL, A FIN DE FACILITAR LA RECEPCIÓN DOCUMENTAL DIGITAL",
+          "position": "SI",
+          "votes": "SI:29 NO:0"
+        },
+        {
+          "date": "2022-12-28",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3770, QUE PRORROGA EL PLAZO ESTABLECIDO EN LA CUARTA DISPOSICIÓN COMPLEMENTARIA, TRANSITORIA Y FINAL DE LA LEY 27269, LEY DE FIRMAS Y CERTIFICADOS DIGITALES",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2022-12-28",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3770, QUE PRORROGA EL PLAZO ESTABLECIDO EN LA CUARTA DISPOSICIÓN COMPLEMENTARIA, TRANSITORIA Y FINAL DE LA LEY 27269, LEY DE FIRMAS Y CERTIFICADOS DIGITALES",
+          "position": "SI",
+          "votes": "SI:11 NO:0"
+        },
+        {
+          "date": "2023-01-12",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1836, QUE PROPONE GARANTIZAR LA IMPLEMENTACIÓN DEL DECRETO LEGISLATIVO N° 1412, QUE APRUEBA LA LEY DE GOBIERNO DIGITAL EN LAS OFICINAS CONSULARES DEL PERÚ EN EL EXTERIOR",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-01-12",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1836, QUE PROPONE GARANTIZAR LA IMPLEMENTACIÓN DEL DECRETO LEGISLATIVO N° °1412, QUE APRUEBA LA LEY DE GOBIERNO DIGITAL EN LAS OFICINAS CONSULARES DEL PERÚ EN EL EXTERIOR",
+          "position": "SI",
+          "votes": "SI:11 NO:0"
+        },
+        {
+          "date": "2023-06-08",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 4985, QUE PROPONE MODIFICAR LA LEY 29158, LEY ORGÁNICA DEL PODER EJECUTIVO, RESPECTO AL ENCARGO DEL DESPACHO DE LA PRESIDENCIA DE LA REPÚBLICA Y DE SU GESTIÓN A TRAVÉS DE TECNOLOGÍAS DIGITALES",
+          "position": "NO",
+          "votes": "SI:0 NO:10"
+        },
+        {
+          "date": "2023-06-21",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 4985, QUE PROPONE MODIFICAR LA LEY 29158, LEY ORGÁNICA DEL PODER EJECUTIVO, RESPECTO AL ENCARGO DEL DESPACHO DE LA PRESIDENCIA DE LA REPUBLICA Y DE SU GESTIÓN A TRAVÉS DE TECNOLOGÍAS DIGITAL",
+          "position": "NO",
+          "votes": "SI:1 NO:12"
+        },
+        {
+          "date": "2023-10-04",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1035, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1490, DECRETO LEGISLATIVO QUE FORTALECE LOS ALCANCES DE LA TELESALUD, A FIN DE CONFORMAR LOS EQUIPOS DE ATENCIÓN PARA TELEMEDICINA DE EMERGENCIA EN LOS HOSPITAL",
+          "position": "SI",
+          "votes": "SI:7 NO:0"
+        },
+        {
+          "date": "2023-10-04",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1035, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1490, DECRETO LEGISLATIVO QUE FORTALECE LOS ALCANCES DE LA TELESALUD, A FIN DE CONFORMAR LOS EQUIPOS DE ATENCIÓN PARA TEL",
+          "position": "SI",
+          "votes": "SI:8 NO:0"
+        },
+        {
+          "date": "2023-12-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 6104, QUE PROPONE PRORROGAR EL PLAZO ESTABLECIDO EN LA CUARTA DISPOSICIÓN COMPLEMENTARIA, TRANSITORIA Y FINAL DE LA LEY 27269, LEY DE FIRMAS Y CERTIFICADOS DIGITALES, PARA AMPLIAR DICHO PLAZO",
+          "position": "SI",
+          "votes": "SI:7 NO:0"
+        },
+        {
+          "date": "2023-12-13",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 6104, QUE PROPONE PRORROGAR EL PLAZO ESTABLECIDO EN LA CUARTA DISPOSICIÓN COMPLEMENTARIA, TRANSITORIA Y FINAL DE LA LEY 27269, LEY DE FIRMAS Y CERTIFICADOS DIGITALES, PARA ",
+          "position": "SI",
+          "votes": "SI:8 NO:0"
+        },
+        {
+          "date": "2023-12-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 5434, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 943, LEY DEL REGISTRO ÚNICO DE CONTRIBUYENTES, PARA RESTABLECER EL CORRECTO FUNCIONAMIENTO DE LA PUBLICIDAD DIGITAL",
+          "position": "NO",
+          "votes": "SI:0 NO:7"
+        },
+        {
+          "date": "2023-12-13",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 5434, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 943, LEY DEL REGISTRO ÚNICO DE CONTRIBUYENTES, PARA RESTABLECER EL CORRECTO FUNCIONAMIENTO DE LA PUBLICIDAD DIGITAL",
+          "position": "NO",
+          "votes": "SI:0 NO:7"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "TELEMEDICINA",
+          "TELESALUD",
+          "TELECONSULTA",
+          "DIGITAL",
+          "CONECTIVIDAD"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-007",
+      "promise_text": "Distribucion de mascarillas y oximetros",
+      "category": "salud",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found",
+      "metrics": {
+        "supporting_laws": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 0
+      },
+      "supporting_votes": [],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "MASCARILLA",
+          "OXIMETRO",
+          "EPP",
+          "BIOSEGURIDAD",
+          "IMPLEMENTO"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-008",
+      "promise_text": "Fortalecer INS e incrementar laboratorios",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 243/290 supporting laws",
+      "metrics": {
+        "supporting_laws": 290,
+        "supporting_si": 243,
+        "supporting_no": 41,
+        "supporting_divided": 6,
+        "supporting_no_ratio": 0.141,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 290
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-08-12",
+          "asunto": "T. SUSTITUTORIO DE LAS MOCIONES 007 Y 019, QUE PROPONE CONFORMAR UNA COMISIÓN INVESTIGADORA QUE INVESTIGUE LAS PRESUNTAS IRREGULARIDADES Y POSIBLES ACTOS DE CORRUPCIÓN EN LA GESTIÓN DE LAS CONTRATACIONES Y ADQUISIONES DE BIENES, SERVICIOS, MEDICAMENT",
+          "position": "SI",
+          "votes": "SI:29 NO:0"
+        },
+        {
+          "date": "2021-09-16",
+          "asunto": "NÓMINA DE INTEGRANTES DE LA COMISIÓN INVESTIGADORA ENCARGADA DE INVESTIGAR LAS PRESUNTAS IRREGULARIDADES Y POSIBLES ACTOS DE CORRUPCIÓN EN LA GESTIÓN DE LAS CONTRATACIONES Y ADQUISICIONES DE BIENES, SERVICIOS, MEDICAMENTOS, CONTRATACIÓN DE PERSONAL R",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        },
+        {
+          "date": "2021-10-19",
+          "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE CONSTITUCIÓN EL DICTAMEN DE INSISTENCIA RECAÍDO EN LOS PROYECTOS DE LEY 3, 6, 19 Y 36, QUE PROPONE LA LEY QUE DESARROLLA EL EJERCICIO DE LA CUESTIÓN DE CONFIANZA REGULADA EN EL ÚLTIMO PÁRRAFO DEL ARTÍ",
+          "position": "SI",
+          "votes": "SI:30 NO:0"
+        },
+        {
+          "date": "2021-10-19",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 3, 6, 19 Y 36, QUE PROPONE LA LEY QUE DESARROLLA EL EJERCICIO DE LA CUESTIÓN DE CONFIANZA REGULADA EN EL ÚLTIMO PÁRRAFO DEL ARTÍCULO 132 Y ",
+          "position": "NO",
+          "votes": "SI:0 NO:34"
+        },
+        {
+          "date": "2021-10-19",
+          "asunto": "RECONSIDERACIÓN DE LA VOTACIÓN DE LA INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 3, 6, 19 Y 36, QUE PROPONE LA LEY QUE DESARROLLA EL EJERCICIO DE LA CUESTIÓN DE CONFIANZA REGULADA EN ",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        },
+        {
+          "date": "2021-10-21",
+          "asunto": "PROYECTO DE RESOLUCION LEGISLATIVA CONGRESO 498, POR EL QUE SE APRUEBA LA AGENDA LEGISLATIVA PARA EL PERIODO ANUAL DE SESIONES 2021-2022",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        },
+        {
+          "date": "2021-10-21",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 44, QUE PROPONE CONFORMAR LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGURIDAD CIUDADANA, ENCARGADA DE FISCALIZAR, \nSUPERVISAR Y MONITOREAR LA FORMULACIÓN Y EL CUMPLIMIENTO DE LOS PROGRAMAS, PLANES, POLITICAS, PROYECTOS Y ",
+          "position": "SI",
+          "votes": "SI:19 NO:10"
+        },
+        {
+          "date": "2021-10-21",
+          "asunto": "MOCIÓN 44, QUE PROPONE CONFORMAR LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGURIDAD CIUDADANA, ENCARGADA DE FISCALIZAR, \nSUPERVISAR Y MONITOREAR LA FORMULACIÓN Y EL CUMPLIMIENTO DE LOS PROGRAMAS, PLANES, POLITICAS, PROYECTOS Y OTRAS ACCIONES OTORGANDA",
+          "position": "SI",
+          "votes": "SI:18 NO:3"
+        },
+        {
+          "date": "2021-11-11",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 138, QUE PROPONE LA LEY QUE ESTABLECE MEDIDAS PARA LA EXPANSIÓN DEL CONTROL RECURRENTE",
+          "position": "NO",
+          "votes": "SI:2 NO:28"
+        },
+        {
+          "date": "2021-11-18",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE RESOLUCIÓN LEGISLATIVA 219 (ACTUALIZADO), QUE APRUEBA LA CONSTITUCIÓN DEL CENTRO PARA LOS SERVICIOS DE INFORMACIÓN Y ASESORAMIENTO SOBRE LA COMERCIALIZACIÓN DE LOS PRODUCTOS PESQUEROS EN AMÉRICA LATINA Y EL CARIBE (",
+          "position": "SI",
+          "votes": "SI:29 NO:1"
+        },
+        {
+          "date": "2021-11-18",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE RESOLUCIÓN LEGISLATIVA 225 (ACTUALIZADO), QUE APRUEBA EL CONVENIO CONSTITUTIVO DEL BANCO ASIÁTICO DE INVERSIÓN EN INFRAESTRUCTURA",
+          "position": "SI",
+          "votes": "SI:29 NO:0"
+        },
+        {
+          "date": "2021-11-18",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE RESOLUCIÓN LEGISLATIVA 217, QUE APRUEBA EL MEMORÁNDUM DE ENTENDIMIENTO ENTRE EL GOBIERNO DE LA REPÚBLICA DEL PERÚ Y EL GOBIERNO DEL ESTADO DE ISRAEL - MINISTERIO DE DEFENSA CONCERNIENTE A COOPERACIÓN INDUSTRIAL EN M",
+          "position": "NO",
+          "votes": "SI:1 NO:28"
+        },
+        {
+          "date": "2021-11-18",
+          "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE LA COMISIÓN AGRARIA Y PASE A LA COMISIÓN DE CIENCIA EL PROYECTO DE LEY 427, QUE PROPONE LA LEY QUE DECLARA DE INTERÉS NACIONAL Y PREFERENCIA SOCIAL Y ECONÓMICA LA CREACIÓN DEL INSTITUTO NACIONAL DEL CAFÉ CON SEDE EN L",
+          "position": "SI",
+          "votes": "SI:15 NO:10"
+        },
+        {
+          "date": "2021-11-25",
+          "asunto": "ADMISIÓN DE LA MOCIÓN 1132, QUE PROPONE INTERPELAR AL MINISTRO DE EDUCACIÒN, CARLOS ALFONSO GALLARDO GÓMEZ, A FIN DE QUE CONCURRA AL CONGRESO DE LA REPÚBLICA Y DE CUENTA A LA CIUDADANÍA DE LAS GRAVES IRREGULARIDADES OCURRIDAS EN LA APLICACIÓN DE LA P",
+          "position": "NO",
+          "votes": "SI:3 NO:29"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 198, QUE POPONE LA LEY QUE DECLARA DE INTERÉS NACIONAL LA CREACIÓN DE UNIVERSIDADES PÚBLICAS Y FILIALES QUE HAYAN OBTENIDO EL LICENCIAMIENTO INSTITUCIONAL",
+          "position": "SI",
+          "votes": "SI:31 NO:0"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 198, QUE POPONE LA LEY QUE DECLARA DE INTERÉS NACIONAL LA CREACIÓN DE UNIVERSIDADES PÚBLICAS Y FILIALES QUE HAYAN OBTENIDO EL LICENCIAMIENTO INSTITUCIONAL",
+          "position": "SI",
+          "votes": "SI:31 NO:0"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE RESOLUCIÓN LESGISLATIVA 253 (ACTUALIZADO), QUE APRUEBA EL ACUERDO ENTRE EL GOBIERNO DE LA REPÚBLICA DEL PERÚ Y EL GOBIERNO DE LA FEDERACIÓN DE RUSIA SOBRE LA PROTECCIÓN MUTUA DE LA INFORMACIÓN CLASIFICADA EN EL ÁMBI",
+          "position": "SI",
+          "votes": "SI:32 NO:0"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE RESOLUCIÓN LEGISLATIVA 250 (ACTUALIZADO), QUE APRUEBA EL TRATADO DE LAS PROHIBICIONES DE LAS ARMAS NUCLEARES",
+          "position": "SI",
+          "votes": "SI:32 NO:0"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 482, QUE PROPONE OTORGAR FACULTADES DE COMISIÓN INVESTIGADORA A LA COMISIÓN DE DEFENSA DEL CONSUMIDOR PARA INVESTIGAR HASTA POR 180 DÍAS AL INDECOPI, OSINERGMIN, OSIPTEL, OSITRAN, SUNASS, SBS, SUSALUD Y SUTRAN, PARA DET",
+          "position": "SI",
+          "votes": "SI:18 NO:10"
+        },
+        {
+          "date": "2021-12-09",
+          "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 482, QUE PROPONE OTORGAR FACULTADES DE COMISIÓN INVESTIGADORA A LA COMISIÓN DE DEFENSA DEL CONSUMIDOR PARA INVESTIGAR HASTA POR 180 DIAS HÁBILES AL INDECOPI, OSINERGMIN, OSIPTEL, OSITRAN, SUNASS, SBSS, SUSALUD Y SUTRAN",
+          "position": "NO",
+          "votes": "SI:11 NO:18"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "INSTITUTO NACIONAL DE SALUD",
+          "LABORATORIO",
+          "PRUEBA",
+          "DIAGNOSTICO",
+          "INS"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-009",
+      "promise_text": "Plantas y tanques de oxigeno medicinal",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 15/15 supporting laws",
+      "metrics": {
+        "supporting_laws": 15,
+        "supporting_si": 15,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 15
+      },
+      "supporting_votes": [
+        {
+          "date": "2022-05-04",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 266, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA MODERNIZACIÓN Y AMPLIACIÓN DE LAS PLANTAS DE TRATAMIENTO DE AGUA DE EL ARENAL EN PAITA Y DE CURUMUY EN PIURA, ÁMBITO GEOGRÁFICO DEL DEPARTAMEN",
+          "position": "SI",
+          "votes": "SI:26 NO:0"
+        },
+        {
+          "date": "2022-05-04",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 266, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA MODERNIZACIÓN Y AMPLIACIÓN DE LAS PLANTAS DE TRATAMIENTO DE AGUA DE EL ARENAL EN PAITA Y DE CURUMUY EN ",
+          "position": "SI",
+          "votes": "SI:24 NO:1"
+        },
+        {
+          "date": "2022-11-03",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1103, QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN DE UNA PLANTA DESALINIZADORA DE AGUA DE MAR EN LA PROVINCIA DE PACASMAYO",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2022-11-03",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1103, QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN DE UNA PLANTA DESALINIZADORA DE AGUA DE MAR EN LA PROVINCIA DE PACASMAYO",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-01-16",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1592, QUE PROPONE LA LEY QUE TIPIFICA INFRACCIONES Y ESTABLECE DISPOSICIONES PARA EL EJERCICIO DE LA FACULTAD SANCIONADORA DEL MINISTERIO DE LA PRODUCCIÓN EN MATERIA DE AUTORIZACIÓN DE PLANTA PARA ACTIVIDADES PR",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-01-16",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1592, QUE PROPONE LA LEY QUE TIPIFICA INFRACCIONES Y ESTABLECE DISPOSICIONES PARA EL EJERCICIO DE LA FACULTAD SANCIONADORA DEL MINISTERIO DE LA PRODUCCIÓN EN MATERIA DE AUT",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-04-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3482, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA CREACIÓN E IMPLEMENTACIÓN DEL PARQUE INDUSTRIAL Y LA CONSTRUCCIÓN DE LA PLANTA DE TRATAMIENTO DE AGUAS RESIDUALES EN EL DISTRITO DE CERRO COLORADO, PROVINCIA Y D",
+          "position": "SI",
+          "votes": "SI:11 NO:0"
+        },
+        {
+          "date": "2023-04-13",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3482, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA CREACIÓN E IMPLEMENTACIÓN DEL PARQUE INDUSTRIAL Y LA CONSTRUCCIÓN DE LA PLANTA DE TRATAMIENTO DE AGUAS RESIDUALES EN EL DI",
+          "position": "SI",
+          "votes": "SI:11 NO:0"
+        },
+        {
+          "date": "2023-05-25",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1987, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA CONSTRUCCIÓN, INSTALACIÓN E IMPLEMENTACION DE LA PLANTA DE PRODUCCIÓN DE FERTILIZANTE DE ROCA FOSFÓRICA",
+          "position": "SI",
+          "votes": "SI:11 NO:0"
+        },
+        {
+          "date": "2023-05-25",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1987, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA CONSTRUCCIÓN, INSTALACIÓN E IMPLEMENTACIÓN DE LA PLANTA DE PRODUCCIÓN DE FERTILIZANTE DE ROCA FOSFÓRIC",
+          "position": "SI",
+          "votes": "SI:9 NO:0"
+        },
+        {
+          "date": "2023-06-22",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENCIA DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 3482, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA CREACIÓN E IMPLEMENTACIÓN DEL PARQUE INDUSTRIAL Y LA CONSTRUCCIÓN DE LA PLANTA DE TRATAMIENTO DE ",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        },
+        {
+          "date": "2023-08-31",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO CONSENSUADO DE LAS COMISIONES DE SALUD Y AGRARIA DE LOS PROYECTOS DE LEY 3334 Y 4224, QUE PROPONE MODIFICAR LA LEY 27300, LEY DE APROVECHAMIENTO SOSTENIBLE DE LAS PLANTAS MEDICINALES CON LA FINALIDAD DE ACTUALI",
+          "position": "SI",
+          "votes": "SI:10 NO:0"
+        },
+        {
+          "date": "2023-10-12",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1473, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA IMPLEMENTACIÓN DE LA NUEVA PLANTA DE PRODUCCIÓN DE VACUNAS, LA CREACIÓN DE UN FONDO ESPECIAL Y LA MODERNIZACIÓN DEL CENTRO",
+          "position": "SI",
+          "votes": "SI:7 NO:0"
+        },
+        {
+          "date": "2023-12-14",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2630, QUE PROPONE LA REACTIVACIÓN ECONÓMICA DE LA AMAZONÍA PERUANA A TRAVÉS DE LA SIEMBRA, PRODUCCIÓN E INDUSTRIALIZACIÓN DE LA PLANTA DE YUTE",
+          "position": "SI",
+          "votes": "SI:11 NO:0"
+        },
+        {
+          "date": "2023-12-14",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2630, QUE PROPONE LA REACTIVACIÓN ECONÓMICA DE LA AMAZONÍA PERUANA A TRAVÉS DE LA SIEMBRA, PRODUCCIÓN E INDUSTRIALIZACIÓN DE LA PLANTA DE YUTE",
+          "position": "SI",
+          "votes": "SI:10 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "OXIGENO",
+          "PLANTA",
+          "TANQUE",
+          "MEDICINAL"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-010",
+      "promise_text": "1000 camas UCI",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 352/496 supporting laws",
+      "metrics": {
+        "supporting_laws": 496,
+        "supporting_si": 352,
+        "supporting_no": 125,
+        "supporting_divided": 19,
+        "supporting_no_ratio": 0.252,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 496
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-08-12",
+          "asunto": "ADMISIÓN A DEBATE LA MOCIÓN 017, QUE PROPONE REACTIVAR LA COMISIÓN ESPECIAL ENCARGADA DE LA ELECCIÓN DE LOS MIEMBROS DEL TRIBUNAL CONSTITUCIONAL CUYO MANDATO HA EXPIRADO, CONFORME A LO ESTABLECIDO EN EL ART. 201  DE LA CONSTITUCIÓN POLÍTICA Y EL ART.",
+          "position": "NO",
+          "votes": "SI:0 NO:31"
+        },
+        {
+          "date": "2021-08-12",
+          "asunto": "T.S. DE LA MOCIÓN 017, QUE PROPONE CONFORMAR LA COMISIÓN ESPECIAL ENCARGADA DE LA SELECCIÓN DE CANDIDATAS O CANDIDATOS APTOS PARA LA ELECCIÓN DE MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL, CONFORME A LO ESTABLECIDO EN EL ART. 201 DE LA CONSTITUCIÓN POLÍ",
+          "position": "SI",
+          "votes": "SI:19 NO:9"
+        },
+        {
+          "date": "2021-08-24",
+          "asunto": "NÓMINA DE LA COMISIÓN ESPECIAL ENCARGADA DE LA SELECCIÓN DE CANDIDATAS O CANDIDATOS APTOS PARA LA ELECCIÓN DE MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL (MOCIÓN DE ORDEN DEL DÍA 017)",
+          "position": "SI",
+          "votes": "SI:30 NO:1"
+        },
+        {
+          "date": "2021-09-02",
+          "asunto": "PROYECTO RESOLUCIÓN LEGISLATIVA 106, QUE AUTORIZA EL INGRESO DE UNIDADES NAVALES Y PERSONAL EXTRANJERO CON ARMAS DE GUERRA AL TERRITORIO DE LA REPÚBLICA DEL PERÚ",
+          "position": "DIVIDED",
+          "votes": "SI:14 NO:9"
+        },
+        {
+          "date": "2021-09-02",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 114, QUE PROPONE REACTIVAR LA COMISIÓN ESPECIAL DE SEGUIMIENTO A EMERGENCIAS Y GESTIÓN DE RIESGO DE DESASTRES, CON EL OBJETO DE FACILITAR LAS ACCIONES DEL EJECUTIVO DENTRO DE LAS ATRIBUCIONES DEL CONGRESO DE LA REPÚBLIC",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        },
+        {
+          "date": "2021-09-02",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 114, QUE PROPONE REACTIVAR LA COMISIÓN ESPECIAL DE SEGUIMIENTO A EMERGENCIAS Y GESTIÓN DE RIESGO DE DESASTRES, CON EL OBJETO DE FACILITAR LAS ACCIONES DEL EJECUTIVO DENTRO DE LAS ATRIBUCIONES DEL CONGRESO DE LA REPÚBLIC",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        },
+        {
+          "date": "2021-09-02",
+          "asunto": "MOCIÓN 114, QUE PROPONE CONFORMAR LA COMISIÓN ESPECIAL DE SEGUIMIENTO A EMERGENCIAS Y GESTIÓN DE RIESGO DE DESASTRES, CON EL OBJETO DE FACILITAR LAS ACCIONES DEL EJECUTIVO DENTRO DE LAS ATRIBUCIONES DEL CONGRESO DE LA REPÚBLICA PARA LOGRAR ATENCIÓN I",
+          "position": "SI",
+          "votes": "SI:32 NO:0"
+        },
+        {
+          "date": "2021-09-09",
+          "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 160, QUE AUTORIZA AL SEÑOR PRESIDENTE DE LA REPÚBLICA PARA SALIR DEL TERRITORIO NACIONAL DEL 17 AL 22 DE SETIEMBRE DE 2021",
+          "position": "SI",
+          "votes": "SI:35 NO:0"
+        },
+        {
+          "date": "2021-09-16",
+          "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE CONSTITUCIÓN Y REGLAMENTO EL DICTAMEN RECAÍDO EN LOS PROYECTOS DE LEY 3, 6, 19 Y 36, QUE PROPONE LA LEY QUE INTERPRETA LA CUESTIÓN DE CONFIANZA REGULADA EN EL ÚLTIMO PÁRRAFO DEL ARTÍCULO 132 Y EN EL A",
+          "position": "SI",
+          "votes": "SI:35 NO:0"
+        },
+        {
+          "date": "2021-09-16",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 3,6,19 Y 36, QUE PROPONE LA LEY QUE DESARROLLA EL EJERCICIO DE LA CUESTIÓN DE CONFIANZA REGULADA EN EL ÚLTIMO PÁRRAFO DEL ARTÍCULO 132 Y EN EL ARTÍCULO 133 DE LA CONSTITUCIÓN",
+          "position": "NO",
+          "votes": "SI:0 NO:34"
+        },
+        {
+          "date": "2021-09-16",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 3, 6, 19 Y 36, QUE PROPONE LA LEY QUE DESARROLLA EL EJERCICIO DE LA CUESTIÓN DE CONFIANZA REGULADA EN EL ÚTLIMO PÁRRAFO DEL ARTÍCULO 132 Y EN EL ARTÍCULO 133 DE LA CONS",
+          "position": "NO",
+          "votes": "SI:0 NO:33"
+        },
+        {
+          "date": "2021-09-29",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE RESOLUCIÓN LEGISLATIVA 288 Y 295, QUE PROPONE MODIFICAR EL ANEXO DE LA RESOLUCIÓN LEGISLATIVA 31350, RESOLUCIÓN LEGISLATIVA QUE AUTORIZA EL INGRESO DE UNIDADES NAVALES Y PERSONAL MILITAR EXTRANJERO CON ARMAS DE ",
+          "position": "SI",
+          "votes": "SI:21 NO:8"
+        },
+        {
+          "date": "2021-09-29",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 448, QUE PROPONE OTORGAR FACULTADES DE COMISIÓN INVESTIGADORA A LA COMISIÓN DE FISCALIZACIÓN Y CONTRALORÍA, DE CONFORMIDAD CON LO ESTABLECIDO POR EL ARTÍCULO 88 DEL REGLAMENTO DEL CONGRESO DE LA REPÚBLICA, POR 180 DÍAS ",
+          "position": "SI",
+          "votes": "SI:32 NO:1"
+        },
+        {
+          "date": "2021-09-29",
+          "asunto": "MOCIÓN 448, QUE PROPONE OTORGAR FACULTADES DE COMISIÓN INVESTIGADORA A LA COMISIÓN DE FISCALIZACIÓN Y CONTRALORÍA, DE CONFORMIDAD CON LO ESTABLECIDO POR EL ARTÍCULO 88 DEL REGLAMENTO DEL CONGRESO DE LA REPÚBLICA, POR 180 DÍAS HÁBILES, PARA INVESTIGAR",
+          "position": "SI",
+          "votes": "SI:28 NO:2"
+        },
+        {
+          "date": "2021-09-29",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE RESOLUCIÓN LEGISLATIVA DEL CONGRESO 254, REGLAMENTO PARA LA SELECCIÓN DE CANDIDATAS O CANDIDATOS APTOS PARA LA ELECCIÓN DE MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL",
+          "position": "SI",
+          "votes": "SI:34 NO:0"
+        },
+        {
+          "date": "2021-10-19",
+          "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE CONSTITUCIÓN EL DICTAMEN DE INSISTENCIA RECAÍDO EN LOS PROYECTOS DE LEY 3, 6, 19 Y 36, QUE PROPONE LA LEY QUE DESARROLLA EL EJERCICIO DE LA CUESTIÓN DE CONFIANZA REGULADA EN EL ÚLTIMO PÁRRAFO DEL ARTÍ",
+          "position": "SI",
+          "votes": "SI:30 NO:0"
+        },
+        {
+          "date": "2021-10-19",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 3, 6, 19 Y 36, QUE PROPONE LA LEY QUE DESARROLLA EL EJERCICIO DE LA CUESTIÓN DE CONFIANZA REGULADA EN EL ÚLTIMO PÁRRAFO DEL ARTÍCULO 132 Y ",
+          "position": "NO",
+          "votes": "SI:0 NO:34"
+        },
+        {
+          "date": "2021-10-19",
+          "asunto": "RECONSIDERACIÓN DE LA VOTACIÓN DE LA INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 3, 6, 19 Y 36, QUE PROPONE LA LEY QUE DESARROLLA EL EJERCICIO DE LA CUESTIÓN DE CONFIANZA REGULADA EN ",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        },
+        {
+          "date": "2021-10-19",
+          "asunto": "CUADRO NOMINATIVO DE LA COMISIÓN ESPECIAL DE SEGUIMIENTO A EMERGENCIAS Y GESTIÓN DE RIESGOS DE DESASTRES (MOCION 114 Y 195) CON EL OBJETO DE FACILITAR LAS ACCIONES DEL EJECUTIVO DENTRO DE LAS ATRIBUCIONES DEL CONGRESO DE LA REPÚBLICA PARA LOGRAR ATEN",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        },
+        {
+          "date": "2021-10-21",
+          "asunto": "PROYECTO DE RESOLUCION LEGISLATIVA CONGRESO 498, POR EL QUE SE APRUEBA LA AGENDA LEGISLATIVA PARA EL PERIODO ANUAL DE SESIONES 2021-2022",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "UCI",
+          "CUIDADOS INTENSIVOS",
+          "HOSPITAL",
+          "CAMA"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-011",
+      "promise_text": "5 mil camas hospitalarias adicionales",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 47/52 supporting laws",
+      "metrics": {
+        "supporting_laws": 52,
+        "supporting_si": 47,
+        "supporting_no": 5,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.096,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 52
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-09-29",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 448, QUE PROPONE OTORGAR FACULTADES DE COMISIÓN INVESTIGADORA A LA COMISIÓN DE FISCALIZACIÓN Y CONTRALORÍA, DE CONFORMIDAD CON LO ESTABLECIDO POR EL ARTÍCULO 88 DEL REGLAMENTO DEL CONGRESO DE LA REPÚBLICA, POR 180 DÍAS ",
+          "position": "SI",
+          "votes": "SI:32 NO:1"
+        },
+        {
+          "date": "2021-09-29",
+          "asunto": "MOCIÓN 448, QUE PROPONE OTORGAR FACULTADES DE COMISIÓN INVESTIGADORA A LA COMISIÓN DE FISCALIZACIÓN Y CONTRALORÍA, DE CONFORMIDAD CON LO ESTABLECIDO POR EL ARTÍCULO 88 DEL REGLAMENTO DEL CONGRESO DE LA REPÚBLICA, POR 180 DÍAS HÁBILES, PARA INVESTIGAR",
+          "position": "SI",
+          "votes": "SI:28 NO:2"
+        },
+        {
+          "date": "2021-11-18",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE RESOLUCIÓN LEGISLATIVA 225 (ACTUALIZADO), QUE APRUEBA EL CONVENIO CONSTITUTIVO DEL BANCO ASIÁTICO DE INVERSIÓN EN INFRAESTRUCTURA",
+          "position": "SI",
+          "votes": "SI:29 NO:0"
+        },
+        {
+          "date": "2022-01-31",
+          "asunto": "TEXTO SUSTITURIO DE LOS PROYECTOS DE LEY 506, 540 Y 541 (ACTUALIZADOS), QUE PROPONE LA LEY QUE DECLARA DE INTERÉS NACIONAL Y DE NECESIDAD PÚBLICA LA PUESTA EN VALOR NATURAL Y CULTURAL EL SANTUARIO PATRIÓTICO NACIONAL DE CHACAMARCA PARA EL DESARROLLO ",
+          "position": "SI",
+          "votes": "SI:26 NO:0"
+        },
+        {
+          "date": "2022-01-31",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITURIO DE LOS PROYECTOS DE LEY 506, 540 Y 541 (ACTUALIZADOS), QUE PROPONE LA LEY QUE DECLARA DE INTERÉS NACIONAL Y DE NECESIDAD PÚBLICA LA PUESTA EN VALOR NATURAL Y CULTURAL EL SANTUARIO PATRIÓTICO NAC",
+          "position": "SI",
+          "votes": "SI:24 NO:0"
+        },
+        {
+          "date": "2022-02-02",
+          "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 1837, QUE PROPONE EXHORTAR AL PODER EJECUTIVO A TRAVÉS DEL MINISTERIO DE TRANSPORTES Y COMUNICACIONES, A DECLARAR EN SITUACIÓN DE EMERGENCIA LA REPARACIÓN DE UNO DE LOS CABLES DE LA INFRAESTRUCTURA DEL PUENTE PIZANA UBI",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2022-02-02",
+          "asunto": "MOCIÓN 1837, QUE PROPONE EXHORTAR AL PODER EJECUTIVO A TRAVÉS DEL MINISTERIO DE TRANSPORTES Y COMUNICACIONES, A DECLARAR EN SITUACIÓN DE EMERGENCIA LA REPARACIÓN DE UNO DE LOS CABLES DE LA INFRAESTRUCTURA DEL PUENTE PIZANA UBICADO EN EL KILÓMETRO 674",
+          "position": "SI",
+          "votes": "SI:26 NO:0"
+        },
+        {
+          "date": "2022-03-31",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 409, QUE PROPONE AMPLIAR LA VIGENCIA DE LA LEY 30228, LEY QUE MODIFICA LA LEY 29022, LEY PARA LA EXPANSIÓN DE INFRAESTRUCTURA EN TELECOMUNICACIONES",
+          "position": "SI",
+          "votes": "SI:26 NO:0"
+        },
+        {
+          "date": "2022-03-31",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 409, QUE PROPONE AMPLIAR LA VIGENCIA DE LA LEY 30228, LEY QUE MODIFICA LA LEY 29022, LEY PARA LA EXPANSIÓN DE INFRAESTRUCTURA EN TELECOMUNICACIONES",
+          "position": "SI",
+          "votes": "SI:24 NO:0"
+        },
+        {
+          "date": "2022-06-16",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1948, QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN, CONSTRUCCIÓN E IMPLEMENTACIÓN DEL HOSPITAL CATEGORÍA III-1, DENOMINADO MIGUEL GRAU SEMINARIO, EN EL DISTRITO DE PIURA, PROVINCIA Y ",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2022-07-06",
+          "asunto": "INFORME PRELIMINAR DE LA COMISIÓN DE FISCALIZACIÓN CON FACULTAD INVESTIGADORA PARA INVESTIGAR LAS RAZONES POR LAS CUALES SE HA PARALIZADO LA CONSTRUCCIÓN DE 3314 OBRAS, ENTRE LAS QUE SE ENCUENTRAN 14 HOSPITALES A NIVEL NACIONAL (MOCIÓN 448), MEDIANTE",
+          "position": "SI",
+          "votes": "SI:14 NO:1"
+        },
+        {
+          "date": "2022-07-07",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1948, QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN, CONSTRUCCIÓN E IMPLEMENTACIÓN DEL HOSPITAL CATEGORÍA III-1, DENOMINADO MIGUEL GRAU SEMINARIO, EN EL DISTRITO D",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2022-07-12",
+          "asunto": "TEXTO SUSTITUTORIO PL 1319 Y 1577, QUE RECONOCE DERECHO DE CONOCER INDICADORES DE CONTAMINACIÓN POR METALES PESADOS U OTRAS SUSTANCIAS QUÍMICAS Y NIVELES DE AFECTACIÓN DE LOS CIUDADANOS Y DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA CONSTRUCCIÓN, ",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        },
+        {
+          "date": "2022-07-12",
+          "asunto": "EXON. 2ª VOTACIÓN DEL TEXTO SUSTITUTORIO PL 1319 Y 1577, QUE RECONOCE DERECHO DE CONOCER INDICADORES DE CONTAMINACIÓN POR METALES PESADOS U OTRAS SUSTANCIAS QUÍMICAS Y NIVELES DE AFECTACIÓN DE LOS CIUDADANOS Y DECLARA DE INTERÉS NACIONAL Y NECESIDAD ",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2022-07-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2320, QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA MODERNIZACIÓN DE LA INFRAESTRUCTURA Y EL EQUIPAMIENTO DEL INSTITUTO NACIONAL DE SALUD DEL NIÑO, CATEGORÍA III-2, UBICADO EN EL DISTRITO DE BR",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        },
+        {
+          "date": "2022-07-13",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2320, QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA MODERNIZACIÓN DE LA INFRAESTRUCTURA Y EL EQUIPAMIENTO DEL INSTITUTO NACIONAL DE SALUD DEL NIÑO, CATEGO",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        },
+        {
+          "date": "2023-02-09",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 3402 Y 3735, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL EL PROYECTO DE INFRAESTRUCTURA 'PROYECTO TURÍSTICO TELEFÉRICO CENTRO HISTÓRICO DE LIMA-CERRO SAN CRISTÓBAL' Y AUTORIZAR LA EXPROPIACI",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-02-09",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 3402 Y 3735, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL EL PROYECTO DE INFRAESTRUCTURA 'PROYECTO TURÍSTICO TELEFÉRICO CENTRO HISTÓRICO DE LIMA-CERRO S",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-02-17",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2638, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA, POR RIESGO INMINENTE, EL MANTENIMIENTO DE LA INFRAESTRUCTURA DEL SISTEMA DE ADUCCIÓN DEL PROYECTO MAJES SIGUAS I",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-02-17",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2638, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA, POR RIESGO INMINENTE, EL MANTENIMIENTO DE LA INFRAESTRUCTURA DEL SISTEMA DE ADUCCIÓN DEL PROYECTO MAJES SIGUAS I",
+          "position": "SI",
+          "votes": "SI:9 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "HOSPITAL",
+          "CAMA",
+          "INFRAESTRUCTURA",
+          "ESTABLECIMIENTO DE SALUD"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-012",
+      "promise_text": "60 millones de vacunas",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 3/3 supporting laws",
+      "metrics": {
+        "supporting_laws": 3,
+        "supporting_si": 3,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 3
+      },
+      "supporting_votes": [
+        {
+          "date": "2023-08-31",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2895, QUE PROMUEVE LA VACUNACIÓN CONTRA EL VIRUS DEL PAPILOMA HUMANO (VPH) EN LA NINEZ Y ADOLESCENCIA",
+          "position": "SI",
+          "votes": "SI:9 NO:0"
+        },
+        {
+          "date": "2023-08-31",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2895, QUE PROMUEVE LA VACUNACIÓN CONTRA EL VIRUS DEL PAPILOMA HUMANO (VPH) EN LA NINEZ Y ADOLESCENCIA",
+          "position": "SI",
+          "votes": "SI:7 NO:0"
+        },
+        {
+          "date": "2023-10-12",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1473, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA IMPLEMENTACIÓN DE LA NUEVA PLANTA DE PRODUCCIÓN DE VACUNAS, LA CREACIÓN DE UN FONDO ESPECIAL Y LA MODERNIZACIÓN DEL CENTRO",
+          "position": "SI",
+          "votes": "SI:7 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "VACUNA",
+          "VACUNACION",
+          "INMUNIZACION"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-013",
+      "promise_text": "Liberacion de patentes para vacunas",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 6/6 supporting laws",
+      "metrics": {
+        "supporting_laws": 6,
+        "supporting_si": 6,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 6
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-08-12",
+          "asunto": "T. SUSTITUTORIO DE LAS MOCIONES 007 Y 019, QUE PROPONE CONFORMAR UNA COMISIÓN INVESTIGADORA QUE INVESTIGUE LAS PRESUNTAS IRREGULARIDADES Y POSIBLES ACTOS DE CORRUPCIÓN EN LA GESTIÓN DE LAS CONTRATACIONES Y ADQUISIONES DE BIENES, SERVICIOS, MEDICAMENT",
+          "position": "SI",
+          "votes": "SI:29 NO:0"
+        },
+        {
+          "date": "2021-09-16",
+          "asunto": "NÓMINA DE INTEGRANTES DE LA COMISIÓN INVESTIGADORA ENCARGADA DE INVESTIGAR LAS PRESUNTAS IRREGULARIDADES Y POSIBLES ACTOS DE CORRUPCIÓN EN LA GESTIÓN DE LAS CONTRATACIONES Y ADQUISICIONES DE BIENES, SERVICIOS, MEDICAMENTOS, CONTRATACIÓN DE PERSONAL R",
+          "position": "SI",
+          "votes": "SI:33 NO:0"
+        },
+        {
+          "date": "2022-01-12",
+          "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 245 (ACTUALIZADO), QUE APRUEBA EL ARREGLO DE ESTRASBURGO RELATIVO A LA CLASIFICACIÓN INTERNACIONAL DE PATENTES",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2023-01-26",
+          "asunto": "TEXTO SUSTITUTORIO PROYECTO DE LEY 2552. QUE PROPONE GARANTIZAR LA PUBLICACIÓN DE LAS RESOLUCIONES DEL INSTITUTO NACIONAL DE DEFENSA DE LA COMPETENCIA Y DE LA PROTECCIÓN DE LA PROPIEDAD INTELECTUAL (INDECOPI)",
+          "position": "SI",
+          "votes": "SI:11 NO:0"
+        },
+        {
+          "date": "2023-01-26",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2552. QUE PROPONE GARANTIZAR LA PUBLICACIÓN DE LAS RESOLUCIONES DEL INSTITUTO NACIONAL DE DEFENSA DE LA COMPETENCIA Y DE LA PROTECCIÓN DE LA PROPIEDAD INTELECTUAL (INDECOPI",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-04-27",
+          "asunto": "INFORME PRELIMINAR, EN MAYORÍA, DE LA COMISIÓN INVESTIGADORA SOBRE LAS PRESUNTAS IRREGULARIDADES Y POSIBLES ACTOS DE CORRUPCIÓN EN LA GESTIÓN DE LAS CONTRATACIONES Y ADQUISICIONES DE BIENES, SERVICIOS, MEDICAMENTOS, CONTRATACIÓN DE PERSONAL, REALIZAD",
+          "position": "SI",
+          "votes": "SI:7 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "PATENTE",
+          "PROPIEDAD INTELECTUAL",
+          "MEDICAMENTO",
+          "GENERICO"
+        ],
+        "contradicting": [
+          "PROTECCION DE DATOS",
+          "TLC"
+        ]
+      }
+    },
+    {
+      "promise_id": "PL-2021-014",
+      "promise_text": "Nuevo impuesto a sobreganancias mineras",
+      "category": "fiscal",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 17/28 supporting laws",
+      "metrics": {
+        "supporting_laws": 28,
+        "supporting_si": 17,
+        "supporting_no": 10,
+        "supporting_divided": 1,
+        "supporting_no_ratio": 0.357,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 28
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-12-16",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 688, 705 Y 733, QUE PROPONE LA LEY QUE PRORROGA LA VIGENCIA DEL PROCESO DE FORMALIZACIÓN MINERA INTEGRAL.",
+          "position": "SI",
+          "votes": "SI:30 NO:0"
+        },
+        {
+          "date": "2022-04-07",
+          "asunto": "NUEVO TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1629, 1630, 1645, 1650 Y 1670, QUE PROPONE EXONERAR DEL IMPUESTO GENERAL A LAS VENTAS A LOS ALIMENTOS DE LA CANASTA BÁSICA FAMILIAR",
+          "position": "SI",
+          "votes": "SI:20 NO:5"
+        },
+        {
+          "date": "2022-04-12",
+          "asunto": "ALLANAMIENTO DE LAS OBSERVACIONES FORMULADAS POR EL PRESIDENTE DE LA REPÚBLICA A LA AUTÓGRAFA RECAÍA EN LOS PROYECTOS DE LEY 1629,1630,1645,1650 Y 1670, QUE PROPONE EXONERAR DEL IMPUESTO GENERAL A LAS VENTAS A LOS ALIMENTOS DE LA CANASTA BÁSICA FAMIL",
+          "position": "SI",
+          "votes": "SI:18 NO:5"
+        },
+        {
+          "date": "2022-06-02",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 412, QUE PROPONE ESTABLECER MEDIDAS ESPECIALES PARA EMPRESAS EN REESTRUCTURACIÓN PATRIMONIAL EN EL MARCO DE LA LEY GENERAL DEL SISTEMA CONCURSAL A FIN DE FORTALECER LA GESTIÓN AMBIENTAL EN ÁREAS IMPACTADAS Y/O C",
+          "position": "SI",
+          "votes": "SI:9 NO:4"
+        },
+        {
+          "date": "2022-07-07",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPUBLICA RECAÍDA EN EL PROYECTO DE LEY 412, QUE PROPONE ESTABLECER MEDIDAS ESPECIALES PARA EMPRESAS EN REESTRUCTURACIÓN PATRIMONIAL EN EL MARCO DE LA LEY GENERAL DEL SISTEMA CONCURS",
+          "position": "DIVIDED",
+          "votes": "SI:2 NO:5"
+        },
+        {
+          "date": "2022-07-15",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPUBLICA RECAÍDA EN EL PROYECTO DE LEY 412, QUE PROPONE ESTABLECER MEDIDAS ESPECIALES PARA EMPRESAS EN REESTRUCTURACIÓN PATRIMONIAL EN EL MARCO DE LA LEY GENERAL DEL SISTEMA CONCURS",
+          "position": "NO",
+          "votes": "SI:1 NO:13"
+        },
+        {
+          "date": "2022-09-22",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 31, 97, 175, 1170 Y 1458, QUE PROPONE CREAR EL CANON HÍDRICO COMO MEDIDA DE COMPENSACIÓN A LAS POBLACIONES AFECTADAS POR TRASVASE",
+          "position": "SI",
+          "votes": "SI:10 NO:2"
+        },
+        {
+          "date": "2022-12-21",
+          "asunto": "PROYECTO DE LEY 3740, QUE PRORROGA LA VIGENCIA DE LOS APÉNDICES I Y II DE LA LEY DEL IMPUESTO GENERAL A LAS VENTAS E IMPUESTO SELECTIVO AL CONSUMO",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        },
+        {
+          "date": "2022-12-21",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3195, QUE PRORROGA LA VIGENCIA DE LAS LEYES 27623, QUE DISPONE LA DEVOLUCIÓN DEL IMPUESTO GENERAL A LAS VENTAS E IMPUESTO DE PROMOCIÓN MUNICIPAL A LOS TITULARES DE LA ACTIVIDAD MINERA DURANTE LA FASE DE EXPLORAC",
+          "position": "NO",
+          "votes": "SI:0 NO:12"
+        },
+        {
+          "date": "2022-12-28",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3672, QUE PROPONE ESTABLECER ACOGIMIENTO EXCEPCIONAL AL RÉGIMEN ESPECIAL DE RECUPERACIÓN ANTICIPADA DEL IMPUESTO GENERAL A LAS VENTAS REGULADO POR EL DECRETO LEGISLATIVO 973",
+          "position": "NO",
+          "votes": "SI:0 NO:12"
+        },
+        {
+          "date": "2022-12-28",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3672, QUE PROPONE ESTABLECER ACOGIMIENTO EXCEPCIONAL AL RÉGIMEN ESPECIAL DE RECUPERACIÓN ANTICIPADA DEL IMPUESTO GENERAL A LAS VENTAS REGULADO POR EL DECRETO LEGISLATIVO 97",
+          "position": "NO",
+          "votes": "SI:0 NO:11"
+        },
+        {
+          "date": "2022-12-28",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 596, QUE PROPONE MODIFICAR LA LEY 27889, LEY QUE CREA EL FONDO Y EL IMPUESTO EXTRAORDINARIO PARA LA PROMOCIÓN Y DESARROLLO TURÍSTICO NACIONAL",
+          "position": "SI",
+          "votes": "SI:10 NO:0"
+        },
+        {
+          "date": "2022-12-28",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 596, QUE PROPONE MODIFICAR LA LEY 27889, LEY QUE CREA EL FONDO Y EL IMPUESTO EXTRAORDINARIO PARA LA PROMOCIÓN Y DESARROLLO TURÍSTICO NACIONAL",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2022-12-28",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3195, QUE PRORROGA LA VIGENCIA DE LA LEY 27623, QUE DISPONE LA DEVOLUCIÓN DEL IMPUESTO GENERAL A LAS VENTAS E IMPUESTO DE PROMOCIÓN MUNICIPAL A LOS TITULARES DE LA ACTIVIDAD MINERA DURANTE L",
+          "position": "NO",
+          "votes": "SI:0 NO:10"
+        },
+        {
+          "date": "2023-01-05",
+          "asunto": "TEXTO SUSTITUTORIO DEL PL 2742, QUE MODIFICA EL D. LEG. 1107, QUE ESTABLECE MEDIDAS DE CONTROL Y FISCALIZACIÓN EN LA DISTRIBUCIÓN, TRANSPORTE Y COMERCIALIZACIÓN DE MAQUINARIAS Y EQUIPOS QUE PUEDAN SER UTILIZADOS EN LA MINERÍA ILEGAL ASÍ COMO DEL PROD",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-01-05",
+          "asunto": "EXON. 2ª VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PL 2742, QUE MODIFICA EL D. LEG. 1107, QUE ESTABLECE MEDIDAS DE CONTROL Y FISCALIZACIÓN EN LA DISTRIBUCIÓN, TRANSPORTE Y COMERCIALIZACIÓN DE MAQUINARIAS Y EQUIPOS QUE PUEDAN SER UTILIZADOS EN LA MINERÍA IL",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-03-03",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 31, 97, 175, 1170 Y 1458, QUE PROPONE CREAR EL CANON HÍDRICO COMO MEDIDA DE COMPENSACIÓN A LAS POBLACIONES AFECTADAS POR TRASVASE DE AGUAS",
+          "position": "SI",
+          "votes": "SI:9 NO:1"
+        },
+        {
+          "date": "2023-03-29",
+          "asunto": "ACLARACIÓN DE LA INSISTENCIA APROBADA RECAÍDA EN LOS PROYECTOS DE LEY 31, 97, 175, 1170 Y 1458, QUE PROPONE CREAR EL CANON HÍDRICO COMO MEDIDA DE COMPENSACIÓN A LAS POBLACIÓN AFECTADAS POR TRASVASE DE AGUAS",
+          "position": "SI",
+          "votes": "SI:10 NO:0"
+        },
+        {
+          "date": "2023-04-12",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3678, QUE PROPONE SINCERAR LOS INTERESES POR DEVOLUCIONES DE PAGOS DE TRIBUTOS EN EXCESO O INDEBIDOS, POR RETENCIONES O PERCEPCIONES NO APLICADAS DEL IMPUESTO GENERAL A LAS VENTAS Y ACTUALIZACIÓN DE MULTAS",
+          "position": "NO",
+          "votes": "SI:0 NO:14"
+        },
+        {
+          "date": "2023-05-04",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENCIA DE LA REPUBLICA RECAÍDA EN EL PL 2742, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1107, QUE ESTABLECE MEDIDAS DE CONTROL Y FISCALIZACIÓN EN LA DISTRIBUCIÓN, TRANSPORTE Y COMERCIALIZACIÓN DE M",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "IMPUESTO",
+          "MINER",
+          "CANON",
+          "REGALIA",
+          "SOBREGANANCIA",
+          "TRIBUTO MINERO"
+        ],
+        "contradicting": [
+          "DEVOLUCION IGV MINER",
+          "EXONERACION MINER",
+          "BENEFICIO TRIBUTARIO MINER"
+        ]
+      }
+    },
+    {
+      "promise_id": "PL-2021-015",
+      "promise_text": "Eliminacion de exoneraciones tributarias",
+      "category": "fiscal",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 1 relevant laws found",
+      "metrics": {
+        "supporting_laws": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws": 1,
+        "contradicting_si": 1,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 1.0,
+        "total_laws_analyzed": 1
+      },
+      "supporting_votes": [],
+      "contradicting_votes": [
+        {
+          "date": "2023-05-18",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1808 Y 2818, QUE PROPONE MODIFICAR LA LEY 27037, LEY DE PROMOCIÓN DE LA INVERSIÓN EN LA AMAZONÍA, A FIN DE PRECISAR LOS REQUISITOS Y LAS EXCEPCIONES APLICABLES PARA EXONERACIONES Y BENEFICIOS",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        }
+      ],
+      "keywords": {
+        "supporting": [
+          "ELIMINAR EXONERACION",
+          "DEROGAR BENEFICIO",
+          "RACIONALIZAR GASTO TRIBUTARIO"
+        ],
+        "contradicting": [
+          "EXONERACION",
+          "INAFECTACION",
+          "BENEFICIO TRIBUTARIO",
+          "PROMOCION DE LA INVERSION"
+        ]
+      }
+    },
+    {
+      "promise_id": "PL-2021-016",
+      "promise_text": "Eliminar exoneraciones a empresas con paraisos fiscales",
+      "category": "fiscal",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 3/4 supporting laws",
+      "metrics": {
+        "supporting_laws": 4,
+        "supporting_si": 3,
+        "supporting_no": 0,
+        "supporting_divided": 1,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 4
+      },
+      "supporting_votes": [
+        {
+          "date": "2022-10-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 177, QUE PROPONE FORTALECER EL MARCO DE LA RESPONSABILIDAD Y LA TRANSPARENCIA FISCAL DEL SECTOR PÚBLICO NO FINANCIERO",
+          "position": "SI",
+          "votes": "SI:13 NO:2"
+        },
+        {
+          "date": "2022-10-13",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 177, QUE PROPONE FORTALECER EL MARCO DE LA RESPONSABILIDAD Y LA TRANSPARENCIA FISCAL DEL SECTOR PÚBLICO NO FINANCIERO",
+          "position": "DIVIDED",
+          "votes": "SI:7 NO:2"
+        },
+        {
+          "date": "2023-02-17",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 177, QUE PROPONE FORTALECER EL MARCO DE LA RESPONSABILIDAD Y LA TRANSPARENCIA FISCAL DEL SECTOR PÚBLICO NO FINANCIERO",
+          "position": "SI",
+          "votes": "SI:10 NO:1"
+        },
+        {
+          "date": "2023-11-23",
+          "asunto": "ACLARACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2757, QUE MODIFICA EL DL 1275, DECRETO LEGISLATIVO QUE APRUEBA EL MARCO DE LA RESPONSABILIDAD Y TRANSPARENCIA FISCAL DE LOS GOBIERNOS REGIONALES Y GOBIERNOS LOCALES, A FIN DE ESTABLECER LA EXCEPCI",
+          "position": "SI",
+          "votes": "SI:8 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "PARAISO FISCAL",
+          "EVASION",
+          "ELUSION",
+          "TRANSPARENCIA FISCAL",
+          "OFFSHORE"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-017",
+      "promise_text": "Regalias mineras en funcion a ventas",
+      "category": "mineria",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 6/10 supporting laws",
+      "metrics": {
+        "supporting_laws": 10,
+        "supporting_si": 6,
+        "supporting_no": 3,
+        "supporting_divided": 1,
+        "supporting_no_ratio": 0.3,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 10
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-12-16",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 688, 705 Y 733, QUE PROPONE LA LEY QUE PRORROGA LA VIGENCIA DEL PROCESO DE FORMALIZACIÓN MINERA INTEGRAL.",
+          "position": "SI",
+          "votes": "SI:30 NO:0"
+        },
+        {
+          "date": "2022-06-02",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 412, QUE PROPONE ESTABLECER MEDIDAS ESPECIALES PARA EMPRESAS EN REESTRUCTURACIÓN PATRIMONIAL EN EL MARCO DE LA LEY GENERAL DEL SISTEMA CONCURSAL A FIN DE FORTALECER LA GESTIÓN AMBIENTAL EN ÁREAS IMPACTADAS Y/O C",
+          "position": "SI",
+          "votes": "SI:9 NO:4"
+        },
+        {
+          "date": "2022-07-07",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPUBLICA RECAÍDA EN EL PROYECTO DE LEY 412, QUE PROPONE ESTABLECER MEDIDAS ESPECIALES PARA EMPRESAS EN REESTRUCTURACIÓN PATRIMONIAL EN EL MARCO DE LA LEY GENERAL DEL SISTEMA CONCURS",
+          "position": "DIVIDED",
+          "votes": "SI:2 NO:5"
+        },
+        {
+          "date": "2022-07-15",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPUBLICA RECAÍDA EN EL PROYECTO DE LEY 412, QUE PROPONE ESTABLECER MEDIDAS ESPECIALES PARA EMPRESAS EN REESTRUCTURACIÓN PATRIMONIAL EN EL MARCO DE LA LEY GENERAL DEL SISTEMA CONCURS",
+          "position": "NO",
+          "votes": "SI:1 NO:13"
+        },
+        {
+          "date": "2022-12-21",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3195, QUE PRORROGA LA VIGENCIA DE LAS LEYES 27623, QUE DISPONE LA DEVOLUCIÓN DEL IMPUESTO GENERAL A LAS VENTAS E IMPUESTO DE PROMOCIÓN MUNICIPAL A LOS TITULARES DE LA ACTIVIDAD MINERA DURANTE LA FASE DE EXPLORAC",
+          "position": "NO",
+          "votes": "SI:0 NO:12"
+        },
+        {
+          "date": "2022-12-28",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3195, QUE PRORROGA LA VIGENCIA DE LA LEY 27623, QUE DISPONE LA DEVOLUCIÓN DEL IMPUESTO GENERAL A LAS VENTAS E IMPUESTO DE PROMOCIÓN MUNICIPAL A LOS TITULARES DE LA ACTIVIDAD MINERA DURANTE L",
+          "position": "NO",
+          "votes": "SI:0 NO:10"
+        },
+        {
+          "date": "2023-01-05",
+          "asunto": "TEXTO SUSTITUTORIO DEL PL 2742, QUE MODIFICA EL D. LEG. 1107, QUE ESTABLECE MEDIDAS DE CONTROL Y FISCALIZACIÓN EN LA DISTRIBUCIÓN, TRANSPORTE Y COMERCIALIZACIÓN DE MAQUINARIAS Y EQUIPOS QUE PUEDAN SER UTILIZADOS EN LA MINERÍA ILEGAL ASÍ COMO DEL PROD",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-01-05",
+          "asunto": "EXON. 2ª VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PL 2742, QUE MODIFICA EL D. LEG. 1107, QUE ESTABLECE MEDIDAS DE CONTROL Y FISCALIZACIÓN EN LA DISTRIBUCIÓN, TRANSPORTE Y COMERCIALIZACIÓN DE MAQUINARIAS Y EQUIPOS QUE PUEDAN SER UTILIZADOS EN LA MINERÍA IL",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-05-04",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENCIA DE LA REPUBLICA RECAÍDA EN EL PL 2742, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1107, QUE ESTABLECE MEDIDAS DE CONTROL Y FISCALIZACIÓN EN LA DISTRIBUCIÓN, TRANSPORTE Y COMERCIALIZACIÓN DE M",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        },
+        {
+          "date": "2023-05-25",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2715, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1100, DECRETO LEGISLATIVO QUE REGULA LA INTERDICCIÓN DE LA MINERÍA ILEGAL EN TODA LA REPUBLICA Y ESTABLECE MEDIDAS COMPLEMENTARIAS, A FIN DE ASIGNAR BIENES, MAQ",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "REGALIA",
+          "MINER",
+          "CANON MINERO"
+        ],
+        "contradicting": [
+          "ESTABILIDAD TRIBUTARIA MINER",
+          "CONVENIO DE ESTABILIDAD"
+        ]
+      }
+    },
+    {
+      "promise_id": "PL-2021-018",
+      "promise_text": "Renegociar contratos de estabilidad tributaria",
+      "category": "fiscal",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 10/11 supporting laws",
+      "metrics": {
+        "supporting_laws": 11,
+        "supporting_si": 10,
+        "supporting_no": 1,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.091,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 11
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-11-18",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE RESOLUCIÓN LEGISLATIVA 225 (ACTUALIZADO), QUE APRUEBA EL CONVENIO CONSTITUTIVO DEL BANCO ASIÁTICO DE INVERSIÓN EN INFRAESTRUCTURA",
+          "position": "SI",
+          "votes": "SI:29 NO:0"
+        },
+        {
+          "date": "2022-01-31",
+          "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 249 (ACTUALIZADO), QUE APRUEBA EL 'CONVENIO SOBRE LA ELIMINACIÓN DE LA VIOLENCIA  Y EL ACOSO EN EL MUNDO DEL TRABAJO'",
+          "position": "SI",
+          "votes": "SI:26 NO:0"
+        },
+        {
+          "date": "2022-02-02",
+          "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 237 (ACTUALIZADO), QUE APRUEBA EL CONVENIO SOBRE TRASLADO DE PERSONAS CONDENADAS ENTRE LA REPÚBLICA DEL PERÚ Y LA REPÚBLICA DE COSTA RICA",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2022-02-02",
+          "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 252 (ACTUALIZADO), QUE APRUEBA EL 'PROTOCOLO QUE MODIFICA EL CONVENIO SOBRE LAS INFRACCIONES Y CIERTOS OTROS ACTOS COMETIDOS A BORDO DE LAS AERONAVES'",
+          "position": "SI",
+          "votes": "SI:24 NO:0"
+        },
+        {
+          "date": "2022-03-31",
+          "asunto": "TEXTO SUSTITUTORIO DE LAS MOCIONES 2151, 2104 Y 2128, QUE PROPONE CREAR LA COMISIÓN INVESTIGADORA MULTIPARTIDARIA, PARA QUE EN UN PLAZO DE 120 DÍAS ÚTILES SE INVESTIGUE DESDE EL AÑO 2018 AL PRESENTE, TODAS LAS LICITACIONES PÚBLICAS Y CONTRATOS DE OBR",
+          "position": "NO",
+          "votes": "SI:5 NO:23"
+        },
+        {
+          "date": "2022-06-30",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2204 Y 2328, QUE PROPONE AUTORIZAR, EXCEPCIONALMENTE Y POR ÚNICA VEZ, EN EL MARCO DE LA EMERGENCIA SANITARIA, EL CAMBIO DE CONTRATO CAS-COVID A CONTRATO CAS AL PERSONAL ASISTENCIAL EN EL SECTOR SALUD",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2022-07-12",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 482, QUE PROPONE CREAR EL REGISTRO PARA EL CONTROL DE CONTRATOS DE CONSULTORÍAS EN EL ESTADO",
+          "position": "SI",
+          "votes": "SI:15 NO:0"
+        },
+        {
+          "date": "2022-07-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1312, QUE PROPONE MODIFICAR LA LEY 29571, CÓDIGO DE PROTECCIÓN Y DEFENSA DEL CONSUMIDOR, A FIN DE MEJORAR LA PROTECCIÓN MÍNIMA DEL CONTRATO DE CONSUMO",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2022-07-30",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 2204, 2328, 2371 Y 2439, QUE PROPONE AUTORIZAR, EXCEPCIONALMENTE Y POR ÚNICA VEZ, EN EL MARCO DE LA EMERGENCIA SANITARIA, EL CAMBIO DE CONT",
+          "position": "SI",
+          "votes": "SI:15 NO:0"
+        },
+        {
+          "date": "2022-09-22",
+          "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 238, QUE PROPONE APROBAR LA CONVENCIÓN PARA HOMOLOGAR EL TRATAMIENTO IMPOSITIVO PREVISTO EN LOS CONVENIOS PARA EVITAR LA DOBLE IMPOSICIÓN SUSCRITOS ENTRE LOS ESTADOS PARTE DEL ACUERDO MARCO DE LA ALIANZA DEL PACÍFIC",
+          "position": "SI",
+          "votes": "SI:11 NO:0"
+        },
+        {
+          "date": "2022-09-22",
+          "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 233 (ACTUALIZADO), QUE PROPONE APROBAR EL ACUERDO ADMINISTRATIVO PARA LA APLICACIÓN DEL CONVENIO IBEROAMERICANO DE SEGURIDAD SOCIAL ENTRE LA REPUBLICA DEL PERU Y LA REPUBLICA DE COLOMBIA, SUSCRITO EL 27 DE FEBRERO D",
+          "position": "SI",
+          "votes": "SI:11 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "CONTRATO",
+          "ESTABILIDAD TRIBUTARIA",
+          "RENEGOCIAR",
+          "CONVENIO"
+        ],
+        "contradicting": [
+          "ESTABILIDAD JURIDICA INVERSIONES",
+          "GARANTIA AL INVERSIONISTA"
+        ]
+      }
+    },
+    {
+      "promise_id": "PL-2021-019",
+      "promise_text": "Relanzar gasoducto sur peruano",
+      "category": "energia",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 10/10 supporting laws",
+      "metrics": {
+        "supporting_laws": 10,
+        "supporting_si": 10,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 10
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-12-17",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 535, QUE PROPONE LA LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA PROMOCIÓN Y DESARROLLO DEL CORREDOR TURÍSTICO DE LAS PLAYAS DE AREQUIPA, MOQUEGUA Y TACNA, DE",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2022-04-07",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 151, QUE PROPONE MODIFICAR LA LEY 28451, QUE CREA EL FONDO DE DESARROLLO SOCIOECONÓMICO DEL PROYECTO CAMISEA FOCAM",
+          "position": "SI",
+          "votes": "SI:23 NO:0"
+        },
+        {
+          "date": "2022-04-07",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 151, QUE PROPONE MODIFICAR LA LEY 28451, QUE CREA EL FONDO DE DESARROLLO SOCIOECONÓMICO DEL PROYECTO CAMISEA FOCAM",
+          "position": "SI",
+          "votes": "SI:22 NO:1"
+        },
+        {
+          "date": "2022-07-13",
+          "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE ENERGÍA Y MINAS EL PROYECTO DE LEY 679, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:9 NO:1"
+        },
+        {
+          "date": "2022-07-13",
+          "asunto": "RECONSIDERACIÓN DE LA VOTACIÓN DE LA CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE ENERGÍA Y MINAS EL PROYECTO DE LEY 679, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:15 NO:0"
+        },
+        {
+          "date": "2022-07-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 679, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2022-07-13",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 679, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2022-07-15",
+          "asunto": "ACLARACIÓN DEL TEXTO SUSTITUTORIO APROBADO DEL PROYECTO DE LEY 679, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2023-06-22",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 523, 679, 817, 1453 Y 1939, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2023-06-22",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 523, 679, 817, 1453 Y 1939, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "GASODUCTO",
+          "GAS NATURAL",
+          "SUR PERUANO",
+          "PETROPERU",
+          "CAMISEA"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PL-2021-020",
+      "promise_text": "Red Nacional de Gasoductos para masificacion del gas",
+      "category": "energia",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 7/7 supporting laws",
+      "metrics": {
+        "supporting_laws": 7,
+        "supporting_si": 7,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 7
+      },
+      "supporting_votes": [
+        {
+          "date": "2022-07-13",
+          "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE ENERGÍA Y MINAS EL PROYECTO DE LEY 679, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:9 NO:1"
+        },
+        {
+          "date": "2022-07-13",
+          "asunto": "RECONSIDERACIÓN DE LA VOTACIÓN DE LA CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE ENERGÍA Y MINAS EL PROYECTO DE LEY 679, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:15 NO:0"
+        },
+        {
+          "date": "2022-07-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 679, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2022-07-13",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 679, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2022-07-15",
+          "asunto": "ACLARACIÓN DEL TEXTO SUSTITUTORIO APROBADO DEL PROYECTO DE LEY 679, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2023-06-22",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 523, 679, 817, 1453 Y 1939, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:14 NO:0"
+        },
+        {
+          "date": "2023-06-22",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 523, 679, 817, 1453 Y 1939, QUE PROPONE ESTABLECER MEDIDAS PARA IMPULSAR LA MASIFICACIÓN DEL GAS NATURAL",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "GASODUCTO",
+          "MASIFICACION",
+          "GAS NATURAL",
+          "GAS DOMICILIARIO"
+        ],
+        "contradicting": [
+          "PRIVATIZACION GAS",
+          "CONCESION EXCLUSIVA"
+        ]
+      }
+    },
+    {
+      "promise_id": "PL-2021-021",
+      "promise_text": "Retorno flexible a clases presenciales",
+      "category": "educacion",
+      "status": "NOT_AMPAY",
+      "reason": "Consistent: SI on 28/28 supporting laws",
+      "metrics": {
+        "supporting_laws": 28,
+        "supporting_si": 28,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_laws_analyzed": 28
+      },
+      "supporting_votes": [
+        {
+          "date": "2021-10-28",
+          "asunto": "TEXTO SUSTITUTORIO CONSENSUADO DE LAS COMISIONES AGRARIA Y DE EDUCACIÓN RECAÍDO EN EL PROYECTO DE LEY 189, QUE PROPONE LA LEY QUE CREA EL SERVICIO CIVIL DE GRADUANDOS PARA EL SECTOR AGRARIO (SECIGRA AGRARIO), PARA IMPULSAR LA PARTICIPACIÓN DE LOS EST",
+          "position": "SI",
+          "votes": "SI:20 NO:4"
+        },
+        {
+          "date": "2021-10-28",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO CONSENSUADO DE LAS COMISIONES AGRARIA Y DE EDUCACIÓN RECAÍDO EN EL PROYECTO DE LEY 189, QUE PROPONE LA LEY QUE CREA EL SERVICIO CIVIL DE GRADUANDOS PARA EL SECTOR AGRARIO (SECIGRA AGRARIO), PA",
+          "position": "SI",
+          "votes": "SI:18 NO:6"
+        },
+        {
+          "date": "2021-11-18",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 146, QUE PROPONE LA LEY QUE DECLARA DE URGENTE INTERÉS NACIONAL LA MEJORA DE LA EDUCACIÓN Y EL RETORNO PROGRESIVO A LAS AULAS.",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2021-11-18",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 146, QUE PROPONE LA LEY QUE DECLARA DE URGENTE INTERÉS NACIONAL LA MEJORA DE LA EDUCACIÓN Y EL RETORNO PROGRESIVO A LAS AULAS.",
+          "position": "SI",
+          "votes": "SI:27 NO:0"
+        },
+        {
+          "date": "2022-02-01",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPUBLICA RECAÍDA EN EL PROYECTO DE LEY 189, QUE PROPONE LA LEY QUE CREA EL SERVICIO CIVIL DE GRADUANDOS PARA EL SECTOR AGRARIO (SECIGRA AGRARIO), PARA IMPULSAR LA PARTICIPACIÓN DE L",
+          "position": "SI",
+          "votes": "SI:30 NO:0"
+        },
+        {
+          "date": "2022-02-02",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 146, QUE PROPONE LA LEY QUE DECLARA DE URGENTE INTERÉS NACIONAL LA MEJORA DE LA EDUCACIÓN Y EL RETORNO PROGRESIVO A LAS AULAS",
+          "position": "SI",
+          "votes": "SI:30 NO:0"
+        },
+        {
+          "date": "2022-03-31",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 730, QUE PROPONE MODIFICAR EL ARTÍCULO 31 DE LA LEY 30220, LEY UNIVERSITARIA, INCORPORANDO LAS SECCIONES DE FACULTAD O ESCUELAS PROFESIONALES, EN EL RÉGIMEN ACADÉMICO DE LAS UNIVERSIDADES PÚBLICAS LICENCIADAS",
+          "position": "SI",
+          "votes": "SI:26 NO:2"
+        },
+        {
+          "date": "2022-03-31",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 730, QUE PROPONE MODIFICAR EL ARTÍCULO 31 DE LA LEY 30220, LEY UNIVERSITARIA, INCORPORANDO LAS SECCIONES DE FACULTAD O ESCUELAS PROFESIONALES, EN EL RÉGIMEN ACADÉMICO DE LA",
+          "position": "SI",
+          "votes": "SI:26 NO:2"
+        },
+        {
+          "date": "2022-05-12",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 349, 437, 438, 722, 782, 956, 992, 1131 Y 1168, QUE PROPONE RECONOCER EL DERECHO Y DISPONER EL PAGO DE LA BONIFICACIÓN ESPECIAL POR PREPARACIÓN DE CLASES Y EVALUACIÓN, BONIFICACIÓN ADICIONAL POR DESEMPEÑO DE",
+          "position": "SI",
+          "votes": "SI:19 NO:0"
+        },
+        {
+          "date": "2022-05-12",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 349, 437, 438, 722, 782, 956, 992, 1131 Y 1168, QUE PROPONE RECONOCER EL DERECHO Y DISPONER EL PAGO DE LA BONIFICACIÓN ESPECIAL POR PREPARACIÓN DE CLASES Y EVALUACIÓN, ",
+          "position": "SI",
+          "votes": "SI:19 NO:0"
+        },
+        {
+          "date": "2022-07-06",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 336, 342, 689, 1817, 1818, 1819, 1820, 1821, 1822 Y 2162 (ACTUALIZADO), QUE PROPONE MODIFICAR LA LEY 30512, LEY DE INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR Y DE LA CARRERA PÚBLICA DE SUS DOCENTES",
+          "position": "SI",
+          "votes": "SI:15 NO:0"
+        },
+        {
+          "date": "2022-07-06",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 336, 342, 689, 1817, 1818, 1819, 1820, 1821, 1822 Y 2162 (ACTUALIZADO), QUE PROPONE MODIFICAR LA LEY 30512, LEY DE INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR Y DE LA C",
+          "position": "SI",
+          "votes": "SI:15 NO:0"
+        },
+        {
+          "date": "2022-10-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 34, QUE PROPONE DISPONER LA CREACIÓN DE UNA UNIDAD EJECUTORA EN CADA GOBIERNO REGIONAL PARA ADMINISTRAR TODOS LOS INGRESOS Y GASTOS DE LOS INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR DEL DEPARTAMENTO, INCLUYENDO",
+          "position": "SI",
+          "votes": "SI:10 NO:6"
+        },
+        {
+          "date": "2022-10-13",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 34, QUE PROPONE DISPONER LA CREACIÓN DE UNA UNIDAD EJECUTORA EN CADA GOBIERNO REGIONAL PARA ADMINISTRAR TODOS LOS INGRESOS Y GASTOS DE LOS INSTITUTOS Y ESCUELAS DE EDUCACIÓ",
+          "position": "SI",
+          "votes": "SI:13 NO:2"
+        },
+        {
+          "date": "2022-12-21",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 336, 342, 689, 1817, 1818, 1819, 1820, 1821, 1822 Y 2162, QUE PROPONE MODIFICAR LA LEY 30512, LEY DE INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPE",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-01-12",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1639, 2071, 3214 Y 3239, QUE PROPONE DESTINAR BECAS INTEGRALES PARA EL ACCESO, PERMANENCIA Y CULMINACIÓN DE ESTUDIOS SUPERIORES EN FAVOR DE LOS ESTUDIANTES QUE CONTINÚAN AFECTADOS POR LOS EFECTOS ECONÓMICOS ",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        },
+        {
+          "date": "2023-01-12",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1639, 2071, 3214 Y 3239, QUE PROPONE DESTINAR BECAS INTEGRALES PARA EL ACCESO, PERMANENCIA Y CULMINACIÓN DE ESTUDIOS SUPERIORES EN FAVOR DE LOS ESTUDIANTES QUE CONTINÚA",
+          "position": "SI",
+          "votes": "SI:12 NO:0"
+        },
+        {
+          "date": "2023-02-09",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2410, QUE PROPONE OTORGAR EL GRADO INMEDIATO SUPERIOR AL PERSONAL EGRESADO DE LAS ESCUELAS DE ENFERMERÍA Y DE LABORATORIO CLÍNICO DEL CENTRO DE FORMACIÓN PROFESIONAL DE LA SANIDAD DE LA POLICÍA NACIONAL DEL PERÚ",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        },
+        {
+          "date": "2023-02-09",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2410, QUE PROPONE OTORGAR EL GRADO INMEDIATO SUPERIOR AL PERSONAL EGRESADO DE LAS ESCUELAS DE ENFERMERÍA Y DE LABORATORIO CLÍNICO DEL CENTRO DE FORMACIÓN PROFESIONAL DE LA ",
+          "position": "SI",
+          "votes": "SI:13 NO:0"
+        },
+        {
+          "date": "2023-02-09",
+          "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1419, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA CREACIÓN DE LA COMISIÓN CONMEMORATIVA POR EL CENTENARIO DEL RETORNO DE TARATA Y TACNA A LA REPUBLICA DEL PERÚ",
+          "position": "SI",
+          "votes": "SI:10 NO:0"
+        }
+      ],
+      "contradicting_votes": [],
+      "keywords": {
+        "supporting": [
+          "EDUCACION",
+          "PRESENCIAL",
+          "RETORNO",
+          "ESCUELA",
+          "ESTUDIANTE",
+          "CLASE"
+        ],
+        "contradicting": []
+      }
+    }
+  ]
+}

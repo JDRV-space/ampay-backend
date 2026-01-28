@@ -1,0 +1,7 @@
+# Core dependencies
+requests>=2.31.0
+PyMuPDF>=1.24.0
+
+# LLM SDKs (scripts currently use CLI tools; SDKs available for future migration)
+anthropic>=0.40.0
+google-generativeai>=0.8.0

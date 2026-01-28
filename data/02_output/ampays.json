@@ -1,0 +1,127 @@
+{
+  "version": "1.1",
+  "generated_at": "2026-01-22",
+  "source": "AMPAY_CONFIRMED_2021.json (manual review + audit verification)",
+  "total": 6,
+
+  "by_party": {
+    "fuerza_popular": 1,
+    "peru_libre": 1,
+    "renovacion_popular": 2,
+    "avanza_pais": 0,
+    "alianza_progreso": 0,
+    "somos_peru": 1,
+    "podemos_peru": 0,
+    "juntos_peru": 1,
+    "partido_morado": 0
+  },
+
+  "ampays": [
+    {
+      "id": "AMPAY-001",
+      "party_slug": "fuerza_popular",
+      "party_name": "Fuerza Popular",
+      "promise": "Implementar reforma tributaria con principio de universalidad y simplificacion",
+      "category": "fiscal",
+      "vote_position": "SI",
+      "expected_position": "NO",
+      "evidence": "Voto SI en 6 leyes que extienden regimenes especiales para corporaciones, mineras e inversionistas",
+      "key_laws": [
+        "PL 3740 - Prorrogar apendices IGV",
+        "PL 3195 - Devolucion IGV mineras/hidrocarburos",
+        "PL 6473 - Prorrogar exoneracion mercado valores"
+      ],
+      "reasoning": "Prometio universalidad tributaria (mismas reglas para todos) pero voto SI en 6/6 leyes que extienden regimenes especiales para corporaciones.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "AMPAY-002",
+      "party_slug": "renovacion_popular",
+      "party_name": "Renovacion Popular",
+      "promise": "Eliminar los regimenes tributarios para crear uno solo amigable que permita la formalizacion",
+      "category": "fiscal",
+      "vote_position": "SI",
+      "expected_position": "NO",
+      "evidence": "Voto SI en 5 leyes que ESTABLECEN o EXTIENDEN regimenes especiales",
+      "key_laws": [
+        "PL 3195 - Prorrogar devolucion IGV mineras/hidrocarburos",
+        "PL 3155 - Regimenes especiales depreciacion",
+        "PL 3671 - Incentivos fiscales fondos inmobiliarios"
+      ],
+      "reasoning": "Prometio eliminar regimenes tributarios y crear uno solo, pero voto SI en 5/5 leyes que ESTABLECEN o EXTIENDEN regimenes especiales.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "AMPAY-003",
+      "party_slug": "renovacion_popular",
+      "party_name": "Renovacion Popular",
+      "promise": "Fomentar procesos que den mayor valor agregado a materias primas para aumentar exportacion de productos terminados",
+      "category": "economia",
+      "vote_position": "NO",
+      "expected_position": "SI",
+      "evidence": "Voto NO en comision para fiscalizar Puerto Chancay - infraestructura clave para exportaciones",
+      "key_laws": [
+        "Mocion 8087 - Comision Especial Multipartidaria Terminal Multiproposito de Chancay"
+      ],
+      "reasoning": "Prometio fomentar valor agregado y exportaciones, pero voto NO en comision para fiscalizar el puerto de Chancay.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "AMPAY-004",
+      "party_slug": "somos_peru",
+      "party_name": "Somos Peru",
+      "promise": "Reducir Gasto Corriente del Estado en 2% del PBI",
+      "category": "fiscal",
+      "vote_position": "SI",
+      "expected_position": "NO",
+      "evidence": "Voto SI en 11 leyes de aumento presupuestario entre 2021-2023",
+      "key_laws": [
+        "Ley de Presupuesto 2022",
+        "Ley de Presupuesto 2023",
+        "Creditos suplementarios 2022-2023"
+      ],
+      "reasoning": "Prometio reducir gasto corriente en 2% del PBI, pero voto SI en 11/11 leyes de aumento presupuestario.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "AMPAY-005",
+      "party_slug": "peru_libre",
+      "party_name": "Peru Libre",
+      "promise": "Eliminacion de exoneraciones tributarias",
+      "category": "fiscal",
+      "vote_position": "SI",
+      "expected_position": "NO",
+      "evidence": "Voto SI para mantener/extender exoneraciones en la Amazonia",
+      "key_laws": [
+        "PL 882/1620 - Modificar Ley 27037, Ley de Promocion de la Inversion en la Amazonia"
+      ],
+      "reasoning": "Prometio eliminar exoneraciones tributarias, pero voto SI para mantener/extender exoneraciones en la Amazonia.",
+      "confidence": "MEDIUM"
+    },
+    {
+      "id": "AMPAY-006",
+      "party_slug": "juntos_peru",
+      "party_name": "Juntos por el Peru",
+      "promise": "Convocar referendum para Asamblea Popular Constituyente",
+      "category": "justicia",
+      "vote_position": "NO",
+      "expected_position": "SI",
+      "evidence": "Voto NO en ley que fortalece mecanismos de reforma constitucional",
+      "key_laws": [
+        "PL 644 - Ley que fortalece proceso de aprobacion de leyes de reforma constitucional"
+      ],
+      "reasoning": "Prometio convocar referendum para Asamblea Constituyente, pero voto NO en ley que fortalece mecanismos de reforma constitucional.",
+      "confidence": "MEDIUM"
+    }
+  ],
+
+  "audit_log": {
+    "2026-01-22": "Removed AMPAY-006 and AMPAY-007 (Alianza Progreso) after verification found incorrect vote interpretation. APP voted SI on reconsideration (Aug 19), not NO as originally claimed. Fixed AMPAY-005 PL numbers from 1808/2818 to 882/1620. Total reduced from 8 to 6."
+  },
+
+  "data_disclaimer": {
+    "coverage": "2021-07-26 to 2024-07-26",
+    "missing": "Votes from 2024-07-27 to 2026 NOT analyzed",
+    "note": "Additional AMPAYs may exist in unanalyzed period"
+  }
+}

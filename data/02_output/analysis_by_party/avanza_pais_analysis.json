@@ -1,0 +1,2595 @@
+{
+  "analysis_date": "2026-01-21T17:37:46.571139",
+  "party": "Avanza Pais",
+  "methodology": "AMPAY v4 - Keyword search for supporting and contradicting laws. AMPAY if >=60% NO on supporting laws OR >=60% SI on contradicting laws.",
+  "thresholds": {
+    "ampay_threshold": 0.6,
+    "potential_threshold": 0.4,
+    "min_laws_required": 2
+  },
+  "summary": {
+    "AMPAY": 0,
+    "POTENTIAL_AMPAY": 0,
+    "NOT_AMPAY": 22,
+    "INSUFFICIENT_DATA": 9
+  },
+  "total_votes_in_database": 2226,
+  "total_promises_analyzed": 31,
+  "results": [
+    {
+      "promise_id": "APAIS-2021-001",
+      "promise_text": "Implementar programas de mejora regulatoria para optimizar regulaciones entre entidades publicas y ciudadanos",
+      "category": "economia",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "SIMPLIFICACION ADMINISTRATIVA",
+          "MEJORA REGULATORIA",
+          "DESBUROCRATIZACION",
+          "ELIMINACION DE BARRERAS",
+          "BARRERAS BUROCRATICAS"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-002",
+      "promise_text": "Crear sistemas de memoria publicos para eliminar la anonimidad en contratacion publica y combatir la corrupcion",
+      "category": "justicia",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 11/11, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 11,
+        "supporting_si": 11,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 11
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-06-15T20-08",
+          "date": "2022-06-15",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1161, 1162 Y 1163 (ACTUALIZADOS), QUE PROPONE LA LEY DE REFORMA CONSTITUCIONAL QUE FORTALECE LA LUCHA ANTICORRUPCION EN EL MARCO DEL LEV...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 66.7,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-15T20-00",
+          "date": "2022-07-15",
+          "asunto": "INFORME FINAL, EN MAYORÍA, DE LA COMISIÓN DE FISCALIZACIÓN CON FACULTAD INVESTIGADORA SOBRE PRESUNTOS HECHOS ILÍCITOS DE VULNERACIÓN AL PRINCIPIO DE TRANSPARENCIA EN LA ACTUACIÓN Y DESEMPEÑO DEL CARGO...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-09-01T13-52",
+          "date": "2022-09-01",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1431, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1440, DECRETO LEGISLATIVO DEL SISTEMA NACIONAL DE PRESUPUESTO PÚBLICO, CON LA FINALIDAD DE FORTALECER LA RENDI...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-09-22T10-19",
+          "date": "2022-09-22",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1591 Y 1741, QUE PROPONE MODIFICAR EL ARTÍCULO 4 DE LA LEY 26304, PARA ESTABLECER REGLAS DE TRANSPARENCIA E IMPARCIALIDAD EN LA ELECCIÓN DE LOS MIEMBROS DEL ...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-10-13T20-31",
+          "date": "2022-10-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 177, QUE PROPONE FORTALECER EL MARCO DE LA RESPONSABILIDAD Y LA TRANSPARENCIA FISCAL DEL SECTOR PÚBLICO NO FINANCIERO",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-02-17T09-48",
+          "date": "2023-02-17",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 177, QUE PROPONE FORTALECER EL MARCO DE LA RESPONSABILIDAD Y LA TRANSPARENCIA FISCAL DEL SECTOR PÚBLICO NO FINANCIERO",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-03T16-40",
+          "date": "2023-03-03",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 1431, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1440, DECRETO LEGISLATIVO DEL SISTEMA NAC...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-23T11-36",
+          "date": "2023-03-23",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2263 Y 3078, QUE PROMUEVE EL FORTALECIMIENTO, TRANSPARENCIA Y MERITOCRACIA DEL SERVICIO CIVIL A TRAVÉS DE LA IMPLEMENTACIÓN DE LA PLATAFORMA INTEGRADA PARA L...",
+          "category": "economia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-11T11-02",
+          "date": "2023-05-11",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3642, QUE PROPONE MODIFICAR LA LEY 27806, LEY DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-11T16-27",
+          "date": "2023-05-11",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENCIA DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 676, QUE PROPONE MODIFICAR LA LEY 30424, LEY QUE REGULA LA RESPONSABILIDAD ADMINISTRATIVA DE LAS ...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "CONTRATACION PUBLICA",
+          "TRANSPARENCIA",
+          "ANTICORRUPCION",
+          "OSCE",
+          "COMPRAS PUBLICAS",
+          "CONTROL GUBERNAMENTAL"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-003",
+      "promise_text": "Crear sistemas de informacion para identificar necesidades de hospitales, escuelas e infraestructura basica",
+      "category": "social",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "SISTEMA DE INFORMACION",
+          "DATOS ABIERTOS",
+          "INFRAESTRUCTURA EDUCATIVA",
+          "INFRAESTRUCTURA HOSPITALARIA"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-004",
+      "promise_text": "Formalizar las propiedades de los peruanos para que sirvan como garantia de credito e inversion",
+      "category": "vivienda",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 3/3, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 3,
+        "supporting_si": 3,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 3
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-06-17T02-53",
+          "date": "2022-06-16",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 869, QUE PROPONE OTORGAR FUNCIONES COMPARTIDAS A LOS GOBIERNOS LOCALES EN LOS PROCESOS DE FORMALIZACIÓN DE LA PROPIEDAD INFORMAL",
+          "category": "vivienda",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-07T22-27",
+          "date": "2022-07-07",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 869, QUE PROPONE OTORGAR FUNCIONES COMPARTIDAS A LOS GOBIERNOS LOCALES EN LOS PROCESOS DE FORMALIZACIÓN DE LA PROPIEDAD INFORMAL",
+          "category": "vivienda",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-04T21-47",
+          "date": "2023-05-04",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1628, QUE PROPONE ESTABLECER MEDIDAS PARA IMPLEMENTAR LAS RECOMENDACIONES TÉCNICAS EMITIDAS POR LAS ENTIDADES COMPETENTES, A FIN DE SUPERAR EL RIESGO MITIGABLE E...",
+          "category": "vivienda",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "FORMALIZACION DE LA PROPIEDAD",
+          "PROPIEDAD INFORMAL",
+          "COFOPRI",
+          "SANEAMIENTO FISICO LEGAL",
+          "TITULACION",
+          "REGISTRO DE PREDIOS"
+        ],
+        "contradicting": [
+          "EXPROPIACION"
+        ]
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-005",
+      "promise_text": "Incrementar progresivamente el presupuesto en Salud hasta alcanzar niveles promedio latinoamericanos",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 5/5, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 5,
+        "supporting_si": 5,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 5
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-06-30T18-54",
+          "date": "2022-06-30",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2204 Y 2328, QUE PROPONE AUTORIZAR, EXCEPCIONALMENTE Y POR ÚNICA VEZ, EN EL MARCO DE LA EMERGENCIA SANITARIA, EL CAMBIO DE CONTRATO CAS-COVID A CONTRATO CAS ...",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 87.5,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-30T12-36",
+          "date": "2022-07-30",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 2204, 2328, 2371 Y 2439, QUE PROPONE AUTORIZAR, EXCEPCIONALMENTE Y POR ÚNICA VEZ, EN EL M...",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 87.5,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-10-13T20-17",
+          "date": "2022-10-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1494, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA ELABORACIÓN Y EL FINANCIAMIENTO DE LAS INVERSIONES DE OPTIMIZACIÓN, DE AMPLIACIÓN MARGINAL,...",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 60.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-10-13T20-20",
+          "date": "2022-10-13",
+          "asunto": "EXONERACIÓN 2.a VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PL 1494, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA ELABORACIÓN Y EL FINANCIAMIENTO DE LAS INVERSIONES DE OPTIMIZACIÓN, AMPLIAC...",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 66.7,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-12-21T23-07",
+          "date": "2022-12-21",
+          "asunto": "ALLANAMIENTO A LAS OBSERVACIONES FORMULADAS POR EL PRESIDENTE DE LA REPÚBLICA A LA AUTÓGRAFA RECAÍDA EN LOS PROYECTOS DE LEY 2359, 2795 Y 2802, QUE AUTORIZA CONVALIDAR COMO SERVICIO RURAL Y URBANO MAR...",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "PRESUPUESTO SALUD",
+          "FINANCIAMIENTO SALUD",
+          "RECURSOS SALUD",
+          "MINSA",
+          "SECTOR SALUD"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-006",
+      "promise_text": "Llegar a una cobertura no menor del 90% de la poblacion con servicios publicos de salud",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 158/165, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 168,
+        "supporting_si": 158,
+        "supporting_no": 7,
+        "supporting_no_ratio": 0.042,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 165
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2021-10-19T19-48",
+          "date": "2021-10-19",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 3, 6, 19 Y 36, QUE PROPONE LA LEY QUE DESARROLLA EL EJERCICIO DE LA CUESTIÓN DE CONFIANZA...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-11-11T19-45",
+          "date": "2021-11-11",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 138, QUE PROPONE LA LEY QUE ESTABLECE MEDIDAS PARA LA EXPANSIÓN DEL CONTROL RECURRENTE",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-12-17T19-26",
+          "date": "2021-12-17",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 433 (ACTUALIZADO), QUE PROPONE LA LEY QUE MODIFICA LOS ARTÍCULOS 7, 8, 10, 13 Y 26 DEL DECRE...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-01-13T21-12",
+          "date": "2022-01-13",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 39, 192, 207, 280, 286, 481 Y 626, QUE PROPONE LA LEY QUE MODIFICA LOS ARTÍCULOS 5, 8, 9 Y 26 DEL DECRETO LEGISLATIVO 1260, DECRETO LEGISLATIVO QUE FORTALECE...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-01-21T18-22",
+          "date": "2022-01-21",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 644, QUE PROPONE LA LEY QUE FORTALEE EL PROCESO DE APROBACIÓN DE LEYES DE REFORMA CONSTITUCI...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-02-01T17-22",
+          "date": "2022-02-01",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 68, QUE PROPONE LA LEY QUE DECLARA DE INTERÉS NACIONAL Y DE NECESIDAD PÚBLICA LA CREACIÓN DE...",
+          "category": "economia",
+          "ap_position": "SI",
+          "ap_si_percentage": 87.5,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-02-01T17-47",
+          "date": "2022-02-01",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPUBLICA RECAÍDA EN EL PROYECTO DE LEY 189, QUE PROPONE LA LEY QUE CREA EL SERVICIO CIVIL DE GRADUANDOS PARA EL SECTOR AGRARIO (SEC...",
+          "category": "agricultura",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-02-01T18-55",
+          "date": "2022-02-01",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 64, QUE PROPONE LA LEY QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA EJECUCIÓN DE L...",
+          "category": "agua",
+          "ap_position": "SI",
+          "ap_si_percentage": 87.5,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-02-02T13-01",
+          "date": "2022-02-02",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 698, QUE PROPONE LA LEY QUE AMPLÍA TEMPORALMENTE LA EXCEPCIÓN DEL DESEMPEÑO DE MÁS DE UN EMPLEO O CARGO PÚBLICO REMUNERADO DEL PERSONAL MÉDICO ESPECIALISTA O ASI...",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-02-02T21-42",
+          "date": "2022-02-02",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 146, QUE PROPONE LA LEY QUE DECLARA DE URGENTE INTERÉS NACIONAL LA MEJORA DE LA EDUCACIÓN Y ...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "COBERTURA UNIVERSAL",
+          "SIS",
+          "ESSALUD",
+          "ASEGURAMIENTO UNIVERSAL",
+          "ATENCION PRIMARIA DE SALUD"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-007",
+      "promise_text": "Formular politica publica para enfrentar calamidades de salud con participacion ciudadana",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 24/26, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 28,
+        "supporting_si": 24,
+        "supporting_no": 2,
+        "supporting_no_ratio": 0.077,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 26
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2021-10-28T21-41",
+          "date": "2021-10-28",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 296, QUE PROPONE LA LEY QUE MODIFICA LA LEY 26859, LEY ÓRGANICA DE ELECCIONES, Y LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICA, CON LA FINALIDAD DE ASEGURAR EL DE...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-10-28T21-55",
+          "date": "2021-10-28",
+          "asunto": "CUARTA DISPOSICIÓN TRANSITORIA DEL ARTÍCULO 2 DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 296, QUE PROPONE LA LEY QUE MODIFICA LA LEY 26859, LEY ÓRGANICA DE ELECCIONES, Y LA LEY 28094, LEY DE ORGANIZAC...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-10-28T22-07",
+          "date": "2021-10-28",
+          "asunto": "UNDÉCIMA DISPOSICIÓN TRANSITORIA DEL ARTÍCULO 3 DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 296, QUE PROPONE LA LEY QUE MODIFICA LA LEY 26859, LEY ÓRGANICA DE ELECCIONES, Y LA LEY 28094, LEY DE ORGANIZ...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-10-28T22-38",
+          "date": "2021-10-28",
+          "asunto": "CUARTA DISPOSICIÓN TRANSITORIA DEL ARTÍCULO 2 DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 296, QUE PROPONE LA LEY QUE MODIFICA LA LEY 26859, LEY ÓRGANICA DE ELECCIONES, Y LA LEY 28094, LEY DE ORGANIZAC...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-11-11T17-43",
+          "date": "2021-11-11",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 273, 315, 381 Y 405, QUE PROPONE LA LEY QUE MODIFICA EL ARTÍCULO 4 DEL DECRETO LEGISLATIVO 1496, QUE ESTABLECE DISPOSICIONES EN MATERIA DE EDUCACIÓN SUPERIOR...",
+          "category": "educacion",
+          "ap_position": "NO",
+          "ap_si_percentage": 28.6,
+          "expected_vote": "SI",
+          "aligned": false
+        },
+        {
+          "vote_id": "2022-01-12T11-45",
+          "date": "2022-01-12",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 564, QUE PROPONE LA LEY QUE PRECISA LA LEY 31173, LEY QUE GARANTIZA EL CUMPLIMIENTO DE LA LEY 29625, LEY DE DEVOLUCIÓN DE DINERO DEL FONAVI A LOS TRABAJADORES QU...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-01-13T20-54",
+          "date": "2022-01-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 564 (ACTUALIZADO), QUE PROPONE LA LEY QUE PRECISA LA LEY 31173, LEY QUE GARANTIZA EL CUMPLIMIENTO DE LA LEY 29625, LEY DE DEVOLUCIÓN DE DINERO DEL FONAVI A LOS T...",
+          "category": "fiscal",
+          "ap_position": "DIVIDED",
+          "ap_si_percentage": 33.3,
+          "expected_vote": "SI",
+          "aligned": false
+        },
+        {
+          "vote_id": "2022-02-02T13-01",
+          "date": "2022-02-02",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 698, QUE PROPONE LA LEY QUE AMPLÍA TEMPORALMENTE LA EXCEPCIÓN DEL DESEMPEÑO DE MÁS DE UN EMPLEO O CARGO PÚBLICO REMUNERADO DEL PERSONAL MÉDICO ESPECIALISTA O ASI...",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-03-10T13-59",
+          "date": "2022-03-10",
+          "asunto": "NUEVO TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1271, QUE PROPONE LA LEY QUE PRECISA DISPOSICIONES DE LA LEY 31357, SOBRE REGLAS PARA EL DESARROLLO DE LAS ELECCIONES REGIONALES Y MUNICIPALES DEL AÑO 2022...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-04-07T21-47",
+          "date": "2022-04-07",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 564 (ACTUALIZADO), QUE PROPONE PRECISAR LA LEY 31173, LEY QUE GARANTIZA EL CUMPLIMIENTO DE L...",
+          "category": "social",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "EMERGENCIA SANITARIA",
+          "COVID",
+          "PANDEMIA",
+          "SALUD PUBLICA",
+          "EMERGENCIA NACIONAL"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-008",
+      "promise_text": "Reforma curricular educativa y desarrollo de modelo de educacion que garantice calidad",
+      "category": "educacion",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 4/4, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 4,
+        "supporting_si": 4,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 4
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-11-03T12-21",
+          "date": "2022-11-03",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 38, 291 Y 410, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA INTRODUCCIÓN DE CONTENIDOS CURRICULARES DE ESTUDIO SOBRE EDUCACIÓN CÍVICA E HISTORIA DE LA SUBVERS...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-04-27T12-26",
+          "date": "2023-04-27",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPUBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 38, 291, 410 Y 2568, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA INTRODUCCIÓN DE CONTENID...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-09-14T19-06",
+          "date": "2023-09-14",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 404, 1621, 3729, 4262, 4411, 4682 Y 4684, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA INCORPORACIÓN EN EL CURRÍCULO NACIONAL DE LA EDUCACIÓN BÁSICA DE CONTEN...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-09-20T20-25",
+          "date": "2023-09-20",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1214 Y 3014, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA INCORPORACIÓN EN EL CURRÍCULO NACIONAL DE LA EDUCACIÓN BÁSICA DE CONTENIDOS CURRICULARES DE ESTUDIO ...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "CURRICULO",
+          "CONTENIDOS CURRICULARES",
+          "EDUCACION BASICA",
+          "CALIDAD EDUCATIVA"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-009",
+      "promise_text": "Reducir progresivamente la tasa de desercion escolar",
+      "category": "educacion",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 4/4, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 4,
+        "supporting_si": 4,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 4
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-03-16T21-37",
+          "date": "2022-03-16",
+          "asunto": "MOCIÓN 1985, QUE PROPONE REITERAR LA EXHORTACIÓN AL PODER EJECUTIVO, PARA QUE, A TRAVÉS DEL PROGRAMA NACIONAL DE BECAS Y CRÉDITO EDUCATIVO (PRONABEC), EL MINISTERIO DE EDUCACIÓN Y EL MINISTERIO DE ECO...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-12T20-13",
+          "date": "2023-01-12",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1639, 2071, 3214 Y 3239, QUE PROPONE DESTINAR BECAS INTEGRALES PARA EL ACCESO, PERMANENCIA Y CULMINACIÓN DE ESTUDIOS SUPERIORES EN FAVOR DE LOS ESTUDIANTES Q...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-23T22-04",
+          "date": "2023-03-23",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA SEÑORA PRESIDENTA DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 1639, 2071, 3214 Y 3239, QUE PROPONE DISPONER EL OTORGAMIENTO DE BECAS PARA LA PERMANENCI...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-12-13T18-16",
+          "date": "2023-12-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 290, QUE PROPONE MODIFICAR LA LEY 28036, LEY DE PROMOCIÓN Y DESARROLLO DEL DEPORTE, A FIN DE PERMITIR A LOS DEPORTISTAS CALIFICADOS, CALIFICADOS DE ALTO NIVEL Y ...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "DESERCION ESCOLAR",
+          "PERMANENCIA ESCOLAR",
+          "BECA",
+          "ALIMENTACION ESCOLAR",
+          "QALI WARMA"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-010",
+      "promise_text": "Mejorar condiciones laborales y remunerativas del sector educacion",
+      "category": "educacion",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 11/13, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 13,
+        "supporting_si": 11,
+        "supporting_no": 2,
+        "supporting_no_ratio": 0.154,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 13
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2021-11-11T17-43",
+          "date": "2021-11-11",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 273, 315, 381 Y 405, QUE PROPONE LA LEY QUE MODIFICA EL ARTÍCULO 4 DEL DECRETO LEGISLATIVO 1496, QUE ESTABLECE DISPOSICIONES EN MATERIA DE EDUCACIÓN SUPERIOR...",
+          "category": "educacion",
+          "ap_position": "NO",
+          "ap_si_percentage": 28.6,
+          "expected_vote": "SI",
+          "aligned": false
+        },
+        {
+          "vote_id": "2022-02-02T19-03",
+          "date": "2022-02-02",
+          "asunto": "TEXTO SUSTITURIO DE LOS PROYECTOS DE LEY 129, 337, 429, 432, 443, 444, 445, 446 Y 508, QUE PROPONE LA LEY QUE REVALORIZA LA CARRERA DOCENTE, MODIFICANDO EL ARTÍCULO 63 DE LA LEY 29944, LEY DE REFORMA ...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-03-31T21-54",
+          "date": "2022-03-31",
+          "asunto": "ALLANAMIENTO A LA OBSERVACIONES FORMULADAS POR EL PRESIDENTE DE LA REPÚBLICA A LA AUTÓGRAFA RECAÍDA EN LOS PROYECTOS DE LEY 129, 337, 429, 432, 443, 444, 445, 446 Y 508, QUE PROPONE REVALORIZAR LA CAR...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-06T17-49",
+          "date": "2022-07-06",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 336, 342, 689, 1817, 1818, 1819, 1820, 1821, 1822 Y 2162 (ACTUALIZADO), QUE PROPONE MODIFICAR LA LEY 30512, LEY DE INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIO...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-08T00-51",
+          "date": "2022-07-07",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 653, 1184, 1576, 2038 Y 2207, QUE PROPONE MODIFICAR LA FÓRMULA DE CÁLCULO DE LA COMPENSACIÓN POR TIEMPO DE SERVICIOS (CTS) DE LOS DOCENTES CONTRATADOS, AUXIL...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-12-21T20-58",
+          "date": "2022-12-21",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 336, 342, 689, 1817, 1818, 1819, 1820, 1821, 1822 Y 2162, QUE PROPONE MODIFICAR LA LEY 305...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-04-27T21-09",
+          "date": "2023-04-27",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 374 Y 1423 (ACTUALIZADO), QUE PROPONE INCORPORAR A LOS DOCENTES CIVILES DE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR DEL MINISTERIO DE DEFENSA Y DEL MINISTERIO...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-11T12-56",
+          "date": "2023-05-11",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3405, QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA MODERNIZACIÓN DE LA INFRAESTRUCTURA Y DEL EQUIPAMIENTO DEL HOSPITAL NACIONAL DOCENTE MADRE ...",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-25T17-33",
+          "date": "2023-05-25",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2594, 2636, 3832 Y 4343, QUE PROPONE AUTORIZAR EL NOMBRAMIENTO EXCEPCIONAL DE DOCENTES CONTRATADOS EN CENTROS DE EDUCACIÓN TÉCNICO-PRODUCTIVA (CETPRO) Y LA C...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 83.3,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-06-21T20-17",
+          "date": "2023-06-21",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1587, QUE PROPONE AUTORIZAR EL NOMBRAMIENTO EXCEPCIONAL DE DOCENTES CONTRATADOS EN EDUCACIÓN BÁSICA REGULAR",
+          "category": "educacion",
+          "ap_position": "NO",
+          "ap_si_percentage": 33.3,
+          "expected_vote": "SI",
+          "aligned": false
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "DOCENTE",
+          "MAGISTERIO",
+          "REMUNERACION DOCENTE",
+          "NOMBRAMIENTO DOCENTE",
+          "CARRERA PUBLICA MAGISTERIAL"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-011",
+      "promise_text": "Seleccionar jueces y fiscales en base a experiencias previas en funcion jurisdiccional",
+      "category": "justicia",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 46/47, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 51,
+        "supporting_si": 46,
+        "supporting_no": 1,
+        "supporting_no_ratio": 0.021,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 47
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2021-10-21T13-32",
+          "date": "2021-10-21",
+          "asunto": "DICTAMEN DE LA COMISIÓN DE PRESUPUESTO Y CUENTA GENERAL DE LA REPUBLICA, RECAÍDO EN EL PROYECTO DE LEY 28, QUE RECOMIENDA NO APROBAR LA CUENTA GENERAL DE LA REPÚBLICA CORRESPONDIENTE AL EJERCICIO FISC...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-11-18T10-51",
+          "date": "2021-11-18",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 103 Y 104, QUE PROPONE LA LEY QUE MODIFICA LA LEY 30483, LEY DE LA CARRERA FISCAL, A FIN DE FORTALECER LAS COMPETENCIAS SANCIONADORAS DEL MINISTERIOS PÚBLICO",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-11-25T17-27",
+          "date": "2021-11-25",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 100,QUE PROPONE LA LEY DE ENDEUDAMIENTO DEL SECTOR PUBLICO PARA EL AÑO FISCAL 2022",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-11-25T17-34",
+          "date": "2021-11-25",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 101, QUE PROPONE LA LEY DE EQUILIBRIO FINANCIERO DEL PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2022",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-11-25T17-43",
+          "date": "2021-11-25",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 99, PROPONE LA LEY DE PRESUPUESTO DEL SECTOR PÙBLICO PARA EL AÑO FISCAL 2022",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-12-17T14-19",
+          "date": "2021-12-17",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 583, QUE PROPONE LA LEY QUE DELEGA EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA TRIBUTARIA, FISCAL, FINANCIERA Y DE REACTIVACIÓN ECONÓMICA A FIN DE C...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-12-17T18-47",
+          "date": "2021-12-17",
+          "asunto": "PROYECTO DE LEY 1008, QUE PROPONE LA LEY QUE AUTORIZA CRÉDITO SUPLEMENTARIO EN EL PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2021 DESTINADO A FINANCIAR INTERVENCIONES EN EL MARCO DE LA REACTIVA...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 88.9,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-02-02T16-57",
+          "date": "2022-02-02",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 627, QUE PROPONE MODIFICAR LA LEY 27972, LEY ORGÁNICA DE MUNICIPALIDADES , Y LA LEY 27867, LEY ORGÁNICA DE GOBIERNOS REGIONALES, RESPECTO A LAS ATRIBUCIONES Y RE...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-06-01T18-38",
+          "date": "2022-06-01",
+          "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA DEL CONGRESO 2232, QUE DECLARA HABER LUGAR A LA FORMACIÓN DE CAUSA CONTRA EL EXFISCAL DE LA NACIÓN PEDRO GONZALO CHÁVARRY VALLEJOS",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 66.7,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-06-01T18-53",
+          "date": "2022-06-01",
+          "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA DEL CONGRESO 2233, QUE INHABILITA POR DIEZ AÑOS PARA EL EJERCICIO DE LA FUNCIÓN PÚBLICA AL EXFISCAL DE LA NACIÓN PEDRO GONZALO CHÁVARRY VALLEJOS",
+          "category": "justicia",
+          "ap_position": "NO",
+          "ap_si_percentage": 0.0,
+          "expected_vote": "SI",
+          "aligned": false
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "JUNTA NACIONAL DE JUSTICIA",
+          "JNJ",
+          "CARRERA JUDICIAL",
+          "SELECCION DE MAGISTRADOS",
+          "FISCAL",
+          "JUEZ"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-012",
+      "promise_text": "Optimizar y simplificar procedimientos administrativos recurriendo a nuevas tecnologias",
+      "category": "justicia",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 1 relevant laws found (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 1,
+        "supporting_si": 1,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 1
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2023-01-12T20-29",
+          "date": "2023-01-12",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1836, QUE PROPONE GARANTIZAR LA IMPLEMENTACIÓN DEL DECRETO LEGISLATIVO N° 1412, QUE APRUEBA LA LEY DE GOBIERNO DIGITAL EN LAS OFICINAS CONSULARES DEL PERÚ EN EL ...",
+          "category": "economia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "GOBIERNO DIGITAL",
+          "FIRMA DIGITAL",
+          "INTEROPERABILIDAD",
+          "PLATAFORMA DIGITAL",
+          "SIMPLIFICACION ADMINISTRATIVA"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-013",
+      "promise_text": "Dictar normas para fortalecer la actuacion multinivel en la lucha contra la delincuencia",
+      "category": "seguridad",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 10/11, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 12,
+        "supporting_si": 10,
+        "supporting_no": 1,
+        "supporting_no_ratio": 0.091,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 11
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-01-13T19-49",
+          "date": "2022-01-13",
+          "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 1627, QUE PROPONE EXHORTAR AL PODER EJECUTIVO, QUE AL AMPARO DEL ARTÍCULO 137 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ, DECLARE EN ESTADO DE EMERGENCIA POR INSEGURIDAD CIUD...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 66.7,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-01-13T21-12",
+          "date": "2022-01-13",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 39, 192, 207, 280, 286, 481 Y 626, QUE PROPONE LA LEY QUE MODIFICA LOS ARTÍCULOS 5, 8, 9 Y 26 DEL DECRETO LEGISLATIVO 1260, DECRETO LEGISLATIVO QUE FORTALECE...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-06-02T20-29",
+          "date": "2022-06-02",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 441 (ACTUALIZADO), QUE PROPONE RECONOCER A LOS COMITÉS DE AUTODEFENSA Y DESARROLLO RURAL Y L...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-07T21-48",
+          "date": "2022-07-07",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 74, 773, 1280, 1309, 1354, 1432, 1476 Y 1714, QUE PROPONE MODIFICAR LOS ARTÍCULOS 10, 45, 61 Y 63 DEL DECRETO LEGISLATIVO 1350, DECRETO LEGISLATIVO DE MIGRAC...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 90.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-12T17-00",
+          "date": "2023-01-12",
+          "asunto": "ACLARACIÓN, DEL TEXTO SUSTITUTORIO APROBADO, RECAÍDO EN EL PROYECTO DE LEY 1149, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1338, PARA FORTALECER LA SEGURIDAD CIUDADANA",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-12T20-51",
+          "date": "2023-01-12",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 74, 773, 1280, 1309, 1354, 1432, 1476 Y 1714, QUE PROPONE MODIFICAR LOS ARTÍCULOS 10, 45, ...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 71.4,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-26T16-20",
+          "date": "2023-01-26",
+          "asunto": "ACLARACIÓN DE LA INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 74, 773, 1280, 1309, 1354, 1432, 1476 Y 1714, QUE MODIFICA LOS ARTÍCULOS...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 85.7,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-23T22-44",
+          "date": "2023-03-23",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2141, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA PARTICIPACIÓN DE LAS ORGANIZACIONES DE MOTOCICLISTAS PARA EL APOYO EN LA SEGURIDAD CIUDADANA",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 60.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-06-14T19-20",
+          "date": "2023-06-14",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 621, 1554, 2811, 4264, 4376 Y 4810, QUE PROPONE MODIFICAR EL CÓDIGO PENAL, DECRETO LEGISLATIVO 635; EL CÓDIGO DE EJECUCIÓN PENAL, DECRETO LEGISLATIVO 654; Y ...",
+          "category": "seguridad",
+          "ap_position": "DIVIDED",
+          "ap_si_percentage": 0.0,
+          "expected_vote": "SI",
+          "aligned": false
+        },
+        {
+          "vote_id": "2023-06-14T19-38",
+          "date": "2023-06-14",
+          "asunto": "ALLANAMIENTO A LAS OBSERVACIONES FORMULADAS POR LA PRESIDENCIA DE LA REPÚBLICA A LA AUTÓGRAFA SOBRE EL PROYECTO DE LEY 1149, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1338, PARA FORTALECER LA SEGUR...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "SEGURIDAD CIUDADANA",
+          "CRIMEN ORGANIZADO",
+          "DELINCUENCIA",
+          "CODIGO PENAL",
+          "PENA PRIVATIVA"
+        ],
+        "contradicting": [
+          "BENEFICIO PENITENCIARIO",
+          "INDULTO",
+          "REDUCCION DE PENA",
+          "AMNISTIA"
+        ]
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-014",
+      "promise_text": "Fortalecer sistemas de informacion y monitoreo para implementar planes de seguridad ciudadana",
+      "category": "seguridad",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 12/13, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 14,
+        "supporting_si": 12,
+        "supporting_no": 1,
+        "supporting_no_ratio": 0.077,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 13
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-01-13T19-49",
+          "date": "2022-01-13",
+          "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 1627, QUE PROPONE EXHORTAR AL PODER EJECUTIVO, QUE AL AMPARO DEL ARTÍCULO 137 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ, DECLARE EN ESTADO DE EMERGENCIA POR INSEGURIDAD CIUD...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 66.7,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-01-13T21-12",
+          "date": "2022-01-13",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 39, 192, 207, 280, 286, 481 Y 626, QUE PROPONE LA LEY QUE MODIFICA LOS ARTÍCULOS 5, 8, 9 Y 26 DEL DECRETO LEGISLATIVO 1260, DECRETO LEGISLATIVO QUE FORTALECE...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-06-02T20-29",
+          "date": "2022-06-02",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 441 (ACTUALIZADO), QUE PROPONE RECONOCER A LOS COMITÉS DE AUTODEFENSA Y DESARROLLO RURAL Y L...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-07T21-48",
+          "date": "2022-07-07",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 74, 773, 1280, 1309, 1354, 1432, 1476 Y 1714, QUE PROPONE MODIFICAR LOS ARTÍCULOS 10, 45, 61 Y 63 DEL DECRETO LEGISLATIVO 1350, DECRETO LEGISLATIVO DE MIGRAC...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 90.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-12T17-00",
+          "date": "2023-01-12",
+          "asunto": "ACLARACIÓN, DEL TEXTO SUSTITUTORIO APROBADO, RECAÍDO EN EL PROYECTO DE LEY 1149, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1338, PARA FORTALECER LA SEGURIDAD CIUDADANA",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-12T20-51",
+          "date": "2023-01-12",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 74, 773, 1280, 1309, 1354, 1432, 1476 Y 1714, QUE PROPONE MODIFICAR LOS ARTÍCULOS 10, 45, ...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 71.4,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-26T16-20",
+          "date": "2023-01-26",
+          "asunto": "ACLARACIÓN DE LA INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 74, 773, 1280, 1309, 1354, 1432, 1476 Y 1714, QUE MODIFICA LOS ARTÍCULOS...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 85.7,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-23T22-44",
+          "date": "2023-03-23",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2141, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA PARTICIPACIÓN DE LAS ORGANIZACIONES DE MOTOCICLISTAS PARA EL APOYO EN LA SEGURIDAD CIUDADANA",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 60.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-29T16-40",
+          "date": "2023-03-29",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1337, 2361 Y 2599, QUE PROPONE MODIFICAR LA LEY 31297, LEY DEL SERVICIO DE SERENAZGO MUNICIPAL, QUE AUTORIZA EL USO DE ARMAS NO LETALES",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-06-14T16-39",
+          "date": "2023-06-14",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENCIA DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 1337, 2361 Y 2599, QUE PROPONE MODIFICAR LA LEY 31297, LEY DEL SERVICIO DE SERENAZGO MUNICIPAL,...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "SEGURIDAD CIUDADANA",
+          "VIDEOVIGILANCIA",
+          "SERENAZGO",
+          "PATRULLAJE"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-015",
+      "promise_text": "Potenciar la operatividad de juzgados y fiscalias anticorrupcion",
+      "category": "justicia",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 3/3, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 3,
+        "supporting_si": 3,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 3
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2021-08-19T20-50",
+          "date": "2021-08-19",
+          "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 038, QUE PROPONE EXHORTAR AL SEÑOR PRESIDENTE DE LA REPÚBLICA JOSÉ PEDRO CASTILLO TERRONES A TENER EN CUENTA PARA LA DESIGNACIÓN DE MINISTROS DE ESTADO LOS APSECTOS REL...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-06-15T20-08",
+          "date": "2022-06-15",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1161, 1162 Y 1163 (ACTUALIZADOS), QUE PROPONE LA LEY DE REFORMA CONSTITUCIONAL QUE FORTALECE LA LUCHA ANTICORRUPCION EN EL MARCO DEL LEV...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 66.7,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-11T16-27",
+          "date": "2023-05-11",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENCIA DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 676, QUE PROPONE MODIFICAR LA LEY 30424, LEY QUE REGULA LA RESPONSABILIDAD ADMINISTRATIVA DE LAS ...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "ANTICORRUPCION",
+          "LUCHA CONTRA LA CORRUPCION",
+          "FISCALIA ANTICORRUPCION",
+          "LAVADO DE ACTIVOS",
+          "ENRIQUECIMIENTO ILICITO"
+        ],
+        "contradicting": [
+          "PRESCRIPCION DE DELITOS",
+          "INMUNIDAD PARLAMENTARIA"
+        ]
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-016",
+      "promise_text": "Fortalecer la Procuraduria General del Estado y Procuradurias Publicas Especializadas",
+      "category": "justicia",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 2/2, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 2,
+        "supporting_si": 2,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 2
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2023-04-27T23-03",
+          "date": "2023-04-27",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PL 3270 Y 3651, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1326, DECRETO LEGISLATIVO QUE REESTRUCTURA EL SISTEMA ADMINISTRATIVO DE DEFENSA JURÍDICA DEL ESTADO CREAR LA PROC...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-10T18-26",
+          "date": "2023-05-10",
+          "asunto": "2a. VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PL 3270 Y 3651, QUE PROPONE MODIFICAR EL D.L. 1326, DECRETO LEGISLATIVO QUE REESTRUCTURA EL SISTEMA ADMINISTRATIVO DE DEFENSA JURÍDICA DEL ESTADO Y CREAR LA ...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 83.3,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "PROCURADURIA",
+          "PROCURADOR",
+          "DEFENSA JURIDICA DEL ESTADO"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-017",
+      "promise_text": "Someter propuesta de reforma tributaria a consulta nacional",
+      "category": "fiscal",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 2/2, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 2,
+        "supporting_si": 2,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 2
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2023-04-12T18-37",
+          "date": "2023-04-12",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 593 Y 1194, QUE PROPONE AUTORIZAR EXCEPCIONALMENTE A LA SUPERINTENDENCIA NACIONAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA (SUNAT) PARA DISPONER BIENES Y ME...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-12-13T17-51",
+          "date": "2023-12-13",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENTA DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 593, 1194, 2743 Y 4675, QUE PROPONE AUTORIZAR EXCEPCIONALMENTE A LA SUPERINTENDENCIA NACIONAL DE...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 87.5,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "REFORMA TRIBUTARIA",
+          "POLITICA TRIBUTARIA",
+          "SUNAT",
+          "SISTEMA TRIBUTARIO"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-018",
+      "promise_text": "Reactivar por lo menos 4 proyectos paralizados de inversion",
+      "category": "economia",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "REACTIVACION ECONOMICA",
+          "INVERSION PUBLICA",
+          "PROINVERSION",
+          "OBRAS POR IMPUESTOS",
+          "APP"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-019",
+      "promise_text": "Incorporar a los inmigrantes al sector formal",
+      "category": "empleo",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 8/8, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 9,
+        "supporting_si": 8,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 8
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2021-12-17T21-43",
+          "date": "2021-12-17",
+          "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 227 (ACTUALIZADO), QUE APRUEBA EL ACUERDO ENTRE LA REPÚBLICA DEL PERÚ Y LA REPÚBLICA DE CHILE PARA FORTALECER LA LUCHA CONTRA LA TRATA DE PERSONAS, EL TRÁFICO ILÍCIT...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-07T21-48",
+          "date": "2022-07-07",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 74, 773, 1280, 1309, 1354, 1432, 1476 Y 1714, QUE PROPONE MODIFICAR LOS ARTÍCULOS 10, 45, 61 Y 63 DEL DECRETO LEGISLATIVO 1350, DECRETO LEGISLATIVO DE MIGRAC...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 90.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-12-28T22-09",
+          "date": "2022-12-28",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3011, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1350, DECRETO LEGISLATIVO DE MIGRACIONES, A FIN DE ESTABLECER LA VIGENCIA DEL PASAPORTE ELECTRÓNICO ORDINARIO ...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-12T20-51",
+          "date": "2023-01-12",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 74, 773, 1280, 1309, 1354, 1432, 1476 Y 1714, QUE PROPONE MODIFICAR LOS ARTÍCULOS 10, 45, ...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 71.4,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-16T13-05",
+          "date": "2023-01-16",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2003, QUE PROPONE INCORPORAR EL NUMERAL 11.3 AL ARTÍCULO 11 DEL DECRETO LEGISLATIVO 1350, DECRETO LEGISLATIVO DE MIGRACIONES, A FIN DE GARANTIZAR LA PROTECCIÓN A...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-26T16-20",
+          "date": "2023-01-26",
+          "asunto": "ACLARACIÓN DE LA INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA, RECAÍDA EN LOS PROYECTOS DE LEY 74, 773, 1280, 1309, 1354, 1432, 1476 Y 1714, QUE MODIFICA LOS ARTÍCULOS...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 85.7,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-29T22-10",
+          "date": "2023-03-29",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 3580 Y 3633, QUE PROPONE MODIFICAR LA LEY 30001, LEY DE REINSERCIÓN ECONÓMICA Y SOCIAL PARA EL MIGRANTE RETORNADO",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-06-14T19-20",
+          "date": "2023-06-14",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 621, 1554, 2811, 4264, 4376 Y 4810, QUE PROPONE MODIFICAR EL CÓDIGO PENAL, DECRETO LEGISLATIVO 635; EL CÓDIGO DE EJECUCIÓN PENAL, DECRETO LEGISLATIVO 654; Y ...",
+          "category": "seguridad",
+          "ap_position": "DIVIDED",
+          "ap_si_percentage": 0.0,
+          "expected_vote": "SI",
+          "aligned": false
+        },
+        {
+          "vote_id": "2023-06-22T18-46",
+          "date": "2023-06-22",
+          "asunto": "ALLANAMIENTO A LAS OBSERVACIONES FORMULADAS POR LA PRESIDENCIA DE LA REPÚBLICA A LA AUTÓGRAFA RECAÍDA EN LOS PROYECTOS DE LEY 633, 3580 Y 3633, QUE PROPONE MODIFICAR LA LEY 30001, LEY DE REINSERCIÓN E...",
+          "category": "social",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "MIGRANTE",
+          "MIGRACION",
+          "REFUGIADO",
+          "EXTRANJERO EN SITUACION",
+          "PROTECCION A MIGRANTES"
+        ],
+        "contradicting": [
+          "EXPULSION DE EXTRANJEROS",
+          "DEPORTACION"
+        ]
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-020",
+      "promise_text": "Crear un fondo soberano de riqueza bajo regimen de administracion privada",
+      "category": "fiscal",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "FONDO DE ESTABILIZACION",
+          "FONDO SOBERANO",
+          "AHORRO FISCAL",
+          "RESERVA FISCAL"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-021",
+      "promise_text": "Adoptar presupuesto basada en genero",
+      "category": "fiscal",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 12/12, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 13,
+        "supporting_si": 12,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 12
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-03-08T11-19",
+          "date": "2022-03-08",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 327 Y 905, QUE PROPONE MODIFICAR LA LEY 26790, LEY DE MODERNIACIÓN DE LA SEURIDAD SOCIAL EN SALUD, PARA ESTABLECER LA COBERTURA INMEDITA A LA MUJER GESTANTE ...",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-03-08T14-03",
+          "date": "2022-03-08",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 668 Y 1073, QUE PROPONE MOIFICAR LA LEY 30364, LEY PARA PREVENIR SANCIONAR Y ERRDICAR LA VIOLENCIA CONTRA LAS MUJERES Y LOS INTEGRANTES DEL GRUPO FAMILIAR, C...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-05-05T19-35",
+          "date": "2022-05-05",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 327, 905 Y 1335, QUE PROPONE MODIFICAR LA LEY 26790, LEY DE MODERNIZACIÓN DE LA SEGURIDAD ...",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-06-02T19-28",
+          "date": "2022-06-02",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1074 Y 1430, QUE PROPONE LA LEY DE PREVENCIÓN DEL CÁNCER EN LAS MUJERES Y EL FORTALECIMIENTO DE LA ATENCIÓN ESPECIALIZADA ONCOLÓGICA",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-12T19-15",
+          "date": "2022-07-12",
+          "asunto": "ACLARACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1074 Y 1430, QUE PROPONE LA LEY DE PREVENCIÓN DEL CÁNCER EN LAS MUJERES Y EL FORTALECIMIENTO DE LA ATENCIÓN ESPECIALIZADA ONCOLÓGICA",
+          "category": "salud",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-10-06T11-54",
+          "date": "2022-10-06",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1359, QUE PROMUEVE EL ACCESO A LA VIVIENDA PARA LAS MUJERES VÍCTIMAS DE VIOLENCIA E INCORPORA A OTRAS INSTITUCIONES PÚBLICAS PARA ASIGNAR BIENES INMUEBLES A LOS ...",
+          "category": "vivienda",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-11-17T20-56",
+          "date": "2022-11-17",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1223, QUE PROPONE MODIFICAR LA LEY 30364, LEY PARA PREVENIR, SANCIONAR Y ERRADICAR LA VIOLENCIA CONTRA LAS MUJERES Y LOS INTEGRANTES DEL GRUPO FAMILIAR, PARA ELI...",
+          "category": "social",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-11-24T21-35",
+          "date": "2022-11-24",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1368, QUE PROMUEVE LA CONTRATACIÓN LABORAL, EN EL SECTOR PRIVADO, DE MUJERES VÍCTIMAS DE VIOLENCIA FAMILIAR",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-04-12T22-06",
+          "date": "2023-04-12",
+          "asunto": "TEXTO SUSTITUTORIO CONSENSUADO DE LAS COMISIONES DE MUJER Y DE INCLUSIÓN SOCIAL DEL PROYECTO DE LEY 2894, QUE PROPONE LA PROTECCIÓN A LA MUJER JEFA DE HOGAR EN SITUACIÓN DE POBREZA O POBREZA EXTREMA",
+          "category": "social",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-04T22-24",
+          "date": "2023-05-04",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 313, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA REUBICACIÓN DEL ESTABLECIMIENTO PENITENCIARIO CUSCO VARONES Y MUJERES QUENCORO, UBICADO EN EL DISTRITO DE SAN JE...",
+          "category": "seguridad",
+          "ap_position": "DIVIDED",
+          "ap_si_percentage": 40.0,
+          "expected_vote": "SI",
+          "aligned": false
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "IGUALDAD DE GENERO",
+          "VIOLENCIA CONTRA LA MUJER",
+          "FEMINICIDIO",
+          "PARIDAD",
+          "EQUIDAD DE GENERO",
+          "MUJER"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-022",
+      "promise_text": "Modificar ley laboral en favor del empleo juvenil e incentivar formacion laboral",
+      "category": "empleo",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 1 relevant laws found (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 1,
+        "supporting_si": 1,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 1
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2023-06-16T00-22",
+          "date": "2023-06-15",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1404, QUE PROPONE LA LEY DEL JOVEN EMPRESARIO",
+          "category": "economia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "EMPLEO JUVENIL",
+          "PRIMER EMPLEO",
+          "FORMACION LABORAL",
+          "PRACTICAS PREPROFESIONALES",
+          "JOVEN"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-023",
+      "promise_text": "Reformar el sistema previsional para lograr pensiones dignas basadas en cuentas individuales",
+      "category": "social",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 11/12, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 13,
+        "supporting_si": 11,
+        "supporting_no": 1,
+        "supporting_no_ratio": 0.083,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 12
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-03-10T19-03",
+          "date": "2022-03-10",
+          "asunto": "NUEVO TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 483, QUE PROPONE MODIFICAR LA LEY 27585, LEY DE SIMPLIFICACIÓN ADMINISTRATIVA DE LAS SOLICITUDES DE PENSIÓN DEL SISTEMA NACIONAL DE PENSIONES REGULADO POR ...",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-04-28T22-42",
+          "date": "2022-04-28",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 319, QUE PROPONE REGULAR LA CONTRATACIÓN DE PENSIONISTAS DE LAS FUERZAS ARMADAS Y DE LA POLICÍA NACIONAL DEL PERÚ",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 90.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-05-04T20-25",
+          "date": "2022-05-04",
+          "asunto": "TEXTO SUSTITUTORIO CONSENSUADO DE LAS COMISIONES DE ECONOMÍA Y DE TRABAJO RECAÍDO EN LOS PROYECTOS DE LEY 929, 1117, 1118, 1119, 1613 Y 1619, QUE PROPONE LA LEY QUE FACULTA EL RETIRO EXTRAORDINARIO DE...",
+          "category": "empleo",
+          "ap_position": "NO",
+          "ap_si_percentage": 44.4,
+          "expected_vote": "SI",
+          "aligned": false
+        },
+        {
+          "vote_id": "2022-05-04T21-17",
+          "date": "2022-05-04",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 919, QUE PROPONE MODIFICAR LOS ARTÍCULOS 16, 17, 29 Y 30 E INCORPORAR LA DÉCIMA DISPOSICIÓN COMPLEMENTARIA FINAL AL DECRETO LEGISLATIVO 1133, DECRETO LEGISLATIVO...",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-06-02T21-50",
+          "date": "2022-06-02",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 255, 934 Y 1256, QUE PROPONE CREAR LAS PENSIONES MÍNIMAS Y PROMOVER LOS APORTES VOLUNTARIOS ALTERNATIVOS CON FINES PREVISIONALES",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-06-09T20-24",
+          "date": "2022-06-09",
+          "asunto": "SEGUNDA VOTACIÓN DEL PROYECTO DE LEY 919, SE PROPONE MODIFICAR LOS ARTÍCULOS 16, 17, 29 Y 30 E INCORPORAR LA DÉCIMA DISPOSICIÓN COMPLEMENTARIA FINAL AL DECRETO LEGISLATIVO 1133, DECRETO LEGISLATIVO PA...",
+          "category": "seguridad",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-12T17-55",
+          "date": "2022-07-12",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 483, QUE PROPONE MODIFICAR LA LEY 27585, LEY DE SIMPLIFICACIÓN ADMINISTRATIVA DE LAS SOLICIT...",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-10-13T21-28",
+          "date": "2022-10-13",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 110, 416 Y 472, QUE PROPONE CREAR LA COMISIÓN ESPECIAL MULTISECTORIAL ENCARGADA DE ESTABLECER MECANISMOS DE COMPENSACIÓN Y ALTERNATIVAS DE ADMINISTRACIÓN DE ...",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-05T11-49",
+          "date": "2023-01-05",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1178, QUE PROPONE CREAR EL RÉGIMEN DE REPROGRAMACIÓN DE APORTES DEL SISTEMA PRIVADO DE PENSIONES PARA ENTIDADES DEL SECTOR PRIVADO",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 83.3,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-05T12-25",
+          "date": "2023-01-05",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1260, 1802, 1913 Y 1958, QUE PROPONE ACTUALIZAR EL BONO DE RECONOCIMIENTO A LOS APORTANTES Y EX APORTANTES DE LA OFICINA DE NORMALIZACIÓN PREVISIONAL (ONP)",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "PENSION",
+          "AFP",
+          "ONP",
+          "SISTEMA PREVISIONAL",
+          "JUBILACION",
+          "RETIRO DE FONDOS"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-024",
+      "promise_text": "Adoptar reforma tributaria que reduzca dependencia en impuestos indirectos a favor de directos",
+      "category": "fiscal",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 2/2, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 2,
+        "supporting_si": 2,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 2
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2023-06-21T21-47",
+          "date": "2023-06-21",
+          "asunto": "TEXTO SUSTITUTORIO DEL PL 4029, QUE PROPONE MODIFICAR LA LEY 27037, LEY DE PROMOCIÓN DE INVERSIÓN EN LA AMAZONÍA, PARA OTORGAR A LA ACTIVIDAD DEL TRANSPORTE FLUVIAL DE CARGA Y PASAJEROS EN LOS DEPARTA...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-10-19T18-28",
+          "date": "2023-10-19",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 4777, QUE PROPONE AMPLIAR EL PLAZO PARA LA PRESENTACIÓN DE DECLARACIÓN JURADA ANUAL Y PAGO DEL IMPUESTO A LA RENTA (IR) DE LAS PERSONAS NATURALES Y DE LAS MICRO ...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "IMPUESTO A LA RENTA",
+          "IGV",
+          "REFORMA TRIBUTARIA",
+          "SISTEMA TRIBUTARIO"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-025",
+      "promise_text": "Revisar la asignacion de gastos e ingresos a gobiernos subnacionales",
+      "category": "fiscal",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 6/6, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 6,
+        "supporting_si": 6,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 6
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-09-22T16-14",
+          "date": "2022-09-22",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 31, 97, 175, 1170 Y 1458, QUE PROPONE CREAR EL CANON HÍDRICO COMO MEDIDA DE COMPENSACIÓN A LAS POBLACIONES AFECTADAS POR TRASVASE",
+          "category": "agua",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-10-13T18-20",
+          "date": "2022-10-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 34, QUE PROPONE DISPONER LA CREACIÓN DE UNA UNIDAD EJECUTORA EN CADA GOBIERNO REGIONAL PARA ADMINISTRAR TODOS LOS INGRESOS Y GASTOS DE LOS INSTITUTOS Y ESCUELAS ...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-03T21-50",
+          "date": "2023-03-03",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 31, 97, 175, 1170 Y 1458, QUE PROPONE CREAR EL CANON HÍDRICO COMO MEDIDA DE COMPENSACIÓN A...",
+          "category": "agua",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-29T17-10",
+          "date": "2023-03-29",
+          "asunto": "ACLARACIÓN DE LA INSISTENCIA APROBADA RECAÍDA EN LOS PROYECTOS DE LEY 31, 97, 175, 1170 Y 1458, QUE PROPONE CREAR EL CANON HÍDRICO COMO MEDIDA DE COMPENSACIÓN A LAS POBLACIÓN AFECTADAS POR TRASVASE DE...",
+          "category": "agua",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-11T18-18",
+          "date": "2023-05-11",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENCIA DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 34, QUE PROPONE DISPONER LA CREACIÓN DE UNA UNIDAD EJECUTORA EN CADA GOBIERNO REGIONAL PARA ADMIN...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-25T20-58",
+          "date": "2023-05-25",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO 3404 QUE PROPONE MODIFICAR LA LEY 24300, A FIN DE MEJORAR LA DISTRIBUCIÓN DEL CANON Y SOBRECANON PETROLERO DE LORETO",
+          "category": "energia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "CANON",
+          "TRANSFERENCIA A GOBIERNOS",
+          "DESCENTRALIZACION FISCAL",
+          "FONCOMUN",
+          "GOBIERNO REGIONAL",
+          "GOBIERNO LOCAL"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-026",
+      "promise_text": "Consensuar ley que promueva empleo y proteja beneficios sociales",
+      "category": "empleo",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 20/21, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 24,
+        "supporting_si": 20,
+        "supporting_no": 1,
+        "supporting_no_ratio": 0.048,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 21
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-01-12T11-45",
+          "date": "2022-01-12",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 564, QUE PROPONE LA LEY QUE PRECISA LA LEY 31173, LEY QUE GARANTIZA EL CUMPLIMIENTO DE LA LEY 29625, LEY DE DEVOLUCIÓN DE DINERO DEL FONAVI A LOS TRABAJADORES QU...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-01-13T20-54",
+          "date": "2022-01-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 564 (ACTUALIZADO), QUE PROPONE LA LEY QUE PRECISA LA LEY 31173, LEY QUE GARANTIZA EL CUMPLIMIENTO DE LA LEY 29625, LEY DE DEVOLUCIÓN DE DINERO DEL FONAVI A LOS T...",
+          "category": "fiscal",
+          "ap_position": "DIVIDED",
+          "ap_si_percentage": 33.3,
+          "expected_vote": "SI",
+          "aligned": false
+        },
+        {
+          "vote_id": "2022-02-01T18-43",
+          "date": "2022-02-01",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 422 (ACTUALIZADO), QUE PROPONE MODIFICAR LA LEY 30112, LEY DEL EJERCICIO PROFESIONAL DEL TRABAJADOR SOCIAL",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-03-16T22-22",
+          "date": "2022-03-16",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 395, QUE PROPONE LA LEY QUE DECLARA EL 22 DE MARZO DE CADA AÑO DÍA DE LOS TRABAJADORES Y TRABAJADORAS DEL SECTOR DE AGUA POTABLE Y SANEAMIENTO.",
+          "category": "agua",
+          "ap_position": "SI",
+          "ap_si_percentage": 66.7,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-04-07T21-47",
+          "date": "2022-04-07",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 564 (ACTUALIZADO), QUE PROPONE PRECISAR LA LEY 31173, LEY QUE GARANTIZA EL CUMPLIMIENTO DE L...",
+          "category": "social",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-05-04T18-36",
+          "date": "2022-05-04",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 638, QUE PROPONE DECLARAR EL 5 DE NOVIEMBRE DE CADA AÑO DÍA DEL OBRERO MUNICIPAL Y FERIADO NO LABORABLE PARA ESTOS TRABAJADORES",
+          "category": "empleo",
+          "ap_position": "NO",
+          "ap_si_percentage": 0.0,
+          "expected_vote": "SI",
+          "aligned": false
+        },
+        {
+          "vote_id": "2022-05-05T17-04",
+          "date": "2022-05-05",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 652, QUE PROPONE ESTABLECER LA LICENCIA CON GOCE DE HABER Y POSTERIOR COMPENSACIÓN PARA LOS TRABAJADORES QUE REALICEN EXÁMENES ONCOLÓGICOS PREVENTIVOS ANUALES",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-08T00-51",
+          "date": "2022-07-07",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 653, 1184, 1576, 2038 Y 2207, QUE PROPONE MODIFICAR LA FÓRMULA DE CÁLCULO DE LA COMPENSACIÓN POR TIEMPO DE SERVICIOS (CTS) DE LOS DOCENTES CONTRATADOS, AUXIL...",
+          "category": "educacion",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-14T01-11",
+          "date": "2022-07-13",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 442 (ACTUALIZADO), QUE PROPONE MODIFICAR LA LEY 30112, LEY DEL EJERCICIO PROFESIONAL DEL TRA...",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-14T14-53",
+          "date": "2022-07-14",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 487, QUE PROPONE ESTABLECER NORMAS PARA LA JUBILACIÓN DE LOS TRABAJADORES DE CONSTRUCCIÓN CIVIL",
+          "category": "empleo",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "DERECHOS LABORALES",
+          "TRABAJADOR",
+          "CTS",
+          "GRATIFICACION",
+          "BENEFICIOS SOCIALES",
+          "PROTECCION AL TRABAJADOR"
+        ],
+        "contradicting": [
+          "TERCERIZAR",
+          "DESPIDO ARBITRARIO"
+        ]
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-027",
+      "promise_text": "Formalizar no menos del 70% de los predios rurales titulados y registrados",
+      "category": "vivienda",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "PREDIO RURAL",
+          "SANEAMIENTO FISICO LEGAL",
+          "TITULACION",
+          "CATASTRO",
+          "AGRICOLA",
+          "PROPIEDAD AGRARIA"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-028",
+      "promise_text": "Titular y registrar 70% de las comunidades campesinas y nativas",
+      "category": "vivienda",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 2,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-10-13T19-27",
+          "date": "2022-10-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1210, QUE PROPONE MODIFICAR LA LEY 24657, LEY QUE DECLARA DE NECESIDAD NACIONAL E INTERÉS SOCIAL EL DESLINDE Y LA TITULACIÓN DEL TERRITORIO DE LAS COMUNIDADES CA...",
+          "category": "vivienda",
+          "ap_position": "DIVIDED",
+          "ap_si_percentage": 50.0,
+          "expected_vote": "SI",
+          "aligned": false
+        },
+        {
+          "vote_id": "2023-01-05T20-38",
+          "date": "2023-01-05",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 394 Y 2247, QUE PROPONE MODIFICAR LA LEY 24656, LEY GENERAL DE COMUNIDADES CAMPESINAS, PARA GARANTIZAR EL DERECHO DE POSESIÓN Y PROPIEDAD COMUNAL EN LOS CASO...",
+          "category": "agricultura",
+          "ap_position": "DIVIDED",
+          "ap_si_percentage": 33.3,
+          "expected_vote": "SI",
+          "aligned": false
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "COMUNIDADES CAMPESINAS",
+          "COMUNIDADES NATIVAS",
+          "TITULACION",
+          "TERRITORIO DE LAS COMUNIDADES",
+          "PROPIEDAD COMUNAL",
+          "POSESION COMUNAL"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-029",
+      "promise_text": "Fomentar la mineria sostenible y responsable sea pequena, mediana o grande",
+      "category": "mineria",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 6/6, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 6,
+        "supporting_si": 6,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 6
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-06-03T00-02",
+          "date": "2022-06-02",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 412, QUE PROPONE ESTABLECER MEDIDAS ESPECIALES PARA EMPRESAS EN REESTRUCTURACIÓN PATRIMONIAL EN EL MARCO DE LA LEY GENERAL DEL SISTEMA CONCURSAL A FIN DE FORTALE...",
+          "category": "mineria",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-08T01-06",
+          "date": "2022-07-07",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPUBLICA RECAÍDA EN EL PROYECTO DE LEY 412, QUE PROPONE ESTABLECER MEDIDAS ESPECIALES PARA EMPRESAS EN REESTRUCTURACIÓN PATRIMONIAL...",
+          "category": "mineria",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-07-15T22-07",
+          "date": "2022-07-15",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPUBLICA RECAÍDA EN EL PROYECTO DE LEY 412, QUE PROPONE ESTABLECER MEDIDAS ESPECIALES PARA EMPRESAS EN REESTRUCTURACIÓN PATRIMONIAL...",
+          "category": "ambiente",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-05T23-03",
+          "date": "2023-01-05",
+          "asunto": "TEXTO SUSTITUTORIO DEL PL 2742, QUE MODIFICA EL D. LEG. 1107, QUE ESTABLECE MEDIDAS DE CONTROL Y FISCALIZACIÓN EN LA DISTRIBUCIÓN, TRANSPORTE Y COMERCIALIZACIÓN DE MAQUINARIAS Y EQUIPOS QUE PUEDAN SER...",
+          "category": "mineria",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-01-05T23-05",
+          "date": "2023-01-05",
+          "asunto": "EXON. 2ª VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PL 2742, QUE MODIFICA EL D. LEG. 1107, QUE ESTABLECE MEDIDAS DE CONTROL Y FISCALIZACIÓN EN LA DISTRIBUCIÓN, TRANSPORTE Y COMERCIALIZACIÓN DE MAQUINARIAS Y ...",
+          "category": "mineria",
+          "ap_position": "SI",
+          "ap_si_percentage": 71.4,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-04T17-22",
+          "date": "2023-05-04",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENCIA DE LA REPUBLICA RECAÍDA EN EL PL 2742, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1107, QUE ESTABLECE MEDIDAS DE CONTROL Y FISCALIZACIÓN EN L...",
+          "category": "mineria",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "MINERIA",
+          "MINERO",
+          "PASIVOS AMBIENTALES MINEROS",
+          "REINFO",
+          "GESTION AMBIENTAL"
+        ],
+        "contradicting": [
+          "MINERIA ILEGAL"
+        ]
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-030",
+      "promise_text": "Disenar e implementar sistemas de participacion ciudadana para la proteccion ambiental",
+      "category": "ambiente",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 1 relevant laws found (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 1,
+        "supporting_si": 1,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 1
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2023-08-31T17-16",
+          "date": "2023-08-31",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3229, QUE PROPONE MODIFICAR LA LEY 27446, LEY DEL SISTEMA NACIONAL DE EVALUACIÓN DE IMPACTO AMBIENTAL, RESPECTO A LA ESTRATEGIA DE MANEJO AMBIENTAL EN EL CONTENI...",
+          "category": "ambiente",
+          "ap_position": "SI",
+          "ap_si_percentage": 87.5,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "EVALUACION AMBIENTAL",
+          "PARTICIPACION AMBIENTAL",
+          "CONSULTA PREVIA",
+          "IMPACTO AMBIENTAL",
+          "PROTECCION AMBIENTAL"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "APAIS-2021-031",
+      "promise_text": "Crear un observatorio de cumplimiento de planes neutral e independiente del gobierno",
+      "category": "justicia",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 9/9, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 9,
+        "supporting_si": 9,
+        "supporting_no": 0,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 9
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2022-07-15T20-00",
+          "date": "2022-07-15",
+          "asunto": "INFORME FINAL, EN MAYORÍA, DE LA COMISIÓN DE FISCALIZACIÓN CON FACULTAD INVESTIGADORA SOBRE PRESUNTOS HECHOS ILÍCITOS DE VULNERACIÓN AL PRINCIPIO DE TRANSPARENCIA EN LA ACTUACIÓN Y DESEMPEÑO DEL CARGO...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-09-01T13-52",
+          "date": "2022-09-01",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1431, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1440, DECRETO LEGISLATIVO DEL SISTEMA NACIONAL DE PRESUPUESTO PÚBLICO, CON LA FINALIDAD DE FORTALECER LA RENDI...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-09-22T10-19",
+          "date": "2022-09-22",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1591 Y 1741, QUE PROPONE MODIFICAR EL ARTÍCULO 4 DE LA LEY 26304, PARA ESTABLECER REGLAS DE TRANSPARENCIA E IMPARCIALIDAD EN LA ELECCIÓN DE LOS MIEMBROS DEL ...",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2022-10-13T20-31",
+          "date": "2022-10-13",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 177, QUE PROPONE FORTALECER EL MARCO DE LA RESPONSABILIDAD Y LA TRANSPARENCIA FISCAL DEL SECTOR PÚBLICO NO FINANCIERO",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-02-17T09-48",
+          "date": "2023-02-17",
+          "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 177, QUE PROPONE FORTALECER EL MARCO DE LA RESPONSABILIDAD Y LA TRANSPARENCIA FISCAL DEL SECTOR PÚBLICO NO FINANCIERO",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-03T16-40",
+          "date": "2023-03-03",
+          "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 1431, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1440, DECRETO LEGISLATIVO DEL SISTEMA NAC...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-03-23T11-36",
+          "date": "2023-03-23",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2263 Y 3078, QUE PROMUEVE EL FORTALECIMIENTO, TRANSPARENCIA Y MERITOCRACIA DEL SERVICIO CIVIL A TRAVÉS DE LA IMPLEMENTACIÓN DE LA PLATAFORMA INTEGRADA PARA L...",
+          "category": "economia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-05-11T11-02",
+          "date": "2023-05-11",
+          "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3642, QUE PROPONE MODIFICAR LA LEY 27806, LEY DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA",
+          "category": "justicia",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2023-11-23T10-30",
+          "date": "2023-11-23",
+          "asunto": "ACLARACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2757, QUE MODIFICA EL DL 1275, DECRETO LEGISLATIVO QUE APRUEBA EL MARCO DE LA RESPONSABILIDAD Y TRANSPARENCIA FISCAL DE LOS GOBIERNOS REGIONALES Y...",
+          "category": "fiscal",
+          "ap_position": "SI",
+          "ap_si_percentage": 100.0,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "FISCALIZACION",
+          "CONTRALORIA",
+          "CONTROL GUBERNAMENTAL",
+          "RENDICION DE CUENTAS",
+          "TRANSPARENCIA"
+        ],
+        "contradicting": []
+      }
+    }
+  ]
+}

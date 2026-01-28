@@ -1,0 +1,502 @@
+{
+  "party": "Peru Libre",
+  "party_slug": "peru_libre",
+  "year": 2026,
+  "extraction_date": "2026-01-21T09:52:11.353668Z",
+  "total_pages_processed": 104,
+  "promises": [
+    {
+      "text": "Aprobar e implementar una Ley Marco de Ordenamiento Territorial de caracter vinculante",
+      "category": "ambiente",
+      "secondary_category": "agricultura",
+      "action_verb": "aprobar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-001",
+      "source_page": 1
+    },
+    {
+      "text": "Implementar Zonas Economicas Ecologicas vinculantes en todo el territorio nacional",
+      "category": "ambiente",
+      "secondary_category": "economia",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-002",
+      "source_page": 1
+    },
+    {
+      "text": "Reducir progresivamente los conflictos socioambientales mediante planificacion preventiva",
+      "category": "ambiente",
+      "secondary_category": "social",
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-003",
+      "source_page": 1
+    },
+    {
+      "text": "Fortalecer la conciencia ambiental y la participacion organizada de la ciudadania",
+      "category": "ambiente",
+      "secondary_category": "educacion",
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-005",
+      "source_page": 1
+    },
+    {
+      "text": "Reducir la mortalidad infantil a menos de 10 muertes por cada 1000 nacidos vivos al 2031",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-006",
+      "source_page": 6
+    },
+    {
+      "text": "Reducir de manera sostenida la prevalencia de anemia infantil priorizando ninas y ninos menores de 5 anos",
+      "category": "salud",
+      "secondary_category": "social",
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-007",
+      "source_page": 6
+    },
+    {
+      "text": "Reducir de forma significativa la desnutricion cronica infantil con intervenciones integrales de salud, nutricion, agua y saneamiento",
+      "category": "salud",
+      "secondary_category": "agua",
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-008",
+      "source_page": 6
+    },
+    {
+      "text": "Garantizar que la mayoria de gestantes cuenten con controles prenatales completos y oportunos",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "garantizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-009",
+      "source_page": 6
+    },
+    {
+      "text": "Aprobar una Nueva Ley General del Trabajo al 2026 que restituya los derechos laborales recortados y fortalezca la negociacion colectiva",
+      "category": "empleo",
+      "secondary_category": "justicia",
+      "action_verb": "aprobar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-010",
+      "source_page": 11
+    },
+    {
+      "text": "Incrementar de manera sostenida el numero y la cobertura de convenios colectivos en todos los sectores economicos",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-011",
+      "source_page": 11
+    },
+    {
+      "text": "Fortalecer la proteccion efectiva de los derechos laborales reduciendo las practicas de explotacion laboral",
+      "category": "empleo",
+      "secondary_category": "justicia",
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-012",
+      "source_page": 11
+    },
+    {
+      "text": "Incrementar de manera sustantiva las vacantes en universidades publicas avanzando hacia un aumento de al menos 50 por ciento a nivel nacional",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-013",
+      "source_page": 16
+    },
+    {
+      "text": "Crear y poner en funcionamiento nuevas universidades publicas regionales",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-014",
+      "source_page": 16
+    },
+    {
+      "text": "Ampliar la inclusion laboral y social de las personas con discapacidad eliminando barreras estructurales",
+      "category": "social",
+      "secondary_category": "empleo",
+      "action_verb": "ampliar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-015",
+      "source_page": 16
+    },
+    {
+      "text": "Institucionalizar politicas publicas con enfoque de genero, interculturalidad y discapacidad en todos los niveles de gobierno",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "institucionalizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-016",
+      "source_page": 16
+    },
+    {
+      "text": "Reducir de manera sostenida la tasa de homicidios a nivel nacional avanzando hacia una disminucion significativa al 2031",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-017",
+      "source_page": 21
+    },
+    {
+      "text": "Disminuir progresivamente la tasa de victimizacion delictiva priorizando los territorios de mayor vulnerabilidad",
+      "category": "seguridad",
+      "secondary_category": "social",
+      "action_verb": "disminuir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-018",
+      "source_page": 21
+    },
+    {
+      "text": "Implementar mecanismos de participacion comunitaria en seguridad ciudadana en los territorios de mayor vulnerabilidad",
+      "category": "seguridad",
+      "secondary_category": "social",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-019",
+      "source_page": 21
+    },
+    {
+      "text": "Elevar progresivamente la confianza ciudadana en la Policia Nacional mediante fortalecimiento institucional y etica publica",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "elevar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-020",
+      "source_page": 21
+    },
+    {
+      "text": "Incorporar 1 millon de hectareas con riego tecnificado al 2030",
+      "category": "agricultura",
+      "secondary_category": "agua",
+      "action_verb": "incorporar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-021",
+      "source_page": 26
+    },
+    {
+      "text": "Alcanzar 1 millon de nuevas conexiones de gas natural al 2030",
+      "category": "energia",
+      "secondary_category": "vivienda",
+      "action_verb": "alcanzar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-023",
+      "source_page": 26
+    },
+    {
+      "text": "Reducir de manera significativa los niveles de PM2.5 en las principales ciudades del pais priorizando Lima",
+      "category": "ambiente",
+      "secondary_category": "salud",
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-025",
+      "source_page": 31
+    },
+    {
+      "text": "Implementar sistemas de monitoreo de calidad del aire en todas las ciudades principales con informacion publica",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-026",
+      "source_page": 31
+    },
+    {
+      "text": "Fortalecer la fiscalizacion y sancion a actividades industriales contaminantes protegiendo la salud de la poblacion",
+      "category": "ambiente",
+      "secondary_category": "salud",
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-027",
+      "source_page": 31
+    },
+    {
+      "text": "Implementar el programa Medicos de la Familia a nivel nacional priorizando zonas rurales, periurbanas y amazonicas al 2031",
+      "category": "salud",
+      "secondary_category": "social",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-028",
+      "source_page": 36
+    },
+    {
+      "text": "Reducir la mortalidad materna a menos de 30 muertes por cada 100000 nacidos vivos al 2031",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-029",
+      "source_page": 36
+    },
+    {
+      "text": "Institucionalizar la visita domiciliaria preventiva como practica regular del sistema publico de salud",
+      "category": "salud",
+      "secondary_category": "social",
+      "action_verb": "institucionalizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-030",
+      "source_page": 36
+    },
+    {
+      "text": "Desarticular al menos 200 organizaciones criminales de alto impacto antes del 2028",
+      "category": "seguridad",
+      "secondary_category": "justicia",
+      "action_verb": "desarticular",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-031",
+      "source_page": 41
+    },
+    {
+      "text": "Implementar programas integrales de prevencion social del delito en todos los distritos de alta conflictividad",
+      "category": "seguridad",
+      "secondary_category": "social",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-032",
+      "source_page": 41
+    },
+    {
+      "text": "Aprobar la Ley de Neutralidad Militar del Estado Peruano al 2026 prohibiendo bases militares extranjeras permanentes",
+      "category": "seguridad",
+      "secondary_category": "justicia",
+      "action_verb": "aprobar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-033",
+      "source_page": 41
+    },
+    {
+      "text": "Recuperar progresivamente barrios y espacios publicos en territorios de mayor vulnerabilidad",
+      "category": "vivienda",
+      "secondary_category": "seguridad",
+      "action_verb": "recuperar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-034",
+      "source_page": 46
+    },
+    {
+      "text": "Implementar sistemas publicos integrados de videovigilancia en la totalidad de distritos criticos al 2031",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-035",
+      "source_page": 46
+    },
+    {
+      "text": "Implementar programas comunitarios de cultura, deporte y organizacion vecinal en los barrios intervenidos",
+      "category": "social",
+      "secondary_category": "seguridad",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-036",
+      "source_page": 46
+    },
+    {
+      "text": "Implementar polos industriales descentralizados en al menos 10 regiones",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-037",
+      "source_page": 51
+    },
+    {
+      "text": "Planta nacional de fertilizantes operativa al 2028",
+      "category": "agricultura",
+      "secondary_category": "economia",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-038",
+      "source_page": 51
+    },
+    {
+      "text": "Gasoducto Sur Peruano concluido antes del 2030",
+      "category": "energia",
+      "secondary_category": "transporte",
+      "action_verb": "concluir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-040",
+      "source_page": 51
+    },
+    {
+      "text": "Suscripcion de mas de 200 convenios culturales, educativos y cientificos internacionales al 2030",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "suscribir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-042",
+      "source_page": 56
+    },
+    {
+      "text": "Implementacion anual del Festival Internacional de Culturas Andino-Amazonicas",
+      "category": "social",
+      "secondary_category": "educacion",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-043",
+      "source_page": 56
+    },
+    {
+      "text": "Reducir de manera significativa las emisiones nacionales de gases de efecto invernadero",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-044",
+      "source_page": 56
+    },
+    {
+      "text": "Fortalecer el transporte publico sostenible y la intervencion activa del Estado para reducir fuentes de contaminacion urbana",
+      "category": "transporte",
+      "secondary_category": "ambiente",
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-045",
+      "source_page": 61
+    },
+    {
+      "text": "Fortalecer la rectoria del Estado sobre el uso del territorio",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-046",
+      "source_page": 66
+    },
+    {
+      "text": "Asignar un equipo de Medicos de la Familia a cada territorio definido garantizando cobertura progresiva",
+      "category": "salud",
+      "secondary_category": "social",
+      "action_verb": "asignar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-047",
+      "source_page": 71
+    },
+    {
+      "text": "Consolidar una politica exterior multipolar y no alineada con presencia efectiva del Peru en espacios internacionales alternativos",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "consolidar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-048",
+      "source_page": 76
+    },
+    {
+      "text": "Auditoria integral y soberana de los Tratados de Libre Comercio y acuerdos estrategicos antes del 2028",
+      "category": "economia",
+      "secondary_category": "justicia",
+      "action_verb": "auditar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-049",
+      "source_page": 81
+    },
+    {
+      "text": "Consolidar un sistema nacional integrado de respuesta ante emergencias",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "consolidar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-050",
+      "source_page": 86
+    },
+    {
+      "text": "Implementar centros de innovacion productiva en todas las macrorregiones",
+      "category": "economia",
+      "secondary_category": "educacion",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-052",
+      "source_page": 96
+    },
+    {
+      "text": "Implementar un Sistema Nacional de Rendicion de Cuentas del Gobierno Popular con informes anuales de cumplimiento",
+      "category": "fiscal",
+      "secondary_category": "justicia",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2026-053",
+      "source_page": 101
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 47,
+    "clear": 47,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 9,
+      "economia": 4,
+      "fiscal": 1,
+      "social": 4,
+      "empleo": 3,
+      "educacion": 3,
+      "salud": 7,
+      "agua": 0,
+      "vivienda": 1,
+      "transporte": 1,
+      "energia": 2,
+      "mineria": 0,
+      "ambiente": 9,
+      "agricultura": 2,
+      "justicia": 0
+    }
+  },
+  "audit_note": "6 hallucinated promises removed per PROMISE_AUDIT_REPORT.md on 2026-01-22"
+}

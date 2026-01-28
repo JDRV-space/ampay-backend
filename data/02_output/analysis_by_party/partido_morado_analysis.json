@@ -1,0 +1,336 @@
+{
+  "analysis_date": "2026-01-21T17:45:46.823820",
+  "party": "Partido Morado",
+  "party_code": "PM",
+  "methodology": "AMPAY v4 - Keyword search for supporting and contradicting laws. AMPAY if >=60% NO on supporting laws OR >=60% SI on contradicting laws.",
+  "note": "Partido Morado has limited voting data (132 votes) because they left Congress early. Many votes show NO_DATA.",
+  "thresholds": {
+    "ampay_threshold": 0.6,
+    "potential_threshold": 0.4,
+    "min_laws_required": 2
+  },
+  "summary": {
+    "AMPAY": 0,
+    "POTENTIAL_AMPAY": 0,
+    "NOT_AMPAY": 1,
+    "INSUFFICIENT_DATA": 5
+  },
+  "total_votes_in_database": 2226,
+  "total_promises_analyzed": 6,
+  "results": [
+    {
+      "promise_id": "PM-2021-004",
+      "promise_text": "Invertir masivamente en el desarrollo de los talentos de las personas mediante una revolucion educativa",
+      "category": "educacion",
+      "status": "NOT_AMPAY",
+      "reason": "Voting record aligns with promise. Supporting SI: 3/3, Contradicting NO: 0/0",
+      "metrics": {
+        "supporting_laws_found": 153,
+        "supporting_with_pm_vote": 4,
+        "supporting_si": 3,
+        "supporting_no": 0,
+        "supporting_divided": 1,
+        "supporting_no_ratio": 0.0,
+        "contradicting_laws_found": 0,
+        "contradicting_with_pm_vote": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 3
+      },
+      "supporting_laws_detail": [
+        {
+          "vote_id": "2021-10-21T13-32",
+          "date": "2021-10-21",
+          "asunto": "DICTAMEN DE LA COMISIÓN DE PRESUPUESTO Y CUENTA GENERAL DE LA REPUBLICA, RECAÍDO EN EL PROYECTO DE LEY 28, QUE RECOMIENDA NO APROBAR LA CUENTA GENERAL DE LA REPÚBLICA CORRESPONDIENTE AL EJERCICIO FISC...",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "pm_position": "DIVIDED",
+          "pm_si_percentage": 25.0,
+          "pm_si": 2,
+          "pm_no": 0,
+          "expected_vote": "SI",
+          "aligned": false
+        },
+        {
+          "vote_id": "2021-10-28T19-42",
+          "date": "2021-10-28",
+          "asunto": "TEXTO SUSTITUTORIO CONSENSUADO DE LAS COMISIONES AGRARIA Y DE EDUCACIÓN RECAÍDO EN EL PROYECTO DE LEY 189, QUE PROPONE LA LEY QUE CREA EL SERVICIO CIVIL DE GRADUANDOS PARA EL SECTOR AGRARIO (SECIGRA A...",
+          "category": "agricultura",
+          "vote_type": "sustantivo",
+          "pm_position": "SI",
+          "pm_si_percentage": 100.0,
+          "pm_si": 6,
+          "pm_no": 0,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-11-11T12-37",
+          "date": "2021-11-11",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 30, 42, 127 Y 267, QUE PROPONE LA LEY QUE MODIFICA LA DECIMOCUARTA DISPOSICIÓN COMPLEMENTARIA TRANSITORIA DE LA LEY 30220, LEY UNIVERSITARIA, A FIN DE EXTEND...",
+          "category": "educacion",
+          "vote_type": "sustantivo",
+          "pm_position": "SI",
+          "pm_si_percentage": 57.1,
+          "pm_si": 4,
+          "pm_no": 3,
+          "expected_vote": "SI",
+          "aligned": true
+        },
+        {
+          "vote_id": "2021-11-11T17-43",
+          "date": "2021-11-11",
+          "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 273, 315, 381 Y 405, QUE PROPONE LA LEY QUE MODIFICA EL ARTÍCULO 4 DEL DECRETO LEGISLATIVO 1496, QUE ESTABLECE DISPOSICIONES EN MATERIA DE EDUCACIÓN SUPERIOR...",
+          "category": "educacion",
+          "vote_type": "sustantivo",
+          "pm_position": "SI",
+          "pm_si_percentage": 57.1,
+          "pm_si": 4,
+          "pm_no": 3,
+          "expected_vote": "SI",
+          "aligned": true
+        }
+      ],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "EDUCACION",
+          "EDUCATIVO",
+          "EDUCATIVA",
+          "PRESUPUESTO",
+          "INVERSION",
+          "UNIVERSIDAD",
+          "UNIVERSITARIA",
+          "UNIVERSITARIO",
+          "DOCENTE",
+          "MAESTRO",
+          "MAGISTERIAL",
+          "MAGISTERIO",
+          "BECA",
+          "BECAS",
+          "PRONABEC",
+          "CALIDAD EDUCATIVA",
+          "MINEDU",
+          "SUNEDU",
+          "CAPACITACION",
+          "FORMACION"
+        ],
+        "contradicting": [
+          "AUTONOMIA UNIVERSIDAD",
+          "RESTABLECE AUTONOMIA INSTITUCIONALIDAD UNIVERSIDADES",
+          "DEBILITA SUNEDU"
+        ]
+      }
+    },
+    {
+      "promise_id": "PM-2021-001",
+      "promise_text": "Crear programa de cunas de jornada completa (Cuna Mas) para ninos menores de 3 anos",
+      "category": "social",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found where PM voted (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 24,
+        "supporting_with_pm_vote": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_with_pm_vote": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "CUNA MAS",
+          "CUNA",
+          "PRIMERA INFANCIA",
+          "INFANCIA",
+          "DESARROLLO INFANTIL",
+          "ESTIMULACION TEMPRANA",
+          "NINO",
+          "NINOS",
+          "NINA",
+          "NINAS",
+          "MENORES DE 3",
+          "PROTECCION INFANCIA",
+          "PROGRAMA SOCIAL",
+          "MIDIS"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PM-2021-002",
+      "promise_text": "Crear servicio integral para ninos de 3 a 6 anos en centros de educacion inicial (salud, nutricion, educacion, proteccion social)",
+      "category": "educacion",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found where PM voted (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 7,
+        "supporting_with_pm_vote": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_with_pm_vote": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "EDUCACION INICIAL",
+          "NUTRICION",
+          "ALIMENTACION",
+          "QALI WARMA",
+          "DESARROLLO INTEGRAL",
+          "SALUD INFANTIL",
+          "PROTECCION SOCIAL",
+          "PRIMERA INFANCIA",
+          "SERVICIO INTEGRAL"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PM-2021-003",
+      "promise_text": "Crear Comision desde PCM para promover politicas publicas a favor de primera infancia",
+      "category": "social",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found where PM voted (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 22,
+        "supporting_with_pm_vote": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_with_pm_vote": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "PRIMERA INFANCIA",
+          "POLITICA PUBLICA",
+          "COMISION MULTIPARTIDARIA",
+          "PROTECCION INFANCIA",
+          "NINO",
+          "NINA",
+          "NINOS",
+          "NINAS",
+          "INFANCIA",
+          "PCM"
+        ],
+        "contradicting": []
+      }
+    },
+    {
+      "promise_id": "PM-2021-005",
+      "promise_text": "Lograr cobertura de agua, desague, electricidad e internet en todas las casas",
+      "category": "agua",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found where PM voted (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 38,
+        "supporting_with_pm_vote": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_with_pm_vote": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "AGUA POTABLE",
+          "AGUA",
+          "SANEAMIENTO",
+          "DESAGUE",
+          "ALCANTARILLADO",
+          "ELECTRICIDAD",
+          "ELECTRIFICACION",
+          "ENERGIA ELECTRICA",
+          "INTERNET",
+          "CONECTIVIDAD",
+          "TELECOMUNICACION",
+          "SERVICIO BASICO",
+          "ACCESO UNIVERSAL",
+          "SUNASS",
+          "SEDAPAL",
+          "SERVICIO PUBLICO"
+        ],
+        "contradicting": [
+          "PRIVATIZA AGUA"
+        ]
+      }
+    },
+    {
+      "promise_id": "PM-2021-006",
+      "promise_text": "Crear Sistemas Integrados de Transporte Publico en cada region o localidad",
+      "category": "transporte",
+      "status": "INSUFFICIENT_DATA",
+      "reason": "Only 0 relevant laws found where PM voted (minimum 2 required)",
+      "metrics": {
+        "supporting_laws_found": 42,
+        "supporting_with_pm_vote": 0,
+        "supporting_si": 0,
+        "supporting_no": 0,
+        "supporting_divided": 0,
+        "supporting_no_ratio": 0,
+        "contradicting_laws_found": 0,
+        "contradicting_with_pm_vote": 0,
+        "contradicting_si": 0,
+        "contradicting_no": 0,
+        "contradicting_divided": 0,
+        "contradicting_si_ratio": 0,
+        "total_relevant_laws": 0
+      },
+      "supporting_laws_detail": [],
+      "contradicting_laws_detail": [],
+      "keywords_used": {
+        "supporting": [
+          "TRANSPORTE PUBLICO",
+          "SISTEMA INTEGRADO",
+          "METROPOLITANO",
+          "METRO",
+          "TREN",
+          "BUS",
+          "OMNIBUS",
+          "MOVILIDAD",
+          "TRANSPORTE URBANO",
+          "TRANSPORTE REGIONAL",
+          "MTC",
+          "ATU"
+        ],
+        "contradicting": []
+      }
+    }
+  ]
+}

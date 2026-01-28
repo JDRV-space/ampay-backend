@@ -1,0 +1,92 @@
+{
+  "descripcion": "Dataset para replicar la validacion del algoritmo del quiz AMPAY",
+  "version": "1.0",
+  "fecha": "2026-01-23",
+  "sha256_quiz_statements": "c33f9d55ec53e653acfce31043ae4ec29e1f20541b5c08cb87a3b73ec0a3f9db",
+  "autor": "@JDRV-space",
+  "licencia": "Disponible para auditoria metodologica",
+
+  "parametros": {
+    "num_preguntas": 15,
+    "num_partidos": 9,
+    "escala": [-1, 0, 1],
+    "distancia_maxima": 30,
+    "algoritmo": "Manhattan distance"
+  },
+
+  "partidos": [
+    "fuerza_popular",
+    "peru_libre",
+    "renovacion_popular",
+    "avanza_pais",
+    "alianza_progreso",
+    "somos_peru",
+    "podemos_peru",
+    "juntos_peru",
+    "partido_morado"
+  ],
+
+  "nombres_display": {
+    "fuerza_popular": "Fuerza Popular",
+    "peru_libre": "Peru Libre",
+    "renovacion_popular": "Renovacion Popular",
+    "avanza_pais": "Avanza Pais",
+    "alianza_progreso": "Alianza para el Progreso",
+    "somos_peru": "Somos Peru",
+    "podemos_peru": "Podemos Peru",
+    "juntos_peru": "Juntos por el Peru",
+    "partido_morado": "Partido Morado"
+  },
+
+  "posiciones_partidarias": {
+    "fuerza_popular":    [-1, 1,-1, 1,-1, 1, 0,-1, 1, 0,-1, 0, 0, 0, 0],
+    "peru_libre":        [ 1, 0, 1,-1, 1, 0, 1, 1,-1, 0, 1,-1, 1, 1, 1],
+    "renovacion_popular":[-1, 1, 0, 1,-1, 1, 1,-1, 1, 1,-1,-1, 1, 1, 1],
+    "avanza_pais":       [-1, 1,-1, 1,-1, 1, 0, 0, 1, 1,-1, 0, 0, 0, 0],
+    "alianza_progreso":  [ 0, 1,-1, 0,-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+    "somos_peru":        [ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+    "podemos_peru":      [ 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0],
+    "juntos_peru":       [ 1, 0, 1,-1, 1, 0,-1, 1,-1, 0, 1, 1, 1, 1, 1],
+    "partido_morado":    [ 0, 0, 0, 0, 0, 0,-1, 0, 0, 1, 0, 1, 0, 1, 0]
+  },
+
+  "preguntas": [
+    {"id": "Q01", "tema": "Impuestos mineras"},
+    {"id": "Q02", "tema": "Mas policias y camaras"},
+    {"id": "Q03", "tema": "Revisar TLCs"},
+    {"id": "Q04", "tema": "Flexibilidad laboral"},
+    {"id": "Q05", "tema": "Estado en petroleo/gas"},
+    {"id": "Q06", "tema": "Menos tramites MYPEs"},
+    {"id": "Q07", "tema": "Familia tradicional"},
+    {"id": "Q08", "tema": "Fortalecer sindicatos"},
+    {"id": "Q09", "tema": "Reducir Estado"},
+    {"id": "Q10", "tema": "Superintendencia anticorrupcion"},
+    {"id": "Q11", "tema": "Pensiones estatales"},
+    {"id": "Q12", "tema": "Matrimonio igualitario"},
+    {"id": "Q13", "tema": "Energias renovables"},
+    {"id": "Q14", "tema": "Expandir salud publica"},
+    {"id": "Q15", "tema": "Descentralizacion"}
+  ],
+
+  "posiciones_neutrales_por_partido": {
+    "somos_peru": 13,
+    "podemos_peru": 11,
+    "partido_morado": 11,
+    "alianza_progreso": 10,
+    "fuerza_popular": 6,
+    "avanza_pais": 6,
+    "peru_libre": 3,
+    "juntos_peru": 3,
+    "renovacion_popular": 1
+  },
+
+  "instrucciones_replicacion": {
+    "1": "Cargar este archivo JSON",
+    "2": "Usar posiciones_partidarias para calcular distancias",
+    "3": "Prueba 1: Para cada partido, simular 111,111 usuarios con respuestas = posiciones del partido",
+    "4": "Prueba 2: Simular 1,000,000 usuarios con respuestas aleatorias (-1, 0, 1)",
+    "5": "Calcular distancia Manhattan: sum(|respuesta - posicion|)",
+    "6": "El partido con menor distancia = mejor coincidencia",
+    "7": "Semilla recomendada para reproducibilidad exacta: 42"
+  }
+}

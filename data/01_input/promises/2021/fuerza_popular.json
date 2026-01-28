@@ -1,0 +1,381 @@
+{
+  "party": "Fuerza Popular",
+  "party_slug": "fuerza_popular",
+  "year": 2021,
+  "extraction_date": "2026-01-21T09:54:11.727482Z",
+  "total_pages_processed": 90,
+  "promises": [
+    {
+      "text": "Generar tres millones de nuevos puestos de trabajo directos e indirectos",
+      "category": "empleo",
+      "secondary_category": "economia",
+      "action_verb": "generar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-001",
+      "source_page": 1
+    },
+    {
+      "text": "Formalizar un millon de nuevas MYPES",
+      "category": "empleo",
+      "secondary_category": "economia",
+      "action_verb": "formalizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-002",
+      "source_page": 1
+    },
+    {
+      "text": "Implementar ventanilla unica y licencias a costo cero para MYPES",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-003",
+      "source_page": 1
+    },
+    {
+      "text": "Aumentar el 20 por ciento de formalizacion de empresas",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "aumentar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-004",
+      "source_page": 1
+    },
+    {
+      "text": "Implementar reforma tributaria con principio de universalidad y simplificacion",
+      "category": "fiscal",
+      "secondary_category": "economia",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-005",
+      "source_page": 6
+    },
+    {
+      "text": "Cambiar la gobernanza de SUNAT a traves de implementacion de un directorio",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "cambiar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-006",
+      "source_page": 6
+    },
+    {
+      "text": "Incorporar a informales e independientes a los beneficios del sistema previsional",
+      "category": "social",
+      "secondary_category": "empleo",
+      "action_verb": "incorporar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-007",
+      "source_page": 6
+    },
+    {
+      "text": "Promover el turismo vivencial, ecoturismo y turismo cultural para reactivar la cadena comercial",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-008",
+      "source_page": 11
+    },
+    {
+      "text": "Establecer estrategia de beneficios tributarios para el sector turismo",
+      "category": "fiscal",
+      "secondary_category": "economia",
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-009",
+      "source_page": 11
+    },
+    {
+      "text": "Fomentar asociaciones publico privadas para mejora de infraestructura turistica",
+      "category": "economia",
+      "secondary_category": "transporte",
+      "action_verb": "fomentar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-010",
+      "source_page": 11
+    },
+    {
+      "text": "Implementar tres programas de proteccion del medio ambiente al ano",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-011",
+      "source_page": 16
+    },
+    {
+      "text": "Reducir 2.5 por ciento anual el crecimiento urbano informal",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-012",
+      "source_page": 16
+    },
+    {
+      "text": "Reducir al 50 por ciento los conflictos socioambientales",
+      "category": "ambiente",
+      "secondary_category": "mineria",
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-013",
+      "source_page": 16
+    },
+    {
+      "text": "Reformular el rol de la Contraloria General de la Republica contra la corrupcion",
+      "category": "justicia",
+      "secondary_category": "fiscal",
+      "action_verb": "reformular",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-014",
+      "source_page": 21
+    },
+    {
+      "text": "Aumentar el presupuesto de salud en un punto del PIB por ano",
+      "category": "salud",
+      "secondary_category": "fiscal",
+      "action_verb": "aumentar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-015",
+      "source_page": 21
+    },
+    {
+      "text": "Convertir hospitales en unidades independientes que compitan entre ellos por eficiencia",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "convertir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-016",
+      "source_page": 21
+    },
+    {
+      "text": "Reducir el indice de pobreza a los niveles anteriores a la pandemia",
+      "category": "social",
+      "secondary_category": "economia",
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-017",
+      "source_page": 26
+    },
+    {
+      "text": "Convertir los programas sociales en unidades productivas",
+      "category": "social",
+      "secondary_category": "empleo",
+      "action_verb": "convertir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-018",
+      "source_page": 26
+    },
+    {
+      "text": "Rescatar los espacios publicos y ornato de las ciudades de forma sostenible",
+      "category": "vivienda",
+      "secondary_category": "ambiente",
+      "action_verb": "rescatar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-019",
+      "source_page": 31
+    },
+    {
+      "text": "Rescatar el derecho de propiedad de los peruanos mediante titulacion",
+      "category": "vivienda",
+      "secondary_category": "justicia",
+      "action_verb": "rescatar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-020",
+      "source_page": 31
+    },
+    {
+      "text": "Mejorar y ampliar la cobertura del plan de becas estudiantiles",
+      "category": "educacion",
+      "secondary_category": "social",
+      "action_verb": "mejorar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-021",
+      "source_page": 36
+    },
+    {
+      "text": "Establecer mecanismos de proteccion para mascotas mediante Registro Nacional",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-022",
+      "source_page": 36
+    },
+    {
+      "text": "Promover el uso y acceso a bibliotecas fisicas y virtuales a nivel nacional",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-023",
+      "source_page": 36
+    },
+    {
+      "text": "Insertar en la malla curricular el enfoque de desarrollo de habilidades blandas y fortalecimiento emocional",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "insertar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-024",
+      "source_page": 41
+    },
+    {
+      "text": "Disenar y promover una politica nacional dirigida a los voluntarios del pais",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "disenar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-025",
+      "source_page": 41
+    },
+    {
+      "text": "Visibilizar de forma especial a los jovenes con discapacidad y dotarlos de herramientas necesarias",
+      "category": "social",
+      "secondary_category": "educacion",
+      "action_verb": "visibilizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-026",
+      "source_page": 46
+    },
+    {
+      "text": "Promover la participacion de los jovenes en espacios descentralizados de gobiernos regionales y locales",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-027",
+      "source_page": 46
+    },
+    {
+      "text": "Ordenamiento urbano de las ciudades y proyectos de viviendas sociales",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-028",
+      "source_page": 51
+    },
+    {
+      "text": "Restaurar el equilibrio de los ecosistemas",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "restaurar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-029",
+      "source_page": 56
+    },
+    {
+      "text": "Acuerdo y entendimiento entre sectores minero, agrario y ambiental para reducir conflictos",
+      "category": "mineria",
+      "secondary_category": "ambiente",
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-030",
+      "source_page": 61
+    },
+    {
+      "text": "Generar una politica de gobierno orientada especialmente en la reactivacion turistica del Peru",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "generar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-031",
+      "source_page": 66
+    },
+    {
+      "text": "Designar funcionario como Oficial de Cumplimiento del Plan de Gobierno con autonomia",
+      "category": "fiscal",
+      "secondary_category": "justicia",
+      "action_verb": "designar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-032",
+      "source_page": 71
+    },
+    {
+      "text": "Crear comision multisectorial que articule sectores Economia, Salud, Cultura, Relaciones Exteriores, Comercio Exterior y Produccion",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-033",
+      "source_page": 76
+    },
+    {
+      "text": "Generar estrategia de apoyo directo respecto a medidas de seguridad en salud frente a la COVID-19",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "generar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-034",
+      "source_page": 81
+    },
+    {
+      "text": "Informar periodicamente a la ciudadania de los avances del Plan de Gobierno con total autonomia",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "informar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2021-035",
+      "source_page": 86
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 35,
+    "clear": 35,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 0,
+      "economia": 6,
+      "fiscal": 5,
+      "social": 7,
+      "empleo": 2,
+      "educacion": 3,
+      "salud": 3,
+      "agua": 0,
+      "vivienda": 4,
+      "transporte": 0,
+      "energia": 0,
+      "mineria": 1,
+      "ambiente": 3,
+      "agricultura": 0,
+      "justicia": 1
+    }
+  }
+}

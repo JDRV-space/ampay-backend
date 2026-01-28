@@ -1,0 +1,521 @@
+{
+  "party": "Alianza para el Progreso",
+  "party_slug": "alianza_progreso",
+  "year": 2021,
+  "extraction_date": "2026-01-21T09:59:54.102707Z",
+  "total_pages_processed": 200,
+  "promises": [
+    {
+      "text": "5000 millones de dolares de inversion en concesiones forestales entre 2021 y 2026",
+      "category": "ambiente",
+      "secondary_category": "economia",
+      "action_verb": "invertir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-001",
+      "source_page": 1
+    },
+    {
+      "text": "1500 programas de pago por servicios ambientales ejecutados entre 2021 y 2026",
+      "category": "ambiente",
+      "secondary_category": "social",
+      "action_verb": "ejecutar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-002",
+      "source_page": 1
+    },
+    {
+      "text": "1500 programas de recuperacion de bosques y tierras forestales degradadas implementados",
+      "category": "ambiente",
+      "secondary_category": "agricultura",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-003",
+      "source_page": 1
+    },
+    {
+      "text": "Reformar el articulo 201 de la Constitucion para extender periodo de magistrados del Tribunal Constitucional",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "reformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-004",
+      "source_page": 6
+    },
+    {
+      "text": "Declarar que los Tribunales Administrativos ejercen facultad jurisdiccional",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "declarar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-005",
+      "source_page": 6
+    },
+    {
+      "text": "Integrar los sistemas de aseguramiento del SIS y Essalud",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "integrar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-006",
+      "source_page": 11
+    },
+    {
+      "text": "Consolidar el sistema de aseguramiento universal en salud",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "consolidar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-007",
+      "source_page": 11
+    },
+    {
+      "text": "Crear un Fondo de Alto Costo para enfermedades costosas",
+      "category": "salud",
+      "secondary_category": "fiscal",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-008",
+      "source_page": 11
+    },
+    {
+      "text": "Crear el Servicio Articulado Nacional de Salud SANAS",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-009",
+      "source_page": 16
+    },
+    {
+      "text": "Incrementar el financiamiento de la salud",
+      "category": "salud",
+      "secondary_category": "fiscal",
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-010",
+      "source_page": 16
+    },
+    {
+      "text": "Ampliar programa JUNTOS DIGITAL para entregar telefonos celulares y billeteras electronicas",
+      "category": "social",
+      "secondary_category": "economia",
+      "action_verb": "ampliar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-011",
+      "source_page": 21
+    },
+    {
+      "text": "Potenciar programa CUNA MAS de la mano con Municipios y padres de familia",
+      "category": "social",
+      "secondary_category": "educacion",
+      "action_verb": "potenciar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-012",
+      "source_page": 21
+    },
+    {
+      "text": "Lanzar programa EMPRENDECHAMBA para capacitar personas con bajos ingresos o desempleadas",
+      "category": "empleo",
+      "secondary_category": "educacion",
+      "action_verb": "lanzar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-013",
+      "source_page": 26
+    },
+    {
+      "text": "Crear programa PROGRESA BARRIO para mejoramiento de barrios con recursos y asesoria tecnica",
+      "category": "vivienda",
+      "secondary_category": "social",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-014",
+      "source_page": 26
+    },
+    {
+      "text": "Crear programa MUJER SEGURA articulando MIDIS con Ministerio del Interior contra violencia de genero",
+      "category": "seguridad",
+      "secondary_category": "social",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-015",
+      "source_page": 26
+    },
+    {
+      "text": "Incrementar inversion privada del 13.4 por ciento al 25 por ciento del PBI",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-016",
+      "source_page": 31
+    },
+    {
+      "text": "Integrar la logistica de abastecimiento de medicamentos y equipos medicos",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "integrar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-017",
+      "source_page": 36
+    },
+    {
+      "text": "Incrementar la capacidad de atencion en los Centros de Salud",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-018",
+      "source_page": 41
+    },
+    {
+      "text": "Incrementar exportaciones del 22.7 por ciento al 27.6 por ciento del PBI",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-019",
+      "source_page": 46
+    },
+    {
+      "text": "Integrar y mejorar la gestion de centros de atencion medica",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "mejorar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-020",
+      "source_page": 51
+    },
+    {
+      "text": "Reducir el gasto publico del 18 por ciento al 14.5 por ciento del PBI",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-021",
+      "source_page": 56
+    },
+    {
+      "text": "Ampliar Institutos Tecnicos SENATI en todo el pais",
+      "category": "educacion",
+      "secondary_category": "empleo",
+      "action_verb": "ampliar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-022",
+      "source_page": 61
+    },
+    {
+      "text": "Crear Centros de Atencion al Ciudadano MAC en todos los Municipios Provinciales",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-023",
+      "source_page": 66
+    },
+    {
+      "text": "Establecer sistema de premios incentivos para practicas destacadas de mejoramiento de barrios",
+      "category": "vivienda",
+      "secondary_category": "social",
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-024",
+      "source_page": 71
+    },
+    {
+      "text": "Usar herramientas digitales en programa CONTIGO para llegar al 100 por ciento de alcance",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "usar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-025",
+      "source_page": 76
+    },
+    {
+      "text": "Impulsar la competitividad economica",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-026",
+      "source_page": 81
+    },
+    {
+      "text": "Promover emprendimiento, innovacion y diversificacion productiva",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-027",
+      "source_page": 86
+    },
+    {
+      "text": "Formalizar laboral y empresarialmente a las MYPES",
+      "category": "empleo",
+      "secondary_category": "economia",
+      "action_verb": "formalizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-028",
+      "source_page": 91
+    },
+    {
+      "text": "Promover la agricultura y apoyo al sector agrario",
+      "category": "agricultura",
+      "secondary_category": null,
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-029",
+      "source_page": 96
+    },
+    {
+      "text": "Reformar empresas estatales para mayor eficiencia",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "reformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-030",
+      "source_page": 101
+    },
+    {
+      "text": "Promover el comercio y la inversion extranjera",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-031",
+      "source_page": 106
+    },
+    {
+      "text": "Promover el turismo receptivo e interno",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-032",
+      "source_page": 111
+    },
+    {
+      "text": "Implementar ordenamiento territorial y planeamiento urbano",
+      "category": "ambiente",
+      "secondary_category": "vivienda",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-033",
+      "source_page": 116
+    },
+    {
+      "text": "Impulsar la infraestructura nacional",
+      "category": "transporte",
+      "secondary_category": "economia",
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-034",
+      "source_page": 121
+    },
+    {
+      "text": "Promover mineria sostenible y energia limpia",
+      "category": "mineria",
+      "secondary_category": "energia",
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-035",
+      "source_page": 126
+    },
+    {
+      "text": "Implementar gestion integral del agua",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-036",
+      "source_page": 131
+    },
+    {
+      "text": "Gestionar bosques y promover reforestacion",
+      "category": "ambiente",
+      "secondary_category": "agricultura",
+      "action_verb": "gestionar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-037",
+      "source_page": 136
+    },
+    {
+      "text": "Fortalecer el sistema politico y electoral",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-038",
+      "source_page": 141
+    },
+    {
+      "text": "Reformar el Sistema de Justicia",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "reformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-039",
+      "source_page": 146
+    },
+    {
+      "text": "Reformar el Poder Ejecutivo para mayor eficiencia",
+      "category": "justicia",
+      "secondary_category": "fiscal",
+      "action_verb": "reformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-040",
+      "source_page": 151
+    },
+    {
+      "text": "Reformar el Sistema de Seguridad Nacional",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "reformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-041",
+      "source_page": 156
+    },
+    {
+      "text": "Luchar contra la corrupcion de manera sistematica",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "luchar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-042",
+      "source_page": 161
+    },
+    {
+      "text": "Garantizar vivienda digna para la poblacion",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "garantizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-043",
+      "source_page": 166
+    },
+    {
+      "text": "Derrotar la pobreza mediante programas sociales",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "derrotar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-044",
+      "source_page": 171
+    },
+    {
+      "text": "Empoderar a la mujer y proteger a poblacion vulnerable",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "empoderar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-045",
+      "source_page": 176
+    },
+    {
+      "text": "Revolucionar la educacion, ciencia y cultura",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "revolucionar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-046",
+      "source_page": 181
+    },
+    {
+      "text": "Reformar el sistema de pensiones",
+      "category": "social",
+      "secondary_category": "fiscal",
+      "action_verb": "reformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-047",
+      "source_page": 186
+    },
+    {
+      "text": "Promover crecimiento economico sostenible",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-048",
+      "source_page": 191
+    },
+    {
+      "text": "Otorgar concesiones forestales de 40 anos con certificaciones de buenas practicas",
+      "category": "ambiente",
+      "secondary_category": "economia",
+      "action_verb": "otorgar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APP-2021-049",
+      "source_page": 196
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 49,
+    "clear": 49,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 2,
+      "economia": 8,
+      "fiscal": 1,
+      "social": 7,
+      "empleo": 2,
+      "educacion": 2,
+      "salud": 8,
+      "agua": 1,
+      "vivienda": 3,
+      "transporte": 1,
+      "energia": 0,
+      "mineria": 1,
+      "ambiente": 6,
+      "agricultura": 1,
+      "justicia": 6
+    }
+  }
+}

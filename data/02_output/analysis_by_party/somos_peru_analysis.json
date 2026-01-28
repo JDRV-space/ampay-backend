@@ -1,0 +1,1906 @@
+{
+  "analysis_version": "v4",
+  "party": "Somos Peru",
+  "analysis_date": "2026-01-21T17:33:46.812469",
+  "methodology": {
+    "description": "For each promise, search for SUPPORTING laws (would help achieve promise) and CONTRADICTING laws (would hurt/prevent promise). Check Somos Peru voting record on each.",
+    "ampay_threshold": ">=60% NO votes on supporting laws OR >=60% SI votes on contradicting laws",
+    "potential_threshold": ">=30% but <60%",
+    "minimum_laws": 2
+  },
+  "summary": {
+    "total_promises": 20,
+    "ampay": 1,
+    "potential_ampay": 0,
+    "not_ampay": 18,
+    "insufficient_data": 1
+  },
+  "detailed_analysis": [
+    {
+      "promise_id": "SP-2021-001",
+      "promise_text": "Lograr coberturas de vacunacion no menores al 90% y de ser posible superiores al 95%",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 4/4 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "vacunaci",
+        "inmunizaci",
+        "papiloma.*human",
+        "planta.*vacuna"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 4,
+        "voted_si": 4,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2023-08-31T16-54",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2895, QUE PROMUEVE LA VACUNACIÓN CONTRA EL VIRUS DEL PAPILOMA HUMANO (VPH) EN LA NINEZ Y ADOLESCENCIA",
+            "date": "2023-08-31",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-08-31T16-57",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2895, QUE PROMUEVE LA VACUNACIÓN CONTRA EL VIRUS DEL PAPILOMA HUMANO (VPH) EN LA NINEZ Y ADOLESCENCIA",
+            "date": "2023-08-31",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-10-12T16-46",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1473, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA IMPLEMENTACIÓN DE LA NUEVA PLANTA DE PRODUCCIÓN DE VACUNAS, LA CREACIÓN DE UN FONDO ESPECIAL Y LA MODERNIZACIÓN",
+            "date": "2023-10-12",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-10-12T16-49",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1473, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA IMPLEMENTACIÓN DE LA NUEVA PLANTA DE PRODUCCIÓN DE VACUNAS, LA CREACIÓN ",
+            "date": "2023-10-12",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-002",
+      "promise_text": "Construir progresivamente un sistema unificado de salud",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 32/32 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "sistema.*salud",
+        "EsSalud",
+        "MINSA",
+        "seguro.*integral.*salud",
+        "atencion.*salud",
+        "servicio.*salud"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 32,
+        "voted_si": 32,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2022-03-08T11-19",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 327 Y 905, QUE PROPONE MODIFICAR LA LEY 26790, LEY DE MODERNIACIÓN DE LA SEURIDAD SOCIAL EN SALUD, PARA ESTABLECER LA COBERTURA INMEDITA A LA MUJER GESTANTE ",
+            "date": "2022-03-08",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-03-08T11-23",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 327 Y 905, QUE PROPONE MODIFICAR LA LEY 26790, LEY DE MODERNIZACIÓN DE LA SEGURIDAD SOCIAL EN SALUD, PARA ESTABLECER L",
+            "date": "2022-03-08",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-03-10T18-26",
+            "asunto": "NUEVO TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 738 (ACTUALIZADO), QUE PROPONE LA LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1154, DECRETO LEGISLATIVO QUE AUTORIZA LOS SERVICIOS COMPLEMENTARIOS EN SALUD, PA",
+            "date": "2022-03-10",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-03-10T18-31",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL NUEVO TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 738 (ACTUALIZADO), QUE PROPONE LA LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1154, DECRETO LEGISLATIVO QUE AUTORIZA LOS",
+            "date": "2022-03-10",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-05-05T19-35",
+            "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 327, 905 Y 1335, QUE PROPONE MODIFICAR LA LEY 26790, LEY DE MODERNIZACIÓN DE LA SEGURIDAD ",
+            "date": "2022-05-05",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-07T23-35",
+            "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPUBLICA RECAÍDA EN EL PROYECTO DE LEY 738, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1154, DECRETO LEGISLATIVO QUE AUTORIZA LOS",
+            "date": "2022-07-07",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-12T22-59",
+            "asunto": "INFORME PRELIMINAR DE COMISIÓN ENCARGADA DE INVESTIGAR PRESUNTAS IRREGULARIDADES Y POSIBLES ACTOS DE CORRUPCIÓN EN GESTIÓN DE CONTRATACIONES Y ADQUISICIONES DE BIENES Y SERVICIOS REALIZADAS POR ESSALU",
+            "date": "2022-07-12",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-15T23-04",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 850, QUE PROPONE MODIFICAR LA LEY 31125, LEY QUE DECLARA EN EMERGENCIA EL SISTEMA NACIONAL DE SALUD Y REGULA SU PROCESO DE REFORMA",
+            "date": "2022-07-15",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-15T23-08",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 850, QUE PROPONE MODIFICAR LA LEY 31125, LEY QUE DECLARA EN EMERGENCIA EL SISTEMA NACIONAL DE SALUD Y REGULA SU PROCESO DE",
+            "date": "2022-07-15",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-09-02T00-00",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2359, 2795 Y 2802, QUE AUTORIZA CONVALIDAR COMO SERVICIO RURAL Y URBANO MARGINAL EN SALUD (SERUMS) EL TIEMPO LABORADO EN ESTABLECIMIENTOS DE SALUD DEL MINIST",
+            "date": "2022-09-01",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-003",
+      "promise_text": "Elevar salario docente a 2,500 soles mensuales e incrementarlo progresivamente",
+      "category": "educacion",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 24/29 (82.8%) supporting laws",
+      "supporting_keywords": [
+        "revalor.*docent",
+        "reform.*magister",
+        "carrera.*docent",
+        "ley.*magister",
+        "salario.*docent",
+        "remuneraci.*docent"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 29,
+        "voted_si": 24,
+        "voted_no": 2,
+        "voted_divided": 3,
+        "laws": [
+          {
+            "vote_id": "2021-12-17T13-54",
+            "asunto": "CUESTIÓN PREVIA PARA QUE PASE A LA COMISIÓN DE EDUCACIÓN EL PROYECTO DE LEY 984, QUE PROPONE LA LEY QUE INCORPORA UNA DISPOSICIÓN COMPLEMENTARIA, TRANSITORIA Y FINAL A LA LEY 29944, LEY DE REFORMA MAG",
+            "date": "2021-12-17",
+            "category": "educacion",
+            "sp_position": "DIVIDED",
+            "sp_si": 2,
+            "sp_no": 2,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2021-12-17T17-18",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 495, QUE PROPONE LA LEY QUE MODIFICA LA LEY 29944, LEY DE REFORMA MAGISTERIAL, PARA INCORPORAR EN SUS ALCANCES A LOS PROFESORES DE LAS INSTITUCIONES EDUCATIVAS P",
+            "date": "2021-12-17",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2021-12-17T17-23",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 495, QUE PROPONE LA LEY QUE MODIFICA LA LEY 29944, LEY DE REFORMA MAGISTERIAL, PARA INCORPORAR EN SUS ALCANCES A LOS PROFE",
+            "date": "2021-12-17",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2021-12-17T21-51",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 984, QUE PROPONE LA LEY QUE MODIFICA EL ARTÍCULO 19 DE LA LEY 29944, LEY DE LA REFORMA MAGISTERIAL",
+            "date": "2021-12-17",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2021-12-17T21-55",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 984, QUE PROPONE LA LEY QUE MODIFICA EL ARTÍCULO 19 DE LA LEY 29944, LEY DE LA REFORMA MAGISTERIAL",
+            "date": "2021-12-17",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-02-02T19-03",
+            "asunto": "TEXTO SUSTITURIO DE LOS PROYECTOS DE LEY 129, 337, 429, 432, 443, 444, 445, 446 Y 508, QUE PROPONE LA LEY QUE REVALORIZA LA CARRERA DOCENTE, MODIFICANDO EL ARTÍCULO 63 DE LA LEY 29944, LEY DE REFORMA ",
+            "date": "2022-02-02",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-02-02T19-07",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITURIO DE LOS PROYECTOS DE LEY 129, 337, 429, 432, 443, 444, 445, 446 Y 508, QUE PROPONE LA LEY QUE REVALORIZA LA CARRERA DOCENTE, MODIFICANDO EL ARTÍC",
+            "date": "2022-02-02",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-03-31T21-54",
+            "asunto": "ALLANAMIENTO A LA OBSERVACIONES FORMULADAS POR EL PRESIDENTE DE LA REPÚBLICA A LA AUTÓGRAFA RECAÍDA EN LOS PROYECTOS DE LEY 129, 337, 429, 432, 443, 444, 445, 446 Y 508, QUE PROPONE REVALORIZAR LA CAR",
+            "date": "2022-03-31",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-06T17-49",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 336, 342, 689, 1817, 1818, 1819, 1820, 1821, 1822 Y 2162 (ACTUALIZADO), QUE PROPONE MODIFICAR LA LEY 30512, LEY DE INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIO",
+            "date": "2022-07-06",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-06T17-53",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 336, 342, 689, 1817, 1818, 1819, 1820, 1821, 1822 Y 2162 (ACTUALIZADO), QUE PROPONE MODIFICAR LA LEY 30512, LEY DE INS",
+            "date": "2022-07-06",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-004",
+      "promise_text": "Implementar un instituto superior de excelencia por region durante los 5 anos de gobierno",
+      "category": "educacion",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 6/6 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "instituto.*superior",
+        "educacion.*tecnic",
+        "universidad.*public",
+        "educacion.*superior"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 6,
+        "voted_si": 6,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2022-07-06T17-49",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 336, 342, 689, 1817, 1818, 1819, 1820, 1821, 1822 Y 2162 (ACTUALIZADO), QUE PROPONE MODIFICAR LA LEY 30512, LEY DE INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIO",
+            "date": "2022-07-06",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-06T17-53",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 336, 342, 689, 1817, 1818, 1819, 1820, 1821, 1822 Y 2162 (ACTUALIZADO), QUE PROPONE MODIFICAR LA LEY 30512, LEY DE INS",
+            "date": "2022-07-06",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-13T18-20",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 34, QUE PROPONE DISPONER LA CREACIÓN DE UNA UNIDAD EJECUTORA EN CADA GOBIERNO REGIONAL PARA ADMINISTRAR TODOS LOS INGRESOS Y GASTOS DE LOS INSTITUTOS Y ESCUELAS ",
+            "date": "2022-10-13",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-13T18-23",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 34, QUE PROPONE DISPONER LA CREACIÓN DE UNA UNIDAD EJECUTORA EN CADA GOBIERNO REGIONAL PARA ADMINISTRAR TODOS LOS INGRESOS",
+            "date": "2022-10-13",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-12-21T20-58",
+            "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 336, 342, 689, 1817, 1818, 1819, 1820, 1821, 1822 Y 2162, QUE PROPONE MODIFICAR LA LEY 305",
+            "date": "2022-12-21",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-05-11T18-18",
+            "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENCIA DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 34, QUE PROPONE DISPONER LA CREACIÓN DE UNA UNIDAD EJECUTORA EN CADA GOBIERNO REGIONAL PARA ADMIN",
+            "date": "2023-05-11",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-005",
+      "promise_text": "Implementar Centros de Salud Mental Comunitarios en todas las regiones del pais",
+      "category": "salud",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 9/10 (90.0%) supporting laws",
+      "supporting_keywords": [
+        "salud.*mental",
+        "ley.*mental",
+        "centros.*mental"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 10,
+        "voted_si": 9,
+        "voted_no": 1,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2022-03-31T17-27",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 827, QUE PROPONE MODIFICAR LA LEY 27444, LEY DEL PROCEDIMIENTO ADMINISTRATIVO GENERAL, A FIN DE FACILITAR LA RECEPCIÓN DOCUMENTAL DIGITAL",
+            "date": "2022-03-31",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-03-31T17-32",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 827, QUE PROPONE MODIFICAR LA LEY 27444, LEY DEL PROCEDIMIENTO ADMINISTRATIVO GENERAL, A FIN DE FACILITAR LA RECEPCIÓN DOC",
+            "date": "2022-03-31",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-20T10-45",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 772, 883, 942, 1329, 1553 Y 1965, QUE PROPONE MODIFICAR LA LEY 30947, LEY DE SALUD MENTAL, A FIN DE FORTALECER LA PREVENCIÓN Y PROMOCIÓN DE LA SALUD MENTAL D",
+            "date": "2022-10-20",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-20T10-48",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 772, 883, 942, 1329, 1553 Y 1965, QUE PROPONE MODIFICAR LA LEY 30947, LEY DE SALUD MENTAL, A FIN DE FORTALECER LA PREV",
+            "date": "2022-10-20",
+            "category": "salud",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-06-22T22-34",
+            "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE FISCALIZACIÓN EL PROYECTO DE LEY 3331, QUE PROPONE GARANTIZAR LA AUTONOMÍA Y PROFESIONALIZACIÓN DE LA CARRERA DEL AUDITOR GUBERNAMENTAL",
+            "date": "2023-06-22",
+            "category": "justicia",
+            "sp_position": "NO",
+            "sp_si": 0,
+            "sp_no": 5,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-06-22T22-38",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3331, QUE PROPONE GARANTIZAR LA AUTONOMÍA Y PROFESIONALIZACIÓN DE LA CARRERA DEL AUDITOR GUBERNAMENTAL",
+            "date": "2023-06-22",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-06-22T22-40",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3331, QUE PROPONE GARANTIZAR LA AUTONOMÍA Y PROFESIONALIZACIÓN DE LA CARRERA DEL AUDITOR GUBERNAMENTAL",
+            "date": "2023-06-22",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-08-17T15-50",
+            "asunto": "ACLARACIÓN DEL TEXTO SUSTITUTORIO APROBADO RECAÍDO EN EL PROYETO DE LEY 3331, QUE PROPONE GARANTIZAR LA AUTONOMÍA Y PROFESIONALIZACIÓN DE LA CARRERA DE AUDITOR GUBERNAMENTAL",
+            "date": "2023-08-17",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-09-14T18-06",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1385, QUE PROPONE DECLARAR DE INTERÉS NACIONAL EL MEJORAMIENTO DEL SERVICIO DE RECREACIÓN EN LA PLAZA MONUMENTAL JUAN BOLÍVAR CRESPO 20 DE ENERO, UBICADO EN EL D",
+            "date": "2023-09-14",
+            "category": "economia",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-09-14T18-09",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1385, QUE PROPONE DECLARAR DE INTERÉS NACIONAL EL MEJORAMIENTO DEL SERVICIO DE RECREACIÓN EN LA PLAZA MONUMENTAL JUAN BOLÍ",
+            "date": "2023-09-14",
+            "category": "economia",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-020",
+      "promise_text": "Lograr 100% de Entidades Publicas con enfoque intercultural en sus servicios al 2023",
+      "category": "social",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 10/12 (83.3%) supporting laws",
+      "supporting_keywords": [
+        "intercultural",
+        "pueblos.*indigena",
+        "pueblos.*originari",
+        "lengua.*nativ",
+        "comunidad.*nativ"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 12,
+        "voted_si": 10,
+        "voted_no": 1,
+        "voted_divided": 1,
+        "laws": [
+          {
+            "vote_id": "2022-03-16T23-19",
+            "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 468, PROPONE QUE EL CONGRESO DE LA REPÚBLICA CONFORME UNA COMISIÓN ESPECIAL MULTIPARTIDARIA ENCARGADA DE REALIZAR UN TRABAJO EN CONJUNTO CON LA COMISIÓN NACIONAL PARA EL",
+            "date": "2022-03-16",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-03-16T23-43",
+            "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 468, QUE CREA UNA COMISIÓN ESPECIAL MULTIPARTIDARIA, ENCARGADA DE REALIZAR TRABAJO CONJUNTO CON LA COMISIÓN  NACIONAL PARA EL DESARROLLO Y VIDA SIN DROGAS (DEVIDA) Y LA",
+            "date": "2022-03-16",
+            "category": "seguridad",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-06-09T22-31",
+            "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE CULTURA EL PROYECTO DE LEY 576, QUE PROPONE DECLARAR A MANKO INKA COMO PRECURSOR Y HÉROE NACIONAL DE LA LUCHA CONTRA EL COLONIALISMO DEL SIGLO XVI DE ",
+            "date": "2022-06-09",
+            "category": "justicia",
+            "sp_position": "NO",
+            "sp_si": 1,
+            "sp_no": 4,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-06-09T22-41",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 576, QUE PROPONE DECLARAR A MANKO INKA COMO PRECURSOR Y HÉROE NACIONAL DE LA LUCHA CONTRA EL COLONIALISMO DEL SIGLO XVI DE LOS PUEBLOS INDIGENAS DE AMÉRICA Y COM",
+            "date": "2022-06-09",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 1,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-14T23-48",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2230, 302 Y 532, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA CREACIÓN DE LA UNIVERSIDAD NACIONAL INTERCULTURAL AMAZÓNICA DE SANDIA Y DE L",
+            "date": "2022-07-14",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-14T23-52",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2230, 302 Y 532, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA CREACIÓN DE LA UNIVERSIDAD NACIONAL I",
+            "date": "2022-07-14",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-06T20-26",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 577, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA CREACIÓN, CONSTRUCCIÓN E IMPLEMENTACIÓN DEL PARQUE CIENTÍFICO-TECNOLÓGICO INTERCULTURAL DE LA SELVA CENTRAL",
+            "date": "2022-10-06",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-06T20-30",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 577, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA CREACIÓN, CONSTRUCCIÓN E IMPLEMENTACIÓN DEL PARQUE CIENTÍFICO-TECNOLÓGICO",
+            "date": "2022-10-06",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-13T17-35",
+            "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE CULTURA EL PROYECTO DE LEY 576, QUE PROPONE DECLARAR A MANKO INKA COMO PRECURSOR Y HÉROE NACIONAL DE LA LUCHA CONTRA EL COLONIALISMO DEL SIGLO XVI DE ",
+            "date": "2022-10-13",
+            "category": "justicia",
+            "sp_position": "DIVIDED",
+            "sp_si": 1,
+            "sp_no": 1,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-13T17-52",
+            "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 576, QUE PROPONE DECLARAR A MANKO INKA COMO PRECURSOR Y HÉROE NACIONAL DE LA LUCHA CONTRA EL COLONIALISMO DEL SIGLO XVI DE LOS PUEBLOS INDIG",
+            "date": "2022-10-13",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-019",
+      "promise_text": "Reducir Gasto Corriente del Estado en 2% del PBI",
+      "category": "fiscal",
+      "status": "AMPAY",
+      "ampay_reason": "Voted SI on 11/11 (100.0%) contradicting laws",
+      "supporting_keywords": [
+        "austeridad",
+        "reducci.*gasto",
+        "eficiencia.*gasto",
+        "racionalizaci"
+      ],
+      "contradicting_keywords": [
+        "credito suplementario",
+        "PRESUPUESTO DEL SECTOR",
+        "equilibrio financiero del presupuesto"
+      ],
+      "supporting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      },
+      "contradicting_laws": {
+        "count": 11,
+        "voted_si": 11,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2021-11-25T17-34",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 101, QUE PROPONE LA LEY DE EQUILIBRIO FINANCIERO DEL PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2022",
+            "date": "2021-11-25",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 6,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2021-11-25T17-43",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 99, PROPONE LA LEY DE PRESUPUESTO DEL SECTOR PÙBLICO PARA EL AÑO FISCAL 2022",
+            "date": "2021-11-25",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 6,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2021-12-17T18-47",
+            "asunto": "PROYECTO DE LEY 1008, QUE PROPONE LA LEY QUE AUTORIZA CRÉDITO SUPLEMENTARIO EN EL PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2021 DESTINADO A FINANCIAR INTERVENCIONES EN EL MARCO DE LA REACTIVA",
+            "date": "2021-12-17",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-06-09T22-57",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1515, QUE PROPONE DEROGAR EL LITERAL C) DEL NUMERAL 1 DE LA DISPOSICIÓN COMPLEMENTARIA FINAL CENTÉSIMA DÉCIMA CUARTA DE LA LEY 31365, LEY DE PRESUPUESTO DEL SECT",
+            "date": "2022-06-09",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-14T22-39",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2396, QUE PROPONE ESTABLECER NUEVO PLAZO PARA EL ARTÍCULO 14 DE LA LEY 31365, LEY DE PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2022, MODIFICADO POR LEY 3",
+            "date": "2022-07-14",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-15T11-15",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2417, QUE PROPONE AUTORIZAR AL MINISTERIO DE EDUCACIÓN A EFECTUAR UNA TRANSFERENCIA DE PARTIDAS EN EL PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2022, A F",
+            "date": "2022-07-15",
+            "category": "educacion",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-06T12-15",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 1143 Y 1265, QUE PROPONE MODIFICAR EL NUMERAL 67.7 DEL ARTÍCULO 67 DE LA LEY 31365, LEY DE PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2022",
+            "date": "2022-10-06",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-11-30T21-00",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2909, QUE PROPONE LA LEY DE EQUILIBRIO FINANCIERO DEL PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2023",
+            "date": "2022-11-30",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 2,
+            "sp_no": 0,
+            "sp_abstencion": 1
+          },
+          {
+            "vote_id": "2022-11-30T21-07",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2907, QUE PROPONE LA LEY DE PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2023",
+            "date": "2022-11-30",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 2,
+            "sp_no": 0,
+            "sp_abstencion": 1
+          },
+          {
+            "vote_id": "2022-12-21T22-05",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 3089, QUE PROPONE AUTORIZAR LA CONTINUIDAD DURANTE EL AÑO FISCAL 2022, DEL PROCESO DE NOMBRAMIENTO A QUE HACE REFERENCIA EL INCISO A) DEL NUMERAL 2 DE LA CENTÉSI",
+            "date": "2022-12-21",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      }
+    },
+    {
+      "promise_id": "SP-2021-006",
+      "promise_text": "Lograr que 500,000 ciudadanos accedan a programas de vivienda digna al 2026",
+      "category": "vivienda",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 4/4 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "vivienda.*digna",
+        "acceso.*vivienda",
+        "bono.*vivienda",
+        "programa.*vivienda"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 4,
+        "voted_si": 4,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2022-07-14T19-38",
+            "asunto": "PROYECTO DE LEY 2420, QUE PROPONE CREAR EL BONO DE ARRENDAMIENTO DE VIVIENDA PARA EMERGENCIAS",
+            "date": "2022-07-14",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-14T19-43",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2420, QUE PROPONE CREAR EL BONO DE ARRENDAMIENTO DE VIVIENDA PARA EMERGENCIAS",
+            "date": "2022-07-14",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-06T11-54",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1359, QUE PROMUEVE EL ACCESO A LA VIVIENDA PARA LAS MUJERES VÍCTIMAS DE VIOLENCIA E INCORPORA A OTRAS INSTITUCIONES PÚBLICAS PARA ASIGNAR BIENES INMUEBLES A LOS ",
+            "date": "2022-10-06",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-06T11-56",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1359, QUE PROMUEVE EL ACCESO A LA VIVIENDA PARA LAS MUJERES VÍCTIMAS DE VIOLENCIA E INCORPORA A OTRAS INSTITUCIONES PÚBLIC",
+            "date": "2022-10-06",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-007",
+      "promise_text": "Ejecutar 250 mil proyectos inmobiliarios en todo el pais al 2026",
+      "category": "vivienda",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 21/22 (95.5%) supporting laws",
+      "supporting_keywords": [
+        "proyecto.*vivienda",
+        "construcci.*vivienda",
+        "vivienda.*rural",
+        "vivienda.*social"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 22,
+        "voted_si": 21,
+        "voted_no": 0,
+        "voted_divided": 1,
+        "laws": [
+          {
+            "vote_id": "2022-04-28T20-19",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 92, QUE PROPONE PROMOVER LA CONSTRUCCIÓN DE EQUIPAMIENTO DE VIVIENDAS RURALES, CON EL FIN DE CONTRIBUIR A REACTIVAR LA ECONOMÍA NACIONAL AFECTADA POR EL COVID 19",
+            "date": "2022-04-28",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 1,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-04-28T20-23",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 92, QUE PROPONE PROMOVER LA CONSTRUCCIÓN DE EQUIPAMIENTO DE VIVIENDAS RURALES, CON EL FIN DE CONTRIBUIR A REACTIVAR LA ECO",
+            "date": "2022-04-28",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 1,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-14T19-38",
+            "asunto": "PROYECTO DE LEY 2420, QUE PROPONE CREAR EL BONO DE ARRENDAMIENTO DE VIVIENDA PARA EMERGENCIAS",
+            "date": "2022-07-14",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-14T19-43",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 2420, QUE PROPONE CREAR EL BONO DE ARRENDAMIENTO DE VIVIENDA PARA EMERGENCIAS",
+            "date": "2022-07-14",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-09-01T12-54",
+            "asunto": "CUESTION PREVIA PARA QUE PASE A LA COMISIÓN DE ECONOMÍA EL PROYECTO DE LEY 886, QUE PROPONE PRECISAR EL BENEFICIO DE LA EXONERACIÓN DEL IMPUESTO GENERAL A LAS VENTAS (IGV) A LA PRIMERA CONSTRUCCIÓN DE",
+            "date": "2022-09-01",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-09-15T18-54",
+            "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 3797, QUE PROPONE OTORGAR FACULTADES DE COMISIÓN INVESTIGADORA A LA COMISIÓN DE FISCALIZACIÓN, POR 120 DÍAS HÁBILES, PARA INVESTIGAR PRESUNTOS DELITOS DE CORRUPCIÓN EN L",
+            "date": "2022-09-15",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 2,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-09-15T19-17",
+            "asunto": "MOCIÓN 3797, QUE PROPONE OTORGAR FACULTADES DE COMISIÓN INVESTIGADORA A LA COMISIÓN DE FISCALIZACIÓN, POR 120 DÍAS HÁBILES, PARA INVESTIGAR PRESUNTOS DELITOS DE CORRUPCIÓN EN LA EJECUCIÓN DE LOS PROYE",
+            "date": "2022-09-15",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-06T11-54",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1359, QUE PROMUEVE EL ACCESO A LA VIVIENDA PARA LAS MUJERES VÍCTIMAS DE VIOLENCIA E INCORPORA A OTRAS INSTITUCIONES PÚBLICAS PARA ASIGNAR BIENES INMUEBLES A LOS ",
+            "date": "2022-10-06",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-06T11-56",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1359, QUE PROMUEVE EL ACCESO A LA VIVIENDA PARA LAS MUJERES VÍCTIMAS DE VIOLENCIA E INCORPORA A OTRAS INSTITUCIONES PÚBLIC",
+            "date": "2022-10-06",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-13T19-22",
+            "asunto": "CUESTIÓN PREVIA PARA QUE PASE A LA COMISIÓN DE PUEBLOS ANDINOS EL PROYECTO DE LEY 1210, QUE PROPONE MODIFICAR LA LEY 24657, LEY QUE DECLARA DE NECESIDAD NACIONAL E INTERÉS SOCIAL EL DESLINDE Y LA TITU",
+            "date": "2022-10-13",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 2,
+            "sp_no": 1,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-008",
+      "promise_text": "Lograr 100% de cobertura de agua potable y alcantarillado en poblacion urbana al 2026",
+      "category": "agua",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 32/34 (94.1%) supporting laws",
+      "supporting_keywords": [
+        "agua.*potable",
+        "saneamiento",
+        "alcantarillado",
+        "SEDAPAL",
+        "servicio.*agua"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 34,
+        "voted_si": 32,
+        "voted_no": 2,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2021-11-18T11-57",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 156, QUE PROPONE LA LEY QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA AMPLIACIÓN Y MEJORAMIENTO DEL SERVICIO DE AGUA PARA RIEGO EN LA ZONA DE INFLUENCIA",
+            "date": "2021-11-18",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2021-11-18T12-03",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 156, QUE PROPONE LA LEY QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA AMPLIACIÓN Y MEJORAMIENTO DEL SERVICIO DE A",
+            "date": "2021-11-18",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-01-21T19-31",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 176 (ACTUALIZADO), QUE PROPONE LA LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1280, DECRETO LEGISLATIVO QUE APRUEBA LA LEY MARCO DE LA GESTIÓN Y PRESTACIÓN DE LOS SE",
+            "date": "2022-01-21",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-01-21T19-37",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITURIO DEL PROYECTO DE LEY 176 (ACTUALIZADO) QUE PROPONE LA LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1280, DECRETO LEGISLATIVO QUE APRUEBA LA LEY MARCO ",
+            "date": "2022-01-21",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-01-21T19-52",
+            "asunto": "TEXTO SUSTITURIO DEL PROYECTO DE LEY 430 (ACTUALIZADO), QUE PROPONE LA LEY QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA EJECUCIÓN DEL PROYECTO DE AMPLIACIÓN Y MEJORAMIENTO DEL SERVICIO DE AG",
+            "date": "2022-01-21",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-01-21T19-56",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITURIO DEL PROYECTO DE LEY 430 (ACTUALIZADO), QUE PROPONE LA LEY QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA EJECUCIÓN DEL PROYECTO DE AMPLI",
+            "date": "2022-01-21",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-02-01T18-55",
+            "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 64, QUE PROPONE LA LEY QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA EJECUCIÓN DE L",
+            "date": "2022-02-01",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-03-16T22-22",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 395, QUE PROPONE LA LEY QUE DECLARA EL 22 DE MARZO DE CADA AÑO DÍA DE LOS TRABAJADORES Y TRABAJADORAS DEL SECTOR DE AGUA POTABLE Y SANEAMIENTO.",
+            "date": "2022-03-16",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-03-16T22-29",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 395, QUE PROPONE QUE DECLARA QUE EL 22 DE MARZO DE CADA AÑO DÍA DE LOS TRABAJADORES Y TRABAJADORAS DEL SECTOR DE AGUA POTA",
+            "date": "2022-03-16",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-04-07T19-44",
+            "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE DESCENTRALIZACIÓN EL PROYECTO DE LEY 1174, QUE PROPONE ESTABLECER PROCESO EXCEPCIONAL PARA EL SANEAMIENTO DE LÍMITES A NIVEL NACIONAL",
+            "date": "2022-04-07",
+            "category": "justicia",
+            "sp_position": "NO",
+            "sp_si": 1,
+            "sp_no": 4,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-009",
+      "promise_text": "Lograr 10% de cobertura de agua potable y alcantarillado en poblacion rural al 2026",
+      "category": "agua",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 2/2 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "agua.*rural",
+        "saneamiento.*rural",
+        "agua.*potable.*rural"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 2,
+        "voted_si": 2,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2023-06-22T20-10",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2514 Y 4774, QUE PROPONE MODIFICAR LA LEY 31145, LEY DE SANEAMIENTO FÍSICO-LEGAL Y FORMALIZACIÓN DE PREDIOS RURALES A CARGO DE LOS GOBIERNOS REGIONALES",
+            "date": "2023-06-22",
+            "category": "agricultura",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-06-22T20-13",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 2514 Y 4774, QUE PROPONE MODIFICAR LA LEY 31145, LEY DE SANEAMIENTO FÍSICO-LEGAL Y FORMALIZACIÓN DE PREDIOS RURALES A ",
+            "date": "2023-06-22",
+            "category": "agricultura",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-010",
+      "promise_text": "Lograr 10% de poblacion rural con acceso a agua segura al 2026",
+      "category": "agua",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 12/12 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "agua.*segura",
+        "agua.*rural",
+        "agua.*potable"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 12,
+        "voted_si": 12,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2022-01-21T19-52",
+            "asunto": "TEXTO SUSTITURIO DEL PROYECTO DE LEY 430 (ACTUALIZADO), QUE PROPONE LA LEY QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA EJECUCIÓN DEL PROYECTO DE AMPLIACIÓN Y MEJORAMIENTO DEL SERVICIO DE AG",
+            "date": "2022-01-21",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-01-21T19-56",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITURIO DEL PROYECTO DE LEY 430 (ACTUALIZADO), QUE PROPONE LA LEY QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA EJECUCIÓN DEL PROYECTO DE AMPLI",
+            "date": "2022-01-21",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-02-01T18-55",
+            "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 64, QUE PROPONE LA LEY QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA EJECUCIÓN DE L",
+            "date": "2022-02-01",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-03-16T22-22",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 395, QUE PROPONE LA LEY QUE DECLARA EL 22 DE MARZO DE CADA AÑO DÍA DE LOS TRABAJADORES Y TRABAJADORAS DEL SECTOR DE AGUA POTABLE Y SANEAMIENTO.",
+            "date": "2022-03-16",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-03-16T22-29",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 395, QUE PROPONE QUE DECLARA QUE EL 22 DE MARZO DE CADA AÑO DÍA DE LOS TRABAJADORES Y TRABAJADORAS DEL SECTOR DE AGUA POTA",
+            "date": "2022-03-16",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-05-04T22-20",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 165, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA EJECUCIÓN DEL PROYECTO DE INVERSIÓN MEJORAMIENTO DEL SERVICIO DE AGUA POTABLE Y DE LOS SISTE",
+            "date": "2022-05-04",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-05-04T22-25",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 165, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA EJECUCIÓN DEL PROYECTO DE INVERSIÓN MEJORAMIENTO DEL ",
+            "date": "2022-05-04",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-06-09T23-25",
+            "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR EL SEÑOR PRESIDENTE DE LA REPÚBLICA RECAÍDA EN EL PROYECTO DE LEY 430, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA EJECUCIÓN DEL PROYECTO ",
+            "date": "2022-06-09",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-11-17T18-47",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 75, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1280, LEY MARCO DE LA GESTIÓN Y PRESTACIÓN DE LOS SERVICIOS DE SANEAMIENTO, PARA PROTEGER A LOS USUARIOS RESIDEN",
+            "date": "2022-11-17",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-11-17T18-50",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 75, QUE PROPONE MODIFICAR EL DECRETO LEGISLATIVO 1280, LEY MARCO DE LA GESTIÓN Y PRESTACIÓN DE LOS SERVICIOS DE SANEAMIENT",
+            "date": "2022-11-17",
+            "category": "agua",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-011",
+      "promise_text": "Formalizar un millon de predios con titulos de propiedad",
+      "category": "vivienda",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 8/9 (88.9%) supporting laws",
+      "supporting_keywords": [
+        "formalizaci.*propiedad",
+        "titulo.*propiedad",
+        "titulaci.*predio",
+        "saneamiento.*fisico.*legal"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 9,
+        "voted_si": 8,
+        "voted_no": 0,
+        "voted_divided": 1,
+        "laws": [
+          {
+            "vote_id": "2022-06-17T02-53",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 869, QUE PROPONE OTORGAR FUNCIONES COMPARTIDAS A LOS GOBIERNOS LOCALES EN LOS PROCESOS DE FORMALIZACIÓN DE LA PROPIEDAD INFORMAL",
+            "date": "2022-06-16",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-07-07T22-27",
+            "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 869, QUE PROPONE OTORGAR FUNCIONES COMPARTIDAS A LOS GOBIERNOS LOCALES EN LOS PROCESOS DE FORMALIZACIÓN DE LA PROPIEDAD INFORMAL",
+            "date": "2022-07-07",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-13T19-22",
+            "asunto": "CUESTIÓN PREVIA PARA QUE PASE A LA COMISIÓN DE PUEBLOS ANDINOS EL PROYECTO DE LEY 1210, QUE PROPONE MODIFICAR LA LEY 24657, LEY QUE DECLARA DE NECESIDAD NACIONAL E INTERÉS SOCIAL EL DESLINDE Y LA TITU",
+            "date": "2022-10-13",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 2,
+            "sp_no": 1,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-13T19-27",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1210, QUE PROPONE MODIFICAR LA LEY 24657, LEY QUE DECLARA DE NECESIDAD NACIONAL E INTERÉS SOCIAL EL DESLINDE Y LA TITULACIÓN DEL TERRITORIO DE LAS COMUNIDADES CA",
+            "date": "2022-10-13",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 2,
+            "sp_no": 1,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-13T19-33",
+            "asunto": "RECONSIDERACIÓN DE LA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1210, QUE PROPONE MODIFICAR LA LEY 24657, LEY QUE DECLARA DE NECESIDAD NACIONAL E INTERÉS SOCIAL EL DESLINDE Y LA TITULACIÓN D",
+            "date": "2022-10-13",
+            "category": "vivienda",
+            "sp_position": "DIVIDED",
+            "sp_si": 1,
+            "sp_no": 1,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-13T19-37",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1210, QUE PROPONE MODIFICAR LA LEY 24657, LEY QUE DECLARA DE NECESIDAD NACIONAL E INTERÉS SOCIAL EL DESLINDE Y LA TITULACI",
+            "date": "2022-10-13",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 2,
+            "sp_no": 0,
+            "sp_abstencion": 1
+          },
+          {
+            "vote_id": "2022-10-20T12-22",
+            "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1210, QUE PROPONE MODIFICAR LA LEY 24657, LEY QUE DECLARA DE NECESIDAD NACIONAL E INTERÉS SOCIAL EL DESLINDE Y LA TITULACIÓN DEL TERRITORIO ",
+            "date": "2022-10-20",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 2,
+            "sp_no": 0,
+            "sp_abstencion": 1
+          },
+          {
+            "vote_id": "2023-05-04T21-47",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1628, QUE PROPONE ESTABLECER MEDIDAS PARA IMPLEMENTAR LAS RECOMENDACIONES TÉCNICAS EMITIDAS POR LAS ENTIDADES COMPETENTES, A FIN DE SUPERAR EL RIESGO MITIGABLE E",
+            "date": "2023-05-04",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-05-04T21-50",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1628, QUE PROPONE ESTABLECER MEDIDAS PARA IMPLEMENTAR LAS RECOMENDACIONES TÉCNICAS EMITIDAS POR LAS ENTIDADES COMPETENTES,",
+            "date": "2023-05-04",
+            "category": "vivienda",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-012",
+      "promise_text": "Completar 100% de construccion de la autopista Ramiro Priale hasta Chosica al 2026",
+      "category": "transporte",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 2/2 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "autopista",
+        "carretera.*nacional",
+        "infraestructura.*vial",
+        "via.*expresa",
+        "mejoramiento.*carretera"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 2,
+        "voted_si": 2,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2022-06-02T23-22",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 512, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA Y PREFERENTE INTERÉS NACIONAL EL PROYECTO DE MEJORAMIENTO Y LA REHABILITACIÓN DE LA CARRETERA VILLA RICA-PUERTO BE",
+            "date": "2022-06-02",
+            "category": "transporte",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-06-02T23-26",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 512, QUE PROPONE DECLARAR DE NECESIDAD PÚBLICA Y PREFERENTE INTERÉS NACIONAL EL PROYECTO DE MEJORAMIENTO Y LA REHABILITACI",
+            "date": "2022-06-02",
+            "category": "transporte",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-013",
+      "promise_text": "Construir Tren de cercanias Lima-Canete y Lima-Huacho al 2026",
+      "category": "transporte",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 2/2 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "tren.*cercania",
+        "ferrocarril",
+        "metro.*lima",
+        "linea.*metro",
+        "tren.*costa"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 2,
+        "voted_si": 2,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2023-02-09T20-10",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 634, QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA EJECUCIÓN DEL PROYECTO TREN DE LA COSTA, QUE ABARCA TODO EL LITORAL COSTERO Y COMPRENDE LOS ",
+            "date": "2023-02-09",
+            "category": "transporte",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-02-09T20-14",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 634, QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA EJECUCIÓN DEL PROYECTO TREN DE LA COSTA, QUE ABARCA T",
+            "date": "2023-02-09",
+            "category": "transporte",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-014",
+      "promise_text": "Poner en operacion la Hidrovia Amazonica al 2026",
+      "category": "transporte",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 2/2 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "hidrovia.*amazon",
+        "transporte.*fluvial",
+        "navegaci.*amazon"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 2,
+        "voted_si": 2,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2023-06-21T21-47",
+            "asunto": "TEXTO SUSTITUTORIO DEL PL 4029, QUE PROPONE MODIFICAR LA LEY 27037, LEY DE PROMOCIÓN DE INVERSIÓN EN LA AMAZONÍA, PARA OTORGAR A LA ACTIVIDAD DEL TRANSPORTE FLUVIAL DE CARGA Y PASAJEROS EN LOS DEPARTA",
+            "date": "2023-06-21",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-06-21T21-50",
+            "asunto": "EXONERACIÓN 2ª VOTACIÓN DEL TEXTO SUSTITUTORIO PL 4029, QUE MODIFICA LEY 27037, LEY DE PROMOCIÓN DE INVERSIÓN EN LA AMAZONÍA, PARA OTORGAR AL TRANSPORTE FLUVIAL DE CARGA Y PASAJEROS EN LOS DEPARTAMENT",
+            "date": "2023-06-21",
+            "category": "fiscal",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-015",
+      "promise_text": "Construir zona de actividad logistica en el Puerto del Callao",
+      "category": "transporte",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 2/2 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "puerto.*callao",
+        "zona.*logistic",
+        "terminal.*portuari",
+        "actividad.*logistic"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 2,
+        "voted_si": 2,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2023-10-05T19-28",
+            "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 8087, QUE PROPONE CONSTITUIR UNA COMISIÓN ESPECIAL MULTIPARTIDARIA DE IMPULSO Y SEGUIMIENTO DEL PROYECTO TERMINAL MULTIPROPÓSITO DE CHANCAY, QUE TENDRÁ UNA VIGENCIA DE U",
+            "date": "2023-10-05",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 1,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-10-05T19-51",
+            "asunto": "MOCIÓN 8087, QUE PROPONE CONSTITUIR UNA COMISIÓN ESPECIAL MULTIPARTIDARIA DE IMPULSO Y SEGUIMIENTO DEL PROYECTO TERMINAL MULTIPROPÓSITO DE CHANCAY, QUE TENDRÁ UNA VIGENCIA DE UN AÑO LUEGO DE SU APROBA",
+            "date": "2023-10-05",
+            "category": "transporte",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 2,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-016",
+      "promise_text": "Recuperar flujos de turismo receptivo e interno del 2019 al 2023",
+      "category": "economia",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 7/7 (100.0%) supporting laws",
+      "supporting_keywords": [
+        "turismo",
+        "turista",
+        "reactivaci.*turis",
+        "promoci.*turis"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 7,
+        "voted_si": 7,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": [
+          {
+            "vote_id": "2022-06-17T01-14",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 163, 479, 1315, 1443 Y 1986, QUE PROPONE MODIFICAR LA LEY 28529, LEY DEL GUÍA DE TURISMO",
+            "date": "2022-06-16",
+            "category": "economia",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-06-17T01-18",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 163, 479, 1315, 1443 Y 1986, QUE PROPONE MODIFICAR LA LEY 28529, LEY DEL GUÍA DE TURISMO",
+            "date": "2022-06-16",
+            "category": "economia",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-09-22T13-08",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 400, 917 Y 1953, QUE PROPONE LA LEY DE PROMOCIÓN Y DESARROLLO DEL TURISMO COMUNITARIO",
+            "date": "2022-09-22",
+            "category": "economia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-09-22T13-09",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 400, 917 Y 1953, QUE PROPONE LA LEY DE PROMOCIÓN Y DESARROLLO DEL TURISMO COMUNITARIO",
+            "date": "2022-09-22",
+            "category": "economia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-11-03T10-44",
+            "asunto": "ALLANAMIENTO A LAS OBSERVACIONES FORMULADAS POR EL PRESIDENTE DE LA REPUBLICA A LA AUTÓGRAFA RECAÍDA EN LOS PROYECTOS DE LEY 163, 479, 1315, 1443 Y 1986, QUE PROPONE MODIFICAR LA LEY 28529, LEY DEL GU",
+            "date": "2022-11-03",
+            "category": "transporte",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-03-22T21-03",
+            "asunto": "ARTÍCULO 1 DEL PROYECTO DE RESOLUCIÓN LEGISLATIVA DEL CONGRESO QUE DECLARA HABER LUGAR A LA FORMACIÓN DE CAUSA PENAL CONTRA ROBERTO HELBERT SÁNCHEZ PALOMINO EN SU CONDICIÓN DE EXMINISTRO DE COMERCIO E",
+            "date": "2023-03-22",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 1,
+            "sp_abstencion": 1
+          },
+          {
+            "vote_id": "2023-06-08T10-08",
+            "asunto": "INSISTENCIA EN LA AUTÓGRAFA OBSERVADA POR LA PRESIDENCIA DE LA REPÚBLICA RECAÍDA EN LOS PROYECTOS DE LEY 400, 917 Y 1953, QUE PROPONE LA PROMOCIÓN Y DESARROLLO DEL TURISMO COMUNITARIO",
+            "date": "2023-06-08",
+            "category": "transporte",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-017",
+      "promise_text": "Identificar y renovar 30 recursos turisticos del pais al 2026",
+      "category": "economia",
+      "status": "NOT_AMPAY",
+      "ampay_reason": "Voted SI on 14/16 (87.5%) supporting laws",
+      "supporting_keywords": [
+        "recurso.*turis",
+        "patrimonio.*cultural",
+        "destino.*turis",
+        "atractivo.*turis"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 16,
+        "voted_si": 14,
+        "voted_no": 0,
+        "voted_divided": 2,
+        "laws": [
+          {
+            "vote_id": "2022-02-02T13-30",
+            "asunto": "SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1160 (ACTUALIZADO), QUE PROPONE LA LEY DE REFORMA CONSTITUCIONAL QUE REFUERZA LA PROTECCIÓN DEL PATRIMONIO CULTURAL DE LA NACIÓN",
+            "date": "2022-02-02",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-20T16-48",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1002, QUE PROPONE DECLARAR DE INTERÉS NACIONAL EL RECONOCIMIENTO DE LA COMUNIDAD INDÍGENA SHIPIBO-KONIBO DE CANTAGALLO COMO PARTE DEL PATRIMONIO CULTURAL INMATER",
+            "date": "2022-10-20",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-20T16-51",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1002, QUE PROPONE DECLARAR DE INTERÉS NACIONAL EL RECONOCIMIENTO DE LA COMUNIDAD INDÍGENA SHIPIBO-KONIBO DE CANTAGALLO COM",
+            "date": "2022-10-20",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-20T17-11",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 356 (ACTUALIZADO), QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA EL RECONOCIMIENTO COMO PATRIMONIO CULTURAL DE LA NACIÓN DE LA CASA MARIANO MELGAR",
+            "date": "2022-10-20",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-10-20T17-16",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 356 (ACTUALIZADO), QUE PROPONE DECLARAR DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA EL RECONOCIMIENTO COMO PATRIMONIO CULTURAL",
+            "date": "2022-10-20",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 3,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-11-03T20-30",
+            "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1689, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA POSTULACIÓN DE LA FIESTA DE LA VIRGEN DEL CARMEN DE PAUCARTAMBO DE CUSCO COMO PATRIMONIO CULTURAL INMATERIAL DE",
+            "date": "2022-11-03",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 2,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-11-03T20-32",
+            "asunto": "EXONERACIÓN DE LA SEGUNDA VOTACIÓN DEL TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 1689, QUE PROPONE DECLARAR DE INTERÉS NACIONAL LA POSTULACIÓN DE LA FIESTA DE LA VIRGEN DEL CARMEN DE PAUCARTAMBO DE CUSCO",
+            "date": "2022-11-03",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 2,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2022-12-28T22-54",
+            "asunto": "CUESTIÓN PREVIA PARA QUE RETORNE A LA COMISIÓN DE CULTURA LOS PROYECTOS DE LEY 65 (ACTUALIZADO), 1357, 1437, 1856 Y 2245, QUE PROPONE MODIFICAR LA LEY 28296, LEY GENERAL DEL PATRIMONIO CULTURAL DE LA ",
+            "date": "2022-12-28",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 5,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-04-27T22-24",
+            "asunto": "CUESTIÓN PREVIA PARA QUE RETORNEN A LA COMISIÓN DE CULTURA LOS PROYECTOS DE LEY 65, 1357, 1437, 1856 Y 2245 (ACTUALIZADO), QUE PROPONEN MODIFICAR LA LEY 28296, LEY GENERAL DEL PATRIMONIO CULTURAL DE L",
+            "date": "2023-04-27",
+            "category": "justicia",
+            "sp_position": "DIVIDED",
+            "sp_si": 2,
+            "sp_no": 2,
+            "sp_abstencion": 0
+          },
+          {
+            "vote_id": "2023-04-28T00-04",
+            "asunto": "TEXTO SUSTITUTORIO DE LOS PROYECTOS DE LEY 65, 1357, 1437, 1856 Y 2245 (ACTUALIZADO), QUE PROPONE MODIFICAR LA LEY 28296, LEY GENERAL DEL PATRIMONIO CULTURAL DE LA NACIÓN",
+            "date": "2023-04-27",
+            "category": "justicia",
+            "sp_position": "SI",
+            "sp_si": 4,
+            "sp_no": 0,
+            "sp_abstencion": 0
+          }
+        ]
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    },
+    {
+      "promise_id": "SP-2021-018",
+      "promise_text": "Identificar cinco destinos de excelencia mundial con certificados internacionales de bioseguridad al 2026",
+      "category": "economia",
+      "status": "INSUFFICIENT_DATA",
+      "ampay_reason": null,
+      "supporting_keywords": [
+        "destino.*excelencia",
+        "bioseguridad.*turis",
+        "certificaci.*turis"
+      ],
+      "contradicting_keywords": [],
+      "supporting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      },
+      "contradicting_laws": {
+        "count": 0,
+        "voted_si": 0,
+        "voted_no": 0,
+        "voted_divided": 0,
+        "laws": []
+      }
+    }
+  ]
+}

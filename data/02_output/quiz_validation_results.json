@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "date": "2026-01-23",
+    "questions": 15,
+    "parties": 9,
+    "algorithm": "Manhattan distance"
+  },
+  "true_believers": {
+    "test": "true_believers",
+    "total_simulations": 999999,
+    "correct": 999999,
+    "wrong": 0,
+    "accuracy": 1.0,
+    "per_party": {
+      "fuerza_popular": {
+        "correct": 111111,
+        "wrong": 0
+      },
+      "peru_libre": {
+        "correct": 111111,
+        "wrong": 0
+      },
+      "renovacion_popular": {
+        "correct": 111111,
+        "wrong": 0
+      },
+      "avanza_pais": {
+        "correct": 111111,
+        "wrong": 0
+      },
+      "alianza_progreso": {
+        "correct": 111111,
+        "wrong": 0
+      },
+      "somos_peru": {
+        "correct": 111111,
+        "wrong": 0
+      },
+      "podemos_peru": {
+        "correct": 111111,
+        "wrong": 0
+      },
+      "juntos_peru": {
+        "correct": 111111,
+        "wrong": 0
+      },
+      "partido_morado": {
+        "correct": 111111,
+        "wrong": 0
+      }
+    }
+  },
+  "random_answers": {
+    "test": "random_answers",
+    "total_simulations": 1000000,
+    "distribution": {
+      "somos_peru": {
+        "count": 321196,
+        "percentage": 32.1196
+      },
+      "fuerza_popular": {
+        "count": 95878,
+        "percentage": 9.5878
+      },
+      "partido_morado": {
+        "count": 113563,
+        "percentage": 11.3563
+      },
+      "peru_libre": {
+        "count": 131845,
+        "percentage": 13.1845
+      },
+      "renovacion_popular": {
+        "count": 41152,
+        "percentage": 4.1152
+      },
+      "alianza_progreso": {
+        "count": 115890,
+        "percentage": 11.589
+      },
+      "podemos_peru": {
+        "count": 105233,
+        "percentage": 10.5233
+      },
+      "juntos_peru": {
+        "count": 40671,
+        "percentage": 4.0671
+      },
+      "avanza_pais": {
+        "count": 34572,
+        "percentage": 3.4572
+      }
+    },
+    "expected_percentage": 11.11111111111111,
+    "max_percentage": 32.1196,
+    "min_percentage": 3.4572,
+    "max_deviation_pp": 21.008488888888888,
+    "chi_square": 545177.9349079999,
+    "degrees_of_freedom": 8,
+    "chi_square_critical_005": 15.51,
+    "reject_uniform": true,
+    "margin_of_error_95": 0.098,
+    "confidence_intervals_95": {
+      "somos_peru": {
+        "lower": 32.02814940376935,
+        "upper": 32.211187974392175
+      },
+      "fuerza_popular": {
+        "lower": 9.530248072441088,
+        "upper": 9.645662421381157
+      },
+      "partido_morado": {
+        "lower": 11.294261562693222,
+        "upper": 11.418635343442018
+      },
+      "peru_libre": {
+        "lower": 13.118330259584987,
+        "upper": 13.250952600177973
+      },
+      "renovacion_popular": {
+        "lower": 4.076442178889731,
+        "upper": 4.154310361851309
+      },
+      "alianza_progreso": {
+        "lower": 11.526409284462241,
+        "upper": 11.65188583379923
+      },
+      "podemos_peru": {
+        "lower": 10.463308308917869,
+        "upper": 10.583594997298386
+      },
+      "juntos_peru": {
+        "lower": 4.028560858202805,
+        "upper": 4.105992052098733
+      },
+      "avanza_pais": {
+        "lower": 3.4215705686151474,
+        "upper": 3.4931870276520693
+      }
+    }
+  }
+}

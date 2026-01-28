@@ -1,0 +1,276 @@
+{
+  "methodology": "v5-manual-review",
+  "analysis_date": "2026-01-22",
+  "description": "Final AMPAY list after manual review of 68 filtered candidates + audit verification",
+
+  "DATA_DISCLAIMER": {
+    "WARNING": "INCOMPLETE DATA - READ BEFORE USING",
+    "voting_data_source": "https://github.com/openpolitica/congreso-pleno-asistencia-votacion",
+    "voting_data_coverage": "2021-07-26 to 2024-07-26 ONLY",
+    "congressional_term": "2021-2026",
+    "missing_data": "Votes from 2024-07-27 to 2026-07-26 (2 years) NOT INCLUDED",
+    "implication": "AMPAYs detected are based on PARTIAL voting record. Additional contradictions may exist in 2024-2026 votes not analyzed.",
+    "recommendation": "Results should be updated when complete 2021-2026 voting data becomes available"
+  },
+
+  "total_parties_analyzed": 9,
+  "total_promises_analyzed": 341,
+  "total_ampays_confirmed": 6,
+
+  "summary_by_party": {
+    "Fuerza Popular": {
+      "promises": 35,
+      "ampays": 1,
+      "ampay_ids": ["FP-2021-005"],
+      "status": "ANALYZED"
+    },
+    "Peru Libre": {
+      "promises": 21,
+      "ampays": 1,
+      "ampay_ids": ["PL-2021-015"],
+      "status": "ANALYZED"
+    },
+    "Renovacion Popular": {
+      "promises": 84,
+      "ampays": 2,
+      "ampay_ids": ["RP-2021-046", "RP-2021-084"],
+      "status": "ANALYZED"
+    },
+    "Avanza Pais": {
+      "promises": 31,
+      "ampays": 0,
+      "ampay_ids": [],
+      "status": "ANALYZED"
+    },
+    "Alianza para el Progreso": {
+      "promises": 49,
+      "ampays": 0,
+      "ampay_ids": [],
+      "status": "ANALYZED",
+      "audit_note": "2026-01-22: Removed APP-2021-038 and APP-2021-042. Vote interpretation error - APP voted SI on reconsideration (Aug 19), not NO."
+    },
+    "Somos Peru": {
+      "promises": 20,
+      "ampays": 1,
+      "ampay_ids": ["SP-2021-019"],
+      "status": "ANALYZED"
+    },
+    "Podemos Peru": {
+      "promises": 67,
+      "ampays": 0,
+      "ampay_ids": [],
+      "status": "INSUFFICIENT DATA"
+    },
+    "Juntos por el Peru": {
+      "promises": 32,
+      "ampays": 1,
+      "ampay_ids": ["JP-2021-032"],
+      "status": "ANALYZED"
+    },
+    "Partido Morado": {
+      "promises": 6,
+      "ampays": 0,
+      "ampay_ids": [],
+      "status": "INSUFFICIENT DATA"
+    }
+  },
+
+  "ampays": [
+    {
+      "id": "AMPAY-001",
+      "party": "Fuerza Popular",
+      "promise_id": "FP-2021-005",
+      "promise_text": "Implementar reforma tributaria con principio de universalidad y simplificacion",
+      "promise_category": "fiscal",
+      "contradiction_type": "B",
+      "evidence": {
+        "laws_voted": 6,
+        "vote": "SI",
+        "expected_vote": "NO",
+        "si_percentage": 100,
+        "key_laws": [
+          "PL 3740 - Prorrogar apendices IGV",
+          "PL 3195 - Devolucion IGV mineras/hidrocarburos",
+          "PL 6473 - Prorrogar exoneracion mercado valores",
+          "PL 3155 - Regimenes especiales depreciacion",
+          "PL 3671 - Incentivos fiscales fondos inmobiliarios",
+          "PL 3672 - Regimen especial recuperacion IGV"
+        ]
+      },
+      "reasoning": "Prometio universalidad tributaria (mismas reglas para todos) pero voto SI en 6/6 leyes que extienden regimenes especiales para corporaciones, mineras e inversionistas.",
+      "confidence": "HIGH",
+      "cross_validation": "Peru Libre voto NO en 5 de las 6 leyes (PL 3195, 3155, 3671, 3672, 6473) - confirma que son votos ideologicos. Nota: PL voto SI en PL 3740."
+    },
+    {
+      "id": "AMPAY-002",
+      "party": "Renovacion Popular",
+      "promise_id": "RP-2021-046",
+      "promise_text": "Eliminar los regimenes tributarios para crear uno solo amigable que permita la formalizacion",
+      "promise_category": "fiscal",
+      "contradiction_type": "B",
+      "evidence": {
+        "laws_voted": 5,
+        "vote": "SI",
+        "expected_vote": "NO",
+        "si_percentage": 100,
+        "key_laws": [
+          "PL 3195 - Prorrogar devolucion IGV mineras/hidrocarburos",
+          "PL 3155 - Regimenes especiales depreciacion",
+          "PL 3671 - Incentivos fiscales fondos inmobiliarios",
+          "PL 3672 - Regimen especial recuperacion IGV",
+          "PL 3740 - Prorrogar apendices IGV"
+        ]
+      },
+      "reasoning": "Prometio eliminar regimenes tributarios y crear uno solo, pero voto SI en 5/5 leyes que ESTABLECEN o EXTIENDEN regimenes especiales.",
+      "confidence": "HIGH",
+      "cross_validation": "Patron identico a Fuerza Popular - ambos prometieron simplificacion pero votaron identico para extender regimenes especiales"
+    },
+    {
+      "id": "AMPAY-003",
+      "party": "Renovacion Popular",
+      "promise_id": "RP-2021-084",
+      "promise_text": "Fomentar procesos que den mayor valor agregado a materias primas para aumentar exportacion de productos terminados",
+      "promise_category": "economia",
+      "contradiction_type": "A",
+      "evidence": {
+        "laws_voted": 1,
+        "vote": "NO",
+        "expected_vote": "SI",
+        "no_percentage": 87.5,
+        "key_laws": [
+          "Mocion 8087 - Comision Especial Multipartidaria Terminal Multiproposito de Chancay (2023-10-05)"
+        ]
+      },
+      "reasoning": "Prometio fomentar valor agregado y exportaciones, pero voto NO en comision para fiscalizar el puerto de Chancay - infraestructura clave para exportaciones.",
+      "confidence": "HIGH",
+      "cross_validation": "RP: 1 SI, 6 NO (12.5% SI) - clara posicion de partido"
+    },
+    {
+      "id": "AMPAY-004",
+      "party": "Somos Peru",
+      "promise_id": "SP-2021-019",
+      "promise_text": "Reducir Gasto Corriente del Estado en 2% del PBI",
+      "promise_category": "fiscal",
+      "contradiction_type": "B",
+      "evidence": {
+        "laws_voted": 11,
+        "vote": "SI",
+        "expected_vote": "NO",
+        "si_percentage": 100,
+        "key_laws": [
+          "Ley de Presupuesto 2022",
+          "Ley de Presupuesto 2023",
+          "Creditos suplementarios 2022 (multiple)",
+          "Creditos suplementarios 2023 (multiple)"
+        ]
+      },
+      "reasoning": "Prometio reducir gasto corriente en 2% del PBI, pero voto SI en 11/11 leyes de aumento presupuestario entre 2021-2023.",
+      "confidence": "HIGH",
+      "cross_validation": "Patron sistematico - voto SI en TODOS los aumentos de presupuesto"
+    },
+    {
+      "id": "AMPAY-005",
+      "party": "Peru Libre",
+      "promise_id": "PL-2021-015",
+      "promise_text": "Eliminacion de exoneraciones tributarias",
+      "promise_category": "fiscal",
+      "contradiction_type": "B",
+      "evidence": {
+        "laws_voted": 1,
+        "vote": "SI",
+        "expected_vote": "NO",
+        "si_percentage": 100,
+        "key_laws": [
+          "PL 882/1620 - Modificar Ley 27037, Ley de Promocion de la Inversion en la Amazonia (2022-07-15)"
+        ]
+      },
+      "reasoning": "Prometio eliminar exoneraciones tributarias, pero voto SI para mantener/extender exoneraciones en la Amazonia.",
+      "confidence": "MEDIUM",
+      "cross_validation": "Amazonia podria ser excepcion ideologica, pero promesa fue general",
+      "audit_note": "2026-01-22: Corrected PL number from 1808/2818 to 882/1620. Both modify same law (27037)."
+    },
+    {
+      "id": "AMPAY-006",
+      "party": "Juntos por el Peru",
+      "promise_id": "JP-2021-032",
+      "promise_text": "Convocar referendum para Asamblea Popular Constituyente",
+      "promise_category": "justicia",
+      "contradiction_type": "A",
+      "evidence": {
+        "laws_voted": 1,
+        "vote": "NO",
+        "expected_vote": "SI",
+        "no_percentage": 100,
+        "key_laws": [
+          "PL 644 - Ley que fortalece proceso de aprobacion de leyes de reforma constitucional (Art. 40 y 44, Ley 26300)"
+        ]
+      },
+      "reasoning": "Prometio convocar referendum para Asamblea Constituyente, pero voto NO en ley que fortalece mecanismos de reforma constitucional.",
+      "confidence": "MEDIUM",
+      "notes": "Asamblea Constituyente vs Reforma Constitucional son mecanismos distintos, pero ambos buscan cambio constitucional",
+      "cross_validation": "JP: 0 SI, 5 NO (0% SI) - clara posicion de partido"
+    }
+  ],
+
+  "removed_ampays": {
+    "reason": "2026-01-22 Audit verification found vote interpretation errors",
+    "removed": [
+      {
+        "original_id": "AMPAY-006",
+        "party": "Alianza para el Progreso",
+        "promise_id": "APP-2021-038",
+        "removal_reason": "Vote data shows APP voted SI (76.9%) on reconsideration vote (2021-08-19T17-32), not NO as claimed. Misinterpretation of procedural vote."
+      },
+      {
+        "original_id": "AMPAY-007",
+        "party": "Alianza para el Progreso",
+        "promise_id": "APP-2021-042",
+        "removal_reason": "Same vote as AMPAY-006. APP voted SI on reconsideration, which is pro-investigation position."
+      }
+    ]
+  },
+
+  "methodology_notes": {
+    "v5_process": [
+      "1. v4 keyword search: 1,071 raw contradictions",
+      "2. Phase 1 filter: Remove procedural votes",
+      "3. Phase 2 filter: Semantic relevance check",
+      "4. Result: 68 candidates for manual review",
+      "5. Manual review: 8 confirmed AMPAYs",
+      "6. Audit verification (2026-01-22): 6 confirmed AMPAYs after removing 2 with vote interpretation errors"
+    ],
+    "false_positive_patterns": [
+      "RURAL matched SERUMS health, not agriculture",
+      "SALUD matched SUSALUD regulator, not healthcare policy",
+      "DIGITAL matched executive office tech, not telemedicine",
+      "DEFENSA matched consumer defense, not military",
+      "REQUISITO matched diplomatic requirements, not MYPE licenses"
+    ],
+    "discarded_potential_ampays": [
+      {
+        "id": "JP-2021-005",
+        "reason": "Voting NO protected SUNEDU licensing standards - CONSISTENT with promise"
+      },
+      {
+        "id": "APAIS-2021-023",
+        "reason": "Voting NO on AFP withdrawals protects system they promised to support - CONSISTENT"
+      },
+      {
+        "id": "RP-2021-058",
+        "reason": "DEVIDA rural work is drug-specific, not general rural training - TANGENTIAL"
+      },
+      {
+        "id": "APAIS-2021-028",
+        "reason": "DIVIDED vote does not establish party position - INSUFFICIENT DATA"
+      },
+      {
+        "id": "APP-2021-038",
+        "reason": "2026-01-22 AUDIT: Vote interpretation error - reconsideration vote SI means pro-investigation"
+      },
+      {
+        "id": "APP-2021-042",
+        "reason": "2026-01-22 AUDIT: Vote interpretation error - reconsideration vote SI means pro-investigation"
+      }
+    ]
+  }
+}

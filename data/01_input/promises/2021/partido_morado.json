@@ -1,0 +1,91 @@
+{
+  "party": "Partido Morado",
+  "party_slug": "partido_morado",
+  "year": 2021,
+  "extraction_date": "2026-01-21T10:26:52.121361Z",
+  "total_pages_processed": 120,
+  "promises": [
+    {
+      "text": "Invertir masivamente en el desarrollo de los talentos de las personas mediante una revolucion educativa",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "invertir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PM-2021-004",
+      "source_page": 11
+    },
+    {
+      "text": "Crear programa de cunas de jornada completa (Cuna Mas) para ninos menores de 3 anos",
+      "category": "social",
+      "secondary_category": "educacion",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PM-2021-001",
+      "source_page": 31
+    },
+    {
+      "text": "Crear servicio integral para ninos de 3 a 6 anos en centros de educacion inicial (salud, nutricion, educacion, proteccion social)",
+      "category": "educacion",
+      "secondary_category": "salud",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PM-2021-002",
+      "source_page": 31
+    },
+    {
+      "text": "Crear Comision desde PCM para promover politicas publicas a favor de primera infancia",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PM-2021-003",
+      "source_page": 31
+    },
+    {
+      "text": "Lograr cobertura de agua, desague, electricidad e internet en todas las casas",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PM-2021-005",
+      "source_page": 76
+    },
+    {
+      "text": "Crear Sistemas Integrados de Transporte Publico en cada region o localidad",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PM-2021-006",
+      "source_page": 76
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 6,
+    "clear": 6,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 0,
+      "economia": 0,
+      "fiscal": 0,
+      "social": 2,
+      "empleo": 0,
+      "educacion": 2,
+      "salud": 0,
+      "agua": 1,
+      "vivienda": 0,
+      "transporte": 1,
+      "energia": 0,
+      "mineria": 0,
+      "ambiente": 0,
+      "agricultura": 0,
+      "justicia": 0
+    }
+  }
+}

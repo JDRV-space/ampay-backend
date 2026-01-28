@@ -1,0 +1,871 @@
+{
+  "party": "Renovacion Popular",
+  "party_slug": "renovacion_popular",
+  "year": 2021,
+  "extraction_date": "2026-01-21T09:47:00.846823Z",
+  "total_pages_processed": 29,
+  "promises": [
+    {
+      "text": "Crear una Central de lucha Contra la Corrupcion (CCC) con plenos poderes para detectar, infiltrar y capturar el delito",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-001",
+      "source_page": 1
+    },
+    {
+      "text": "Derrotar la delincuencia mediante Unidades Itinerantes de Pacificacion Ciudadana integradas por Policia, serenazgo, Poder Judicial y Fiscalia",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "derrotar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-002",
+      "source_page": 1
+    },
+    {
+      "text": "Implementar videovigilancias que monitoreen las ciudades en trabajo conjunto con gobiernos regionales y municipales",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-003",
+      "source_page": 1
+    },
+    {
+      "text": "Reforzar las organizaciones populares para distribuir ayuda alimentaria a grupos de extrema pobreza",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "reforzar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-004",
+      "source_page": 1
+    },
+    {
+      "text": "Extender a todo el pais la experiencia de los Clubes Zonales para fortalecer lazos y valores familiares",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "extender",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-005",
+      "source_page": 6
+    },
+    {
+      "text": "Programa alimenticio basado en proteinas para erradicar la anemia y desnutricion infantil",
+      "category": "salud",
+      "secondary_category": "social",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-006",
+      "source_page": 6
+    },
+    {
+      "text": "Habilitar terrenos del Estado con acceso a redes de electrificacion, agua y desague para viviendas sismo resistentes",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "habilitar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-007",
+      "source_page": 6
+    },
+    {
+      "text": "Implementar servicio de tanques de agua para familias en zonas de extrema pobreza",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-008",
+      "source_page": 6
+    },
+    {
+      "text": "Descentralizar los programas de apoyo social incorporando representantes de la poblacion organizada en directorios",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "descentralizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-009",
+      "source_page": 6
+    },
+    {
+      "text": "Crear el Sistema de Tambos para tener abastecimiento preventivo y medicinas en zonas altoandinas",
+      "category": "salud",
+      "secondary_category": "social",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-010",
+      "source_page": 6
+    },
+    {
+      "text": "Implementar casas termicas y cobertores contra el friaje en zonas altoandinas",
+      "category": "vivienda",
+      "secondary_category": "social",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-011",
+      "source_page": 6
+    },
+    {
+      "text": "Crear cadenas de frio para llevar pescado a la mesa popular",
+      "category": "agricultura",
+      "secondary_category": "salud",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-012",
+      "source_page": 6
+    },
+    {
+      "text": "Obligar que las farmacias tengan medicamentos basicos del petitorio de Minsa, Essalud y FFAA",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "obligar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-013",
+      "source_page": 6
+    },
+    {
+      "text": "Dotar y fortalecer las Postas Medicas con infraestructura, materiales y profesionales de salud",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "dotar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-014",
+      "source_page": 6
+    },
+    {
+      "text": "Crear a nivel nacional los Centros de Alto Rendimiento Deportivo (CAR)",
+      "category": "social",
+      "secondary_category": "educacion",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-015",
+      "source_page": 6
+    },
+    {
+      "text": "Asegurar la participacion efectiva de los padres de familia en la evaluacion y fiscalizacion de la calidad educativa",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "asegurar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-016",
+      "source_page": 6
+    },
+    {
+      "text": "Impulsar leyes para generar oportunidades sin distincion de sexo",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-017",
+      "source_page": 6
+    },
+    {
+      "text": "Organizar programas de capacitacion y asistencia tecnica para mujeres en zonas de extrema pobreza",
+      "category": "empleo",
+      "secondary_category": "social",
+      "action_verb": "organizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-018",
+      "source_page": 6
+    },
+    {
+      "text": "Crear sistema de credito orientado para las mujeres emprendedoras",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-019",
+      "source_page": 6
+    },
+    {
+      "text": "Elevar la cobertura de atencion en Centros de Atencion Primaria para reducir la sobredemanda hospitalaria",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "elevar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-020",
+      "source_page": 6
+    },
+    {
+      "text": "Impulsar la especialidad en Salud Familiar a nivel nacional",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-021",
+      "source_page": 6
+    },
+    {
+      "text": "Crear la Oficina Nacional de Salud Ocupacional",
+      "category": "salud",
+      "secondary_category": "empleo",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-022",
+      "source_page": 6
+    },
+    {
+      "text": "Eliminar las barreras burocraticas mediante simplificacion administrativa",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "eliminar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-023",
+      "source_page": 11
+    },
+    {
+      "text": "Implementar el Codigo del Servicio Publico con compromisos concretos y sanciones por mal servicio",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-024",
+      "source_page": 11
+    },
+    {
+      "text": "Reducir el numero de ministerios existentes por ineficiencia y sobredimensionamiento",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-025",
+      "source_page": 11
+    },
+    {
+      "text": "Descentralizar las sedes ministeriales y el propio Poder Ejecutivo",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "descentralizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-026",
+      "source_page": 11
+    },
+    {
+      "text": "Establecer incentivos economicos para mejora de gestion de Gobiernos Regionales y Locales",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-027",
+      "source_page": 11
+    },
+    {
+      "text": "Revalorar la funcion publica con ingreso por meritos y competencias",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "revalorar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-028",
+      "source_page": 11
+    },
+    {
+      "text": "Asegurar acceso masivo a informacion via Internet para mejorar la transparencia del Estado",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "asegurar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-029",
+      "source_page": 11
+    },
+    {
+      "text": "Promover acceso de jovenes profesionales a la carrera judicial con un ano de formacion especializada",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-030",
+      "source_page": 11
+    },
+    {
+      "text": "Establecer mecanismos para denunciar irregularidades en Poder Judicial y Ministerio Publico",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-031",
+      "source_page": 11
+    },
+    {
+      "text": "Promulgar ley para que controversias comerciales superiores a 10 UIT se tramiten por via arbitral",
+      "category": "justicia",
+      "secondary_category": "economia",
+      "action_verb": "promulgar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-032",
+      "source_page": 11
+    },
+    {
+      "text": "Modernizar y fortalecer a las Fuerzas Armadas incrementando su capacidad disuasiva",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "modernizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-033",
+      "source_page": 11
+    },
+    {
+      "text": "Terminar de pacificar el VRAEM",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "terminar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-034",
+      "source_page": 11
+    },
+    {
+      "text": "Incentivar ingreso al Servicio Militar Voluntario subiendo el pago a un salario minimo legal",
+      "category": "empleo",
+      "secondary_category": "seguridad",
+      "action_verb": "incentivar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-035",
+      "source_page": 11
+    },
+    {
+      "text": "Crear la carrera publica para funcionarios civiles de Defensa",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-036",
+      "source_page": 11
+    },
+    {
+      "text": "Crear el Centro de Anticipacion Estrategica para monitoreo de indicadores sensibles",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-037",
+      "source_page": 11
+    },
+    {
+      "text": "Crear el Colegio Profesional del Policia para dignificar la funcion policial",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-038",
+      "source_page": 11
+    },
+    {
+      "text": "Crear el Instituto de Investigacion y Desarrollo de la Policia y la Seguridad",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-039",
+      "source_page": 11
+    },
+    {
+      "text": "Promover que Superintendencia Nacional de Migraciones dependa de Relaciones Exteriores",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-040",
+      "source_page": 16
+    },
+    {
+      "text": "Impulsar el Multilateralismo fortaleciendo la integracion Latinoamericana",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-041",
+      "source_page": 16
+    },
+    {
+      "text": "Aprobar un Plan PEX que beneficie a los Peruanos en el Exterior",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "aprobar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-042",
+      "source_page": 16
+    },
+    {
+      "text": "Regularizar a extranjeros en situacion irregular eliminando tramites burocraticos",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "regularizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-043",
+      "source_page": 16
+    },
+    {
+      "text": "Modificar la Ley de Nacionalidad para obtener nacionalidad peruana a los 5 anos de residencia",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "modificar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-044",
+      "source_page": 16
+    },
+    {
+      "text": "Reducir las calidades migratorias y eliminar tramites burocraticos",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-045",
+      "source_page": 16
+    },
+    {
+      "text": "Eliminar los regimenes tributarios para crear uno solo amigable que permita la formalizacion",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "eliminar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-046",
+      "source_page": 16
+    },
+    {
+      "text": "Reducir la Tasa del IGV para que los informales opten por regularizarse",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-047",
+      "source_page": 16
+    },
+    {
+      "text": "Promulgar la Ley del Contribuyente para evitar arbitrariedades de la Administracion Tributaria",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "promulgar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-048",
+      "source_page": 16
+    },
+    {
+      "text": "Incremento anual del 2% del PBI hasta llegar al 7% al quinto ano",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-049",
+      "source_page": 16
+    },
+    {
+      "text": "Impulsar la industrializacion y produccion de bienes de mayor valor agregado",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-050",
+      "source_page": 16
+    },
+    {
+      "text": "Generar dos millones de empleos nuevos mediante industrializacion",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "generar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-051",
+      "source_page": 16
+    },
+    {
+      "text": "Crear el Instituto de Promocion y Desarrollo de las PYMEs",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-052",
+      "source_page": 21
+    },
+    {
+      "text": "Crear el CERTIPYME certificado de calidad para exportar productos de PYMEs",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-053",
+      "source_page": 21
+    },
+    {
+      "text": "Apoyar creacion del Banco Pyme de capital privado",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "apoyar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-054",
+      "source_page": 21
+    },
+    {
+      "text": "Modernizar los mercados de abasto y centros comerciales reorganizando Mi Mercado",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "modernizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-055",
+      "source_page": 21
+    },
+    {
+      "text": "Impulsar desarrollo de Parques Logisticos y Zonas Libres de Impuestos con paises limitrofes",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-056",
+      "source_page": 21
+    },
+    {
+      "text": "Promover desarrollo industrial de productos nativos como trucha, paiche, maca, camu camu",
+      "category": "agricultura",
+      "secondary_category": "economia",
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-057",
+      "source_page": 21
+    },
+    {
+      "text": "Capacitar comunidades rurales para trabajo familiar artesanal",
+      "category": "empleo",
+      "secondary_category": "social",
+      "action_verb": "capacitar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-058",
+      "source_page": 21
+    },
+    {
+      "text": "Potenciar el Sistema Metropolitano para solucionar el transporte urbano",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "potenciar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-059",
+      "source_page": 21
+    },
+    {
+      "text": "Impulsar mas Lineas del Metro en Lima",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-060",
+      "source_page": 21
+    },
+    {
+      "text": "Promover rehabilitacion y ampliacion de la Red Vial Nacional con autopistas de cuatro carriles",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-061",
+      "source_page": 21
+    },
+    {
+      "text": "Potenciar el puerto del Callao para consolidar a Peru como eje de transporte de carga",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "potenciar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-062",
+      "source_page": 21
+    },
+    {
+      "text": "Construir linea ferroviaria que una Tumbes y Tacna en 5 anos",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-063",
+      "source_page": 21
+    },
+    {
+      "text": "Impulsar el Tren Bioceanico que conecta los oceanos Atlantico y Pacifico",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-064",
+      "source_page": 21
+    },
+    {
+      "text": "Impulsar conectividad digital (banda ancha) a todo el territorio nacional a precios asequibles",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-065",
+      "source_page": 21
+    },
+    {
+      "text": "Implementar la Ley de la Defensoria del Campesino",
+      "category": "agricultura",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-066",
+      "source_page": 21
+    },
+    {
+      "text": "Crear la Autoridad de Cuencas como organismo autonomo para gestion integrada de recursos hidricos",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-067",
+      "source_page": 21
+    },
+    {
+      "text": "Construir un sistema de investigacion agricola desde cada valle y cuenca con soporte universitario",
+      "category": "agricultura",
+      "secondary_category": "educacion",
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-068",
+      "source_page": 26
+    },
+    {
+      "text": "Promover un agro libre de transgenicos",
+      "category": "agricultura",
+      "secondary_category": "ambiente",
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-069",
+      "source_page": 26
+    },
+    {
+      "text": "Controlar las emisiones de gases de efecto invernadero",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "controlar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-070",
+      "source_page": 26
+    },
+    {
+      "text": "Establecer mecanismos obligatorios para evitar vertimiento de desechos a cuerpos de agua naturales",
+      "category": "ambiente",
+      "secondary_category": "agua",
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-071",
+      "source_page": 26
+    },
+    {
+      "text": "Aumentar el servicio de agua potable en todo el pais con programa de emergencia agua en la esquina",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "aumentar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-072",
+      "source_page": 26
+    },
+    {
+      "text": "Proteger los bosques contra la tala indiscriminada y realizar enérgica política de reforestacion",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "proteger",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-073",
+      "source_page": 26
+    },
+    {
+      "text": "Reforestar 500 mil hectareas anuales hasta llegar a 2 millones",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "reforestar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-074",
+      "source_page": 26
+    },
+    {
+      "text": "Promover pesca sostenible y acuicultura de especies marinas, fluviales y lacustres",
+      "category": "agricultura",
+      "secondary_category": "ambiente",
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-075",
+      "source_page": 26
+    },
+    {
+      "text": "Proteger a las comunidades nativas y originarias respetando su cultura pluricultural y multilingue",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "proteger",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-076",
+      "source_page": 26
+    },
+    {
+      "text": "Fomentar pequena y mediana inversion nacional en la Amazonia en alianza con comunidades nativas",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "fomentar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-077",
+      "source_page": 26
+    },
+    {
+      "text": "Garantizar el derecho de acceso a informacion publica sobre politicas ambientales",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "garantizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-078",
+      "source_page": 26
+    },
+    {
+      "text": "Promover educacion ambiental efectiva",
+      "category": "ambiente",
+      "secondary_category": "educacion",
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-079",
+      "source_page": 26
+    },
+    {
+      "text": "Priorizar generacion de energia limpia hidroelectrica en el Plan Energetico Nacional",
+      "category": "energia",
+      "secondary_category": null,
+      "action_verb": "priorizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-080",
+      "source_page": 26
+    },
+    {
+      "text": "Destinar el gas de Camisea principalmente para atender la demanda interna",
+      "category": "energia",
+      "secondary_category": null,
+      "action_verb": "destinar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-081",
+      "source_page": 26
+    },
+    {
+      "text": "Construir gaseoductos regionales para satisfacer la demanda hasta la puerta de cada casa",
+      "category": "energia",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-082",
+      "source_page": 26
+    },
+    {
+      "text": "Impulsar inversion en tecnologia para mineria moderna, limpia y cuidadosa del medio ambiente",
+      "category": "mineria",
+      "secondary_category": "ambiente",
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-083",
+      "source_page": 26
+    },
+    {
+      "text": "Fomentar procesos que den mayor valor agregado a materias primas para aumentar exportacion de productos terminados",
+      "category": "mineria",
+      "secondary_category": "economia",
+      "action_verb": "fomentar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2021-084",
+      "source_page": 26
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 84,
+    "clear": 84,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 7,
+      "economia": 11,
+      "fiscal": 5,
+      "social": 8,
+      "empleo": 6,
+      "educacion": 1,
+      "salud": 7,
+      "agua": 3,
+      "vivienda": 2,
+      "transporte": 7,
+      "energia": 3,
+      "mineria": 2,
+      "ambiente": 6,
+      "agricultura": 6,
+      "justicia": 10
+    }
+  }
+}
