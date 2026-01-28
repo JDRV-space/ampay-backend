@@ -2,7 +2,7 @@
 
 # AMPAY
 
-Political transparency platform for Peru 2026 elections. Take a political quiz, discover which party matches your views, and see if they kept their promises or got caught in an AMPAY.
+Political transparency platform for Peru 2026 elections. Take a political quiz, discover which party matches your views, and see if they kept their promises or got caught in an AMPAY. Available in Spanish and English.
 
 [![Live App](https://img.shields.io/badge/Live-ampayperu.com-FF4136?style=for-the-badge&logo=vercel&logoColor=white)](https://ampayperu.com)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
