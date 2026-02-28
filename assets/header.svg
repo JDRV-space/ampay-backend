@@ -1,54 +1,223 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220">
   <style>
-    @keyframes nodeFade1 { 0%, 100% { opacity: 0.3; } 10%, 30% { opacity: 1; } }
-    @keyframes nodeFade2 { 0%, 20% { opacity: 0.3; } 30%, 50% { opacity: 1; } 60%, 100% { opacity: 0.3; } }
-    @keyframes nodeFade3 { 0%, 40% { opacity: 0.3; } 50%, 70% { opacity: 1; } 80%, 100% { opacity: 0.3; } }
-    @keyframes nodeFade4 { 0%, 60% { opacity: 0.3; } 70%, 90% { opacity: 1; } 100% { opacity: 0.3; } }
-    @keyframes lineDraw1 { 0%, 15% { stroke-dashoffset: 60; } 30% { stroke-dashoffset: 0; } }
-    @keyframes lineDraw2 { 0%, 35% { stroke-dashoffset: 60; } 50% { stroke-dashoffset: 0; } }
-    @keyframes lineDraw3 { 0%, 55% { stroke-dashoffset: 60; } 70% { stroke-dashoffset: 0; } }
-    .node { rx: 4; }
-    .n1 { animation: nodeFade1 4s ease-in-out infinite; }
-    .n2 { animation: nodeFade2 4s ease-in-out infinite; }
-    .n3 { animation: nodeFade3 4s ease-in-out infinite; }
-    .n4 { animation: nodeFade4 4s ease-in-out infinite; }
-    .pipe { stroke-dasharray: 60; stroke-dashoffset: 60; stroke: #d91023; stroke-width: 1.5; fill: none; }
-    .p1 { animation: lineDraw1 4s ease-in-out infinite; }
-    .p2 { animation: lineDraw2 4s ease-in-out infinite; }
-    .p3 { animation: lineDraw3 4s ease-in-out infinite; }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes titleGlow {
+      0%, 100% { filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.3)); }
+      50% { filter: drop-shadow(0 0 18px rgba(212, 175, 55, 0.5)); }
+    }
+    @keyframes nodePulse1 {
+      0%, 100% { opacity: 0.35; }
+      10%, 30% { opacity: 1; }
+    }
+    @keyframes nodePulse2 {
+      0%, 20% { opacity: 0.35; }
+      30%, 50% { opacity: 1; }
+      60%, 100% { opacity: 0.35; }
+    }
+    @keyframes nodePulse3 {
+      0%, 40% { opacity: 0.35; }
+      50%, 70% { opacity: 1; }
+      80%, 100% { opacity: 0.35; }
+    }
+    @keyframes nodePulse4 {
+      0%, 60% { opacity: 0.35; }
+      70%, 90% { opacity: 1; }
+      100% { opacity: 0.35; }
+    }
+    @keyframes pipeDraw1 {
+      0%, 15% { stroke-dashoffset: 60; }
+      30% { stroke-dashoffset: 0; }
+    }
+    @keyframes pipeDraw2 {
+      0%, 35% { stroke-dashoffset: 60; }
+      50% { stroke-dashoffset: 0; }
+    }
+    @keyframes pipeDraw3 {
+      0%, 55% { stroke-dashoffset: 60; }
+      70% { stroke-dashoffset: 0; }
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    @keyframes starPulse {
+      0%, 100% { opacity: 0.2; r: 1; }
+      50% { opacity: 0.9; r: 1.5; }
+    }
+    .title-glow {
+      animation: titleGlow 3s ease-in-out infinite;
+    }
+    .title-fade {
+      opacity: 0;
+      animation: fadeIn 1s ease-out 0.3s forwards;
+    }
+    .sub-fade {
+      opacity: 0;
+      animation: fadeIn 0.8s ease-out 0.8s forwards;
+    }
+    .tagline-fade {
+      opacity: 0;
+      animation: fadeIn 0.8s ease-out 2.5s forwards;
+    }
+    .n1 { animation: nodePulse1 4s ease-in-out infinite; }
+    .n2 { animation: nodePulse2 4s ease-in-out infinite; }
+    .n3 { animation: nodePulse3 4s ease-in-out infinite; }
+    .n4 { animation: nodePulse4 4s ease-in-out infinite; }
+    .pipe {
+      stroke-dasharray: 60;
+      stroke-dashoffset: 60;
+      stroke-width: 1.5;
+      fill: none;
+    }
+    .p1 { stroke: #D4AF37; animation: pipeDraw1 4s ease-in-out infinite; }
+    .p2 { stroke: #D4AF37; animation: pipeDraw2 4s ease-in-out infinite; }
+    .p3 { stroke: #D4AF37; animation: pipeDraw3 4s ease-in-out infinite; }
+    .star {
+      animation: twinkle 3s ease-in-out infinite;
+    }
+    .star-pulse {
+      animation: starPulse 4s ease-in-out infinite;
+    }
+    .st1 { animation-delay: 0.2s; }
+    .st2 { animation-delay: 0.9s; }
+    .st3 { animation-delay: 1.6s; }
+    .st4 { animation-delay: 2.3s; }
+    .st5 { animation-delay: 0.5s; }
+    .st6 { animation-delay: 1.2s; }
+    .st7 { animation-delay: 1.8s; }
+    .st8 { animation-delay: 0.7s; }
+    .st9 { animation-delay: 1.4s; }
+    .st10 { animation-delay: 2.0s; }
+    .mountain-fade {
+      opacity: 0;
+      animation: fadeIn 1s ease-out 0.1s forwards;
+    }
   </style>
-  <rect width="800" height="180" fill="#0d1117"/>
-  <!-- AMPAY title -->
-  <text x="400" y="55" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="900" fill="#d91023" letter-spacing="10">AMPAY</text>
-  <!-- Red accent bar under title -->
-  <rect x="300" y="64" width="200" height="2" rx="1" fill="#d91023" opacity="0.4"/>
-  <!-- Data pipeline visualization -->
-  <g transform="translate(180, 85)">
-    <!-- Node 1: Scrape -->
-    <rect x="0" y="0" width="70" height="28" class="node n1" fill="#1a1a2e" stroke="#d91023" stroke-width="1.5"/>
-    <text x="35" y="18" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#d91023" class="n1">Scrape</text>
-    <!-- Pipe 1 -->
-    <line x1="70" y1="14" x2="110" y2="14" class="pipe p1"/>
-    <!-- Node 2: Parse -->
-    <rect x="110" y="0" width="70" height="28" class="node n2" fill="#1a1a2e" stroke="#d91023" stroke-width="1.5"/>
-    <text x="145" y="18" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#d91023" class="n2">Parse</text>
-    <!-- Pipe 2 -->
-    <line x1="180" y1="14" x2="220" y2="14" class="pipe p2"/>
-    <!-- Node 3: Score -->
-    <rect x="220" y="0" width="70" height="28" class="node n3" fill="#1a1a2e" stroke="#d91023" stroke-width="1.5"/>
-    <text x="255" y="18" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#d91023" class="n3">Score</text>
-    <!-- Pipe 3 -->
-    <line x1="290" y1="14" x2="330" y2="14" class="pipe p3"/>
-    <!-- Node 4: Store -->
-    <rect x="330" y="0" width="70" height="28" class="node n4" fill="#1a1a2e" stroke="#d91023" stroke-width="1.5"/>
-    <text x="365" y="18" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#d91023" class="n4">Store</text>
-    <!-- Arrow heads -->
-    <polygon points="108,11 108,17 113,14" fill="#d91023" class="n2"/>
-    <polygon points="218,11 218,17 223,14" fill="#d91023" class="n3"/>
-    <polygon points="328,11 328,17 333,14" fill="#d91023" class="n4"/>
+
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A227"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#E8C547"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F1729"/>
+      <stop offset="60%" stop-color="#1A2744"/>
+      <stop offset="100%" stop-color="#243256"/>
+    </linearGradient>
+    <linearGradient id="mtGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A2744"/>
+      <stop offset="100%" stop-color="#0F1729"/>
+    </linearGradient>
+    <linearGradient id="mtGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#243256"/>
+      <stop offset="100%" stop-color="#1A2744"/>
+    </linearGradient>
+    <linearGradient id="mtGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D3D66"/>
+      <stop offset="100%" stop-color="#1A2744"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="220" fill="url(#skyGrad)"/>
+
+  <!-- Stars -->
+  <circle class="star st1" cx="55" cy="15" r="1" fill="#E8C547" opacity="0.4"/>
+  <circle class="star-pulse st2" cx="140" cy="30" r="1.2" fill="#F8F4F0" opacity="0.3"/>
+  <circle class="star st3" cx="210" cy="10" r="0.8" fill="#F8F4F0" opacity="0.5"/>
+  <circle class="star-pulse st4" cx="330" cy="20" r="1" fill="#E8C547" opacity="0.3"/>
+  <circle class="star st5" cx="480" cy="12" r="1.2" fill="#F8F4F0" opacity="0.4"/>
+  <circle class="star-pulse st6" cx="560" cy="28" r="0.8" fill="#E8C547" opacity="0.5"/>
+  <circle class="star st7" cx="640" cy="8" r="1" fill="#F8F4F0" opacity="0.3"/>
+  <circle class="star-pulse st8" cx="720" cy="22" r="1.2" fill="#E8C547" opacity="0.4"/>
+  <circle class="star st9" cx="380" cy="35" r="0.8" fill="#F8F4F0" opacity="0.4"/>
+  <circle class="star-pulse st10" cx="770" cy="38" r="1" fill="#E8C547" opacity="0.3"/>
+
+  <!-- Mountain silhouettes -->
+  <g class="mountain-fade">
+    <!-- Far mountains -->
+    <polygon points="0,220 0,160 35,138 75,150 120,118 165,140 215,108 260,130 310,100 355,125 400,92 445,118 495,96 540,122 585,108 630,132 680,100 725,128 765,115 800,145 800,220"
+             fill="url(#mtGrad1)" opacity="0.7"/>
+    <!-- Mid mountains -->
+    <polygon points="0,220 0,175 30,162 75,170 125,148 165,165 210,142 255,160 315,138 365,155 415,132 465,150 525,140 575,158 625,145 675,162 735,148 785,160 800,170 800,220"
+             fill="url(#mtGrad2)" opacity="0.8"/>
+    <!-- Near mountains -->
+    <polygon points="0,220 0,190 55,178 105,185 155,172 205,180 255,168 305,178 355,165 405,174 455,162 505,170 555,164 605,175 655,168 705,180 755,172 800,182 800,220"
+             fill="url(#mtGrad3)" opacity="0.6"/>
+    <!-- Snow caps -->
+    <polygon points="310,100 300,108 320,108" fill="#F8F4F0" opacity="0.15"/>
+    <polygon points="400,92 390,100 410,100" fill="#F8F4F0" opacity="0.15"/>
+    <polygon points="495,96 485,104 505,104" fill="#F8F4F0" opacity="0.15"/>
+    <polygon points="680,100 670,108 690,108" fill="#F8F4F0" opacity="0.15"/>
   </g>
+
+  <!-- Title: AMPAY -->
+  <g class="title-fade title-glow">
+    <text x="400" y="60" text-anchor="middle"
+          font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="52" font-weight="700"
+          fill="url(#goldGrad)" letter-spacing="8">AMPAY</text>
+  </g>
+
+  <!-- Gold accent bar -->
+  <rect class="sub-fade" x="310" y="70" width="180" height="1.5" rx="1" fill="url(#goldGrad)" opacity="0.3"/>
+
+  <!-- Subtitle -->
+  <text class="sub-fade" x="400" y="88" text-anchor="middle"
+        font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="11" font-weight="400"
+        fill="#B8B4B0" letter-spacing="1">political data pipeline</text>
+
+  <!-- Pipeline visualization -->
+  <g transform="translate(180, 102)">
+    <!-- Node 1: Scrape -->
+    <rect x="0" y="0" width="75" height="28" rx="4" class="n1"
+          fill="#1A2744" stroke="#D4AF37" stroke-width="1.5"/>
+    <text x="37" y="18" text-anchor="middle"
+          font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10"
+          fill="#D4AF37" class="n1">Scrape</text>
+
+    <!-- Pipe 1 -->
+    <line x1="75" y1="14" x2="115" y2="14" class="pipe p1"/>
+    <polygon points="113,11 113,17 118,14" fill="#D4AF37" class="n2"/>
+
+    <!-- Node 2: Parse -->
+    <rect x="118" y="0" width="75" height="28" rx="4" class="n2"
+          fill="#1A2744" stroke="#D4AF37" stroke-width="1.5"/>
+    <text x="155" y="18" text-anchor="middle"
+          font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10"
+          fill="#D4AF37" class="n2">Parse</text>
+
+    <!-- Pipe 2 -->
+    <line x1="193" y1="14" x2="233" y2="14" class="pipe p2"/>
+    <polygon points="231,11 231,17 236,14" fill="#D4AF37" class="n3"/>
+
+    <!-- Node 3: Score -->
+    <rect x="236" y="0" width="75" height="28" rx="4" class="n3"
+          fill="#1A2744" stroke="#D4AF37" stroke-width="1.5"/>
+    <text x="273" y="18" text-anchor="middle"
+          font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10"
+          fill="#D4AF37" class="n3">Score</text>
+
+    <!-- Pipe 3 -->
+    <line x1="311" y1="14" x2="351" y2="14" class="pipe p3"/>
+    <polygon points="349,11 349,17 354,14" fill="#D4AF37" class="n4"/>
+
+    <!-- Node 4: Store -->
+    <rect x="354" y="0" width="75" height="28" rx="4" class="n4"
+          fill="#1A2744" stroke="#D4AF37" stroke-width="1.5"/>
+    <text x="391" y="18" text-anchor="middle"
+          font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10"
+          fill="#D4AF37" class="n4">Store</text>
+  </g>
+
   <!-- Tagline -->
-  <text x="400" y="150" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8b949e">Political data pipeline for Peru</text>
-  <!-- Peru red bottom accent -->
-  <rect x="0" y="175" width="800" height="5" fill="#d91023" opacity="0.3"/>
+  <text class="tagline-fade" x="400" y="155" text-anchor="middle"
+        font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="10"
+        fill="#787470">Scraping congressional votes and campaign promises for Peru 2026</text>
+
+  <!-- Bottom gold accent -->
+  <rect x="0" y="216" width="800" height="4" fill="url(#goldGrad)" opacity="0.15"/>
 </svg>

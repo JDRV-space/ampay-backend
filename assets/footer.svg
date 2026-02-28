@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40">
+  <style>
+    @keyframes drawLine {
+      from { stroke-dashoffset: 600; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .gold-line {
+      stroke-dasharray: 600;
+      stroke-dashoffset: 600;
+      animation: drawLine 2s ease-out 0.3s forwards;
+    }
+    .footer-text {
+      opacity: 0;
+      animation: fadeIn 1s ease-out 1.5s forwards;
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="goldFooter" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="20%" stop-color="#C9A227"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="80%" stop-color="#E8C547"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="40" fill="#0F1729"/>
+  <line class="gold-line" x1="100" y1="15" x2="700" y2="15"
+        stroke="url(#goldFooter)" stroke-width="1"/>
+  <text class="footer-text" x="400" y="32" text-anchor="middle"
+        font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="10"
+        fill="#787470">open data, open democracy</text>
+</svg>
