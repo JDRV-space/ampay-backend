@@ -82,10 +82,10 @@ Download all datasets: quiz statements with party positions, classified congress
 | Peru Libre | 1 | Fiscal |
 | Somos Peru | 1 | Fiscal |
 | Juntos por el Peru | 1 | Justicia |
-| Alianza para el Progreso | 0 | — |
-| Avanza Pais | 0 | — |
-| Podemos Peru | 0 | — |
-| Partido Morado | 0 | — |
+| Alianza para el Progreso | 0 |  -  |
+| Avanza Pais | 0 |  -  |
+| Podemos Peru | 0 |  -  |
+| Partido Morado | 0 |  -  |
 
 > **Data coverage:** 2021-07-26 to 2024-07-26 (~60% of term). See [DATA_DISCLAIMER.md](DATA_DISCLAIMER.md).
 
