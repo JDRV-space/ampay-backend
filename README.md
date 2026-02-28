@@ -13,7 +13,7 @@ Political transparency platform for Peru 2026 elections. Take a political quiz, 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/JDRV-space/ampay-data/pulls)
 
-[Live App](https://ampayperu.com) · [Platform Features](#platform-features) · [AMPAYs Found](#ampays-found-6) · [Data Pipeline](#data-pipeline) · [Key Algorithms](#key-algorithms) · [Methodology](#methodology) · [Documentation](#documentation) · [License](#license)
+[Live App](https://ampayperu.com) · [Platform Features](#platform-features) · [AMPAYs Found](#ampays-found-6) · [Data Pipeline](#data-pipeline) · [Key Algorithms](#key-algorithms) (11) · [Methodology](#methodology) (20 docs) · [Documentation](#documentation) · [License](#license)
 
 </div>
 
@@ -25,7 +25,7 @@ AMPAY is a political transparency platform for Peru's 2026 elections. It combine
 
 **Live at [ampayperu.com](https://ampayperu.com)**
 
-This repository contains the **data pipeline, analysis engine, LLM prompts, output datasets, and 41 methodology documents** that power the platform. The frontend consumes JSON outputs from `data/02_output/`.
+This repository contains the **data pipeline, analysis engine, LLM prompts, output datasets, and 48 methodology documents** that power the platform. The frontend consumes JSON outputs from `data/02_output/`.
 
 
 ## Platform Features
@@ -216,6 +216,112 @@ SI > NO → "SI"  |  NO > SI → "NO"  |  SI = NO → "DIVIDED"  |  0 present �
 
 See: [PARLIAMENT_AGGREGATION.md](docs/methodology/PARLIAMENT_AGGREGATION.md)
 
+### 5. Blended Score (α=0.1 Normalization)
+
+Prevents parties with few defined positions from always winning by being "close to everyone":
+
+```
+score = (1 - α) × distance + α × (distance / max(positions, 4)) × 15
+     = 0.9 × D + 0.1 × (D / max(P, 4)) × 15
+```
+
+| Parameter | Value | Purpose |
+|-----------|-------|---------|
+| α (alpha) | 0.1 | Blending weight for normalization |
+| MIN_POSITIONS_FLOOR | 4 | Minimum divisor to avoid over-penalizing |
+| 15 | Max distance | Scaling factor |
+
+**Validation:** 10M Monte Carlo simulations. Imbalance reduced from 7.6:1 to 2.97:1 (61% improvement).
+
+See: [BLENDED_SCORE.md](docs/methodology/BLENDED_SCORE.md)
+
+### 6. Political Compass (2D Positioning)
+
+Maps parties and users onto a 2-axis political compass:
+
+```
+x (economic) = avg(position_i × compass_direction_i) for economic questions
+y (social)   = avg(position_i × compass_direction_i) for social questions
+```
+
+| Axis | Range | Poles |
+|------|-------|-------|
+| Economic (x) | -1 to +1 | Left ↔ Right |
+| Social (y) | -1 to +1 | Progressive ↔ Conservative |
+
+`compass_direction` multiplier ensures answers map to the correct quadrant (-1 = left/progressive, +1 = right/conservative, 0 = not used for compass).
+
+See: [POLITICAL_COMPASS.md](docs/methodology/POLITICAL_COMPASS.md)
+
+### 7. Calibration Filtering
+
+Pre-filters quiz results based on 2 calibration questions (economic + social axis):
+
+```
+C1 (economic): user ranks 3 options → rank #3 maps to parties → excluded
+C2 (social):   user ranks 3 options → rank #3 maps to parties → excluded
+```
+
+Applied **after** blended score sorting. True top match (unfiltered) remains accessible for transparency.
+
+See: [CALIBRATION_FILTERING.md](docs/methodology/CALIBRATION_FILTERING.md)
+
+### 8. Position Determination (SI/NO/DIVIDED/AUSENTE)
+
+Determines party position from individual congress member votes using simple majority:
+
+```python
+total_present = si + no + abstenciones
+if total_present == 0:   → "AUSENTE"
+elif si / total_present > 0.5:  → "SI"
+elif no / total_present > 0.5:  → "NO"
+else:                    → "DIVIDED"
+```
+
+Processes `resultados_grupo.csv` from OpenPolitica for each of 2,226 votes across 10 tracked parties.
+
+See: [POSITION_DETERMINATION.md](docs/methodology/POSITION_DETERMINATION.md)
+
+### 9. Keyword Classification (15 Categories)
+
+First-pass classification of votes into 15 categories by keyword matching in the vote's `asunto` text:
+
+```
+score[category] = count of keyword matches
+best_category = argmax(scores)
+confidence = min(0.95, 0.5 + max_score × 0.15)
+```
+
+Also detects `vote_type` (sustantivo/procedural/declarativo) using separate keyword lists. Default category when no keywords match: "justicia".
+
+See: [KEYWORD_CLASSIFICATION.md](docs/methodology/KEYWORD_CLASSIFICATION.md)
+
+### 10. Radar Chart (Category Averaging)
+
+Visualizes user-vs-party alignment per category using dual radar overlays:
+
+```
+avg = Σ positions / count(statements_in_category)
+normalized = ((avg + 1) / 2) × 100    // maps [-1,+1] → [0,100]
+```
+
+See: [RADAR_CHART.md](docs/methodology/RADAR_CHART.md)
+
+### 11. Parliament Semicircle (Hemicycle Geometry)
+
+Renders congressional votes as a hemicycle with polar coordinate seating:
+
+```
+radius = 60 + row × 25              // 5 rows: 60, 85, 110, 135, 160
+angle = π - (i / (N-1)) × π        // distribute seats across semicircle
+x = centerX + radius × cos(angle)
+y = centerY - radius × sin(angle)
+```
+
+Colors: green (SI), red (NO), yellow (abstention), gray (absent). Result: SI > NO → APROBADO.
+
+See: [PARLIAMENT_SEMICIRCLE.md](docs/methodology/PARLIAMENT_SEMICIRCLE.md)
+
 
 ## Tech Stack
 
@@ -271,8 +377,8 @@ ampay/
 │   ├── classify_vote.md                 # Vote classification prompt (Gemini)
 │   └── detect_contradiction.md          # AMPAY detection prompt (Claude)
 │
-├── docs/                                # 41 documentation files
-│   ├── methodology/                     # Algorithm documentation (13 docs)
+├── docs/                                # 48 documentation files
+│   ├── methodology/                     # Algorithm documentation (20 docs)
 │   ├── data/                            # Data schemas, sources, limitations (7 docs)
 │   ├── research/                        # Academic references, VAA research (7 docs)
 │   ├── legal/                           # Disclaimers, T&C, privacy policy (6 docs)
@@ -301,25 +407,39 @@ ampay/
 | Monte Carlo validation tests | 2,000,000 |
 | Believer precision | 100% |
 | Voting pattern months | 36 (2021-08 to 2024-07) |
-| Documentation files | 41 |
+| Documentation files | 48 |
 
 
 ## Methodology
 
-Full methodology documentation is in [`docs/methodology/`](docs/methodology/) (13 documents):
+Full methodology documentation is in [`docs/methodology/`](docs/methodology/) (20 documents):
+
+#### Algorithms
+
+| Document | Description |
+|----------|-------------|
+| [BLENDED_SCORE.md](docs/methodology/BLENDED_SCORE.md) | Blended score formula (α=0.1) for balanced quiz matching |
+| [QUIZ_ALGORITHM.md](docs/methodology/QUIZ_ALGORITHM.md) | Political quiz scoring (Manhattan distance v3.3) |
+| [POLITICAL_COMPASS.md](docs/methodology/POLITICAL_COMPASS.md) | 2D political compass positioning (economic + social axes) |
+| [CALIBRATION_FILTERING.md](docs/methodology/CALIBRATION_FILTERING.md) | Quiz calibration questions and party exclusion logic |
+| [POSITION_DETERMINATION.md](docs/methodology/POSITION_DETERMINATION.md) | SI/NO/DIVIDED/AUSENTE determination from vote counts |
+| [KEYWORD_CLASSIFICATION.md](docs/methodology/KEYWORD_CLASSIFICATION.md) | Keyword-based vote classification into 15 categories |
+| [VOTE_CATEGORIZATION.md](docs/methodology/VOTE_CATEGORIZATION.md) | 15-category vote classification system (3-tier pipeline) |
+| [VOTE_FILTERING.md](docs/methodology/VOTE_FILTERING.md) | Substantive vs procedural vote filtering |
+| [PARLIAMENT_AGGREGATION.md](docs/methodology/PARLIAMENT_AGGREGATION.md) | Individual-to-party vote aggregation + cohesion index |
+| [RADAR_CHART.md](docs/methodology/RADAR_CHART.md) | Category radar chart averaging and normalization |
+| [SPARKLINE_CALCULATION.md](docs/methodology/SPARKLINE_CALCULATION.md) | Voting pattern sparkline computation |
+| [PARLIAMENT_SEMICIRCLE.md](docs/methodology/PARLIAMENT_SEMICIRCLE.md) | Hemicycle geometry for parliamentary vote visualization |
+
+#### Process
 
 | Document | Description |
 |----------|-------------|
 | [METHODOLOGY_V4_DUAL_SEARCH.md](docs/methodology/METHODOLOGY_V4_DUAL_SEARCH.md) | Master methodology, dual-search AMPAY detection |
 | [AMPAY_DETECTION.md](docs/methodology/AMPAY_DETECTION.md) | Contradiction detection algorithm (v5, confidence levels) |
-| [QUIZ_ALGORITHM.md](docs/methodology/QUIZ_ALGORITHM.md) | Political quiz scoring (Manhattan + coverage blend v3.3) |
-| [VOTE_CATEGORIZATION.md](docs/methodology/VOTE_CATEGORIZATION.md) | 15-category vote classification system |
-| [PROMISE_EXTRACTION.md](docs/methodology/PROMISE_EXTRACTION.md) | LLM-based promise extraction from campaign PDFs |
-| [VOTE_FILTERING.md](docs/methodology/VOTE_FILTERING.md) | Substantive vs procedural vote filtering |
 | [CROSS_VALIDATION.md](docs/methodology/CROSS_VALIDATION.md) | Human validation pipeline (23 → 6 AMPAYs) |
-| [PARLIAMENT_AGGREGATION.md](docs/methodology/PARLIAMENT_AGGREGATION.md) | Individual-to-party vote aggregation + cohesion index |
+| [PROMISE_EXTRACTION.md](docs/methodology/PROMISE_EXTRACTION.md) | LLM-based promise extraction from campaign PDFs |
 | [PARTY_POSITION_CODING.md](docs/methodology/PARTY_POSITION_CODING.md) | Party position coding system (+1/0/-1 from PDFs) |
-| [SPARKLINE_CALCULATION.md](docs/methodology/SPARKLINE_CALCULATION.md) | Voting pattern sparkline computation |
 | [DATA_PIPELINE_FLOWS.md](docs/methodology/DATA_PIPELINE_FLOWS.md) | Technical 5-phase pipeline documentation |
 | [QUIZ_VALIDATION.md](docs/methodology/QUIZ_VALIDATION.md) | Quiz algorithm Monte Carlo validation (2M simulations) |
 | [VERSION_HISTORY.md](docs/methodology/VERSION_HISTORY.md) | Methodology evolution (v1 → v5) |
