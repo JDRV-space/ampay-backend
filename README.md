@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:d91023,100:1a1a2e&height=220&section=header&text=AMPAY&fontSize=90&fontColor=ffffff&animation=scaleIn&desc=Catching+politicians+in+the+act&descAlignY=68&descSize=16&fontAlignY=38" width="100%"/>
-
-<p>
-  <img src="https://readme-typing-svg.demolab.com/?font=Inter&weight=700&size=22&duration=3000&pause=1500&color=D91023&center=true&vCenter=true&width=700&lines=2%2C226+congressional+votes+analyzed;6+AMPAYs+detected+(and+counting);Campaign+promises+vs+actual+votes;Peru+2026+%E2%80%94+Transparency+matters" alt="Typing SVG" />
-</p>
+<img src="./assets/header.svg" alt="AMPAY" width="100%"/>
 
 <img src="./assets/ampay-demo.svg" alt="AMPAY Demo" width="100%"/>
 
@@ -568,7 +564,5 @@ All pipeline outputs are in `data/02_output/`:
 **AMPAY**: Porque las promesas se cumplen o se AMPAYan.
 
 A project by [JDRV-space](https://github.com/JDRV-space)
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:d91023,100:1a1a2e&height=100&section=footer&animation=fadeIn" width="100%"/>
 
 </div>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180">
+  <style>
+    @keyframes nodeFade1 { 0%, 100% { opacity: 0.3; } 10%, 30% { opacity: 1; } }
+    @keyframes nodeFade2 { 0%, 20% { opacity: 0.3; } 30%, 50% { opacity: 1; } 60%, 100% { opacity: 0.3; } }
+    @keyframes nodeFade3 { 0%, 40% { opacity: 0.3; } 50%, 70% { opacity: 1; } 80%, 100% { opacity: 0.3; } }
+    @keyframes nodeFade4 { 0%, 60% { opacity: 0.3; } 70%, 90% { opacity: 1; } 100% { opacity: 0.3; } }
+    @keyframes lineDraw1 { 0%, 15% { stroke-dashoffset: 60; } 30% { stroke-dashoffset: 0; } }
+    @keyframes lineDraw2 { 0%, 35% { stroke-dashoffset: 60; } 50% { stroke-dashoffset: 0; } }
+    @keyframes lineDraw3 { 0%, 55% { stroke-dashoffset: 60; } 70% { stroke-dashoffset: 0; } }
+    .node { rx: 4; }
+    .n1 { animation: nodeFade1 4s ease-in-out infinite; }
+    .n2 { animation: nodeFade2 4s ease-in-out infinite; }
+    .n3 { animation: nodeFade3 4s ease-in-out infinite; }
+    .n4 { animation: nodeFade4 4s ease-in-out infinite; }
+    .pipe { stroke-dasharray: 60; stroke-dashoffset: 60; stroke: #d91023; stroke-width: 1.5; fill: none; }
+    .p1 { animation: lineDraw1 4s ease-in-out infinite; }
+    .p2 { animation: lineDraw2 4s ease-in-out infinite; }
+    .p3 { animation: lineDraw3 4s ease-in-out infinite; }
+  </style>
+  <rect width="800" height="180" fill="#0d1117"/>
+  <!-- AMPAY title -->
+  <text x="400" y="55" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="900" fill="#d91023" letter-spacing="10">AMPAY</text>
+  <!-- Red accent bar under title -->
+  <rect x="300" y="64" width="200" height="2" rx="1" fill="#d91023" opacity="0.4"/>
+  <!-- Data pipeline visualization -->
+  <g transform="translate(180, 85)">
+    <!-- Node 1: Scrape -->
+    <rect x="0" y="0" width="70" height="28" class="node n1" fill="#1a1a2e" stroke="#d91023" stroke-width="1.5"/>
+    <text x="35" y="18" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#d91023" class="n1">Scrape</text>
+    <!-- Pipe 1 -->
+    <line x1="70" y1="14" x2="110" y2="14" class="pipe p1"/>
+    <!-- Node 2: Parse -->
+    <rect x="110" y="0" width="70" height="28" class="node n2" fill="#1a1a2e" stroke="#d91023" stroke-width="1.5"/>
+    <text x="145" y="18" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#d91023" class="n2">Parse</text>
+    <!-- Pipe 2 -->
+    <line x1="180" y1="14" x2="220" y2="14" class="pipe p2"/>
+    <!-- Node 3: Score -->
+    <rect x="220" y="0" width="70" height="28" class="node n3" fill="#1a1a2e" stroke="#d91023" stroke-width="1.5"/>
+    <text x="255" y="18" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#d91023" class="n3">Score</text>
+    <!-- Pipe 3 -->
+    <line x1="290" y1="14" x2="330" y2="14" class="pipe p3"/>
+    <!-- Node 4: Store -->
+    <rect x="330" y="0" width="70" height="28" class="node n4" fill="#1a1a2e" stroke="#d91023" stroke-width="1.5"/>
+    <text x="365" y="18" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#d91023" class="n4">Store</text>
+    <!-- Arrow heads -->
+    <polygon points="108,11 108,17 113,14" fill="#d91023" class="n2"/>
+    <polygon points="218,11 218,17 223,14" fill="#d91023" class="n3"/>
+    <polygon points="328,11 328,17 333,14" fill="#d91023" class="n4"/>
+  </g>
+  <!-- Tagline -->
+  <text x="400" y="150" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8b949e">Political data pipeline for Peru</text>
+  <!-- Peru red bottom accent -->
+  <rect x="0" y="175" width="800" height="5" fill="#d91023" opacity="0.3"/>
+</svg>
