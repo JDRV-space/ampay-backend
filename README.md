@@ -1,19 +1,22 @@
 <div align="center">
 
-# AMPAY
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:d91023,100:1a1a2e&height=220&section=header&text=AMPAY&fontSize=90&fontColor=ffffff&animation=scaleIn&desc=Catching+politicians+in+the+act&descAlignY=68&descSize=16&fontAlignY=38" width="100%"/>
 
-Political transparency platform for Peru 2026 elections. Take a political quiz, discover which party matches your views, and see if they kept their promises or got caught in an AMPAY. Available in Spanish and English.
+<p>
+  <img src="https://readme-typing-svg.demolab.com/?font=Inter&weight=700&size=22&duration=3000&pause=1500&color=D91023&center=true&vCenter=true&width=700&lines=2%2C226+congressional+votes+analyzed;6+AMPAYs+detected+(and+counting);Campaign+promises+vs+actual+votes;Peru+2026+%E2%80%94+Transparency+matters" alt="Typing SVG" />
+</p>
+
+<img src="./assets/ampay-demo.svg" alt="AMPAY Demo" width="100%"/>
 
 [![Live App](https://img.shields.io/badge/Live-ampayperu.com-FF4136?style=for-the-badge&logo=vercel&logoColor=white)](https://ampayperu.com)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![Data](https://img.shields.io/badge/Votes-2%2C226-green?style=for-the-badge)](data/02_output/votes_categorized.json)
 [![AMPAYs](https://img.shields.io/badge/AMPAYs_Found-6-red?style=for-the-badge)](data/02_output/ampays.json)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/JDRV-space/ampay-data/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/JDRV-space/ampay-backend/pulls)
 
-[Live App](https://ampayperu.com) · [Platform Features](#platform-features) · [AMPAYs Found](#ampays-found-6) · [Data Pipeline](#data-pipeline) · [Key Algorithms](#key-algorithms) (11) · [Methodology](#methodology) (20 docs) · [Documentation](#documentation) · [License](#license)
+[Live App](https://ampayperu.com) - [Platform Features](#platform-features) - [AMPAYs Found](#ampays-found-6) - [Data Pipeline](#data-pipeline) - [Key Algorithms](#key-algorithms) (11) - [Methodology](#methodology) (20 docs) - [Documentation](#documentation) - [License](#license)
 
 </div>
 
@@ -565,5 +568,7 @@ All pipeline outputs are in `data/02_output/`:
 **AMPAY**: Porque las promesas se cumplen o se AMPAYan.
 
 A project by [JDRV-space](https://github.com/JDRV-space)
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:d91023,100:1a1a2e&height=100&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
