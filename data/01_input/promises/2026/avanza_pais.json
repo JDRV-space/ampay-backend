@@ -1,0 +1,402 @@
+{
+  "party": "Avanza Pais",
+  "party_slug": "avanza_pais",
+  "year": 2026,
+  "extraction_date": "2026-01-21T10:04:02.835639Z",
+  "total_pages_processed": 156,
+  "promises": [
+    {
+      "text": "Incorporar 60000 efectivos mas a la Policia Nacional",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "incorporar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-001",
+      "source_page": 1
+    },
+    {
+      "text": "Realizar un shock de inversiones en seguridad ciudadana mediante Plan Mariano Santos de 18600 millones de soles",
+      "category": "seguridad",
+      "secondary_category": "fiscal",
+      "action_verb": "realizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-002",
+      "source_page": 1
+    },
+    {
+      "text": "Fortalecer el Sistema de Rondas Campesinas con capacitacion y beneficios",
+      "category": "seguridad",
+      "secondary_category": "social",
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-003",
+      "source_page": 1
+    },
+    {
+      "text": "Redactar un nuevo Codigo del Trabajo y Prevision Social",
+      "category": "empleo",
+      "secondary_category": "social",
+      "action_verb": "redactar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-004",
+      "source_page": 6
+    },
+    {
+      "text": "Establecer Programa de Empleo Productivo Estacional con encadenamientos",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-006",
+      "source_page": 6
+    },
+    {
+      "text": "Establecer Programa de Microcontratos Formales Flexibles para formalidad",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-007",
+      "source_page": 11
+    },
+    {
+      "text": "Establecer sistema de Cuenta Individual Contributiva portatil y escalonada",
+      "category": "social",
+      "secondary_category": "empleo",
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-008",
+      "source_page": 11
+    },
+    {
+      "text": "Establecer Programas piloto de pension minima contributiva para formalizados tempranos",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-009",
+      "source_page": 11
+    },
+    {
+      "text": "Reorganizar CONCYTEC para conectar Estado, Academia y Empresa con integracion de Inteligencia Artificial",
+      "category": "educacion",
+      "secondary_category": "economia",
+      "action_verb": "reorganizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-010",
+      "source_page": 16
+    },
+    {
+      "text": "Crear Clusters Sectoriales de Innovacion en agritech, fintech, salud y mineria sostenible",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-011",
+      "source_page": 16
+    },
+    {
+      "text": "Crear Fondo de apalancamiento para infraestructura logistica",
+      "category": "transporte",
+      "secondary_category": "fiscal",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-013",
+      "source_page": 21
+    },
+    {
+      "text": "Reordenamiento de la gestion del circuito turistico del Cusco con mayor certificacion de operadores",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "reordenar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-014",
+      "source_page": 26
+    },
+    {
+      "text": "Establecer facilidades para serenos y militares voluntarios para ingresar a escuelas de PNP",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-015",
+      "source_page": 31
+    },
+    {
+      "text": "Mejorar los sueldos y bonos del personal policial de acuerdo con sus funciones",
+      "category": "seguridad",
+      "secondary_category": "empleo",
+      "action_verb": "mejorar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-016",
+      "source_page": 36
+    },
+    {
+      "text": "Simplificar procesos de licitacion y fortalecer a ProInversion con equipos tecnicos",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "simplificar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-017",
+      "source_page": 41
+    },
+    {
+      "text": "Crear clausulas modelo de concesion que reduzcan riesgo regulatorio",
+      "category": "economia",
+      "secondary_category": "justicia",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-018",
+      "source_page": 46
+    },
+    {
+      "text": "Reorientar la inspeccion laboral con protocolos diferenciados para grandes evasores",
+      "category": "empleo",
+      "secondary_category": "justicia",
+      "action_verb": "reorientar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-019",
+      "source_page": 51
+    },
+    {
+      "text": "Incentivar la inversion privada regional con contrapartida en infraestructura y capacitacion",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "incentivar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-020",
+      "source_page": 56
+    },
+    {
+      "text": "Priorizar en el interior obras publicas de corto plazo para generar demanda laboral intensiva",
+      "category": "empleo",
+      "secondary_category": "economia",
+      "action_verb": "priorizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-021",
+      "source_page": 61
+    },
+    {
+      "text": "Establecer seguro de salud complementario con transferencia condicionada de cotizacion",
+      "category": "salud",
+      "secondary_category": "social",
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-022",
+      "source_page": 66
+    },
+    {
+      "text": "Alcanzar el pleno desarrollo de las capacidades de las personas sin dejar a nadie atras",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "alcanzar",
+      "extraction_quality": "ambiguous",
+      "source_quote": "Objetivo Nacional 1: Alcanzar el pleno desarrollo de las capacidades de las personas, sin dejar a nadie atras",
+      "id": "APAIS-2026-023",
+      "source_page": 71
+    },
+    {
+      "text": "Elevar niveles de competitividad y productividad con empleo decente",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "elevar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-024",
+      "source_page": 76
+    },
+    {
+      "text": "Gestionar el territorio de forma sostenible y ordenada",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "gestionar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-025",
+      "source_page": 81
+    },
+    {
+      "text": "Implementar plataforma IA para recomendar soluciones segun sector y tamano de empresa",
+      "category": "economia",
+      "secondary_category": "educacion",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-026",
+      "source_page": 86
+    },
+    {
+      "text": "Financiar laboratorios mixtos empresa-universidad con contratos de propiedad intelectual claros",
+      "category": "educacion",
+      "secondary_category": "economia",
+      "action_verb": "financiar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-027",
+      "source_page": 91
+    },
+    {
+      "text": "Establecer alianzas MYPES-Gremios Empresariales-Banca Financiera para modernizacion de cultura de innovacion",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-028",
+      "source_page": 96
+    },
+    {
+      "text": "Establecer Marco Minimo de Estabilidad Regulatoria para inversiones exportadoras",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-029",
+      "source_page": 101
+    },
+    {
+      "text": "Establecer desde Cancilleria acuerdos bilaterales de reconocimiento de certificaciones",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-030",
+      "source_page": 106
+    },
+    {
+      "text": "Lograr 5 nuevos acuerdos comerciales estrategicos internacionales",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-031",
+      "source_page": 111
+    },
+    {
+      "text": "Mejorar imagen pais en rankings internacionales en 20 por ciento",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "mejorar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-032",
+      "source_page": 116
+    },
+    {
+      "text": "Elaborar informes anuales y evaluaciones de medio termino publicados en plataformas digitales abiertas",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "elaborar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-033",
+      "source_page": 121
+    },
+    {
+      "text": "Implementar sistema de monitoreo ciudadano con validacion independiente de observatorios",
+      "category": "fiscal",
+      "secondary_category": "social",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-034",
+      "source_page": 126
+    },
+    {
+      "text": "Consolidar politica exterior pro-desarrollo, seguridad y promocion economica",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "consolidar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-035",
+      "source_page": 131
+    },
+    {
+      "text": "Apoyar MYPES para convertir empleo parcial en empleo pleno",
+      "category": "empleo",
+      "secondary_category": "economia",
+      "action_verb": "apoyar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-037",
+      "source_page": 141
+    },
+    {
+      "text": "Simplificar parcialmente certificaciones exigidas para pymes con potencial exportador",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "simplificar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-038",
+      "source_page": 146
+    },
+    {
+      "text": "Consolidar rendicion de cuentas como instrumento de mejora continua con recomendaciones concretas",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "consolidar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-039",
+      "source_page": 151
+    },
+    {
+      "text": "Establecer plan de monitoreo concertado con CEPLAN",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "APAIS-2026-040",
+      "source_page": 156
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 37,
+    "clear": 36,
+    "ambiguous": 1,
+    "by_category": {
+      "seguridad": 5,
+      "economia": 14,
+      "fiscal": 4,
+      "social": 3,
+      "empleo": 6,
+      "educacion": 2,
+      "salud": 1,
+      "agua": 0,
+      "vivienda": 0,
+      "transporte": 1,
+      "energia": 0,
+      "mineria": 0,
+      "ambiente": 1,
+      "agricultura": 0,
+      "justicia": 0
+    }
+  },
+  "audit_note": "3 hallucinated promises removed per PROMISE_AUDIT_REPORT.md on 2026-01-22"
+}

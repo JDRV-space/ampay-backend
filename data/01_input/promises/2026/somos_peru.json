@@ -1,0 +1,222 @@
+{
+  "party": "Somos Peru",
+  "party_slug": "somos_peru",
+  "year": 2026,
+  "extraction_date": "2026-01-21T10:25:18.055035Z",
+  "total_pages_processed": 112,
+  "promises": [
+    {
+      "text": "Reducir perdidas economicas por Fenomeno del Nino de USD 3,000 millones a menos de USD 600 millones por evento",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-001",
+      "source_page": 56
+    },
+    {
+      "text": "Proteger a 2.5 millones de habitantes en zonas de alta vulnerabilidad climatica",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "proteger",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-002",
+      "source_page": 56
+    },
+    {
+      "text": "Crear Fondo de Emergencia Climatica de S/2,500 millones anuales intangible",
+      "category": "ambiente",
+      "secondary_category": "fiscal",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-003",
+      "source_page": 56
+    },
+    {
+      "text": "Reducir brecha de poblacion sin agua segura de 73.7% a menos del 40% al 2031",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-004",
+      "source_page": 56
+    },
+    {
+      "text": "Reducir agua no facturada del 38.5% al 20%",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-005",
+      "source_page": 56
+    },
+    {
+      "text": "Instalar 1.5 millones de medidores inteligentes con telemetria",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "instalar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-007",
+      "source_page": 56
+    },
+    {
+      "text": "Lograr 95% de conexiones de agua medidas",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-008",
+      "source_page": 56
+    },
+    {
+      "text": "Reducir EPS de 50 a 20 empresas regionales",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-009",
+      "source_page": 56
+    },
+    {
+      "text": "Aumentar tratamiento de aguas residuales urbanas del 30% al 75%",
+      "category": "agua",
+      "secondary_category": "ambiente",
+      "action_verb": "aumentar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-010",
+      "source_page": 61
+    },
+    {
+      "text": "Generar 700 millones m3/ano de agua nueva",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "generar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-012",
+      "source_page": 61
+    },
+    {
+      "text": "Construir 50 nuevas PTARs con tecnologia terciaria",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-013",
+      "source_page": 61
+    },
+    {
+      "text": "Construir 600 km de tuberias para agua tratada para riego agricola e industrial",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-014",
+      "source_page": 61
+    },
+    {
+      "text": "Construir 40,000 reservorios rusticos mejorados para siembra y cosecha de agua",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-015",
+      "source_page": 61
+    },
+    {
+      "text": "Agregar 2,000 MW de capacidad instalada renovable adicional",
+      "category": "energia",
+      "secondary_category": null,
+      "action_verb": "agregar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-018",
+      "source_page": 71
+    },
+    {
+      "text": "Beneficiar 300,000 familias con energia solar",
+      "category": "energia",
+      "secondary_category": null,
+      "action_verb": "beneficiar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-019",
+      "source_page": 71
+    },
+    {
+      "text": "Beneficiar 15,000 MYPEs con paneles productivos",
+      "category": "energia",
+      "secondary_category": "economia",
+      "action_verb": "beneficiar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-020",
+      "source_page": 71
+    },
+    {
+      "text": "Reducir costos logisticos del 16% al 12% del valor del producto",
+      "category": "transporte",
+      "secondary_category": "economia",
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-021",
+      "source_page": 71
+    },
+    {
+      "text": "Conectar 100% de capitales provinciales con carreteras pavimentadas",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "conectar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-022",
+      "source_page": 71
+    },
+    {
+      "text": "Culminar Linea 2 del Metro de Lima (27 km)",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "culminar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2026-023",
+      "source_page": 71
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 19,
+    "clear": 19,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 0,
+      "economia": 0,
+      "fiscal": 0,
+      "social": 0,
+      "empleo": 0,
+      "educacion": 0,
+      "salud": 0,
+      "agua": 10,
+      "vivienda": 0,
+      "transporte": 3,
+      "energia": 3,
+      "mineria": 0,
+      "ambiente": 3,
+      "agricultura": 0,
+      "justicia": 0
+    }
+  },
+  "audit_note": "4 hallucinated promises removed per PROMISE_AUDIT_REPORT.md on 2026-01-22"
+}

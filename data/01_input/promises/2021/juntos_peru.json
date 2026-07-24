@@ -1,0 +1,351 @@
+{
+  "party": "Juntos por el Peru",
+  "party_slug": "juntos_peru",
+  "year": 2021,
+  "extraction_date": "2026-01-21T10:17:56.976852Z",
+  "total_pages_processed": 56,
+  "promises": [
+    {
+      "text": "Asegurar presupuesto del sector salud igual o superior al 6% del PBI",
+      "category": "salud",
+      "secondary_category": "fiscal",
+      "action_verb": "asegurar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-001",
+      "source_page": 1
+    },
+    {
+      "text": "Masificar la vacunacion contra COVID-19",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "masificar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-002",
+      "source_page": 1
+    },
+    {
+      "text": "Aplicar impuesto a las grandes fortunas",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "aplicar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-003",
+      "source_page": 1
+    },
+    {
+      "text": "Construir un sistema unico de salud publica sin exclusiones",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-004",
+      "source_page": 1
+    },
+    {
+      "text": "Lograr que 100% de universidades publicas obtengan renovacion de licenciamiento",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-005",
+      "source_page": 6
+    },
+    {
+      "text": "Eliminar exoneraciones tributarias de universidades privadas con fines de lucro",
+      "category": "fiscal",
+      "secondary_category": "educacion",
+      "action_verb": "eliminar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-006",
+      "source_page": 6
+    },
+    {
+      "text": "Implementar programa de reincorporacion en 100% de universidades publicas con becas y bienestar",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-007",
+      "source_page": 6
+    },
+    {
+      "text": "Vacunar a toda la poblacion el primer semestre de 2022",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "vacunar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-008",
+      "source_page": 6
+    },
+    {
+      "text": "Instituir gratuidad de atencion en servicios publicos de salud",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "instituir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-009",
+      "source_page": 6
+    },
+    {
+      "text": "Crear hasta 1 millon de empleos temporales en pequenos proyectos al 2022",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-010",
+      "source_page": 11
+    },
+    {
+      "text": "Universalizar Pension 65 en area rural y duplicar monto de 250 a 500 soles bimestrales",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "universalizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-011",
+      "source_page": 11
+    },
+    {
+      "text": "Duplicar cobertura de Pension 65 en area urbana iniciando con amas de casa",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "duplicar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-012",
+      "source_page": 11
+    },
+    {
+      "text": "Duplicar el programa CunaMas",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "duplicar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-013",
+      "source_page": 11
+    },
+    {
+      "text": "Multiplicar por 5 la asignacion familiar por hijo",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "multiplicar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-014",
+      "source_page": 11
+    },
+    {
+      "text": "Crear el Sistema Peruano de Cuidados SPC",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-015",
+      "source_page": 11
+    },
+    {
+      "text": "Recuperar 3 millones de empleos perdidos en el mas corto plazo (2021-2022)",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "recuperar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-016",
+      "source_page": 21
+    },
+    {
+      "text": "Decuplicar el fondo INNOVATE Peru para proyectos innovadores",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "decuplicar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-017",
+      "source_page": 21
+    },
+    {
+      "text": "Incrementar productividad por trabajador en 40% en agro, comercio y servicios",
+      "category": "economia",
+      "secondary_category": "empleo",
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-018",
+      "source_page": 21
+    },
+    {
+      "text": "Reducir tasa de informalidad laboral en 20 puntos porcentuales",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-019",
+      "source_page": 21
+    },
+    {
+      "text": "Implementar Sistema Nacional de Parques Industriales a nivel nacional",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-020",
+      "source_page": 21
+    },
+    {
+      "text": "Incrementar 25% de colocaciones netas para MYPEs",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-021",
+      "source_page": 26
+    },
+    {
+      "text": "Incrementar 30% de inclusion financiera de MYPEs dentro de la Estrategia Nacional de Inclusion Financiera",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-022",
+      "source_page": 26
+    },
+    {
+      "text": "Ampliar permiso de maternidad a 14 semanas y paternidad hasta alcanzar igualdad",
+      "category": "empleo",
+      "secondary_category": "social",
+      "action_verb": "ampliar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-023",
+      "source_page": 31
+    },
+    {
+      "text": "Habilitar 9,250 km de caminos departamentales a nivel de pavimento economico",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "habilitar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-024",
+      "source_page": 31
+    },
+    {
+      "text": "Rehabilitar 10,500 km de red vial departamental a nivel de afirmado",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "rehabilitar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-025",
+      "source_page": 31
+    },
+    {
+      "text": "Habilitar 25,000 km de caminos vecinales a nivel de pavimento economico",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "habilitar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-026",
+      "source_page": 31
+    },
+    {
+      "text": "Rehabilitar 40,000 km de red vial vecinal a nivel de afirmado",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "rehabilitar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-027",
+      "source_page": 31
+    },
+    {
+      "text": "Implementar Plan de Chatarreo para 24,000 camiones de mas de 20 anos",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-028",
+      "source_page": 31
+    },
+    {
+      "text": "Construir 5 truck centers cerca de zonas portuarias",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-029",
+      "source_page": 31
+    },
+    {
+      "text": "Construir tres zonas de Actividades Logisticas en Callao, Piura y Arequipa",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-030",
+      "source_page": 31
+    },
+    {
+      "text": "Impulsar ratificacion del Acuerdo de Escazu",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-031",
+      "source_page": 41
+    },
+    {
+      "text": "Convocar referéndum para Asamblea Popular Constituyente",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "convocar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "JP-2021-032",
+      "source_page": 41
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 32,
+    "clear": 32,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 0,
+      "economia": 5,
+      "fiscal": 2,
+      "social": 5,
+      "empleo": 4,
+      "educacion": 2,
+      "salud": 5,
+      "agua": 0,
+      "vivienda": 0,
+      "transporte": 7,
+      "energia": 0,
+      "mineria": 0,
+      "ambiente": 1,
+      "agricultura": 0,
+      "justicia": 1
+    }
+  }
+}
