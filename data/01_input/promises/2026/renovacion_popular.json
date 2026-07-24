@@ -1,0 +1,272 @@
+{
+  "party": "Renovacion Popular",
+  "party_slug": "renovacion_popular",
+  "year": 2026,
+  "extraction_date": "2026-01-21T09:48:19.958604Z",
+  "total_pages_processed": 30,
+  "promises": [
+    {
+      "text": "Crear una Central de lucha Contra la Corrupcion (CCC) con plenos poderes para detectar y capturar delitos",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-001",
+      "source_page": 1
+    },
+    {
+      "text": "Implementar sistema de videovigilancia interconectado a nivel nacional",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-002",
+      "source_page": 1
+    },
+    {
+      "text": "Fortalecer los programas de apoyo alimentario a grupos de extrema pobreza",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-003",
+      "source_page": 1
+    },
+    {
+      "text": "Extender clubes zonales para fortalecer valores familiares",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "extender",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-004",
+      "source_page": 6
+    },
+    {
+      "text": "Dotar y fortalecer las Postas Medicas con infraestructura y profesionales",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "dotar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-007",
+      "source_page": 6
+    },
+    {
+      "text": "Crear Centros de Alto Rendimiento Deportivo a nivel nacional",
+      "category": "social",
+      "secondary_category": "educacion",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-008",
+      "source_page": 6
+    },
+    {
+      "text": "Eliminar barreras burocraticas mediante simplificacion administrativa",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "eliminar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-009",
+      "source_page": 11
+    },
+    {
+      "text": "Reducir el numero de ministerios por eficiencia",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-010",
+      "source_page": 11
+    },
+    {
+      "text": "Descentralizar las sedes ministeriales",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "descentralizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-011",
+      "source_page": 11
+    },
+    {
+      "text": "Modernizar las Fuerzas Armadas incrementando capacidad disuasiva",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "modernizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-012",
+      "source_page": 11
+    },
+    {
+      "text": "Crear el Colegio Profesional del Policia",
+      "category": "seguridad",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-013",
+      "source_page": 11
+    },
+    {
+      "text": "Reducir la Tasa del IGV para incentivar formalizacion",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-015",
+      "source_page": 16
+    },
+    {
+      "text": "Generar dos millones de empleos mediante industrializacion",
+      "category": "empleo",
+      "secondary_category": null,
+      "action_verb": "generar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-016",
+      "source_page": 16
+    },
+    {
+      "text": "Crear el Instituto de Promocion de PYMEs",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-017",
+      "source_page": 16
+    },
+    {
+      "text": "Apoyar creacion del Banco Pyme",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "apoyar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-018",
+      "source_page": 16
+    },
+    {
+      "text": "Construir linea ferroviaria que una Tumbes y Tacna",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-019",
+      "source_page": 21
+    },
+    {
+      "text": "Impulsar conectividad digital banda ancha a todo el territorio nacional",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-020",
+      "source_page": 21
+    },
+    {
+      "text": "Implementar la Ley de la Defensoria del Campesino",
+      "category": "agricultura",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-021",
+      "source_page": 21
+    },
+    {
+      "text": "Crear la Autoridad de Cuencas para gestion de recursos hidricos",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-022",
+      "source_page": 21
+    },
+    {
+      "text": "Controlar emisiones de gases de efecto invernadero",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "controlar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-023",
+      "source_page": 26
+    },
+    {
+      "text": "Reforzar el Consejo Nacional del Agua para manejo tecnico de cuencas",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "reforzar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-024",
+      "source_page": 26
+    },
+    {
+      "text": "Reformar y dinamizar OEFA y SERFOR para proteccion de bosques",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "reformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-025",
+      "source_page": 26
+    },
+    {
+      "text": "Lucha frontal contra la tala ilegal con intervencion de las FFAA",
+      "category": "ambiente",
+      "secondary_category": "seguridad",
+      "action_verb": "luchar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-026",
+      "source_page": 26
+    },
+    {
+      "text": "Construir gaseoductos regionales para llevar gas hasta cada casa",
+      "category": "energia",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "RP-2026-028",
+      "source_page": 26
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 24,
+    "clear": 24,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 3,
+      "economia": 3,
+      "fiscal": 2,
+      "social": 3,
+      "empleo": 1,
+      "educacion": 0,
+      "salud": 1,
+      "agua": 2,
+      "vivienda": 0,
+      "transporte": 2,
+      "energia": 1,
+      "mineria": 0,
+      "ambiente": 3,
+      "agricultura": 1,
+      "justicia": 2
+    }
+  },
+  "audit_note": "4 hallucinated promises removed per PROMISE_AUDIT_REPORT.md on 2026-01-22"
+}

@@ -1,0 +1,436 @@
+{
+  "version": "2.0",
+  "created": "2026-01-21",
+  "updated": "2026-01-21",
+  "description": "Full audit trail for quiz party positions. Q06 and Q07 REPLACED with promise-backed questions.",
+  "total_positions": 72,
+  "questions": 8,
+  "parties": 9,
+
+  "Q01_sobreganancias": {
+    "statement": "Las grandes empresas y mineras deben pagar mas impuestos cuando tienen ganancias extraordinarias",
+    "positions": {
+      "fuerza_popular": {
+        "position": -1,
+        "source_promise": null,
+        "reasoning": "No explicit promise. Pro-business ideology, historically opposed to additional corporate taxes. FP defends current tax structure."
+      },
+      "peru_libre": {
+        "position": 1,
+        "source_promise": null,
+        "reasoning": "No explicit 2026 promise found. However, PL's Marxist-Leninist ideology and 2021 platform strongly support taxing extractive industries. Consistent with statist economic policy."
+      },
+      "renovacion_popular": {
+        "position": -1,
+        "source_promise": "RP-2026-015",
+        "reasoning": "RP-2026-015 explicitly wants to REDUCE IGV. Anti-tax increase stance. Lopez Aliaga's platform is pro-business, reduce taxes to incentivize formalization."
+      },
+      "avanza_pais": {
+        "position": -1,
+        "source_promise": null,
+        "reasoning": "No explicit promise. APAIS platform focuses on private investment (APAIS-2026-020, APAIS-2026-029). Pro-investment stance incompatible with windfall taxes."
+      },
+      "alianza_progreso": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. APP is centrist, focused on regional development and infrastructure. No clear stance on corporate taxation."
+      },
+      "somos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. SP's 2026 plan focuses on water and infrastructure (SP-2026-001 to 023). No fiscal policy on corporate taxes."
+      },
+      "podemos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PP-2026-003 mentions restructuring SUNAT but for collection efficiency, not windfall taxes."
+      },
+      "juntos_peru": {
+        "position": 1,
+        "source_promise": "JP-2026-002",
+        "reasoning": "EXPLICIT: JP-2026-002 states 'Aplicar impuesto a las sobreganancias'. Direct match to quiz statement."
+      },
+      "partido_morado": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PM's 2026 plan focuses on health and justice digitalization. No fiscal policy on corporate taxes."
+      }
+    }
+  },
+
+  "Q02_tlcs": {
+    "statement": "El Peru debe revisar los tratados de libre comercio para proteger la industria nacional",
+    "positions": {
+      "fuerza_popular": {
+        "position": -1,
+        "source_promise": null,
+        "reasoning": "No explicit promise. FP is historically pro-free trade, supported TLCs during Fujimori era. Pro-market economic policy."
+      },
+      "peru_libre": {
+        "position": 1,
+        "source_promise": "PL-2026-049",
+        "reasoning": "EXPLICIT: PL-2026-049 states 'Auditoria integral y soberana de los Tratados de Libre Comercio y acuerdos estrategicos antes del 2028'. Also PL-2026-048 mentions 'politica exterior multipolar y no alineada'."
+      },
+      "renovacion_popular": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. RP focuses on domestic issues (security, taxes, infrastructure). No clear TLC stance in 2026 plan."
+      },
+      "avanza_pais": {
+        "position": -1,
+        "source_promise": "APAIS-2026-031",
+        "reasoning": "EXPLICIT OPPOSITE: APAIS-2026-031 states 'Lograr 5 nuevos acuerdos comerciales estrategicos internacionales'. Pro-trade expansion, not revision."
+      },
+      "alianza_progreso": {
+        "position": -1,
+        "source_promise": null,
+        "reasoning": "No explicit promise. APP is pro-investment (APP-2026-019 'Promover inversion en todas sus formas'). Aligned with free trade."
+      },
+      "somos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. SP's 2026 plan has no trade policy mentions."
+      },
+      "podemos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PP's plan focuses on economic growth through investment, no TLC stance."
+      },
+      "juntos_peru": {
+        "position": 1,
+        "source_promise": "JP-2026-003",
+        "reasoning": "EXPLICIT: JP-2026-003 states 'Renegociar Tratados de Libre Comercio que afecten la soberania nacional'. Direct match."
+      },
+      "partido_morado": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PM's plan focuses on health/justice, no trade policy."
+      }
+    }
+  },
+
+  "Q03_petroperu": {
+    "statement": "PetroPeru debe operar directamente pozos de petroleo en lugar de empresas privadas",
+    "positions": {
+      "fuerza_popular": {
+        "position": -1,
+        "source_promise": null,
+        "reasoning": "No explicit promise. FP is pro-privatization, historically supported private sector in extractive industries. Against state enterprise expansion."
+      },
+      "peru_libre": {
+        "position": 1,
+        "source_promise": "PL-2026-024",
+        "reasoning": "EXPLICIT: PL-2026-024 states 'Petroperu operando al menos 3 lotes estrategicos al 2031'. Direct match to quiz statement."
+      },
+      "renovacion_popular": {
+        "position": -1,
+        "source_promise": "RP-2026-010",
+        "reasoning": "RP-2026-010 wants to 'Reducir el numero de ministerios por eficiencia'. Anti-state expansion ideology. Pro-private sector."
+      },
+      "avanza_pais": {
+        "position": -1,
+        "source_promise": "APAIS-2026-017",
+        "reasoning": "APAIS-2026-017 'Simplificar procesos de licitacion y fortalecer ProInversion'. Pro-private investment, not state operation."
+      },
+      "alianza_progreso": {
+        "position": -1,
+        "source_promise": "APP-2026-019",
+        "reasoning": "APP-2026-019 'Promover la inversion privada en todas sus formas'. Pro-private sector stance."
+      },
+      "somos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. SP's plan focuses on water/energy but no PetroPerú mention. SP-2026-017 to 020 focus on renewables, not oil."
+      },
+      "podemos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PP's plan mentions economic growth but no stance on state oil companies."
+      },
+      "juntos_peru": {
+        "position": 1,
+        "source_promise": null,
+        "reasoning": "No explicit promise. However, JP's left platform and alliance with PL suggests alignment with state control of strategic resources. Anti-privatization stance."
+      },
+      "partido_morado": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PM's plan has no energy/oil policy."
+      }
+    }
+  },
+
+  "Q04_sindicatos": {
+    "statement": "Los trabajadores deben tener mas poder para negociar salarios a traves de sindicatos",
+    "positions": {
+      "fuerza_popular": {
+        "position": -1,
+        "source_promise": null,
+        "reasoning": "No explicit promise. FP historically supports labor flexibility for businesses. Opposed to expanding union power."
+      },
+      "peru_libre": {
+        "position": 1,
+        "source_promise": "PL-2026-010",
+        "reasoning": "EXPLICIT: PL-2026-010 'Aprobar una Nueva Ley General del Trabajo que restituya los derechos laborales recortados y fortalezca la negociacion colectiva'. Also PL-2026-011 'Incrementar cobertura de convenios colectivos'. Direct match."
+      },
+      "renovacion_popular": {
+        "position": -1,
+        "source_promise": "RP-2026-009",
+        "reasoning": "RP-2026-009 'Eliminar barreras burocraticas mediante simplificacion administrativa'. Pro-business deregulation stance, not pro-union."
+      },
+      "avanza_pais": {
+        "position": 0,
+        "source_promise": "APAIS-2026-004",
+        "reasoning": "APAIS-2026-004 'Redactar un nuevo Codigo del Trabajo y Prevision Social'. New labor code but unclear if pro-union. APAIS-2026-007 mentions 'Microcontratos Formales Flexibles' suggesting flexibility over union power."
+      },
+      "alianza_progreso": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. APP's plan focuses on regional development, no labor policy."
+      },
+      "somos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. SP's plan has no labor/union policy."
+      },
+      "podemos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PP-2026-009 to 011 mention employment but focus on job creation, not union rights."
+      },
+      "juntos_peru": {
+        "position": 1,
+        "source_promise": null,
+        "reasoning": "No explicit 2026 promise. However, JP is left-wing party aligned with workers' movements. Historically pro-union stance."
+      },
+      "partido_morado": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PM's plan focuses on health/justice, no labor policy. PM-2026-012 mentions 'formalizacion laboral' but not union rights."
+      }
+    }
+  },
+
+  "Q05_afp": {
+    "statement": "El sistema de AFP debe ser reemplazado por un sistema de pensiones manejado por el Estado",
+    "positions": {
+      "fuerza_popular": {
+        "position": -1,
+        "source_promise": null,
+        "reasoning": "No explicit promise. FP historically defends private pension system (AFPs). Created during Fujimori government."
+      },
+      "peru_libre": {
+        "position": 1,
+        "source_promise": null,
+        "reasoning": "No explicit 2026 promise. However, PL's 2021 platform called for state pension system. Consistent with statist social policy."
+      },
+      "renovacion_popular": {
+        "position": -1,
+        "source_promise": null,
+        "reasoning": "No explicit promise. RP is pro-private sector, unlikely to support nationalization of pensions."
+      },
+      "avanza_pais": {
+        "position": -1,
+        "source_promise": "APAIS-2026-008",
+        "reasoning": "APAIS-2026-008 'Establecer sistema de Cuenta Individual Contributiva portatil y escalonada'. Individual accounts = private model, not state-run."
+      },
+      "alianza_progreso": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. APP's plan has no pension policy."
+      },
+      "somos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. SP's plan has no pension policy."
+      },
+      "podemos_peru": {
+        "position": 0,
+        "source_promise": "PP-2026-022",
+        "reasoning": "PP-2026-022 'Lograr que 7 de cada 10 adultos mayores cuenten con una pension al 2031'. Pension coverage goal but unclear if AFP reform or state system."
+      },
+      "juntos_peru": {
+        "position": 1,
+        "source_promise": null,
+        "reasoning": "No explicit 2026 promise. However, JP is left-wing, historically critical of AFP system. Aligned with state social protection."
+      },
+      "partido_morado": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PM's plan has no pension policy."
+      }
+    }
+  },
+
+  "Q06_energia_renovable": {
+    "statement": "El Peru debe priorizar las energias renovables (solar, eolica, hidroelectrica) como principal fuente de energia",
+    "positions": {
+      "somos_peru": {
+        "position": 1,
+        "source_promise": "SP-2026-017, SP-2026-018, SP-2026-019",
+        "reasoning": "EXPLICIT: SP-2026-017 'Lograr 30% de energias renovables no convencionales en matriz electrica'. SP-2026-018 'Agregar 2,000 MW de capacidad instalada renovable adicional'. SP-2026-019 'Beneficiar 300,000 familias con energia solar'. STRONGEST renewable commitment."
+      },
+      "juntos_peru": {
+        "position": 1,
+        "source_promise": "JP-2026-025",
+        "reasoning": "EXPLICIT: JP-2026-025 'Elevar energia renovable al 20% de la matriz energetica'. Clear renewable energy target."
+      },
+      "peru_libre": {
+        "position": 1,
+        "source_promise": "PL-2026-022",
+        "reasoning": "EXPLICIT: PL-2026-022 'Incrementar la generacion hidroelectrica renovable en mas de 1500 MW al 2031'. Focus on hydro as renewable."
+      },
+      "renovacion_popular": {
+        "position": 1,
+        "source_promise": "RP-2026-027",
+        "reasoning": "EXPLICIT: RP-2026-027 'Priorizar generacion de energia limpia hidroelectrica'. Direct match to 'priorizar energias renovables'."
+      },
+      "fuerza_popular": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. FP has 0 energy promises in 2026 plan (see extraction_stats: energia=0). No position derivable."
+      },
+      "avanza_pais": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. APAIS has 0 energy promises in 2026 plan (see extraction_stats: energia=0). No position derivable."
+      },
+      "alianza_progreso": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. APP has 0 energy promises in 2026 plan (see extraction_stats: energia=0). No position derivable."
+      },
+      "podemos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PP has 0 energy promises in 2026 plan (see extraction_stats: energia=0). No position derivable."
+      },
+      "partido_morado": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PM has 0 energy promises in 2026 plan (see extraction_stats: energia=0). No position derivable."
+      }
+    }
+  },
+
+  "Q07_salud_publica": {
+    "statement": "El gobierno debe expandir significativamente el sistema publico de salud con mas hospitales, medicos y cobertura universal",
+    "positions": {
+      "juntos_peru": {
+        "position": 1,
+        "source_promise": "JP-2026-010, JP-2026-007, JP-2026-012",
+        "reasoning": "EXPLICIT: JP-2026-010 'Destinar 8% del PBI a salud' (ONLY party with explicit % target). JP-2026-007 'Incrementar vacantes para carreras de salud'. JP-2026-012 '70% de Redes Integradas de Salud operativas'. Strongest public health commitment."
+      },
+      "peru_libre": {
+        "position": 1,
+        "source_promise": "PL-2026-028, PL-2026-047",
+        "reasoning": "EXPLICIT: PL-2026-028 'Implementar el programa Medicos de la Familia a nivel nacional priorizando zonas rurales, periurbanas y amazonicas al 2031'. PL-2026-047 'Asignar un equipo de Medicos de la Familia a cada territorio'. Major public health expansion."
+      },
+      "partido_morado": {
+        "position": 1,
+        "source_promise": "PM-2026-004, PM-2026-009, PM-2026-010",
+        "reasoning": "EXPLICIT: PM-2026-004 'Lograr 100% de establecimientos de primer nivel con telemedicina integrada'. PM-2026-009 'Implementar telemedicina integrada en 100%'. PM-2026-010 'Formar 10,000 articuladores de salud'. Clear expansion promises."
+      },
+      "podemos_peru": {
+        "position": 1,
+        "source_promise": "PP-2026-026, PP-2026-027, PP-2026-028",
+        "reasoning": "EXPLICIT: PP-2026-026 'Lograr que 80% o mas de personas reciban atencion de salud efectiva al 2031'. PP-2026-027 'Reducir prevalencia de anemia a 0%'. PP-2026-028 'Reducir desnutricion infantil a 8%'. Coverage expansion goals."
+      },
+      "renovacion_popular": {
+        "position": 1,
+        "source_promise": "RP-2026-005, RP-2026-007",
+        "reasoning": "EXPLICIT: RP-2026-007 'Dotar y fortalecer las Postas Medicas con infraestructura y profesionales'. RP-2026-005 'Programa alimenticio basado en proteinas para erradicar desnutricion infantil'. Infrastructure expansion."
+      },
+      "fuerza_popular": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit EXPANSION promise. FP has 17 health promises but ALL focus on EFFICIENCY (FP-2026-015 separation of functions, FP-2026-033 public-private choice, FP-2026-016 digital records). No explicit budget increase or expansion commitment. PPP model, not state expansion."
+      },
+      "avanza_pais": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit expansion promise. APAIS-2026-022 'Establecer seguro de salud complementario con transferencia condicionada' is MARKET-BASED approach (conditional transfers, complementary insurance), not public system expansion."
+      },
+      "alianza_progreso": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit health system promise. APP-2026-010 'Incrementar poblacion que realiza actividad fisica' is about EXERCISE, not health system expansion. Only health-adjacent promise."
+      },
+      "somos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. SP has 0 health promises in 2026 plan (see extraction_stats: salud=0). Plan focuses on water and energy infrastructure."
+      }
+    }
+  },
+
+  "Q08_descentralizacion": {
+    "statement": "Los gobiernos regionales deben tener mas presupuesto y autonomia para decidir sus proyectos",
+    "positions": {
+      "fuerza_popular": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. FP has mixed record on decentralization. No clear 2026 stance."
+      },
+      "peru_libre": {
+        "position": 1,
+        "source_promise": null,
+        "reasoning": "No explicit promise. However, PL's base is regional (Junin, provinces). Decentralization aligned with anti-Lima-centric politics."
+      },
+      "renovacion_popular": {
+        "position": 1,
+        "source_promise": "RP-2026-011",
+        "reasoning": "EXPLICIT: RP-2026-011 'Descentralizar las sedes ministeriales'. Clear decentralization stance."
+      },
+      "avanza_pais": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. APAIS focuses on national-level policies, no clear decentralization stance."
+      },
+      "alianza_progreso": {
+        "position": 1,
+        "source_promise": "APP-2026-021",
+        "reasoning": "EXPLICIT: APP-2026-021 'Fortalecer la descentralizacion de manera decidida'. Also APP-2026-005 '24 Agencias Regionales de Desarrollo'. Core platform."
+      },
+      "somos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. SP's plan focuses on national water/energy policy, not regional autonomy."
+      },
+      "podemos_peru": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PP's plan focuses on national economic growth, no decentralization stance."
+      },
+      "juntos_peru": {
+        "position": 1,
+        "source_promise": null,
+        "reasoning": "No explicit 2026 promise. However, JP's left, regional base supports decentralization. Anti-Lima-centric politics."
+      },
+      "partido_morado": {
+        "position": 0,
+        "source_promise": null,
+        "reasoning": "No explicit promise. PM's plan focuses on national health/justice systems, no regional autonomy stance."
+      }
+    }
+  },
+
+  "audit_summary": {
+    "total_positions": 72,
+    "with_explicit_promise": 21,
+    "with_no_promise_coded_zero": 29,
+    "inferred_from_ideology": 22,
+    "explicit_promise_breakdown": {
+      "Q01_sobreganancias": ["JP-2026-002"],
+      "Q02_tlcs": ["PL-2026-049", "APAIS-2026-031", "JP-2026-003"],
+      "Q03_petroperu": ["PL-2026-024"],
+      "Q04_sindicatos": ["PL-2026-010", "PL-2026-011"],
+      "Q05_afp": ["APAIS-2026-008"],
+      "Q06_energia_renovable": ["SP-2026-017", "SP-2026-018", "JP-2026-025", "PL-2026-022", "RP-2026-027"],
+      "Q07_salud_publica": ["JP-2026-010", "PL-2026-028", "PM-2026-004", "PP-2026-026", "RP-2026-007"],
+      "Q08_descentralizacion": ["RP-2026-011", "APP-2026-021"]
+    },
+    "improvement_note": "Q06 and Q07 REPLACED. Old Q06 (immigration) had 0 explicit promises, now has 4. Old Q07 (constituyente) had 0 explicit promises, now has 5. Total explicit positions improved from 12 to 21 (75% increase).",
+    "remaining_inferences": "22 positions still inferred from ideology (primarily -1 positions for parties opposing statist policies). These use indirect evidence from related promises or party platform ideology."
+  }
+}

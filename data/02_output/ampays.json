@@ -1,0 +1,416 @@
+{
+  "version": "1.2",
+  "generated_at": "2026-07-09",
+  "source": "AMPAY_CONFIRMED_2021.json (manual review + traceability audit)",
+  "total": 5,
+
+  "by_party": {
+    "fuerza_popular": 1,
+    "peru_libre": 1,
+    "renovacion_popular": 1,
+    "avanza_pais": 0,
+    "alianza_progreso": 0,
+    "somos_peru": 1,
+    "podemos_peru": 0,
+    "juntos_peru": 1,
+    "partido_morado": 0
+  },
+
+  "ampays": [
+    {
+      "id": "AMPAY-001",
+      "party_slug": "fuerza_popular",
+      "party_name": "Fuerza Popular",
+      "promise": "Implementar reforma tributaria con principio de universalidad y simplificacion",
+      "promise_en": "Implement tax reform based on the principle of universality and simplification",
+      "category": "fiscal",
+      "vote_position": "SI",
+      "expected_position": "NO",
+      "evidence": "Voto SI en 6 leyes que extienden regimenes especiales para corporaciones, mineras e inversionistas",
+      "evidence_en": "Voted YES on 6 laws extending special tax regimes for corporations, mining companies, and investors",
+      "key_laws": [
+        "PL 3740 - Prorrogar apendices IGV",
+        "PL 3195 - Devolucion IGV mineras/hidrocarburos",
+        "PL 6473 - Prorrogar exoneracion mercado valores"
+      ],
+      "key_laws_en": [
+        "Bill 3740 - Extend VAT appendices",
+        "Bill 3195 - VAT refund for mining/hydrocarbon companies",
+        "Bill 6473 - Extend stock market tax exemption"
+      ],
+      "vote_references": [
+        {
+          "vote_id": "2022-12-21T18-06",
+          "label": "PL 3740 - Prorrogar apendices IGV",
+          "label_en": "Bill 3740 - Extend VAT appendices",
+          "date": "2022-12-21",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2022-12-21T19-45",
+          "label": "PL 3195 - Devolucion IGV mineras/hidrocarburos",
+          "label_en": "Bill 3195 - VAT refund for mining/hydrocarbon companies",
+          "date": "2022-12-21",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2022-12-21T17-50",
+          "label": "PL 3155 - Regimenes especiales depreciacion",
+          "label_en": "Bill 3155 - Special depreciation tax regimes",
+          "date": "2022-12-21",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2022-12-21T18-22",
+          "label": "PL 3671 - Incentivos fiscales fondos inmobiliarios",
+          "label_en": "Bill 3671 - Tax incentives for real estate investment funds",
+          "date": "2022-12-21",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2022-12-28T13-02",
+          "label": "PL 3672 - Regimen especial recuperacion IGV",
+          "label_en": "Bill 3672 - Special early VAT recovery regime",
+          "date": "2022-12-28",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2023-12-15T15-47",
+          "label": "PL 6473 - Prorrogar exoneracion mercado valores",
+          "label_en": "Bill 6473 - Extend stock market tax exemption",
+          "date": "2023-12-15",
+          "category": "economia",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        }
+      ],
+      "reasoning": "Prometio universalidad tributaria (mismas reglas para todos) pero voto SI en 6/6 leyes que extienden regimenes especiales para corporaciones.",
+      "reasoning_en": "Promised tax universality (same rules for everyone) but voted YES on 6/6 laws extending special tax regimes for corporations.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "AMPAY-002",
+      "party_slug": "renovacion_popular",
+      "party_name": "Renovacion Popular",
+      "promise": "Eliminar los regimenes tributarios para crear uno solo amigable que permita la formalizacion",
+      "promise_en": "Eliminate special tax regimes to create a single business-friendly system that enables formalization",
+      "category": "fiscal",
+      "vote_position": "SI",
+      "expected_position": "NO",
+      "evidence": "Voto SI en 5 leyes que ESTABLECEN o EXTIENDEN regimenes especiales",
+      "evidence_en": "Voted YES on 5 laws that ESTABLISH or EXTEND special tax regimes",
+      "key_laws": [
+        "PL 3195 - Prorrogar devolucion IGV mineras/hidrocarburos",
+        "PL 3155 - Regimenes especiales depreciacion",
+        "PL 3671 - Incentivos fiscales fondos inmobiliarios"
+      ],
+      "key_laws_en": [
+        "Bill 3195 - Extend VAT refund for mining/hydrocarbon companies",
+        "Bill 3155 - Special depreciation tax regimes",
+        "Bill 3671 - Tax incentives for real estate investment funds"
+      ],
+      "vote_references": [
+        {
+          "vote_id": "2022-12-21T19-45",
+          "label": "PL 3195 - Prorrogar devolucion IGV mineras/hidrocarburos",
+          "label_en": "Bill 3195 - Extend VAT refund for mining/hydrocarbon companies",
+          "date": "2022-12-21",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2022-12-21T17-50",
+          "label": "PL 3155 - Regimenes especiales depreciacion",
+          "label_en": "Bill 3155 - Special depreciation tax regimes",
+          "date": "2022-12-21",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2022-12-21T18-22",
+          "label": "PL 3671 - Incentivos fiscales fondos inmobiliarios",
+          "label_en": "Bill 3671 - Tax incentives for real estate investment funds",
+          "date": "2022-12-21",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2022-12-28T13-02",
+          "label": "PL 3672 - Regimen especial recuperacion IGV",
+          "label_en": "Bill 3672 - Special early VAT recovery regime",
+          "date": "2022-12-28",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2022-12-21T18-06",
+          "label": "PL 3740 - Prorrogar apendices IGV",
+          "label_en": "Bill 3740 - Extend VAT appendices",
+          "date": "2022-12-21",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        }
+      ],
+      "reasoning": "Prometio eliminar regimenes tributarios y crear uno solo, pero voto SI en 5/5 leyes que ESTABLECEN o EXTIENDEN regimenes especiales.",
+      "reasoning_en": "Promised to eliminate special tax regimes and create a single system, but voted YES on 5/5 laws that ESTABLISH or EXTEND special tax regimes.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "AMPAY-004",
+      "party_slug": "somos_peru",
+      "party_name": "Somos Peru",
+      "promise": "Reducir Gasto Corriente del Estado en 2% del PBI",
+      "promise_en": "Reduce government current spending by 2% of GDP",
+      "category": "fiscal",
+      "vote_position": "SI",
+      "expected_position": "NO",
+      "evidence": "Voto SI en leyes de presupuesto y creditos suplementarios entre 2021-2023",
+      "evidence_en": "Voted YES on budget and supplementary credit laws between 2021-2023",
+      "key_laws": [
+        "Ley de Presupuesto 2022",
+        "Ley de Presupuesto 2023",
+        "Creditos suplementarios 2022-2023"
+      ],
+      "key_laws_en": [
+        "2022 Budget Law",
+        "2023 Budget Law",
+        "Supplementary budget credits 2022-2023"
+      ],
+      "vote_references": [
+        {
+          "vote_id": "2021-11-25T17-43",
+          "label": "Ley de Presupuesto del Sector Publico 2022",
+          "label_en": "2022 Public Sector Budget Law",
+          "date": "2021-11-25",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2022-11-30T21-07",
+          "label": "Ley de Presupuesto del Sector Publico 2023",
+          "label_en": "2023 Public Sector Budget Law",
+          "date": "2022-11-30",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 66.7
+        },
+        {
+          "vote_id": "2022-03-16T21-01",
+          "label": "PL 1212 - Creditos complementarios para mayores gastos",
+          "label_en": "Bill 1212 - Supplementary credits for higher spending",
+          "date": "2022-03-16",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2022-07-30T13-44",
+          "label": "PL 2422 - Creditos suplementarios 2022",
+          "label_en": "Bill 2422 - 2022 supplementary credits",
+          "date": "2022-07-30",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        },
+        {
+          "vote_id": "2023-04-14T01-29",
+          "label": "PL 4482 - Creditos suplementarios 2023",
+          "label_en": "Bill 4482 - 2023 supplementary credits",
+          "date": "2023-04-13",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 66.7
+        },
+        {
+          "vote_id": "2023-10-20T21-15",
+          "label": "PL 5049/5201/5233/5410/5567/5618/5725/5856/5997 - Creditos suplementarios",
+          "label_en": "Bills 5049/5201/5233/5410/5567/5618/5725/5856/5997 - Supplementary credits",
+          "date": "2023-10-20",
+          "category": "fiscal",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 80.0
+        }
+      ],
+      "reasoning": "Prometio reducir gasto corriente en 2% del PBI, pero voto SI en leyes de presupuesto y creditos suplementarios que aumentaron gasto publico.",
+      "reasoning_en": "Promised to reduce current spending by 2% of GDP, but voted YES on budget and supplementary credit laws that increased public spending.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "AMPAY-005",
+      "party_slug": "peru_libre",
+      "party_name": "Peru Libre",
+      "promise": "Eliminacion de exoneraciones tributarias",
+      "promise_en": "Elimination of tax exemptions",
+      "category": "fiscal",
+      "vote_position": "SI",
+      "expected_position": "NO",
+      "evidence": "Voto SI para mantener/extender exoneraciones en la Amazonia",
+      "evidence_en": "Voted YES to maintain/extend tax exemptions in the Amazon region",
+      "key_laws": [
+        "PL 882/1620 - Modificar Ley 27037, Ley de Promocion de la Inversion en la Amazonia"
+      ],
+      "key_laws_en": [
+        "Bill 882/1620 - Amend Law 27037, Amazon Investment Promotion Law"
+      ],
+      "vote_references": [
+        {
+          "vote_id": "2022-07-15T21-43",
+          "label": "PL 882/1620 - Modificar Ley 27037, Ley de Promocion de la Inversion en la Amazonia",
+          "label_en": "Bill 882/1620 - Amend Law 27037, Amazon Investment Promotion Law",
+          "date": "2022-07-15",
+          "category": "economia",
+          "vote_type": "sustantivo",
+          "party_position": "SI",
+          "expected_position": "NO",
+          "party_si_pct": 100.0
+        }
+      ],
+      "reasoning": "Prometio eliminar exoneraciones tributarias, pero voto SI para mantener/extender exoneraciones en la Amazonia.",
+      "reasoning_en": "Promised to eliminate tax exemptions, but voted YES to maintain/extend tax exemptions in the Amazon region.",
+      "confidence": "MEDIUM"
+    },
+    {
+      "id": "AMPAY-006",
+      "party_slug": "juntos_peru",
+      "party_name": "Juntos por el Peru",
+      "promise": "Convocar referendum para Asamblea Popular Constituyente",
+      "promise_en": "Call a referendum for a Popular Constituent Assembly",
+      "category": "justicia",
+      "vote_position": "NO",
+      "expected_position": "SI",
+      "evidence": "Voto NO en ley que fortalece mecanismos de reforma constitucional",
+      "evidence_en": "Voted NO on law that strengthens constitutional reform mechanisms",
+      "key_laws": [
+        "PL 644 - Ley que fortalece proceso de aprobacion de leyes de reforma constitucional"
+      ],
+      "key_laws_en": [
+        "Bill 644 - Law to strengthen the approval process for constitutional reform laws"
+      ],
+      "vote_references": [
+        {
+          "vote_id": "2021-12-16T14-52",
+          "label": "PL 644 - Ley que fortalece proceso de aprobacion de leyes de reforma constitucional",
+          "label_en": "Bill 644 - Law to strengthen the approval process for constitutional reform laws",
+          "date": "2021-12-16",
+          "category": "justicia",
+          "vote_type": "sustantivo",
+          "party_position": "NO",
+          "expected_position": "SI",
+          "party_si_pct": 0.0
+        },
+        {
+          "vote_id": "2022-01-21T18-22",
+          "label": "PL 644 - Insistencia de reforma constitucional",
+          "label_en": "Bill 644 - Constitutional reform insistence vote",
+          "date": "2022-01-21",
+          "category": "justicia",
+          "vote_type": "sustantivo",
+          "party_position": "NO",
+          "expected_position": "SI",
+          "party_si_pct": 0.0
+        }
+      ],
+      "reasoning": "Prometio convocar referendum para Asamblea Constituyente, pero voto NO en ley que fortalece mecanismos de reforma constitucional.",
+      "reasoning_en": "Promised to call a referendum for a Constituent Assembly, but voted NO on law that strengthens constitutional reform mechanisms.",
+      "confidence": "MEDIUM"
+    }
+  ],
+
+  "retracted_ampays": [
+    {
+      "id": "AMPAY-003",
+      "party_slug": "renovacion_popular",
+      "party_name": "Renovacion Popular",
+      "promise": "Fomentar procesos que den mayor valor agregado a materias primas para aumentar exportacion de productos terminados",
+      "retracted_at": "2026-07-09",
+      "reason": "Retracted from confirmed AMPAYs because the supporting Mocion 8087 votes are procedural committee-formation votes, not substantive policy votes.",
+      "vote_references": [
+        {
+          "vote_id": "2023-10-05T19-28",
+          "label": "Admision a debate de Mocion 8087",
+          "date": "2023-10-05",
+          "category": "justicia",
+          "vote_type": "procedural",
+          "party_position": "NO"
+        },
+        {
+          "vote_id": "2023-10-05T19-51",
+          "label": "Mocion 8087 - Comision Especial Multipartidaria Terminal Multiproposito de Chancay",
+          "date": "2023-10-05",
+          "category": "transporte",
+          "vote_type": "procedural",
+          "party_position": "NO"
+        },
+        {
+          "vote_id": "2023-10-12T11-07",
+          "label": "Cuadro nominativo de la comision especial de Mocion 8087",
+          "date": "2023-10-12",
+          "category": "justicia",
+          "vote_type": "procedural",
+          "party_position": "SI"
+        }
+      ]
+    }
+  ],
+
+  "audit_log": {
+    "2026-01-22": "Removed AMPAY-006 and AMPAY-007 (Alianza Progreso) after verification found incorrect vote interpretation. APP voted SI on reconsideration (Aug 19), not NO as originally claimed. Fixed AMPAY-005 PL numbers from 1808/2818 to 882/1620. Total reduced from 8 to 6.",
+    "2026-07-09": "Retracted AMPAY-003 from confirmed outputs. Its supporting Mocion 8087 votes resolve to procedural vote IDs, so the claim is not a confirmed substantive contradiction. Added vote_references to remaining confirmed AMPAYs."
+  },
+
+  "data_disclaimer": {
+    "coverage": "2021-07-26 to 2024-07-26",
+    "missing": "Votes from 2024-07-27 to 2026 NOT analyzed",
+    "note": "Additional AMPAYs may exist in unanalyzed period"
+  }
+}

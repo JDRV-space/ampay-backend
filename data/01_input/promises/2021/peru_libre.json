@@ -1,0 +1,241 @@
+{
+  "party": "Peru Libre",
+  "party_slug": "peru_libre",
+  "year": 2021,
+  "extraction_date": "2026-01-21T09:42:56.458494Z",
+  "total_pages_processed": 17,
+  "promises": [
+    {
+      "text": "Creacion del Ministerio de Ciencia, Tecnologia e Investigacion",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-001",
+      "source_page": 1
+    },
+    {
+      "text": "Formar el Comando Nacional Unificado de Lucha contra el Covid, presidido por el MINSA e integrado por colegios profesionales, trabajadores de salud, facultades de medicina y autoridades regionales y municipales",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "formar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-002",
+      "source_page": 1
+    },
+    {
+      "text": "Conformacion de las Asambleas Locales de Salud con participacion abierta y transparente de la ciudadania organizada",
+      "category": "salud",
+      "secondary_category": "social",
+      "action_verb": "conformar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-003",
+      "source_page": 1
+    },
+    {
+      "text": "Establecer Casas Respira en cada distrito o centro poblado para el aislamiento de pacientes que requieran aporte de oxigeno",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-004",
+      "source_page": 1
+    },
+    {
+      "text": "Incorporacion de 5 mil equipos de Salud de familia para atencion preventiva integral en comunidades",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "incorporar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-005",
+      "source_page": 6
+    },
+    {
+      "text": "Promover y desarrollar la telemedicina para ampliar la atencion de enfermedades No Covid",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-006",
+      "source_page": 6
+    },
+    {
+      "text": "Distribucion de 20 millones de mascarillas, 2 millones de oximetros y kit con alcohol y jabon",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "distribuir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-007",
+      "source_page": 6
+    },
+    {
+      "text": "Fortalecer el Instituto Nacional de Salud e incrementar laboratorios para realizar 50 mil o mas pruebas moleculares por dia",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-008",
+      "source_page": 6
+    },
+    {
+      "text": "Estado adquirira 100 plantas y 200 tanques criogenicos de oxigeno medicinal",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "adquirir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-009",
+      "source_page": 6
+    },
+    {
+      "text": "Provision de 1000 nuevas camas UCI equipadas y 4 mil canulas de alto flujo",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "proveer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-010",
+      "source_page": 6
+    },
+    {
+      "text": "Incrementar en 5 mil camas hospitalarias adicionales",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "incrementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-011",
+      "source_page": 6
+    },
+    {
+      "text": "Asegurar la llegada de 60 millones de vacunas y vacunar a toda la poblacion mayor de 18 anios antes de fin de anio",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "asegurar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-012",
+      "source_page": 6
+    },
+    {
+      "text": "Impulsar la liberacion de patentes y alianzas para producir vacunas en el pais",
+      "category": "salud",
+      "secondary_category": "economia",
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-013",
+      "source_page": 6
+    },
+    {
+      "text": "Nuevo impuesto a las sobreganancias mineras producto de un Dialogo Nacional Descentralizado",
+      "category": "fiscal",
+      "secondary_category": "mineria",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-014",
+      "source_page": 11
+    },
+    {
+      "text": "Eliminacion de exoneraciones tributarias que fueron dadas por periodo de promocion y ya no son necesarias",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "eliminar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-015",
+      "source_page": 11
+    },
+    {
+      "text": "Eliminacion de exoneraciones tributarias a empresas que usen paraisos fiscales para evadir impuestos",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "eliminar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-016",
+      "source_page": 11
+    },
+    {
+      "text": "Establecer regalias mineras en funcion a las ventas, como Chile y Colombia",
+      "category": "mineria",
+      "secondary_category": "fiscal",
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-017",
+      "source_page": 11
+    },
+    {
+      "text": "Renegociacion de contratos de estabilidad tributaria con las grandes empresas",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "renegociar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-018",
+      "source_page": 11
+    },
+    {
+      "text": "Relanzar la construccion del gasoducto sur peruano",
+      "category": "energia",
+      "secondary_category": null,
+      "action_verb": "relanzar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-019",
+      "source_page": 11
+    },
+    {
+      "text": "Construir una Red Nacional de Gasoductos para masificacion del gas",
+      "category": "energia",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-020",
+      "source_page": 11
+    },
+    {
+      "text": "Retorno flexible, voluntario y diferencial a clases presenciales segun condiciones de cada territorio",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "PL-2021-021",
+      "source_page": 11
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 21,
+    "clear": 21,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 0,
+      "economia": 0,
+      "fiscal": 4,
+      "social": 0,
+      "empleo": 0,
+      "educacion": 2,
+      "salud": 12,
+      "agua": 0,
+      "vivienda": 0,
+      "transporte": 0,
+      "energia": 2,
+      "mineria": 1,
+      "ambiente": 0,
+      "agricultura": 0,
+      "justicia": 0
+    }
+  }
+}

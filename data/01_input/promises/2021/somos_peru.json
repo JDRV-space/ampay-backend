@@ -1,0 +1,231 @@
+{
+  "party": "Somos Peru",
+  "party_slug": "somos_peru",
+  "year": 2021,
+  "extraction_date": "2026-01-21T10:23:44.357127Z",
+  "total_pages_processed": 161,
+  "promises": [
+    {
+      "text": "Lograr coberturas de vacunacion no menores al 90% y de ser posible superiores al 95%",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-001",
+      "source_page": 21
+    },
+    {
+      "text": "Construir progresivamente un sistema unificado de salud",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-002",
+      "source_page": 21
+    },
+    {
+      "text": "Elevar salario docente a 2,500 soles mensuales e incrementarlo progresivamente",
+      "category": "educacion",
+      "secondary_category": "empleo",
+      "action_verb": "elevar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-003",
+      "source_page": 31
+    },
+    {
+      "text": "Implementar un instituto superior de excelencia por region durante los 5 anos de gobierno",
+      "category": "educacion",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-004",
+      "source_page": 31
+    },
+    {
+      "text": "Implementar Centros de Salud Mental Comunitarios en todas las regiones del pais",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-005",
+      "source_page": 31
+    },
+    {
+      "text": "Lograr 100% de Entidades Publicas con enfoque intercultural en sus servicios al 2023",
+      "category": "social",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-020",
+      "source_page": 51
+    },
+    {
+      "text": "Reducir Gasto Corriente del Estado en 2% del PBI",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-019",
+      "source_page": 101
+    },
+    {
+      "text": "Lograr que 500,000 ciudadanos accedan a programas de vivienda digna al 2026",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-006",
+      "source_page": 121
+    },
+    {
+      "text": "Ejecutar 250 mil proyectos inmobiliarios en todo el pais al 2026",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "ejecutar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-007",
+      "source_page": 121
+    },
+    {
+      "text": "Lograr 100% de cobertura de agua potable y alcantarillado en poblacion urbana al 2026",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-008",
+      "source_page": 121
+    },
+    {
+      "text": "Lograr 10% de cobertura de agua potable y alcantarillado en poblacion rural al 2026",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-009",
+      "source_page": 121
+    },
+    {
+      "text": "Lograr 10% de poblacion rural con acceso a agua segura al 2026",
+      "category": "agua",
+      "secondary_category": null,
+      "action_verb": "lograr",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-010",
+      "source_page": 121
+    },
+    {
+      "text": "Formalizar un millon de predios con titulos de propiedad",
+      "category": "vivienda",
+      "secondary_category": null,
+      "action_verb": "formalizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-011",
+      "source_page": 121
+    },
+    {
+      "text": "Completar 100% de construccion de la autopista Ramiro Priale hasta Chosica al 2026",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "completar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-012",
+      "source_page": 131
+    },
+    {
+      "text": "Construir Tren de cercanias Lima-Canete y Lima-Huacho al 2026",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-013",
+      "source_page": 131
+    },
+    {
+      "text": "Poner en operacion la Hidrovia Amazonica al 2026",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "poner",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-014",
+      "source_page": 131
+    },
+    {
+      "text": "Construir zona de actividad logistica en el Puerto del Callao",
+      "category": "transporte",
+      "secondary_category": "economia",
+      "action_verb": "construir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-015",
+      "source_page": 131
+    },
+    {
+      "text": "Recuperar flujos de turismo receptivo e interno del 2019 al 2023",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "recuperar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-016",
+      "source_page": 141
+    },
+    {
+      "text": "Identificar y renovar 30 recursos turisticos del pais al 2026",
+      "category": "economia",
+      "secondary_category": null,
+      "action_verb": "renovar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-017",
+      "source_page": 141
+    },
+    {
+      "text": "Identificar cinco destinos de excelencia mundial con certificados internacionales de bioseguridad al 2026",
+      "category": "economia",
+      "secondary_category": "salud",
+      "action_verb": "identificar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "SP-2021-018",
+      "source_page": 141
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 20,
+    "clear": 20,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 0,
+      "economia": 3,
+      "fiscal": 1,
+      "social": 1,
+      "empleo": 0,
+      "educacion": 2,
+      "salud": 3,
+      "agua": 3,
+      "vivienda": 3,
+      "transporte": 4,
+      "energia": 0,
+      "mineria": 0,
+      "ambiente": 0,
+      "agricultura": 0,
+      "justicia": 0
+    }
+  }
+}

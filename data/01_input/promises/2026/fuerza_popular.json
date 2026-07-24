@@ -1,0 +1,382 @@
+{
+  "party": "Fuerza Popular",
+  "party_slug": "fuerza_popular",
+  "year": 2026,
+  "extraction_date": "2026-01-21T09:56:40.740538Z",
+  "total_pages_processed": 144,
+  "promises": [
+    {
+      "text": "Reducir en 50 por ciento la deforestacion ilegal en la Amazonia priorizando titulacion comunal y vigilancia forestal",
+      "category": "ambiente",
+      "secondary_category": "agricultura",
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-001",
+      "source_page": 1
+    },
+    {
+      "text": "Alcanzar 100 por ciento de cobertura nacional de agua potable y alcantarillado priorizando zonas rurales",
+      "category": "agua",
+      "secondary_category": "vivienda",
+      "action_verb": "alcanzar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-002",
+      "source_page": 1
+    },
+    {
+      "text": "Culminar 7 proyectos viales estrategicos y modernizar 17 aeropuertos concesionados a nivel nacional",
+      "category": "transporte",
+      "secondary_category": null,
+      "action_verb": "culminar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-003",
+      "source_page": 1
+    },
+    {
+      "text": "Presentar informes semestrales a la ciudadania y al Congreso sobre cumplimiento de metas del plan de gobierno",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "presentar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-004",
+      "source_page": 1
+    },
+    {
+      "text": "Implementar Sistema Nacional de Transparencia y Control Ciudadano con avances en tiempo real",
+      "category": "fiscal",
+      "secondary_category": "justicia",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-005",
+      "source_page": 6
+    },
+    {
+      "text": "Establecer plataformas ciudadanas de vigilancia para seguimiento de obras publicas y contrataciones",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "establecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-006",
+      "source_page": 6
+    },
+    {
+      "text": "Fortalecer capacidades tecnicas y presupuestales de la Contraloria incluyendo uso de inteligencia artificial",
+      "category": "justicia",
+      "secondary_category": "fiscal",
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-007",
+      "source_page": 11
+    },
+    {
+      "text": "Consolidar sistema unico de declaraciones juradas interoperable con SUNAT y UIF",
+      "category": "justicia",
+      "secondary_category": "fiscal",
+      "action_verb": "consolidar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-008",
+      "source_page": 11
+    },
+    {
+      "text": "Prohibir la contratacion estatal con empresas sancionadas por corrupcion",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "prohibir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-009",
+      "source_page": 11
+    },
+    {
+      "text": "Aplicar Shock Anticorrupcion Digital integrando medidas preventivas, sancionadoras y de transparencia",
+      "category": "justicia",
+      "secondary_category": null,
+      "action_verb": "aplicar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-010",
+      "source_page": 16
+    },
+    {
+      "text": "Fortalecer la Autoridad Nacional de Transparencia y Acceso a la Informacion",
+      "category": "fiscal",
+      "secondary_category": "justicia",
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-011",
+      "source_page": 16
+    },
+    {
+      "text": "Garantizar que las vacunas y equipamiento necesario lleguen a todo el pais",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "garantizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-012",
+      "source_page": 21
+    },
+    {
+      "text": "Implementar estrategias de cambio de comportamiento con participacion comunitaria para mejorar cobertura de vacunas",
+      "category": "salud",
+      "secondary_category": "social",
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-013",
+      "source_page": 21
+    },
+    {
+      "text": "Fortalecer el rol rector del MINSA con funciones claras de conduccion sectorial y regulacion",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-014",
+      "source_page": 26
+    },
+    {
+      "text": "Separar las funciones de financiamiento y prestacion de servicios en sector publico y EsSalud",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "separar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-015",
+      "source_page": 26
+    },
+    {
+      "text": "Implementar interoperabilidad total de historias clinicas electronicas homologadas con DNI",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-016",
+      "source_page": 31
+    },
+    {
+      "text": "Desarrollar Sistema Nacional de Informacion Nominal en Salud Infantil y Materna",
+      "category": "salud",
+      "secondary_category": "social",
+      "action_verb": "desarrollar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-017",
+      "source_page": 31
+    },
+    {
+      "text": "Asegurar implementacion de la Ley Nacional del Cancer con presupuesto y metas anuales",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "asegurar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-018",
+      "source_page": 36
+    },
+    {
+      "text": "Crear el Banco Nacional de Cuidadores Certificados articulado al sistema de salud",
+      "category": "salud",
+      "secondary_category": "empleo",
+      "action_verb": "crear",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-019",
+      "source_page": 36
+    },
+    {
+      "text": "Fomentar produccion nacional de genericos esenciales y negociacion conjunta de precios",
+      "category": "salud",
+      "secondary_category": "economia",
+      "action_verb": "fomentar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-020",
+      "source_page": 41
+    },
+    {
+      "text": "Autorizar el ingreso de medicamentos registrados en paises de alta vigilancia sanitaria",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "autorizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-021",
+      "source_page": 41
+    },
+    {
+      "text": "Combatir la disminucion de bosques primarios mediante titulacion comunal y proyectos productivos sostenibles",
+      "category": "ambiente",
+      "secondary_category": "agricultura",
+      "action_verb": "combatir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-024",
+      "source_page": 56
+    },
+    {
+      "text": "Modernizar modelo de gestion CLAS con rendicion de cuentas digital y metas de desempeno",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "modernizar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-026",
+      "source_page": 66
+    },
+    {
+      "text": "Asegurar cobertura del SIS para jovenes beneficiarios del regimen de empleo y emprendimiento",
+      "category": "salud",
+      "secondary_category": "empleo",
+      "action_verb": "asegurar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-027",
+      "source_page": 71
+    },
+    {
+      "text": "Reducir informalidad laboral juvenil garantizando acceso a seguridad social",
+      "category": "empleo",
+      "secondary_category": "social",
+      "action_verb": "reducir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-028",
+      "source_page": 76
+    },
+    {
+      "text": "Eliminar barreras estructurales para emprendimiento juvenil incluyendo costos de formalizacion",
+      "category": "empleo",
+      "secondary_category": "economia",
+      "action_verb": "eliminar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-029",
+      "source_page": 81
+    },
+    {
+      "text": "Dispensacion gratuita de medicamentos para enfermedades cronicas mediante farmacias publicas y privadas",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "dispensar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-032",
+      "source_page": 96
+    },
+    {
+      "text": "Impulsar convenios de tarifas entre instituciones publicas y privadas para libre eleccion del usuario",
+      "category": "salud",
+      "secondary_category": null,
+      "action_verb": "impulsar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-033",
+      "source_page": 101
+    },
+    {
+      "text": "Fortalecer fiscalizacion ambiental por OEFA y gobiernos regionales en zonas de riesgo",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "fortalecer",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-034",
+      "source_page": 106
+    },
+    {
+      "text": "Implementar medidas de adaptacion ante eventos climaticos extremos como El Nino",
+      "category": "ambiente",
+      "secondary_category": null,
+      "action_verb": "implementar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-035",
+      "source_page": 111
+    },
+    {
+      "text": "Invertir en infraestructura verde como bosques urbanos y humedales",
+      "category": "ambiente",
+      "secondary_category": "vivienda",
+      "action_verb": "invertir",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-036",
+      "source_page": 116
+    },
+    {
+      "text": "Incorporar herramientas de compliance digital obligatorio para funcionarios",
+      "category": "justicia",
+      "secondary_category": "fiscal",
+      "action_verb": "incorporar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-038",
+      "source_page": 126
+    },
+    {
+      "text": "Ampliar el control concurrente real a todas las fases de ejecucion presupuestal",
+      "category": "fiscal",
+      "secondary_category": null,
+      "action_verb": "ampliar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-039",
+      "source_page": 131
+    },
+    {
+      "text": "Promover participacion de sociedad civil, gremios y universidades en mecanismos de monitoreo",
+      "category": "social",
+      "secondary_category": "educacion",
+      "action_verb": "promover",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-040",
+      "source_page": 136
+    },
+    {
+      "text": "Conectar regiones y reducir brechas territoriales mediante proyectos viales estrategicos",
+      "category": "transporte",
+      "secondary_category": "economia",
+      "action_verb": "conectar",
+      "extraction_quality": "clear",
+      "source_quote": null,
+      "id": "FP-2026-041",
+      "source_page": 141
+    }
+  ],
+  "extraction_stats": {
+    "total_extracted": 35,
+    "clear": 35,
+    "ambiguous": 0,
+    "by_category": {
+      "seguridad": 0,
+      "economia": 0,
+      "fiscal": 5,
+      "social": 1,
+      "empleo": 2,
+      "educacion": 0,
+      "salud": 14,
+      "agua": 1,
+      "vivienda": 0,
+      "transporte": 2,
+      "energia": 0,
+      "mineria": 0,
+      "ambiente": 5,
+      "agricultura": 0,
+      "justicia": 5
+    }
+  },
+  "audit_note": "6 hallucinated promises removed per PROMISE_AUDIT_REPORT.md on 2026-01-22"
+}

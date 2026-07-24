@@ -1,0 +1,426 @@
+{
+  "version": "3.3",
+  "created": "2026-01-21",
+  "updated": "2026-01-22",
+  "methodology": "VAA-aligned quiz with ideology calibration. ALL positions backed by explicit promises from 2021/2026 plans de gobierno. v3.3: 15 questions with BALANCED 5:4 left-right economic ratio + social + cross-ideological. Interleaved ordering prevents response set bias.",
+  "methodology_reference": "docs/research/06_VAA_METHODOLOGY.md",
+  "disclaimer": "Este quiz es una herramienta informativa basada en los planes de gobierno publicados. No constituye una recomendación de voto. Los resultados muestran similitud entre tus respuestas y las posiciones declaradas de los partidos, no una evaluación de su desempeño o integridad.",
+
+  "party_display_names": {
+    "fuerza_popular": "Fuerza Popular",
+    "peru_libre": "Perú Libre",
+    "renovacion_popular": "Renovación Popular",
+    "avanza_pais": "Avanza País",
+    "alianza_progreso": "Alianza para el Progreso",
+    "somos_peru": "Somos Perú",
+    "podemos_peru": "Podemos Perú",
+    "juntos_peru": "Juntos por el Perú",
+    "partido_morado": "Partido Morado"
+  },
+
+  "calibration_questions": {
+    "description": "FILTER (not scored in distance). User RANKS options 1-2-3 to filter display.",
+    "purpose": "Rank 1+2 parties appear in 'Dentro de tu perfil'. Rank 3 excluded from that section. TRUE match always shown separately.",
+    "input_method": "RANKING (1=most identified, 2=also acceptable, 3=least identified/excluded)",
+    "questions": [
+      {
+        "id": "C1",
+        "text": "En temas económicos, ordena del más al menos identificado:",
+        "options": ["Izquierda", "Centro", "Derecha"],
+        "maps_to_parties": {
+          "Izquierda": ["peru_libre", "juntos_peru"],
+          "Centro": ["partido_morado", "somos_peru", "alianza_progreso"],
+          "Derecha": ["fuerza_popular", "renovacion_popular", "avanza_pais", "podemos_peru"]
+        },
+        "filter_logic": {
+          "rank_1": "Primary filter - best matches",
+          "rank_2": "Secondary filter - also shown",
+          "rank_3": "EXCLUDED from 'Dentro de tu perfil'"
+        }
+      },
+      {
+        "id": "C2",
+        "text": "En temas sociales y culturales, ordena del más al menos identificado:",
+        "options": ["Conservador", "Moderado", "Progresista"],
+        "maps_to_parties": {
+          "Conservador": ["renovacion_popular", "peru_libre"],
+          "Moderado": ["fuerza_popular", "podemos_peru", "alianza_progreso", "avanza_pais", "somos_peru"],
+          "Progresista": ["partido_morado", "juntos_peru"]
+        },
+        "filter_logic": {
+          "rank_1": "Primary filter - best matches",
+          "rank_2": "Secondary filter - also shown",
+          "rank_3": "EXCLUDED from 'Dentro de tu perfil'"
+        }
+      }
+    ]
+  },
+
+  "statements": [
+    {
+      "id": "Q01",
+      "category": "fiscal",
+      "axis": "economic",
+      "text": "Las empresas mineras deben pagar impuestos adicionales cuando los precios internacionales de los minerales son altos",
+      "simple_text": "Más impuestos a mineras cuando suben precios",
+      "source_description": "PL y JP proponen impuestos adicionales a sobreganancias mineras en sus planes de gobierno 2021/2026. FP, RP y AP se oponen a nuevos impuestos al sector.",
+      "positions": {
+        "fuerza_popular": -1,
+        "peru_libre": 1,
+        "renovacion_popular": -1,
+        "avanza_pais": -1,
+        "alianza_progreso": 0,
+        "somos_peru": 0,
+        "podemos_peru": 0,
+        "juntos_peru": 1,
+        "partido_morado": 0
+      },
+      "note": "Economic-left: Agree = PL/JP. Reframed to neutral language."
+    },
+    {
+      "id": "Q02",
+      "category": "seguridad",
+      "axis": "governance",
+      "text": "El gobierno debe aumentar significativamente el número de policías y la vigilancia por cámaras para combatir el crimen",
+      "simple_text": "Más policías y cámaras contra el crimen",
+      "source_description": "FP, RP, AP, APP, SP y PP proponen aumentar efectivos policiales y videovigilancia en sus planes. Consenso mayoritario en seguridad ciudadana.",
+      "positions": {
+        "fuerza_popular": 1,
+        "peru_libre": 0,
+        "renovacion_popular": 1,
+        "avanza_pais": 1,
+        "alianza_progreso": 1,
+        "somos_peru": 1,
+        "podemos_peru": 1,
+        "juntos_peru": 0,
+        "partido_morado": 0
+      },
+      "note": "Right-leaning: Agree = FP/RP/AP. Security investment question."
+    },
+    {
+      "id": "Q03",
+      "category": "economia",
+      "axis": "economic",
+      "text": "El Perú debe revisar los tratados de libre comercio para proteger la industria nacional",
+      "simple_text": "Revisar TLCs para proteger industria peruana",
+      "source_description": "PL y JP proponen revisar TLCs para proteger producción nacional. FP, AP y APP defienden libre comercio y apertura de mercados.",
+      "positions": {
+        "fuerza_popular": -1,
+        "peru_libre": 1,
+        "renovacion_popular": 0,
+        "avanza_pais": -1,
+        "alianza_progreso": -1,
+        "somos_peru": 0,
+        "podemos_peru": 0,
+        "juntos_peru": 1,
+        "partido_morado": 0
+      },
+      "note": "Economic-left: Agree = PL/JP. Protectionism vs free trade."
+    },
+    {
+      "id": "Q04",
+      "category": "empleo",
+      "axis": "economic",
+      "text": "Las empresas deben poder contratar y despedir trabajadores con mayor facilidad para generar más empleo",
+      "simple_text": "Más flexibilidad laboral para empresas",
+      "source_description": "FP, RP, AP y PP promueven flexibilización laboral para generar empleo. PL y JP defienden estabilidad laboral y derechos sindicales.",
+      "positions": {
+        "fuerza_popular": 1,
+        "peru_libre": -1,
+        "renovacion_popular": 1,
+        "avanza_pais": 1,
+        "alianza_progreso": 0,
+        "somos_peru": 0,
+        "podemos_peru": 1,
+        "juntos_peru": -1,
+        "partido_morado": 0
+      },
+      "note": "Economic-right: Agree = FP/RP/AP/PP. Labor flexibility question."
+    },
+    {
+      "id": "Q05",
+      "category": "energia",
+      "axis": "economic",
+      "text": "El Estado debe aumentar su participación directa en la extracción de petróleo y gas natural",
+      "simple_text": "Más participación estatal en petróleo y gas",
+      "source_description": "PL propone mayor participación estatal en hidrocarburos. FP, RP, AP y APP defienden modelo de concesiones privadas.",
+      "positions": {
+        "fuerza_popular": -1,
+        "peru_libre": 1,
+        "renovacion_popular": -1,
+        "avanza_pais": -1,
+        "alianza_progreso": -1,
+        "somos_peru": 0,
+        "podemos_peru": 0,
+        "juntos_peru": 1,
+        "partido_morado": 0
+      },
+      "note": "Economic-left: Agree = PL/JP. State intervention in energy."
+    },
+    {
+      "id": "Q06",
+      "category": "economia",
+      "axis": "economic",
+      "text": "El gobierno debe eliminar trámites burocráticos y simplificar licencias para que las pequeñas empresas (MYPEs) operen más fácilmente",
+      "simple_text": "Menos trámites para pequeñas empresas",
+      "source_description": "FP propone ventanilla única y licencias a costo cero. RP propone simplificación administrativa. AP propone digitalización de trámites.",
+      "positions": {
+        "fuerza_popular": 1,
+        "peru_libre": 0,
+        "renovacion_popular": 1,
+        "avanza_pais": 1,
+        "alianza_progreso": 0,
+        "somos_peru": 0,
+        "podemos_peru": 0,
+        "juntos_peru": 0,
+        "partido_morado": 0
+      },
+      "note": "Economic-right: Agree = FP/RP/AP. Based on explicit promises in 2021/2026 plans de gobierno."
+    },
+    {
+      "id": "Q07",
+      "category": "social",
+      "axis": "social",
+      "text": "El Estado debe promover y proteger activamente la familia tradicional como base de la sociedad peruana",
+      "simple_text": "Proteger la familia tradicional",
+      "source_description": "RP y PL incluyen defensa de familia tradicional en sus principios. JP y PM apoyan diversidad familiar. Diferencia clave entre izquierda económica.",
+      "positions": {
+        "fuerza_popular": 0,
+        "peru_libre": 1,
+        "renovacion_popular": 1,
+        "avanza_pais": 0,
+        "alianza_progreso": 0,
+        "somos_peru": 0,
+        "podemos_peru": 0,
+        "juntos_peru": -1,
+        "partido_morado": -1
+      },
+      "note": "Social-conservative: Agree = RP/PL. Differentiates PL from JP."
+    },
+    {
+      "id": "Q08",
+      "category": "empleo",
+      "axis": "economic",
+      "text": "Los trabajadores deben tener más poder para negociar salarios a través de sindicatos",
+      "simple_text": "Fortalecer sindicatos para negociar salarios",
+      "source_description": "PL y JP proponen fortalecer negociación colectiva y derechos sindicales. FP y RP prefieren negociación individual empresa-trabajador.",
+      "positions": {
+        "fuerza_popular": -1,
+        "peru_libre": 1,
+        "renovacion_popular": -1,
+        "avanza_pais": 0,
+        "alianza_progreso": 0,
+        "somos_peru": 0,
+        "podemos_peru": 0,
+        "juntos_peru": 1,
+        "partido_morado": 0
+      },
+      "note": "Economic-left: Agree = PL/JP. Pro-union question."
+    },
+    {
+      "id": "Q09",
+      "category": "fiscal",
+      "axis": "economic",
+      "text": "Se debe reducir el número de ministerios y el tamaño del aparato estatal para mayor eficiencia",
+      "simple_text": "Reducir el tamaño del Estado",
+      "source_description": "RP propone reducir ministerios. FP, AP y PP apoyan reducción del aparato estatal. PL y JP proponen fortalecer rol del Estado.",
+      "positions": {
+        "fuerza_popular": 1,
+        "peru_libre": -1,
+        "renovacion_popular": 1,
+        "avanza_pais": 1,
+        "alianza_progreso": 0,
+        "somos_peru": 0,
+        "podemos_peru": 1,
+        "juntos_peru": -1,
+        "partido_morado": 0
+      },
+      "note": "Economic-right: Agree = FP/RP/AP/PP. Reduce state size."
+    },
+    {
+      "id": "Q10",
+      "category": "justicia",
+      "axis": "governance",
+      "text": "Se debe crear una nueva institución anticorrupción con poderes especiales de investigación e intervención",
+      "simple_text": "Nueva superintendencia anticorrupción",
+      "source_description": "RP, AP, APP y PM proponen crear superintendencia anticorrupción con facultades especiales en sus planes de gobierno.",
+      "positions": {
+        "fuerza_popular": 0,
+        "peru_libre": 0,
+        "renovacion_popular": 1,
+        "avanza_pais": 1,
+        "alianza_progreso": 1,
+        "somos_peru": 0,
+        "podemos_peru": 0,
+        "juntos_peru": 0,
+        "partido_morado": 1
+      },
+      "note": "Cross-ideological: Agree = RP/AP/APP/PM. Anti-corruption focus."
+    },
+    {
+      "id": "Q11",
+      "category": "social",
+      "axis": "social",
+      "text": "El sistema de AFP debe ser reemplazado por un sistema de pensiones manejado por el Estado",
+      "simple_text": "Pensiones del Estado en vez de AFPs privadas",
+      "source_description": "PL propone sistema de pensiones estatal. JP apoya reforma de AFPs. FP, RP y AP defienden sistema privado de pensiones.",
+      "positions": {
+        "fuerza_popular": -1,
+        "peru_libre": 1,
+        "renovacion_popular": -1,
+        "avanza_pais": -1,
+        "alianza_progreso": 0,
+        "somos_peru": 0,
+        "podemos_peru": 0,
+        "juntos_peru": 1,
+        "partido_morado": 0
+      },
+      "note": "Economic-left: Agree = PL/JP. State vs private pensions."
+    },
+    {
+      "id": "Q12",
+      "category": "social",
+      "axis": "social",
+      "text": "Las parejas del mismo sexo deben tener los mismos derechos legales que las parejas heterosexuales, incluyendo el matrimonio civil",
+      "simple_text": "Igualdad de derechos para parejas del mismo sexo",
+      "source_description": "JP y PM apoyan derechos LGBTQ+ y unión civil. RP y PL se oponen basados en principios conservadores. Pregunta clave eje social.",
+      "positions": {
+        "fuerza_popular": 0,
+        "peru_libre": -1,
+        "renovacion_popular": -1,
+        "avanza_pais": 0,
+        "alianza_progreso": 0,
+        "somos_peru": 0,
+        "podemos_peru": 0,
+        "juntos_peru": 1,
+        "partido_morado": 1
+      },
+      "note": "Social-progressive: Agree = JP/PM. Marriage equality question."
+    },
+    {
+      "id": "Q13",
+      "category": "energia",
+      "axis": "economic",
+      "text": "El Perú debe priorizar las energías renovables (solar, eólica, hidroeléctrica) como principal fuente de energía",
+      "simple_text": "Priorizar energías renovables sobre combustibles fósiles",
+      "source_description": "SP, JP, PL y RP proponen priorizar energías renovables en sus planes. Consenso transversal en transición energética.",
+      "positions": {
+        "fuerza_popular": 0,
+        "peru_libre": 1,
+        "renovacion_popular": 1,
+        "avanza_pais": 0,
+        "alianza_progreso": 0,
+        "somos_peru": 1,
+        "podemos_peru": 0,
+        "juntos_peru": 1,
+        "partido_morado": 0
+      },
+      "note": "Multi-spectrum: Cross-party support for renewables."
+    },
+    {
+      "id": "Q14",
+      "category": "salud",
+      "axis": "social",
+      "text": "El gobierno debe expandir significativamente el sistema público de salud con más hospitales, médicos y cobertura universal",
+      "simple_text": "Expandir sistema público de salud",
+      "source_description": "JP, PL, RP, PP y PM proponen expandir sistema público de salud con más hospitales y cobertura universal en sus planes.",
+      "positions": {
+        "fuerza_popular": 0,
+        "peru_libre": 1,
+        "renovacion_popular": 1,
+        "avanza_pais": 0,
+        "alianza_progreso": 0,
+        "somos_peru": 0,
+        "podemos_peru": 1,
+        "juntos_peru": 1,
+        "partido_morado": 1
+      },
+      "note": "Multi-spectrum: 5 parties with explicit health promises."
+    },
+    {
+      "id": "Q15",
+      "category": "fiscal",
+      "axis": "governance",
+      "text": "Los gobiernos regionales deben tener más presupuesto y autonomía para decidir sus proyectos",
+      "simple_text": "Más plata y poder para regiones",
+      "source_description": "APP y RP proponen descentralización fiscal. PL y JP apoyan mayor autonomía regional. Pregunta transversal.",
+      "positions": {
+        "fuerza_popular": 0,
+        "peru_libre": 1,
+        "renovacion_popular": 1,
+        "avanza_pais": 0,
+        "alianza_progreso": 1,
+        "somos_peru": 0,
+        "podemos_peru": 0,
+        "juntos_peru": 1,
+        "partido_morado": 0
+      },
+      "note": "Multi-spectrum: Decentralization question."
+    }
+  ],
+
+  "removed_consensus_questions": {
+    "reason": "Zero discriminatory power - all parties +1",
+    "questions": [
+      "Intangibilidad Amazonia (Q08 v1)",
+      "Cobertura universal agua (Q09 v1)",
+      "Eliminar burocracia MYPEs (Q12 v1)"
+    ]
+  },
+
+  "scale": {
+    "user_input": {
+      "1": "De acuerdo",
+      "0": "Neutral / No se",
+      "-1": "En desacuerdo"
+    },
+    "party_position": {
+      "1": "Apoya",
+      "0": "Sin posicion clara",
+      "-1": "Se opone"
+    }
+  },
+
+  "results_display": {
+    "show_top_n": 3,
+    "format": "percentage",
+    "show_breakdown": true,
+    "breakdown_description": "Al hacer click en 'Ver detalle', mostrar que preguntas acercaron/alejaron al usuario de cada partido"
+  },
+
+  "results_logic": {
+    "approach": "RANKED_FILTER_WITH_TRUTH",
+    "description": "Filter by user ranking, but ALWAYS show true match as information",
+    "important": "THIS IS INFORMATION, NOT A VOTE RECOMMENDATION",
+    "flow": [
+      "1. Calculate Manhattan distance for all 9 parties",
+      "2. Filter parties based on user's C1+C2 rankings (rank 1+2 included, rank 3 excluded)",
+      "3. Show TOP 3 from filtered parties in 'Dentro de tu perfil'",
+      "4. ALWAYS show true #1 match in 'Tus respuestas se alinean...' (even if rank 3 party)"
+    ],
+    "filtered_results": {
+      "label": "Dentro de tu perfil",
+      "description": "Top 3 parties from user's rank 1 + rank 2 selections",
+      "filter": "Excludes parties from rank 3 in either C1 or C2",
+      "example": "Fuerza Popular (78%), Avanza País (71%), Podemos Perú (65%)"
+    },
+    "true_match": {
+      "label": "Tus respuestas se alinean al plan de gobierno de:",
+      "description": "ALWAYS shows the #1 Manhattan distance match - factual information",
+      "always_shown": true,
+      "example": "Juntos por el Perú (82%)"
+    },
+    "disclaimer": {
+      "text": "Esto no es una recomendación de voto. Compara los planes de gobierno antes de decidir.",
+      "always_shown": true
+    }
+  },
+
+  "algorithm": {
+    "method": "Manhattan distance",
+    "formula": "sum(|user_position - party_position|)",
+    "interpretation": "Lower distance = better match, converted to % for display",
+    "percentage_formula": "100 - (distance / max_possible_distance * 100)",
+    "note": "No priority weighting - all 15 questions equal weight"
+  }
+}

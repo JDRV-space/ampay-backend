@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <style>
+    @keyframes slideLeft { from { opacity: 0; transform: translateX(-40px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes slideRight { from { opacity: 0; transform: translateX(40px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes stampSlam { 0% { opacity: 0; transform: scale(3) rotate(-20deg); } 60% { opacity: 1; transform: scale(0.9) rotate(-12deg); } 80% { transform: scale(1.05) rotate(-12deg); } 100% { opacity: 1; transform: scale(1) rotate(-12deg); } }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes flash { 0%, 90%, 100% { opacity: 1; } 95% { opacity: 0.3; } }
+    .bg { fill: #0d1117; }
+    .panel { rx: 8; stroke-width: 2; }
+    .promise-panel { fill: #0d2818; stroke: #00c853; }
+    .vote-panel { fill: #2d1a1a; stroke: #d91023; }
+    .vs-circle { fill: #1a1a2e; stroke: #555; stroke-width: 2; }
+    .vs-text { fill: #888; font-family: 'Courier New', monospace; font-size: 14px; font-weight: 700; text-anchor: middle; }
+    .panel-title { font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; }
+    .promise-title { fill: #00c853; }
+    .vote-title { fill: #d91023; }
+    .panel-text { fill: #e0e0e0; font-family: 'Segoe UI', system-ui, sans-serif; font-size: 13px; }
+    .panel-quote { fill: #ccc; font-family: Georgia, serif; font-size: 14px; font-style: italic; }
+    .stamp-text { fill: #d91023; font-family: Impact, 'Arial Black', sans-serif; font-size: 60px; text-anchor: middle; letter-spacing: 5px; animation: stampSlam 0.5s 2.5s ease-out both; }
+    .stamp-box { fill: none; stroke: #d91023; stroke-width: 4; rx: 8; animation: stampSlam 0.5s 2.5s ease-out both; }
+    .counter-box { fill: #1a1a2e; stroke: #d91023; stroke-width: 1; rx: 6; }
+    .counter-num { fill: #d91023; font-family: 'Courier New', monospace; font-size: 32px; font-weight: 900; text-anchor: middle; }
+    .counter-label { fill: #888; font-family: 'Courier New', monospace; font-size: 10px; text-anchor: middle; }
+    .left { animation: slideLeft 0.8s 0.3s ease-out both; }
+    .right { animation: slideRight 0.8s 0.3s ease-out both; }
+    .stats { animation: fadeIn 1s 3s both; }
+  </style>
+  <rect class="bg" width="800" height="300" rx="16"/>
+  <g class="left">
+    <rect class="panel promise-panel" x="30" y="30" width="340" height="170"/>
+    <text class="panel-title promise-title" x="50" y="55">CAMPAIGN PROMISE</text>
+    <text class="panel-quote" x="50" y="90">"We will NEVER raise</text>
+    <text class="panel-quote" x="50" y="110">taxes on small</text>
+    <text class="panel-quote" x="50" y="130">businesses."</text>
+    <text class="panel-text" x="50" y="165" style="fill:#00c853;">-- Campaign Rally, 2025</text>
+    <text class="panel-text" x="50" y="182" style="fill:#666;font-size:11px;">Source: JNE platform, Oct 2025</text>
+  </g>
+  <circle class="vs-circle" cx="400" cy="115" r="22"/>
+  <text class="vs-text" x="400" y="120">VS</text>
+  <g class="right">
+    <rect class="panel vote-panel" x="430" y="30" width="340" height="170"/>
+    <text class="panel-title vote-title" x="450" y="55">CONGRESSIONAL VOTE</text>
+    <text class="panel-text" x="450" y="90">Bill 4521-2026:</text>
+    <text class="panel-text" x="450" y="110">"Tax Reform for SMEs"</text>
+    <text class="panel-text" x="450" y="145" style="fill:#d91023;font-size:16px;font-weight:700;">VOTED: YES (raise taxes)</text>
+    <text class="panel-text" x="450" y="170" style="fill:#666;font-size:11px;">Congress Record, Mar 2026</text>
+  </g>
+  <rect class="stamp-box" x="290" y="70" width="220" height="70"/>
+  <text class="stamp-text" x="400" y="125">AMPAY!</text>
+  <g class="stats">
+    <rect class="counter-box" x="200" y="225" width="120" height="50"/>
+    <text class="counter-num" x="260" y="257">2,226</text>
+    <text class="counter-label" x="260" y="220">votes analyzed</text>
+    <rect class="counter-box" x="340" y="225" width="120" height="50"/>
+    <text class="counter-num" x="400" y="257" style="fill:#d91023;animation:flash 3s infinite;">6</text>
+    <text class="counter-label" x="400" y="220">AMPAYs found</text>
+    <rect class="counter-box" x="480" y="225" width="120" height="50"/>
+    <text class="counter-num" x="540" y="257" style="fill:#ffa726;">9</text>
+    <text class="counter-label" x="540" y="220">parties tracked</text>
+  </g>
+</svg>
