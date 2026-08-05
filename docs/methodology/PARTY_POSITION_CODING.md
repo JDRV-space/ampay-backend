@@ -155,7 +155,7 @@ The Manifesto Project (MARPOR) distinguishes between SALIENCE (how much a party 
 2. Silence may be strategic or by omission
 3. Assigning +1 or -1 would be speculation
 
-**Reference:** Werner, A., et al. (2023). "Manifesto Project Codebook v6". DOI: [10.25522/manifesto.v6](https://doi.org/10.25522/manifesto.v6)
+**Reference:** Werner, A., et al. (2023). "Manifesto Project Codebook v6".
 
 ### 4.2 Special Cases of Silence
 

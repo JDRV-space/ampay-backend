@@ -191,7 +191,7 @@ Rules:
   "category": "social",
   "source": {
     "document": "Plan de Gobierno FP 2021",
-    "url": "https://plataformahistorico.jne.gob.pe/.../FP-2021.pdf",
+    "url": "https://apisije-e.jne.gob.pe/TRAMITE/ESCRITO/1095/ARCHIVO/FIRMADO/3017.PDF",
     "page": 47,
     "extracted_at": "2026-01-15"
   },

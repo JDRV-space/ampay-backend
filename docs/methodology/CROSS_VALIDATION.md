@@ -242,8 +242,8 @@ REASON: Weak semantic connection. Investigating infrastructure is not the same a
   "confidence_adjustment": "HIGH → HIGH",
   "notes": "Verificado en PDF pagina 47. Patron claro con 6 leyes.",
   "sources_checked": [
-    "https://plataformahistorico.jne.gob.pe/...",
-    "https://github.com/openpolitica/..."
+    "https://plataformahistorico.jne.gob.pe/OrganizacionesPoliticas/PlanesGobiernoTrabajo",
+    "https://github.com/openpolitica/congreso-pleno-asistencia-votacion"
   ]
 }
 ```
