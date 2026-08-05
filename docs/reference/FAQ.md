@@ -29,15 +29,15 @@ AMPAY was created by GitHub user [JDRV-space](https://github.com/JDRV-space), an
 
 ### How does the quiz work?
 
-The quiz asks you 8 questions about political topics. We compare your answers with the positions of 9 parties using an algorithm called "Manhattan distance" (the same algorithm used by similar tools in Germany and Switzerland). The party with the smallest "distance" is your closest match.
+The quiz asks 15 policy statements after two calibration questions. The consuming frontend ranks nine tracked parties with the coverage-adjusted Manhattan method documented in `docs/methodology/QUIZ_ALGORITHM.md`.
 
 ### Do the calibration questions affect my result?
 
 Not directly. The calibration questions (left/right, conservative/progressive) only filter HOW results are presented. Your mathematical match is always calculated the same way, but we display first the parties within your self-identified ideological alignment.
 
-### Why only 8 questions?
+### Why 15 statements?
 
-We want the quiz to be fast and accessible. More questions would increase accuracy but reduce the completion rate. The 8 questions were selected to cover the most differentiating topics across parties.
+The committed dataset contains 15 statements selected to produce differences among coded party positions. Question selection is an interpretive design choice and is disclosed as a limitation; the repository does not claim that 15 is an optimal or statistically validated number.
 
 ### Does the quiz tell me who to vote for?
 
@@ -99,9 +99,9 @@ We use data from Open Politica, a civil society organization that collects and p
 
 Promises are extracted from the official Government Plans (Planes de Gobierno) registered with the Jurado Nacional de Elecciones (JNE). These are public documents available on the JNE's electoral platform.
 
-### Why do the data only go up to July 2024?
+### Why do the data only go up to March 7, 2024?
 
-The voting dataset we use was last updated in July 2024. More recent votes are not included. We plan to update the data when new records become available.
+The latest vote committed in the current source snapshot is dated March 7, 2024. More recent votes are not included, and the upstream snapshot is not pinned to a documented release or commit. Treat the published coverage as incomplete after that date.
 
 ### Can I download the data?
 

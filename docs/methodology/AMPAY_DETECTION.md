@@ -33,7 +33,7 @@ Each confirmed AMPAY should include:
 
 ## Constraints
 
-- The vote dataset ends on 2024-07-26.
+- The vote dataset ends on 2024-03-07.
 - No published AMPAY does not mean no contradiction exists outside the analyzed scope.
 - Political motives not documented in the vote are not inferred.
 - Ambiguous cases stay out of confirmed AMPAY records.

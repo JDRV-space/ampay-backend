@@ -113,7 +113,7 @@ def calculate_pct_month(party, month, votes):
 
 **Solution:** The percentage already normalizes (ratio, not absolute count).
 
-**Period:** 2021-08 to 2024-07 (36 months)
+**Committed period:** 2021-08 to 2024-03 (29 represented months per party)
 
 ### 3.3 Months with Few Votes
 

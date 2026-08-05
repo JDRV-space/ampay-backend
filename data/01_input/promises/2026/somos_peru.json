@@ -218,5 +218,5 @@
       "justicia": 0
     }
   },
-  "audit_note": "4 hallucinated promises removed per PROMISE_AUDIT_REPORT.md on 2026-01-22"
+  "audit_note": "4 hallucinated promises removed per data/03_evidence/promise_extraction_audit.md on 2026-01-22"
 }

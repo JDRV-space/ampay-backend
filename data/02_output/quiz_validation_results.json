@@ -1,142 +1,139 @@
 {
   "metadata": {
-    "date": "2026-01-23",
+    "generated_at": "2026-08-05",
+    "seed": 42,
     "questions": 15,
     "parties": 9,
-    "algorithm": "Manhattan distance"
+    "random_cases": 1000000,
+    "algorithm": "coverage-adjusted Manhattan distance",
+    "formula": "0.9*D + 0.1*(D/max(P,4))*15",
+    "tie_display_order": "blended score, raw distance, party slug",
+    "input_sha256": "2c0f859ff2fb426813e152c7bec4ed476e907d2a4dc236156fb505529c38c0fc"
   },
-  "true_believers": {
-    "test": "true_believers",
-    "total_simulations": 999999,
-    "correct": 999999,
-    "wrong": 0,
+  "party_response_vectors": {
+    "test": "party_response_vectors",
+    "total_cases": 9,
+    "correct_top_tier": 9,
     "accuracy": 1.0,
     "per_party": {
       "fuerza_popular": {
-        "correct": 111111,
-        "wrong": 0
+        "display_winner": "fuerza_popular",
+        "top_ties": [
+          "fuerza_popular"
+        ],
+        "distance": 0,
+        "blended_score": 0.0
       },
       "peru_libre": {
-        "correct": 111111,
-        "wrong": 0
+        "display_winner": "peru_libre",
+        "top_ties": [
+          "peru_libre"
+        ],
+        "distance": 0,
+        "blended_score": 0.0
       },
       "renovacion_popular": {
-        "correct": 111111,
-        "wrong": 0
+        "display_winner": "renovacion_popular",
+        "top_ties": [
+          "renovacion_popular"
+        ],
+        "distance": 0,
+        "blended_score": 0.0
       },
       "avanza_pais": {
-        "correct": 111111,
-        "wrong": 0
+        "display_winner": "avanza_pais",
+        "top_ties": [
+          "avanza_pais"
+        ],
+        "distance": 0,
+        "blended_score": 0.0
       },
       "alianza_progreso": {
-        "correct": 111111,
-        "wrong": 0
+        "display_winner": "alianza_progreso",
+        "top_ties": [
+          "alianza_progreso"
+        ],
+        "distance": 0,
+        "blended_score": 0.0
       },
       "somos_peru": {
-        "correct": 111111,
-        "wrong": 0
+        "display_winner": "somos_peru",
+        "top_ties": [
+          "somos_peru"
+        ],
+        "distance": 0,
+        "blended_score": 0.0
       },
       "podemos_peru": {
-        "correct": 111111,
-        "wrong": 0
+        "display_winner": "podemos_peru",
+        "top_ties": [
+          "podemos_peru"
+        ],
+        "distance": 0,
+        "blended_score": 0.0
       },
       "juntos_peru": {
-        "correct": 111111,
-        "wrong": 0
+        "display_winner": "juntos_peru",
+        "top_ties": [
+          "juntos_peru"
+        ],
+        "distance": 0,
+        "blended_score": 0.0
       },
       "partido_morado": {
-        "correct": 111111,
-        "wrong": 0
+        "display_winner": "partido_morado",
+        "top_ties": [
+          "partido_morado"
+        ],
+        "distance": 0,
+        "blended_score": 0.0
       }
     }
   },
   "random_answers": {
     "test": "random_answers",
-    "total_simulations": 1000000,
-    "distribution": {
-      "somos_peru": {
-        "count": 321196,
-        "percentage": 32.1196
-      },
+    "total_cases": 1000000,
+    "display_winner_distribution": {
       "fuerza_popular": {
-        "count": 95878,
-        "percentage": 9.5878
-      },
-      "partido_morado": {
-        "count": 113563,
-        "percentage": 11.3563
+        "count": 98036,
+        "percentage": 9.8036
       },
       "peru_libre": {
-        "count": 131845,
-        "percentage": 13.1845
+        "count": 164550,
+        "percentage": 16.455000000000002
       },
       "renovacion_popular": {
-        "count": 41152,
-        "percentage": 4.1152
-      },
-      "alianza_progreso": {
-        "count": 115890,
-        "percentage": 11.589
-      },
-      "podemos_peru": {
-        "count": 105233,
-        "percentage": 10.5233
-      },
-      "juntos_peru": {
-        "count": 40671,
-        "percentage": 4.0671
+        "count": 74769,
+        "percentage": 7.4769000000000005
       },
       "avanza_pais": {
-        "count": 34572,
-        "percentage": 3.4572
+        "count": 129731,
+        "percentage": 12.9731
+      },
+      "alianza_progreso": {
+        "count": 118550,
+        "percentage": 11.855
+      },
+      "somos_peru": {
+        "count": 95952,
+        "percentage": 9.5952
+      },
+      "podemos_peru": {
+        "count": 60931,
+        "percentage": 6.0931
+      },
+      "juntos_peru": {
+        "count": 167399,
+        "percentage": 16.7399
+      },
+      "partido_morado": {
+        "count": 90082,
+        "percentage": 9.008199999999999
       }
     },
-    "expected_percentage": 11.11111111111111,
-    "max_percentage": 32.1196,
-    "min_percentage": 3.4572,
-    "max_deviation_pp": 21.008488888888888,
-    "chi_square": 545177.9349079999,
-    "degrees_of_freedom": 8,
-    "chi_square_critical_005": 15.51,
-    "reject_uniform": true,
-    "margin_of_error_95": 0.098,
-    "confidence_intervals_95": {
-      "somos_peru": {
-        "lower": 32.02814940376935,
-        "upper": 32.211187974392175
-      },
-      "fuerza_popular": {
-        "lower": 9.530248072441088,
-        "upper": 9.645662421381157
-      },
-      "partido_morado": {
-        "lower": 11.294261562693222,
-        "upper": 11.418635343442018
-      },
-      "peru_libre": {
-        "lower": 13.118330259584987,
-        "upper": 13.250952600177973
-      },
-      "renovacion_popular": {
-        "lower": 4.076442178889731,
-        "upper": 4.154310361851309
-      },
-      "alianza_progreso": {
-        "lower": 11.526409284462241,
-        "upper": 11.65188583379923
-      },
-      "podemos_peru": {
-        "lower": 10.463308308917869,
-        "upper": 10.583594997298386
-      },
-      "juntos_peru": {
-        "lower": 4.028560858202805,
-        "upper": 4.105992052098733
-      },
-      "avanza_pais": {
-        "lower": 3.4215705686151474,
-        "upper": 3.4931870276520693
-      }
-    }
+    "top_score_ties": 38506,
+    "top_score_tie_percentage": 3.8506,
+    "display_winner_imbalance_ratio": 2.747353563867325,
+    "interpretation": "The random distribution describes this question set and deterministic tie display order; uniform winners are not an expected correctness condition."
   }
 }

@@ -214,7 +214,7 @@ For each quiz question:
 ### 6.2 Audit File
 
 ```
-data/02_output/quiz_position_audit.json
+data/03_evidence/quiz_position_audit.json
 ```
 
 Contains:
@@ -287,7 +287,7 @@ Questions where fewer than 5 parties have a clear position:
 | File | Content |
 |------|---------|
 | `data/02_output/quiz_statements.json` | Coded positions |
-| `data/02_output/quiz_position_audit.json` | Source audit |
+| `data/03_evidence/quiz_position_audit.json` | Dated source audit |
 | `data/01_input/promises/` | Original PDFs |
 
 ---

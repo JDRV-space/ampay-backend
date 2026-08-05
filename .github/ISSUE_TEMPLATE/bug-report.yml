@@ -1,0 +1,23 @@
+name: Software or documentation bug
+description: Report a reproducible problem that is not a sensitive security or privacy exposure.
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide the smallest safe reproduction, including commands and relevant output.
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      description: Commit hash where the problem occurs, if known.

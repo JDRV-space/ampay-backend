@@ -409,8 +409,8 @@
   },
 
   "data_disclaimer": {
-    "coverage": "2021-07-26 to 2024-07-26",
-    "missing": "Votes from 2024-07-27 to 2026 NOT analyzed",
+    "coverage": "2021-07-26 to 2024-03-07",
+    "missing": "Votes from 2024-03-08 onward are not analyzed",
     "note": "Additional AMPAYs may exist in unanalyzed period"
   }
 }

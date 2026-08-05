@@ -451,23 +451,27 @@ conservacion, ecosistema, EIA, impacto ambiental
 
 ## 7. Usage Statistics
 
-### 7.1 Distribution Across Votes (2,226 substantive votes)
+### 7.1 Distribution Across 2,226 Categorized Vote Records
 
 | Category | Votes | % |
 |----------|-------|---|
-| economia | 412 | 18.5% |
-| seguridad | 298 | 13.4% |
-| salud | 258 | 11.6% |
-| educacion | 245 | 11.0% |
-| social | 198 | 8.9% |
-| empleo | 187 | 8.4% |
-| agricultura | 156 | 7.0% |
-| fiscal | 143 | 6.4% |
-| transporte | 121 | 5.4% |
-| ambiente | 89 | 4.0% |
-| agua | 67 | 3.0% |
-| vivienda | 31 | 1.4% |
-| mineria | 21 | 0.9% |
+| justicia | 776 | 34.86% |
+| economia | 226 | 10.15% |
+| educacion | 180 | 8.09% |
+| salud | 164 | 7.37% |
+| seguridad | 161 | 7.23% |
+| empleo | 116 | 5.21% |
+| agricultura | 106 | 4.76% |
+| transporte | 97 | 4.36% |
+| social | 79 | 3.55% |
+| fiscal | 78 | 3.50% |
+| ambiente | 77 | 3.46% |
+| agua | 57 | 2.56% |
+| energia | 48 | 2.16% |
+| vivienda | 42 | 1.89% |
+| mineria | 19 | 0.85% |
+
+These values come from `classification_stats.by_category` in `data/02_output/votes_categorized.json`. They include substantive, procedural, and declarative records.
 
 ---
 

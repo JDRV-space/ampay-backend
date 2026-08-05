@@ -11,7 +11,8 @@ The scope is the committed data pipeline and public methodology for the current 
 - `data/01_input/promises/2026/`: 9 party files with 246 extracted 2026 proposals.
 - `data/01_input/votes/`: congressional vote inputs used by the aggregation scripts.
 - `data/02_output/`: committed JSON and Markdown outputs consumed by downstream work.
-- `prompts/`: prompts used for promise extraction, vote classification, and contradiction detection.
+- `data/03_evidence/`: dated audits and historical analyses that do not own current outputs.
+- `prompts/`: historical prompt templates retained for audit context. No current prompt runner is committed.
 - `scripts/`: current Python entrypoints that read from `data/01_input/` or validate `data/02_output/`.
 - `scripts/ampay_pipeline/`: shared path and party identity rules used by current scripts.
 - `scripts/legacy/`: historical source-build scripts retained for audit context. These are not current public entrypoints.
@@ -27,20 +28,20 @@ The scope is the committed data pipeline and public methodology for the current 
 | `data/02_output/votes_by_party.json` | Party-level positions for 2,226 votes across 9 parties. |
 | `data/02_output/party_patterns.json` | Monthly/category voting patterns for 9 parties. |
 | `data/02_output/quiz_statements.json` | 15 quiz statements with party positions. |
-| `data/02_output/analysis_by_party/` | 9 per-party analysis JSON files. |
-| `data/02_output/PROMISE_AUDIT_REPORT.md` | Promise extraction audit notes. |
 
 The outputs are committed so they can be inspected without running the pipeline.
+
+Historical v4 candidate analyses and the promise and quiz-position audits are preserved under `data/03_evidence/`. They must not be consumed as current public outputs.
 
 ## Data Coverage
 
 | Data | Coverage | Notes |
 |---|---|---|
-| Congressional votes | 2021-07-26 to 2024-07-26 | From OpenPolitica data present in this repo. Later votes are missing. |
+| Congressional votes | 2021-07-26 to 2024-03-07 | From OpenPolitica data present in this repo. Later votes are missing. |
 | 2021 party promises | 9 parties, 345 extracted items | Extracted from JNE campaign plan material. |
 | 2026 party proposals | 9 parties, 246 extracted items | Extracted from JNE campaign plan material. |
 
-The voting data only covers about 60% of the 2021-2026 congressional term. Anything from 2024-07-27 onward is not analyzed here.
+The voting data covers about 52% of the 2021-2026 congressional term by calendar duration. Anything from 2024-03-08 onward is not analyzed here.
 
 ## Reproducibility
 
@@ -87,7 +88,7 @@ Examples that use committed files:
 python3 scripts/validate_current_outputs.py
 python3 scripts/aggregate_votes.py
 python3 scripts/compute_patterns.py
-python3 scripts/quiz_simulation.py
+python3 scripts/quiz_simulation.py 42
 ```
 
 Do not run these in a dirty checkout unless you are comfortable reviewing output diffs afterwards.
@@ -98,8 +99,12 @@ Do not run these in a dirty checkout unless you are comfortable reviewing output
 - The 5 AMPAY records are evidence packages from a limited dataset, not proof that the list is complete.
 - Confirmed AMPAY records must cite stable vote IDs in `vote_references`; free-text law names are labels, not source keys.
 - A party with 0 AMPAYs in this repo may still have contradictions in unanalyzed votes.
-- Public claims based on this repo should mention the 2021-07 to 2024-07 vote coverage limit.
+- Public claims based on this repo should mention the 2021-07-26 to 2024-03-07 vote coverage limit.
 - Public claims should not be treated as final election advice.
+
+## Documentation Ownership
+
+Committed datasets and validation scripts own counts, date ranges, and generated outputs. Runtime code owns implemented behavior; methodology documents describe only verified current algorithms. Privacy, legal, and deployment claims require verification against the deployed product and its responsible owner.
 
 ## License
 

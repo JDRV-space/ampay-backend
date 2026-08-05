@@ -4,7 +4,7 @@ This document summarizes the public audit status for AMPAY backend datasets.
 
 ## Published Coverage
 
-- Congressional votes: 2021-07-26 through 2024-07-26.
+- Congressional votes: 2021-07-26 through 2024-03-07.
 - Parties: 9 parties in the current dataset.
 - AMPAY records: 5 confirmed records in `data/02_output/ampays.json`.
 - Detailed evidence: `data/02_output/AMPAY_CONFIRMED_2021.json`.
@@ -24,7 +24,7 @@ This document summarizes the public audit status for AMPAY backend datasets.
 
 ## Limitations
 
-- Votes after 2024-07-26 are not analyzed.
+- Votes after 2024-03-07 are not analyzed.
 - The published AMPAY list is not exhaustive for the full 2021-2026 congressional term.
 - Promise matching and vote interpretation include human judgment.
 - Claims based on this repository should cite the coverage window and primary sources.

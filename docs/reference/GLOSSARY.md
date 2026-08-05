@@ -12,7 +12,7 @@
 A verifiable contradiction between a campaign promise and the voting behavior of a political party. The term is Peruvian colloquial slang meaning "to catch someone in the act."
 
 ### Abstencion (Abstention)
-A vote recorded as "neither for nor against." In AMPAY, abstentions are not counted in the calculation of a party's majority position.
+A vote recorded as "neither for nor against." In the committed party-position input, abstentions count in the present-member denominator but never as `SI` or `NO`.
 
 ### Agregacion (Aggregation)
 The process of combining individual votes of members of Congress to determine the party's position as a caucus.
@@ -253,7 +253,7 @@ Tratado de Libre Comercio (Free Trade Agreement).
 ## U
 
 ### Umbral (Threshold)
-The minimum percentage required to classify a result (e.g., >= 60% NO = AMPAY).
+The minimum share required for a party position in the retained aggregation rule: more than 50% of present members, including abstentions, must vote `SI` or `NO`.
 
 ---
 

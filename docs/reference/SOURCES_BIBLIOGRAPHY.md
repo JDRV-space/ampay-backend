@@ -2,7 +2,7 @@
 
 **Version:** 1.0
 **Date:** 2026-01-21
-**Last URL verification:** 2026-01-22
+**Last automated URL check:** 2026-08-04
 
 ---
 
@@ -13,7 +13,7 @@
 | Source | URL | Accessed | Status |
 |--------|-----|----------|--------|
 | Open Politica - Votes | https://github.com/openpolitica/congreso-pleno-asistencia-votacion | 2026-01-15 | OK |
-| Congress - Plenary Votes | https://www.congreso.gob.pe/AsistenciasVotacionesPleno/ | 2026-01-15 | OK |
+| Congress - Plenary Votes | https://www.congreso.gob.pe/AsistenciasVotacionesPleno/ | 2026-01-15 | BROKEN - HTTP 404 on 2026-08-04 |
 
 ### 1.2 Government Plans
 
@@ -37,9 +37,9 @@
 | Resource | URL | Status |
 |----------|-----|--------|
 | Main Portal | https://www.congreso.gob.pe/ | OK |
-| Bills | https://www.congreso.gob.pe/proyectosdeley/ | OK |
-| Congress in Numbers | https://www.congreso.gob.pe/GestionInformacionEstadistica/congreso-cifras/ | OK |
-| Rules of Procedure | https://www.congreso.gob.pe/reglamento/ | OK |
+| Bills | https://www.congreso.gob.pe/proyectosdeley/ | BROKEN - HTTP 404 on 2026-08-04 |
+| Congress in Numbers | https://www.congreso.gob.pe/GestionInformacionEstadistica/congreso-cifras/ | BROKEN - HTTP 404 on 2026-08-04 |
+| Rules of Procedure | https://www.congreso.gob.pe/reglamento/ | BROKEN - HTTP 404 on 2026-08-04 |
 
 ### 2.2 Electoral Bodies
 
@@ -201,17 +201,25 @@ Status: VERIFIED
 
 ## 11. Notes on Verification
 
-### 11.1 Verification Methodology
+### 11.1 Availability Check
 
-All URLs were verified on 2026-01-21 via:
-1. Direct link access
-2. Verification of relevant content
-3. DOI confirmation where applicable
+An automated check of 74 unique URLs on 2026-08-04 returned:
+
+- 63 HTTP 200 responses;
+- 4 HTTP 404 responses, listed below;
+- 6 HTTP 403 responses that could not be content-verified automatically; and
+- 1 HTTP 526 response for the already documented VoteMatch link.
+
+Availability does not establish source accuracy, current content, or redistribution rights.
 
 ### 11.2 Known Broken Links
 
 | Original URL | Status | Alternative |
 |--------------|--------|-------------|
+| https://www.congreso.gob.pe/AsistenciasVotacionesPleno/ | HTTP 404 | No verified replacement recorded |
+| https://www.congreso.gob.pe/proyectosdeley/ | HTTP 404 | No verified replacement recorded |
+| https://www.congreso.gob.pe/GestionInformacionEstadistica/congreso-cifras/ | HTTP 404 | No verified replacement recorded |
+| https://www.congreso.gob.pe/reglamento/ | HTTP 404 | No verified replacement recorded |
 | https://votematch.org.uk/ | BROKEN | https://uk.isidewith.com/political-quiz |
 
 ### 11.3 Updates
@@ -223,4 +231,4 @@ This document is updated when:
 
 ---
 
-*Last updated: 2026-01-22*
+*Last updated: 2026-08-04*

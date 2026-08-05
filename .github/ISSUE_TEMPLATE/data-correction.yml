@@ -1,0 +1,36 @@
+name: Political data correction
+description: Report an inaccurate promise, vote, party position, AMPAY, date, or methodology claim.
+title: "[Data correction]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include personal identity numbers or other sensitive data. Use the security contact for privacy exposures.
+  - type: input
+    id: record
+    attributes:
+      label: Affected record or path
+      placeholder: AMPAY-001, vote ID, quiz question, or repository path
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current claim
+      description: Describe the value or statement that appears incorrect.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction and evidence
+      description: Include the primary-source URL and explain what it establishes.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed personal identity numbers and other sensitive data from this report.
+          required: true

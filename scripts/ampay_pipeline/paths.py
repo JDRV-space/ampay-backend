@@ -12,8 +12,6 @@ PDF_INPUT_DIR = INPUT_DIR / "pdfs"
 PDF_TEXT_INPUT_DIR = PDF_INPUT_DIR / "text"
 PROMISE_INPUT_DIR = INPUT_DIR / "promises"
 VOTE_INPUT_DIR = INPUT_DIR / "votes"
-ANALYSIS_BY_PARTY_OUTPUT_DIR = OUTPUT_DIR / "analysis_by_party"
-
 INPUT_PARTY_POSITIONS = VOTE_INPUT_DIR / "party_positions.json"
 INPUT_VOTES_CATEGORIZED = VOTE_INPUT_DIR / "votes_categorized.json"
 

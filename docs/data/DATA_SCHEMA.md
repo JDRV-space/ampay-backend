@@ -241,7 +241,7 @@ data/02_output/ampays.json
 
 ### 4.1 Purpose
 
-Contains all substantive votes with assigned categories.
+Contains all committed plenary vote records with assigned categories and vote types. The file includes substantive, procedural, and declarative records.
 
 ### 4.2 Location
 

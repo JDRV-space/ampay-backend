@@ -6,9 +6,9 @@
   "DATA_DISCLAIMER": {
     "WARNING": "INCOMPLETE DATA - READ BEFORE USING",
     "voting_data_source": "https://github.com/openpolitica/congreso-pleno-asistencia-votacion",
-    "voting_data_coverage": "2021-07-26 to 2024-07-26 ONLY",
+    "voting_data_coverage": "2021-07-26 to 2024-03-07 ONLY",
     "congressional_term": "2021-2026",
-    "missing_data": "Votes from 2024-07-27 to 2026-07-26 (2 years) NOT INCLUDED",
+    "missing_data": "Votes from 2024-03-08 onward are NOT INCLUDED",
     "implication": "AMPAYs detected are based on PARTIAL voting record. Additional contradictions may exist in 2024-2026 votes not analyzed.",
     "recommendation": "Results should be updated when complete 2021-2026 voting data becomes available"
   },

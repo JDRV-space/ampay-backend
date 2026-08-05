@@ -1,310 +1,55 @@
-# Quiz Algorithm: Voter-Party Compatibility
+# Quiz Matching Algorithm
 
-**Version:** 3.3
-**Date:** 2026-01-22
-**Status:** ACTIVE
+**Status:** ACTIVE CONTRACT
 
----
+The quiz compares 15 user responses with coded positions for nine tracked parties. Two calibration questions are a separate filtering step. A result is a similarity calculation, not an endorsement or voting recommendation.
 
-## Disclaimer
+## Data Owner
 
-> **This quiz is an informational tool based on published government plans. It does not constitute a voting recommendation. Results show the similarity between your answers and the declared positions of parties, not an assessment of their performance or integrity.**
+`data/02_output/quiz_statements.json` owns the Spanish statements and party positions. The consuming frontend may add translations and presentation metadata, but it must not change statement identity or party positions independently.
 
----
+## Scoring
 
-## Executive Summary
+For answers and party positions in `{-1, 0, 1}`, raw Manhattan distance is:
 
-The AMPAY quiz uses a **blended scoring** algorithm based on Manhattan distance with a coverage adjustment. This approach combines the standard VAA (Voting Advice Application) methodology with a penalty for parties with few defined positions.
-
-**Version 3.3:** 15 questions with a balanced 5:4 left-right ratio on the economic axis, plus social and cross-ideological questions. Interleaved ordering to prevent response bias. Algorithm validated with 2 million simulations.
-
-**Validation:** 1 million true believer tests (100% accuracy in party identification) + 1 million random tests (balance ratio 2.72:1).
-
----
-
-## 1. Theoretical Foundation
-
-### 1.1 Voting Advice Applications (VAAs)
-
-VAAs are tools that help voters identify which political parties best align with their preferences. They work by:
-
-1. Collecting party positions on political issues
-2. Asking the user their position on the same issues
-3. Calculating the "distance" between user and parties
-4. Displaying the closest parties
-
-**Academic references:**
-
-- Garzia, D. (2010). "The Methodological Challenges of Voting Advice Applications". *Representation*, 46(1), 89-102. DOI: [10.1080/00344890903510006](https://doi.org/10.1080/00344890903510006)
-- Walgrave, S., Nuytemans, M., & Kriesi, H. (2009). "Who is taught by voters?". *Journal of Information Technology & Politics*, 6(3-4), 194-208. DOI: [10.1080/19331680903048992](https://doi.org/10.1080/19331680903048992)
-
-### 1.2 Manhattan Distance (City-Block Distance)
-
-Manhattan distance measures the absolute difference between two points in a multidimensional space. It is the preferred method used by VAAs such as Wahl-O-Mat (Germany) and Smartvote (Switzerland).
-
-**Mathematical formula:**
-
-```
-D(user, party) = Σ |user_position_i - party_position_i|
+```text
+D = sum(abs(user_answer - party_position))
 ```
 
-Where:
-- `D` = total distance
-- `i` = each quiz question
-- `position` = numerical value (-1, 0, or +1)
+The current consumer ranks parties with a coverage-adjusted score:
 
-**Why Manhattan and not Euclidean:**
-
-| Metric | Formula | Usage |
-|--------|---------|-------|
-| Manhattan | Σ\|x-y\| | Traditional VAAs, intuitive interpretation |
-| Euclidean | √Σ(x-y)² | Penalizes large differences more heavily |
-
-Manhattan distance treats all differences equally, which is fairer for political comparisons where there is no consensus on which difference is "worse."
-
----
-
-## 2. Implementation in AMPAY
-
-### 2.1 Position Scale
-
-**User input:**
-```
-+1 = Agree
- 0 = Neutral / Don't know
--1 = Disagree
+```text
+P = number of non-zero party positions
+score = 0.9 * D + 0.1 * (D / max(P, 4)) * 15
 ```
 
-**Party positions:**
-```
-+1 = Supports (explicit promise in favor)
- 0 = No clear position (silence or ambiguity)
--1 = Opposes (explicit promise against)
-```
+Lower scores rank first. The displayed percentage remains based on raw distance:
 
-### 2.2 Distance Calculation
-
-**Example with 15 questions:**
-
-| Question | User | Fuerza Popular | Peru Libre |
-|----------|------|----------------|------------|
-| Q01 (Mining taxes) | +1 | -1 | +1 |
-| Q02 (Security) | -1 | +1 | 0 |
-| Q03 (FTAs) | +1 | -1 | +1 |
-| Q04 (Labor flexibility) | -1 | +1 | -1 |
-| Q05 (State role in energy) | +1 | -1 | +1 |
-| ... | ... | ... | ... |
-| Q15 (Decentralization) | +1 | 0 | +1 |
-
-**Distance:** Sum of |user_position - party_position| for each question.
-
-### 2.3 Blended Score
-
-The current algorithm uses a blended score that considers two factors:
-
-1. **Manhattan distance (90%):** How close the user's answers are to the party's positions
-2. **Coverage adjustment (10%):** Penalty for parties with few defined positions
-
-**Why the coverage adjustment:**
-
-A party with position 0 (no clear position) on many questions would achieve an artificially low distance, as it would be "close to everyone." The adjustment penalizes this ambiguity so that parties with clear positions are not disadvantaged.
-
-```
-Maximum possible distance = 2 * number_of_questions = 2 * 15 = 30
-
-Blended score = 0.9 * distance + 0.1 * coverage_penalty
-
-Percentage = 100 - (score / maximum * 100)
-
-Example:
-Party A: distance=8, 12 defined positions -> low score -> high affinity
-Party B: distance=6, 4 defined positions -> high penalty -> adjusted affinity
+```text
+percentage = round(100 - D / 30 * 100)
 ```
 
-**Interpretation:** Lower blended score = greater true compatibility.
+The ranking order is blended score, then raw distance, then party slug for an explicit deterministic tie display order. This final ordering rule is arbitrary and does not establish a meaningful preference between exactly tied parties.
 
-### 2.4 Algorithm Validation
+## Calibration
 
-The algorithm was validated with 2 million simulations:
+The two calibration questions can exclude parties assigned to a user's lowest-ranked economic or social grouping from the displayed profile matches. The unfiltered best match is retained separately. Calibration mappings are interpretive metadata and must not be described as objective party identity.
 
-| Test Type | Count | Result |
-|-----------|-------|--------|
-| True believer tests | 1,000,000 | 100% accuracy (9/9 parties correct) |
-| Random tests | 1,000,000 | Balance ratio 2.72:1 |
+## Validation
 
-**True believer tests:** Simulated users who answer exactly as a party would. The algorithm must identify that party as the top match.
+`scripts/quiz_simulation.py 42` is the reproducible backend check for this contract. It should:
 
-**Random tests:** Randomly generated answers to verify that no party is systematically favored. The balance ratio measures the relationship between the most and least selected party (ideal: 1:1, acceptable: <3:1).
+- test each distinct party response vector once;
+- run the seeded random-response distribution stated in its output;
+- report exact ties and winner distribution;
+- write `data/02_output/quiz_validation_results.json`.
 
-The blended score is used to reduce the effect of parties with sparse positions while keeping the result interpretable.
+Repeatedly evaluating the same nine party vectors does not constitute additional independent simulations. No claim of ten million distinct simulations is supported.
 
----
+## Limitations
 
-## 3. Calibration System (Ideological Filter)
-
-### 3.1 Purpose
-
-Calibration questions do NOT affect the distance calculation. They serve to:
-1. Filter out parties the user considers outside their spectrum
-2. Avoid results that contradict the user's self-identification
-3. Present results in two sections: "within your profile" and "others"
-
-### 3.2 Calibration Questions
-
-**C1: Economic Axis**
-```
-"On economic issues, rank from most to least identified with:"
-Options: Left, Center, Right
-Method: User RANKS 1-2-3
-```
-
-**C2: Social Axis**
-```
-"On social and cultural issues, rank from most to least identified with:"
-Options: Conservative, Moderate, Progressive
-Method: User RANKS 1-2-3
-```
-
-### 3.3 Calibration-to-Party Mapping
-
-| Calibration | Mapped Parties |
-|-------------|----------------|
-| Left (economic) | Peru Libre, Juntos por el Peru |
-| Center (economic) | Partido Morado, Somos Peru, Alianza para el Progreso |
-| Right (economic) | Fuerza Popular, Renovacion Popular, Avanza Pais, Podemos Peru |
-| Conservative (social) | Renovacion Popular, Peru Libre |
-| Moderate (social) | FP, Podemos Peru, APP, Avanza Pais, Somos Peru |
-| Progressive (social) | Partido Morado, Juntos por el Peru |
-
-### 3.4 Filtering Logic
-
-```
-Rank 1 -> Primary filter (best matches)
-Rank 2 -> Secondary filter (also shown)
-Rank 3 -> EXCLUDED from "Within your profile"
-```
-
-**Example:**
-- User ranks: Right (1), Center (2), Left (3)
-- Mathematical result: Peru Libre 80%, Fuerza Popular 65%
-- Display: FP appears under "Within your profile," PL appears under "You might also consider"
-
----
-
-## 4. Question Selection
-
-### 4.1 Inclusion Criteria
-
-1. **Discriminatory power:** The question must generate variation among parties
-2. **Based on promises:** Each party position must have documentary backing
-3. **Electoral relevance:** The topic must be important to Peruvian voters
-4. **Clarity:** Unambiguous wording
-
-### 4.2 Exclusion Criteria
-
-1. **Total consensus:** If all parties share the same position, the question does not discriminate
-2. **Insufficient data:** If fewer than 5 parties have a clear position
-3. **Secondary topics:** Questions about marginal issues in the Peruvian debate
-
-### 4.3 Questions Removed Due to Consensus
-
-The following questions were discarded because all parties had position +1:
-
-- "Protect the intangibility of the Amazon"
-- "Guarantee universal drinking water coverage"
-- "Eliminate bureaucratic barriers for MSMEs"
-
-**Reference:** See `quiz_statements.json` field `removed_consensus_questions`
-
----
-
-## 5. Results Presentation
-
-### 5.1 Display Structure
-
-```
-╔═══════════════════════════════════════════════════════╗
-║ WITHIN YOUR PROFILE:                                  ║
-║   1. Fuerza Popular         78%                       ║
-║   2. Avanza Pais            71%                       ║
-║   3. Renovacion Popular     65%                       ║
-╠═══════════════════════════════════════════════════════╣
-║ YOUR ANSWERS ALIGN WITH:                              ║
-║   Peru Libre                82%                       ║
-║   (This party is outside your declared profile)       ║
-╠═══════════════════════════════════════════════════════╣
-║ This is NOT a voting recommendation.                  ║
-║ Compare the government plans before deciding.         ║
-╚═══════════════════════════════════════════════════════╝
-```
-
-### 5.2 "View Details" Logic
-
-When clicking on a party, display:
-- Which questions brought the user closer to that party
-- Which questions moved the user away from that party
-- Source of the party's position (promise ID)
-
----
-
-## 6. Academic Validation
-
-### 6.1 Comparison with Established VAAs
-
-| VAA | Algorithm | Scale | Weighting |
-|-----|-----------|-------|-----------|
-| Wahl-O-Mat | Manhattan | 3 points | Optional (2x) |
-| Smartvote | Manhattan/Euclidean | 5 points | Optional |
-| Vote Compass | Likert | 5 points | Automatic |
-| **AMPAY** | Manhattan | 3 points | No weighting |
-
-### 6.2 Justification of Design Decisions
-
-**3-point scale (vs. 5):**
-- Simplifies the user experience
-- Reduces completion time
-- Appropriate for 15 questions (medium-length quiz)
-
-**No weighting:**
-- All questions carry equal weight
-- Avoids bias in the selection of "important topics"
-- Consistent with basic Wahl-O-Mat approach
-
-**Ideological balance:**
-- 5 economic-left coded questions
-- 4 economic-right coded questions
-- 3 social axis questions
-- 3 cross-ideological questions
-- Interleaved order: Left-Right-Left-Right to prevent acquiescence bias
-
----
-
-## 7. Limitations
-
-1. **Simplification:** 15 questions do not capture the full complexity of politics
-2. **Trinary positions:** -1/0/+1 does not allow for fine-grained nuance
-3. **Availability bias:** Only parties with documented promises are included
-4. **Temporal:** Positions based on 2021/2026 government plans
-5. **Self-report:** Relies on user honesty in calibration
-6. **Context:** Positions reflect promises, not necessarily actions
-
----
-
-## 8. Related Files
-
-| File | Content |
-|------|---------|
-| `data/02_output/quiz_statements.json` | Questions and party positions |
-| `docs/research/03_QUIZ_ALGORITHM.md` | Detailed VAA research |
-| `docs/research/06_VAA_METHODOLOGY.md` | Comparison of VAA methodologies |
-
----
-
-## References
-
-For all academic references and sources used in AMPAY, see the centralized document:
-[Bibliography and Sources](../reference/SOURCES_BIBLIOGRAPHY.md)
-
----
-
-*Last updated: 2026-01-22 (15 balanced questions, blended algorithm with coverage adjustment)*
+- Party positions are coded interpretations of plan material and require source review.
+- Neutral positions reduce recorded disagreement and can affect rankings.
+- Question selection, calibration mappings, and coverage adjustment affect outcomes.
+- Match percentages are not probabilities, approval ratings, or forecasts.
+- The deployed frontend implementation must be compared with this contract before public validation results are cited.
