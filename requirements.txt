@@ -1,2 +1,2 @@
 # PDF extraction used by the legacy source-ingestion script.
-PyMuPDF>=1.24.0
+PyMuPDF>=1.28.2
